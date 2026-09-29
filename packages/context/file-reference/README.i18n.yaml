@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/context/file-reference/README.md
+/:
+  en: 21c486a1839068f4
+  zh: 0333ad7c4f984794
+/cortex-ai-cortex-file-reference:
+  en: e71a63c206c62567
+  zh: e58847187427b51d
+/cortex-ai-cortex-file-reference/summary:
+  en: b7d8587fad2030d9
+  zh: 7ffdd0cf1c5480a5
+/cortex-ai-cortex-file-reference/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-file-reference/use-this-package:
+  en: e37b5d4bf0020063
+  zh: 2eb37494ea43228f
+/cortex-ai-cortex-file-reference/use-this-package/mention-grammar:
+  en: efbe0e9233f402a4
+  zh: e3ec7c6ae2335a41
+/cortex-ai-cortex-file-reference/use-this-package/getting-candidates:
+  en: 4dc2d6289f532225
+  zh: af06ce75299f23e5
+/cortex-ai-cortex-file-reference/use-this-package/pairing-with-a-provider:
+  en: f890c0838dc80355
+  zh: c8ce713ca93ee9ef
+/cortex-ai-cortex-file-reference/understand-the-implementation:
+  en: 92049fb7a6c345c3
+  zh: 86efc4d17127f97f
+/cortex-ai-cortex-file-reference/understand-the-implementation/design-concept:
+  en: 0306f579314b31b5
+  zh: 5b7494e8da4a5be5
+/cortex-ai-cortex-file-reference/understand-the-implementation/source-map:
+  en: c4abf9f6f86cf29f
+  zh: 60d15ef1acd20b93
+/cortex-ai-cortex-file-reference/understand-the-implementation/main-flow:
+  en: fd65f309c940de96
+  zh: c1517e592d646d6c
+/cortex-ai-cortex-file-reference/further-exploration:
+  en: 83daf4a093f0bde3
+  zh: cacca5836010b4f1
+/cortex-ai-cortex-file-reference/model-experience:
+  en: ab69d93c10a1572c
+  zh: b63720b1e6182805
+/cortex-ai-cortex-file-reference/model-experience/kv-cache-effect:
+  en: 0aba47b2a2828b78
+  zh: 83a1af441dac3074
+/cortex-ai-cortex-file-reference/known-limitations-and-deferred-work:
+  en: cc83a00bd7d4ccc9
+  zh: 130ba16bb567db5a
+/cortex-ai-cortex-file-reference/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

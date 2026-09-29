@@ -1,0 +1,99 @@
+{
+  "name": "@cortex-ai/cortex-session-reference",
+  "description": "Cross-session snapshot references and durable untrusted model context (ctx.sessionReferenceResolver)",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/context/session-reference"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./typert": {
+      "types": "./lib/typert.host.d.ts",
+      "default": "./lib/typert.host.js"
+    },
+    "./remote": {
+      "types": "./lib/typert.remote-client.d.ts",
+      "default": "./lib/typert.remote-client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts",
+    "lib/typert.host.js",
+    "lib/typert.host.d.ts",
+    "lib/typert.remote-client.js",
+    "lib/typert.remote-client.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "zod": "^4.4.3"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-output-retention": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-projection-cache": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-spill": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cortex-spill": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-session-projection-cache": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-fs-local": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-output-retention": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-projection-cache": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-session-query-sqlite": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-spill": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-spill-local": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-tool-fs": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*"
+  }
+}

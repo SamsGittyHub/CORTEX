@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-07-05-uniform-agent-note-format.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-07-05-uniform-agent-note-format.md
+/agent-note-one-gated-in-file-format-for-agent-notes:
+  en: c2b0534c7f1a9c32
+  zh: 2d2d9f9860ada7f9
+/agent-note-one-gated-in-file-format-for-agent-notes/problem:
+  en: 71bd2d16e40c3ed7
+  zh: 485862218afcdc00
+/agent-note-one-gated-in-file-format-for-agent-notes/decision:
+  en: 63f6d832b199ba4d
+  zh: 53d745b51962dd67
+/agent-note-one-gated-in-file-format-for-agent-notes/alternatives-considered:
+  en: 330044b841da3ab9
+  zh: e909207cbcbc5edb
+/agent-note-one-gated-in-file-format-for-agent-notes/consequences:
+  en: 345e6318b76b1a06
+  zh: 63cef25e59d91654

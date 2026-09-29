@@ -1,0 +1,62 @@
+{
+  "name": "@cortex-ai/cortex-experimental-tool-agent-team",
+  "description": "Scoped model-facing Agent Teams tools over ctx.agentTeams",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/experimental/tool-agent-team"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "locale/*.json",
+    "lib/index.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-experimental-agent-team": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-agent-loop-testkit": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-subagent-fork-in-process": "workspace:*",
+    "@cortex-ai/cortex-subagent-spawn-in-process": "workspace:*",
+    "@cortex-ai/cortex-tool-subagent-control": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-experimental-agent-team": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek": "workspace:*"
+  }
+}

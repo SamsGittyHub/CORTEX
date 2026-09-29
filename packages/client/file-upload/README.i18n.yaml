@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/file-upload/README.md
+/:
+  en: c983fa9f5976bac3
+  zh: b3c2c2fdf19b461e
+/cortex-ai-cortex-client-file-upload:
+  en: 8804fbadcb78e767
+  zh: afd1fc7ac0cc3941
+/cortex-ai-cortex-client-file-upload/summary:
+  en: 430b79a11643da11
+  zh: 5fbab8d425b7f15a
+/cortex-ai-cortex-client-file-upload/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-file-upload/use-this-package:
+  en: 9d5bbf52599b0d00
+  zh: 7907542ce1e34549
+/cortex-ai-cortex-client-file-upload/understand-the-implementation:
+  en: 8f79f48d1dc76cb1
+  zh: 6cb3a59e8934d90a
+/cortex-ai-cortex-client-file-upload/further-exploration:
+  en: 67bbe568177648e1
+  zh: d042a4e07c3e36de
+/cortex-ai-cortex-client-file-upload/model-experience:
+  en: a928c345333d4d93
+  zh: 710172520aacfbe1
+/cortex-ai-cortex-client-file-upload/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: f57cc48a1b5cbfa9
+/cortex-ai-cortex-client-file-upload/known-limitations-and-deferred-work:
+  en: 8592a9aab413e5dc
+  zh: ae12d9777eda0b63
+/cortex-ai-cortex-client-file-upload/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

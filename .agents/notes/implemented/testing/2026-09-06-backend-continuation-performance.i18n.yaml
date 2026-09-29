@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-09-06-backend-continuation-performance.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/testing/2026-09-06-backend-continuation-performance.md
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation:
+  en: da50af91d8d8e4e5
+  zh: 6b5410b82aad9f1e
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation/problem:
+  en: cbf73b629b74dcfc
+  zh: 776314d43c8e9ddc
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation/decision:
+  en: d290d934e0f01775
+  zh: 15bb375c5c51eafd
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation/calibration-evidence:
+  en: 5a7ed0732bda1f80
+  zh: 05d6bd995fac899f
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation/alternatives-considered:
+  en: 3a61dff7c926eb22
+  zh: 8f2633b16be78233
+/agent-note-performance-baselines-for-tool-heavy-backend-continuation/consequences:
+  en: 0ffe42f70b26de41
+  zh: 367038e53dc04ff4

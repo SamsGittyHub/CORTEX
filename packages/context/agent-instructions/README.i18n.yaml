@@ -1,0 +1,100 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/context/agent-instructions/README.md
+/:
+  en: 3e005f834284c249
+  zh: d51d06d0ea2c30ca
+/cortex-ai-cortex-agent-instructions:
+  en: 9d1ff00f69f9acd0
+  zh: dec5d92f3ebd889c
+/cortex-ai-cortex-agent-instructions/summary:
+  en: 43a988cb61052553
+  zh: de089307c3b843ad
+/cortex-ai-cortex-agent-instructions/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-agent-instructions/use-this-package:
+  en: ec2a3aae3aa09b87
+  zh: 386d2fd6bb96738c
+/cortex-ai-cortex-agent-instructions/use-this-package/what-the-agent-gets:
+  en: e68efe308a9ca1db
+  zh: dfc44b5ffcbd3ee0
+/cortex-ai-cortex-agent-instructions/use-this-package/configuration:
+  en: fc4793ce28143a4d
+  zh: e23c293d4f848dcb
+/cortex-ai-cortex-agent-instructions/use-this-package/observing-the-budget:
+  en: 9797082b1e69b72c
+  zh: d26c00b1b90fe4ea
+/cortex-ai-cortex-agent-instructions/understand-the-implementation:
+  en: 724df7ff6d1d9fea
+  zh: 91fb1013eb9178ec
+/cortex-ai-cortex-agent-instructions/understand-the-implementation/design-concept:
+  en: 4708b51bf8fe86f7
+  zh: 869fc4b1f78383ee
+/cortex-ai-cortex-agent-instructions/understand-the-implementation/source-map:
+  en: 737fdf08415bc08d
+  zh: 625d53b1418ab6bb
+/cortex-ai-cortex-agent-instructions/understand-the-implementation/main-flow:
+  en: d881b9055f823929
+  zh: 87b25f0bf8e204e9
+/cortex-ai-cortex-agent-instructions/understand-the-implementation/invariants:
+  en: 7f6e9b5356da91fd
+  zh: 7b99f255d23d982e
+/cortex-ai-cortex-agent-instructions/further-exploration:
+  en: a9b3465895eb0b41
+  zh: 43244b1803e1486b
+/cortex-ai-cortex-agent-instructions/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-agent-instructions/model-experience/baseline-context:
+  en: 41690f63ce8a7e6a
+  zh: 6cff922d5afef38f
+/cortex-ai-cortex-agent-instructions/model-experience/baseline-context/what-the-model-sees:
+  en: 41ad1efcf640edf2
+  zh: 3d06e265788fc2b7
+/cortex-ai-cortex-agent-instructions/model-experience/baseline-context/what-the-model-sees/baseline-instruction-template:
+  en: 0ced1c177da6d120
+  zh: 6c61efb987e227fe
+/cortex-ai-cortex-agent-instructions/model-experience/baseline-context/token-effect:
+  en: e7c0cc34065a1113
+  zh: a973ba9fac7a918d
+/cortex-ai-cortex-agent-instructions/model-experience/baseline-context/kv-cache-effect:
+  en: c611902b9f369d86
+  zh: d7da1dbe6c1ac7f1
+/cortex-ai-cortex-agent-instructions/model-experience/newly-discovered-scope-context:
+  en: bbf8f11dbb279b78
+  zh: eb537ade3fa1e573
+/cortex-ai-cortex-agent-instructions/model-experience/newly-discovered-scope-context/what-the-model-sees:
+  en: 99226255009f8432
+  zh: 3b1661ca1a98ae4a
+/cortex-ai-cortex-agent-instructions/model-experience/newly-discovered-scope-context/what-the-model-sees/additional-instruction-template:
+  en: 50655306b787c8c6
+  zh: bcdc631a35f9de91
+/cortex-ai-cortex-agent-instructions/model-experience/newly-discovered-scope-context/token-effect:
+  en: 793319101bb39edf
+  zh: f05af12ab9574a4d
+/cortex-ai-cortex-agent-instructions/model-experience/newly-discovered-scope-context/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: f681f89596f500f5
+/cortex-ai-cortex-agent-instructions/model-experience/changed-or-removed-instruction-context:
+  en: b668990682ea0069
+  zh: 6468918ca6b31a45
+/cortex-ai-cortex-agent-instructions/model-experience/changed-or-removed-instruction-context/what-the-model-sees:
+  en: 16afe8870b4de832
+  zh: f0cdf8ea51ec148a
+/cortex-ai-cortex-agent-instructions/model-experience/changed-or-removed-instruction-context/what-the-model-sees/removal-notice:
+  en: c78113708e7d7665
+  zh: b10dcce1569febae
+/cortex-ai-cortex-agent-instructions/model-experience/changed-or-removed-instruction-context/token-effect:
+  en: 436f2fb373e7822d
+  zh: 0a3173b4398530bd
+/cortex-ai-cortex-agent-instructions/model-experience/changed-or-removed-instruction-context/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: f681f89596f500f5
+/cortex-ai-cortex-agent-instructions/known-limitations-and-deferred-work:
+  en: 54cfea554c0d52e9
+  zh: f60b4e5b089e0c0c
+/cortex-ai-cortex-agent-instructions/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

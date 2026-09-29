@@ -1,0 +1,70 @@
+{
+  "name": "@cortex-ai/cortex-user-questions",
+  "description": "Abstract user-questions seam (ctx.userQuestions) for asking the human during agent runs",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/interaction/user-questions"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json",
+    "./typert": {
+      "types": "./lib/typert.host.d.ts",
+      "default": "./lib/typert.host.js"
+    },
+    "./remote": {
+      "types": "./lib/typert.remote-client.d.ts",
+      "default": "./lib/typert.remote-client.js"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts",
+    "lib/typert.host.js",
+    "lib/typert.host.d.ts",
+    "lib/typert.remote-client.js",
+    "lib/typert.remote-client.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*"
+  },
+  "dependencies": {
+    "zod": "^4.4.3",
+    "@cortex-ai/schemastery": "workspace:~"
+  }
+}

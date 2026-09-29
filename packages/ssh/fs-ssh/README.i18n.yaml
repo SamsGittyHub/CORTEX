@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/ssh/fs-ssh/README.md
+/:
+  en: 7ee4b79f88be1b77
+  zh: 915152892d037c3c
+/cortex-ai-cortex-fs-ssh:
+  en: 6634b015869d4803
+  zh: 43d92123ccd006d2
+/cortex-ai-cortex-fs-ssh/summary:
+  en: 6cfbcfdf5e90aacd
+  zh: d8b7dd3a6d482ca2
+/cortex-ai-cortex-fs-ssh/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 725b47765ee8f30b
+/cortex-ai-cortex-fs-ssh/use-this-package:
+  en: 26a03a42a5141251
+  zh: 71c66f41de01e88b
+/cortex-ai-cortex-fs-ssh/understand-the-implementation:
+  en: c49fe01e0a061617
+  zh: 9cac25d6b883e7e0
+/cortex-ai-cortex-fs-ssh/further-exploration:
+  en: 585e46225b50114d
+  zh: ae43bcba3da24e0a
+/cortex-ai-cortex-fs-ssh/model-experience:
+  en: f8b078c320d36749
+  zh: 5a0f4d1b72574d72
+/cortex-ai-cortex-fs-ssh/model-experience/kv-cache-effect:
+  en: 21f304c66e5ba98b
+  zh: 18185d5b164f8216
+/cortex-ai-cortex-fs-ssh/known-limitations-and-deferred-work:
+  en: 2e75cffd2ab863d6
+  zh: f8fdbabe27082f08
+/cortex-ai-cortex-fs-ssh/known-limitations-and-deferred-work/dev-note:
+  en: 6ca4f1d4b4810fff
+  zh: e42f580ca971972b

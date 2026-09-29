@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/browser-use-stagehand-native/README.md
+/:
+  en: 3f9127c3981e9453
+  zh: b4fcc1468319b9b2
+/cortex-ai-cortex-experimental-browser-use-stagehand-native:
+  en: 81767556df4e8e61
+  zh: 856c900569fa99b9
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/summary:
+  en: 05c2fd0d2d2856a0
+  zh: fd90ef7fce885498
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: a949126695843224
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/use-this-package:
+  en: de47f71ab56fd0ed
+  zh: fdc58f273a7dba3d
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/use-this-package/minimal-configuration:
+  en: 1554d55fd5be9735
+  zh: d39e7dd0b8ff1b7d
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/use-this-package/verification:
+  en: 8827f488b292db85
+  zh: 5ddaadece50ba28a
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/understand-the-implementation:
+  en: bebe1e76576ac19d
+  zh: 4914462be2eff857
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/further-exploration:
+  en: 2488b70f6f63f3b2
+  zh: 9440080d40e9c71b
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/browser-guidance:
+  en: db27706a7478c425
+  zh: d36d746cf60e56c4
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/browser-guidance/what-the-model-sees:
+  en: c76eeb849a7dcc9d
+  zh: 466f6573ee758f66
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/browser-guidance/what-the-model-sees/browser-guidance-text:
+  en: d618f1a8fcd2f9b4
+  zh: a2c8620646573b9f
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/browser-guidance/token-effect:
+  en: 54fb52d906a0ed1d
+  zh: 0c92cb1daf790ce9
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/browser-guidance/kv-cache-effect:
+  en: 8b85590b83e40fc0
+  zh: 9061599a76700e66
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/native-browser-tools-and-results:
+  en: 0295a32030d24cd0
+  zh: 65ef3d8920d811c2
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/native-browser-tools-and-results/what-the-model-sees:
+  en: e36f4ccce287585d
+  zh: 0d7b47e6958e9fe6
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/native-browser-tools-and-results/token-effect:
+  en: f7c66e4f0f4af2d1
+  zh: 6db722a78cc91943
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/model-experience/native-browser-tools-and-results/kv-cache-effect:
+  en: 2bd36c8da753a1e5
+  zh: 172e2151f7c7b0cd
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/known-limitations-and-deferred-work:
+  en: f83a45b5cd02ae25
+  zh: 63ecfc1473362c8e
+/cortex-ai-cortex-experimental-browser-use-stagehand-native/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

@@ -1,0 +1,70 @@
+{
+  "name": "@cortex-ai/cortex-client-ui-reference",
+  "description": "Unified Web @file and @session reference source",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/client/ui-reference"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-api-remotes",
+        "@cortex-ai/cortex-api-session-controller",
+        "@cortex-ai/cortex-client-connection",
+        "@cortex-ai/cortex-client-locale",
+        "@cortex-ai/cortex-client-ui-input-trigger",
+        "@cortex-ai/cortex-client-ui-sidebar-right"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-api-remotes": "workspace:*",
+    "@cortex-ai/cortex-api-session-controller": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-locale": "workspace:*",
+    "@cortex-ai/cortex-client-test-runtime": "workspace:*",
+    "@cortex-ai/cortex-client-ui-input-trigger": "workspace:*",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@cortex-ai/cortex-file-reference": "workspace:*",
+    "@cortex-ai/cortex-session-reference": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-util-workspace-path": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-client-ui-sidebar-right": "workspace:*"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts"
+  ]
+}

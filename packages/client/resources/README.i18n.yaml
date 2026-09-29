@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/resources/README.md
+/:
+  en: cba471bd978172bc
+  zh: 5b340d07a353981c
+/cortex-ai-cortex-client-resources:
+  en: 204abe5173c40082
+  zh: 07171d959c3de3d9
+/cortex-ai-cortex-client-resources/summary:
+  en: 39d58284b0527349
+  zh: 9f4a9660c58fdfbb
+/cortex-ai-cortex-client-resources/table-of-contents:
+  en: 5ebb8e58ef105ee0
+  zh: 78123884b88ec480
+/cortex-ai-cortex-client-resources/use-this-package:
+  en: 1dedca736c288345
+  zh: afcd8458cc28af08
+/cortex-ai-cortex-client-resources/use-this-package/read-a-resource:
+  en: dbc025d3e8e9ab18
+  zh: 2bb112f0cca3c978
+/cortex-ai-cortex-client-resources/use-this-package/provide-a-protocol:
+  en: 1b08ccec8adcd7dd
+  zh: b12a6d94ab0cfc71
+/cortex-ai-cortex-client-resources/use-this-package/hold-a-resource-open:
+  en: 7ee907c3a9abbad8
+  zh: 4abf10503ff2ed51
+/cortex-ai-cortex-client-resources/understand-the-implementation:
+  en: 4047863df464d986
+  zh: 7fe00ab7e4a1d37a
+/cortex-ai-cortex-client-resources/understand-the-implementation/lifecycle:
+  en: ea2ad0aaff232650
+  zh: 49f4a77f70179f03
+/cortex-ai-cortex-client-resources/understand-the-implementation/failures:
+  en: bf3b0512cb35dc18
+  zh: 50b7469f78ca3585
+/cortex-ai-cortex-client-resources/model-experience:
+  en: ff167f1f3cf373b0
+  zh: ed8871bef6f705e2
+/cortex-ai-cortex-client-resources/model-experience/kv-cache-effect:
+  en: 7fff384eb8a62c5a
+  zh: 347f7f5aa8b6c1c4
+/cortex-ai-cortex-client-resources/known-limitations-and-deferred-work:
+  en: c79b85b72a55cdd4
+  zh: 612c401b31c3a136
+/cortex-ai-cortex-client-resources/known-limitations-and-deferred-work/dev-note:
+  en: 9bbb90f2302b50e0
+  zh: f16c794374fc1079

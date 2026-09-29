@@ -1,0 +1,44 @@
+{
+  "name": "@cortex-ai/cortex-session-title-all-prompts-llm",
+  "description": "All-user-messages LLM provider plugin for CORTEX session titles",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/session/session-title-all-prompts-llm"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["lib/index.js", "lib/types/**/*.d.ts"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-session-title-llm": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-session-title-llm": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*"
+  }
+}

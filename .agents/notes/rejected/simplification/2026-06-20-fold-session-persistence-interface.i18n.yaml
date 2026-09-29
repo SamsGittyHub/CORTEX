@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-06-20-fold-session-persistence-interface.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/rejected/simplification/2026-06-20-fold-session-persistence-interface.md
+/agent-note-fold-the-persistence-interface-into-dsh-session:
+  en: 6d9d017323e6cf82
+  zh: 84c36d898cf03e0b
+/agent-note-fold-the-persistence-interface-into-dsh-session/problem:
+  en: 132b1c96f4d271a0
+  zh: 52f235f23160cb1b
+/agent-note-fold-the-persistence-interface-into-dsh-session/proposal:
+  en: 94e4c2bc55b2b267
+  zh: 2c17936c99f51df0
+/agent-note-fold-the-persistence-interface-into-dsh-session/acceptance-criteria:
+  en: e6759266ac258cfb
+  zh: 9a619bfbeaa78458
+/agent-note-fold-the-persistence-interface-into-dsh-session/what-we-give-up:
+  en: 595671143eb17f28
+  zh: a6f019fb64ba3a90

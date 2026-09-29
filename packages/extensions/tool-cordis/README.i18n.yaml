@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/extensions/tool-cordis/README.md
+/:
+  en: 784a82be07311e99
+  zh: 85d917ecc6386ec9
+/cortex-ai-cortex-tool-cordis:
+  en: d0af57bd465b20a1
+  zh: 1b3aaf91c74cc17b
+/cortex-ai-cortex-tool-cordis/summary:
+  en: 245a3cd287214bed
+  zh: 8687666c28a676cf
+/cortex-ai-cortex-tool-cordis/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 3a2f21ff0dc3420d
+/cortex-ai-cortex-tool-cordis/use-this-package:
+  en: 7c2d1217ad1403e2
+  zh: 1d521e6a27d64ebe
+/cortex-ai-cortex-tool-cordis/understand-the-implementation:
+  en: de18fe3471a4a341
+  zh: fda07860cfe1e325
+/cortex-ai-cortex-tool-cordis/further-exploration:
+  en: e7b420e50958026d
+  zh: 057266159a98d1b4
+/cortex-ai-cortex-tool-cordis/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-cordis/model-experience/runtime-inspection:
+  en: 72ffb7cae674c31a
+  zh: 85674f298a78592a
+/cortex-ai-cortex-tool-cordis/model-experience/runtime-inspection/what-the-model-sees:
+  en: 69c2218585c71cfc
+  zh: d61d65d80b5639d9
+/cortex-ai-cortex-tool-cordis/model-experience/runtime-inspection/token-effect:
+  en: 5d9791798f8ce57f
+  zh: b47984cc13e12cfd
+/cortex-ai-cortex-tool-cordis/model-experience/runtime-inspection/kv-cache-effect:
+  en: f57a20cd4e76d13c
+  zh: 7b673116422bee87
+/cortex-ai-cortex-tool-cordis/known-limitations-and-deferred-work:
+  en: e2a365abf27489eb
+  zh: 54635fd350e4db81
+/cortex-ai-cortex-tool-cordis/known-limitations-and-deferred-work/dev-note:
+  en: 0a1253c6f7b5e8b9
+  zh: 9f56528562c7c914

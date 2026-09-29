@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for 2026-07-16-persistent-pty-sessions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-07-16-persistent-pty-sessions.md
+/agent-note-persistent-pty-sessions:
+  en: 1288f3251ac9e98a
+  zh: 87a31e13d546a9b9
+/agent-note-persistent-pty-sessions/problem:
+  en: d8887db02c1af59e
+  zh: 28da6cceae63d04b
+/agent-note-persistent-pty-sessions/decision:
+  en: 5d114dbabfcb2213
+  zh: 43572dc3c6855a0a
+/agent-note-persistent-pty-sessions/decision/package-topology:
+  en: 0187ac573d06a360
+  zh: 13e08f4f22bacfff
+/agent-note-persistent-pty-sessions/decision/agent-ownership-and-identity:
+  en: 4ca9dab1349fcdf0
+  zh: 1f41bac10d3382aa
+/agent-note-persistent-pty-sessions/decision/security-and-process-boundary:
+  en: 729bb68caf60ea6a
+  zh: 1bf54fd78eec4fa1
+/agent-note-persistent-pty-sessions/decision/six-model-facing-tools:
+  en: b92715f36550c728
+  zh: e18d7e0e2363347a
+/agent-note-persistent-pty-sessions/decision/local-readiness-detection:
+  en: 603c80e7621889fb
+  zh: be5a39ba6ba58da3
+/agent-note-persistent-pty-sessions/decision/model-visible-output-and-durability:
+  en: 1b504ab41b47216d
+  zh: 8fb3d360b3a4e6a1
+/agent-note-persistent-pty-sessions/decision/process-tree-teardown:
+  en: e96a972845bc3513
+  zh: d76d7dfb80985e9d
+/agent-note-persistent-pty-sessions/decision/composition-and-rollout:
+  en: db49b6dff73d8772
+  zh: 1f2182fd2c7dc3af
+/agent-note-persistent-pty-sessions/decision/deferred-work:
+  en: c0ae6d86dd5c0635
+  zh: 737bd3fda903d5e3
+/agent-note-persistent-pty-sessions/alternatives-considered:
+  en: cda0998b2bb05b7d
+  zh: 7cc5683a6dfd64be
+/agent-note-persistent-pty-sessions/verification:
+  en: 08cd5f0369ee69e9
+  zh: 3e9b13ba1f8b6bff
+/agent-note-persistent-pty-sessions/consequences:
+  en: f8784b2ca03fc80a
+  zh: e20e38014292f86a

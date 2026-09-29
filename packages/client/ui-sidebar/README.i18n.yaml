@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-sidebar/README.md
+/:
+  en: 8240ceff2afd6525
+  zh: 1de153b196b6932d
+/cortex-ai-cortex-client-ui-sidebar:
+  en: dc8e65c5db4f236d
+  zh: 495f082ee49fe5f8
+/cortex-ai-cortex-client-ui-sidebar/summary:
+  en: f1da7ccd3e36b9b4
+  zh: c64ae100013a122e
+/cortex-ai-cortex-client-ui-sidebar/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-sidebar/use-this-package:
+  en: a970f0547496634f
+  zh: 36ef9a85b26e19f1
+/cortex-ai-cortex-client-ui-sidebar/use-this-package/brand-and-new-session:
+  en: 7369c787647ec81f
+  zh: b072e2369e5ea756
+/cortex-ai-cortex-client-ui-sidebar/use-this-package/global-panel-entries:
+  en: 5d3300d3506254c5
+  zh: 541ae1ee1e10b921
+/cortex-ai-cortex-client-ui-sidebar/use-this-package/collapse-behavior:
+  en: f08c93057be026fd
+  zh: 43e63b6d8090bbbf
+/cortex-ai-cortex-client-ui-sidebar/use-this-package/macos-desktop:
+  en: 4e076390b837ec32
+  zh: a2907413bac03984
+/cortex-ai-cortex-client-ui-sidebar/use-this-package/scrollbars:
+  en: d053b1ed0f4fd293
+  zh: ff25a56541f57530
+/cortex-ai-cortex-client-ui-sidebar/understand-the-implementation:
+  en: 676cd4c309b4110d
+  zh: 25d1bd0b2c7db645
+/cortex-ai-cortex-client-ui-sidebar/understand-the-implementation/slot-discipline:
+  en: 6eefc5c45abe8a8f
+  zh: 20b651e48a0ea903
+/cortex-ai-cortex-client-ui-sidebar/further-exploration:
+  en: 54c93ac2d9099279
+  zh: 258cd56fe043c880
+/cortex-ai-cortex-client-ui-sidebar/model-experience:
+  en: 3120df665299c634
+  zh: 1d9f365d091d0d2a
+/cortex-ai-cortex-client-ui-sidebar/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-ui-sidebar/known-limitations-and-deferred-work:
+  en: 262db5b10dfb7d98
+  zh: c1b5cf6aa58b054e
+/cortex-ai-cortex-client-ui-sidebar/known-limitations-and-deferred-work/dev-note:
+  en: c8d74533efbc8d23
+  zh: eb58f7098335f55e

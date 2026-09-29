@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/skill/skill-filesystem/README.md
+/:
+  en: ef9fab89ad1a57aa
+  zh: 6d434e8a3dae16ca
+/cortex-ai-cortex-skill-filesystem:
+  en: 733a686d30e918b2
+  zh: 28441774b4a60480
+/cortex-ai-cortex-skill-filesystem/summary:
+  en: 637cf974839c68ba
+  zh: 86eab849e9a046c2
+/cortex-ai-cortex-skill-filesystem/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-skill-filesystem/use-this-package:
+  en: 2fcfbaea3c62a766
+  zh: 27c917ba822329e5
+/cortex-ai-cortex-skill-filesystem/use-this-package/when-to-choose-it:
+  en: 012a123601c7d8f2
+  zh: 0e13f5e0d2e4ea7a
+/cortex-ai-cortex-skill-filesystem/use-this-package/skill-format:
+  en: 78ac4e731c6a24c1
+  zh: e8c33db4aa0cc527
+/cortex-ai-cortex-skill-filesystem/use-this-package/roots-and-priority:
+  en: 411f23ac05547b07
+  zh: f8c7ff9c6c2697e3
+/cortex-ai-cortex-skill-filesystem/use-this-package/mount-and-configure:
+  en: bcd1aa18c107cb4f
+  zh: e64a22f18be1737d
+/cortex-ai-cortex-skill-filesystem/use-this-package/change-detection:
+  en: 77acbd43e89b6043
+  zh: 8169bbbc55f3f114
+/cortex-ai-cortex-skill-filesystem/use-this-package/observable-success-and-failures:
+  en: 272693c35012ffb5
+  zh: bbbe788b11ef567f
+/cortex-ai-cortex-skill-filesystem/understand-the-implementation:
+  en: a95eb63f5a570c79
+  zh: cd964a36cf8a3715
+/cortex-ai-cortex-skill-filesystem/understand-the-implementation/design-concept:
+  en: 8529fb4c1989d5fc
+  zh: 115372aaa959dc6c
+/cortex-ai-cortex-skill-filesystem/understand-the-implementation/source-map:
+  en: 1b1bc2d6b523f308
+  zh: f7d0c0e0ab1adcf0
+/cortex-ai-cortex-skill-filesystem/understand-the-implementation/discovery-flow:
+  en: 7e26750408a63587
+  zh: 9eed631a7bdf00ae
+/cortex-ai-cortex-skill-filesystem/understand-the-implementation/watching-and-invalidation:
+  en: e1f03485692f61a0
+  zh: 7c3ce24eacc3a047
+/cortex-ai-cortex-skill-filesystem/further-exploration:
+  en: 9d01d78d3e94bcb5
+  zh: 36a73d8b0896df6f
+/cortex-ai-cortex-skill-filesystem/model-experience:
+  en: 1a1ad2de60c5d0c4
+  zh: 82c3ae8e6d8493f1
+/cortex-ai-cortex-skill-filesystem/model-experience/kv-cache-effect:
+  en: 14ddbda337682082
+  zh: 2e4dc3c26b45f62c
+/cortex-ai-cortex-skill-filesystem/known-limitations-and-deferred-work:
+  en: a7f37a7b9e54945d
+  zh: b9d3b15027757301
+/cortex-ai-cortex-skill-filesystem/known-limitations-and-deferred-work/dev-note:
+  en: 53584bc8292df1f9
+  zh: 921253cd64aa7511

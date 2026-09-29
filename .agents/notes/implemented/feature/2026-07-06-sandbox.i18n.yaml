@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for 2026-07-06-sandbox.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-07-06-sandbox.md
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes:
+  en: 995824a081af1a35
+  zh: b91b065ed745737f
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/problem:
+  en: 045e61bb682755dc
+  zh: ac95eb64ce892f8d
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision:
+  en: f4748553d52935ff
+  zh: 1802a543c6d989ef
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/how-a-deployment-uses-it:
+  en: c29844d900d073be
+  zh: c1a391c0e8c8c9a8
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail:
+  en: a6d7884e4359af3a
+  zh: e72588705942000a
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/scope-grounding:
+  en: 0c09534b59e2063e
+  zh: 5225d6750d13b9d7
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/the-seam-ctx-sandbox:
+  en: 2c98e8c0bd8a9ff1
+  zh: 661b58f81f6e05c6
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/local-backends-and-the-shipped-launcher:
+  en: 477bec9fe83040f1
+  zh: 948873c286af67ca
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/asynchronous-preparation:
+  en: 7bc0fab85c7c91d0
+  zh: 3eafcde6b1e3249c
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/the-bash-consumer:
+  en: f7f359c89a0e8fd6
+  zh: 07d0d551a35716e0
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/escalation-one-approved-wider-retry-after-a-denial:
+  en: f97dc87641612c66
+  zh: 412b6fabb3e7ce32
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/per-session-modes-the-session-log-as-the-store:
+  en: bbdccb6be4c9201f
+  zh: 42fa55ff2bace1dd
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/design-detail/in-process-tools:
+  en: 2a4ba69ca43f014a
+  zh: a5e26d0aa5fee770
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/decision/testing:
+  en: c0189d491354eb48
+  zh: ac68b07188402f9c
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/deferred-phases:
+  en: f28b530000b8495e
+  zh: f256b8b32c4ce4ef
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/alternatives-considered:
+  en: eabe577b837f3de2
+  zh: 4ef0167c895766a6
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/consequences:
+  en: ae19b7d5dd3dc933
+  zh: 0da7e261dcaea84f
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/faq:
+  en: 1b0e5fb09ed114ae
+  zh: 3c946ded1455c033
+/agent-note-the-subprocess-sandbox-confinement-seam-native-runners-escalation-and-per-session-modes/prior-art:
+  en: 796fba9c09b8320c
+  zh: 8088703d32c55cd2

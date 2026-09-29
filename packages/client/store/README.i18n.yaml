@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/store/README.md
+/:
+  en: f9e6c1b15e80658f
+  zh: 9127e32b7e5351d0
+/cortex-ai-cortex-client-store:
+  en: d9b1ee5ac9a1f6a3
+  zh: 281397ded4bd964b
+/cortex-ai-cortex-client-store/summary:
+  en: bab07a508db9356c
+  zh: d4fef8b4794be411
+/cortex-ai-cortex-client-store/table-of-contents:
+  en: b4683d2a53256fda
+  zh: 4e65ff63dc8c48fe
+/cortex-ai-cortex-client-store/model-experience:
+  en: 444c8fcde6e159d8
+  zh: dc855e149c636bb4
+/cortex-ai-cortex-client-store/model-experience/kv-cache-effect:
+  en: ed7581186c5b5a33
+  zh: a0efffb2631c1eec
+/cortex-ai-cortex-client-store/known-limitations-and-deferred-work:
+  en: 3190cd5b744025fe
+  zh: f559c3316b6a7da4
+/cortex-ai-cortex-client-store/known-limitations-and-deferred-work/dev-note:
+  en: dd767840e33344a1
+  zh: 0e06a491e39acf38

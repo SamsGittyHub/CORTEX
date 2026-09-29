@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/jobs/README.md
+/:
+  en: b25bee480c2d5ffb
+  zh: 8c10268ce42d83b1
+/jobs-background-job-capability-family:
+  en: b3e1ada2f335323b
+  zh: ba6d7a3e97be8c86
+/jobs-background-job-capability-family/summary:
+  en: 6c7629a9fdaadbe6
+  zh: 60314e79eaec6446
+/jobs-background-job-capability-family/table-of-contents:
+  en: 1eb35b015a6c423f
+  zh: a8a3dceee2c9e943
+/jobs-background-job-capability-family/packages:
+  en: 9ae4047a9ea27262
+  zh: 937ff5d8fe55b7e5
+/jobs-background-job-capability-family/related-documentation:
+  en: 1feb7f4eea0f2293
+  zh: abdb0f754dc820b3
+/jobs-background-job-capability-family/dev-note:
+  en: 5de1d6304e00c58f
+  zh: 8d8225361cfa29e5

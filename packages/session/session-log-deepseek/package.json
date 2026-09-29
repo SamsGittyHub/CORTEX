@@ -1,0 +1,65 @@
+{
+  "name": "@cortex-ai/cortex-session-log-deepseek",
+  "description": "Incremental lossless session-log request extension for the official DeepSeek LLM API",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/session/session-log-deepseek"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-deepseek-llm-api-extensions": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-command-feedback": "workspace:*",
+    "@cortex-ai/cortex-deepseek-llm-api-extensions": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek-api-key": "workspace:*",
+    "@cortex-ai/cortex-llm-mock-server": "workspace:*",
+    "@cortex-ai/cortex-message-feedback": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*"
+  }
+}

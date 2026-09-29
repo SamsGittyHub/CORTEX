@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-theme/README.md
+/:
+  en: 38c86b52d2306fb9
+  zh: d0d8ec50480b4600
+/cortex-ai-cortex-client-ui-theme:
+  en: 073ffc1d062edf9b
+  zh: 2fb6c7bc0b5bf176
+/cortex-ai-cortex-client-ui-theme/summary:
+  en: 6e8dafe9fb536847
+  zh: 5598f09a029cf641
+/cortex-ai-cortex-client-ui-theme/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-theme/use-this-package:
+  en: 5d64b3d918d5edfa
+  zh: fc929354a0faf33a
+/cortex-ai-cortex-client-ui-theme/use-this-package/appearance-and-font-size:
+  en: ec98904b19d1b12b
+  zh: 59d5823ddb168195
+/cortex-ai-cortex-client-ui-theme/use-this-package/registering-a-theme:
+  en: 2cd32ccaba33b3e9
+  zh: 53ea78d19929ea02
+/cortex-ai-cortex-client-ui-theme/use-this-package/pre-plugin-palette:
+  en: b552581de195dea0
+  zh: 967598132c016cc7
+/cortex-ai-cortex-client-ui-theme/understand-the-implementation:
+  en: 7365ac3afcec5751
+  zh: 76df63801a2ccf90
+/cortex-ai-cortex-client-ui-theme/understand-the-implementation/stylesheets:
+  en: 6dde29fdb2cb1123
+  zh: 3416343dfdccecd1
+/cortex-ai-cortex-client-ui-theme/understand-the-implementation/scrollbar-rebinding:
+  en: 1418c82aab1c75c9
+  zh: 94ecfaa23380969d
+/cortex-ai-cortex-client-ui-theme/understand-the-implementation/preference-persistence:
+  en: 976b6f446e78e3ba
+  zh: 18234b57b803faab
+/cortex-ai-cortex-client-ui-theme/further-exploration:
+  en: db9e30dbc7e2f327
+  zh: f6db801044bfae5d
+/cortex-ai-cortex-client-ui-theme/model-experience:
+  en: 3120df665299c634
+  zh: 1d9f365d091d0d2a
+/cortex-ai-cortex-client-ui-theme/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-ui-theme/known-limitations-and-deferred-work:
+  en: 0d328dbced31a041
+  zh: 2951de356ba6bb82
+/cortex-ai-cortex-client-ui-theme/known-limitations-and-deferred-work/dev-note:
+  en: f1a2942985b11203
+  zh: 8196d82321e024b0

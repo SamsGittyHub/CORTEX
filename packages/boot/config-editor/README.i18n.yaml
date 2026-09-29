@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/boot/config-editor/README.md
+/:
+  en: 68783acbf26e5790
+  zh: 8e04cbad03340c77
+/cortex-ai-cortex-config-editor:
+  en: 66003c31ef07c5dc
+  zh: b8513db5bb50de6c
+/cortex-ai-cortex-config-editor/summary:
+  en: f8831f5fad9041d8
+  zh: 9744b776ffae1e7a
+/cortex-ai-cortex-config-editor/table-of-contents:
+  en: 23386452a66b2fbd
+  zh: 70bba862b949b652
+/cortex-ai-cortex-config-editor/use-this-package:
+  en: fafb3cae240b7eed
+  zh: c18a207f2ff6df80
+/cortex-ai-cortex-config-editor/understand-the-implementation:
+  en: b6ecd942daccc797
+  zh: 2f4637d725034f96
+/cortex-ai-cortex-config-editor/further-exploration:
+  en: 70d8d83b1a326fc4
+  zh: 0b59e07fb47039e0
+/cortex-ai-cortex-config-editor/model-experience:
+  en: 358d1a5b1d9f2fde
+  zh: a40c6e95f39032e8
+/cortex-ai-cortex-config-editor/model-experience/kv-cache-effect:
+  en: f49cb624cd503dd1
+  zh: 9944f21ab3458e4b
+/cortex-ai-cortex-config-editor/known-limitations-and-deferred-work:
+  en: 8314910af268bda0
+  zh: 2c7f0c16ee09b0f7
+/cortex-ai-cortex-config-editor/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for subagent.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/subagent.md
+/subagent:
+  en: fceed4b5e4027696
+  zh: 924c9e24d9b75358
+/subagent/two-kinds-of-capability-discovered-two-ways:
+  en: 7be7cbc224948ed1
+  zh: 6da4f61394ed900e
+/subagent/the-one-shot-start-request:
+  en: 3429aca65b4e5964
+  zh: d36672aa11f8f169
+/subagent/continuable-children-and-activations:
+  en: 74deef1f53e2d0a2
+  zh: c115b62ce6527f9b
+/subagent/durable-enumeration-listchildren-listdescendants-and-their-entries:
+  en: 28bfb7975926808a
+  zh: a42c44a39aace2b1
+/subagent/the-terminal-result-subagentresult:
+  en: 24ca90881c8e6ce7
+  zh: 82d1807b9c6f75cd
+/subagent/a-one-shot-run-subagentrun:
+  en: 39df94dd1343ffde
+  zh: 047605d7f5ba91ae
+/subagent/the-provider-contract-subagentprovider:
+  en: cb05cffdb837b7bc
+  zh: a53133845d673f0a
+/subagent/in-process-backends-permission-depth-and-seed:
+  en: 464540890dae8e2b
+  zh: 2c0cff86d543ebc0

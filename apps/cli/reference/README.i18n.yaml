@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write apps/cli/reference/README.md
+/cortex-cli-behavior-reference:
+  en: 2c4c8e00e26393c1
+  zh: e760deff365ef1c3
+/cortex-cli-behavior-reference/profile-boot:
+  en: 5838a3c014cbb38e
+  zh: e0ea712dd2a1c51a
+/cortex-cli-behavior-reference/profile-boot/app-arguments:
+  en: 95e093e85d0fec29
+  zh: d89f828c875fd900
+/cortex-cli-behavior-reference/profile-boot/config-schema-dump:
+  en: 12b17c2a449796ec
+  zh: 96d2388be82a36ed
+/cortex-cli-behavior-reference/startup-diagnostics:
+  en: 83f0e11b6f078b4f
+  zh: 439c0e9e2a12d441
+/cortex-cli-behavior-reference/plugin-management:
+  en: b7ec534a61a3a1a4
+  zh: 57532078dff1d142
+/cortex-cli-behavior-reference/web-profile:
+  en: ad718250f647d53d
+  zh: 73291feb8151021d
+/cortex-cli-behavior-reference/shared-deployment-behavior:
+  en: 0a4e9f6c9b36e991
+  zh: 1ac9388ebc985774
+/cortex-cli-behavior-reference/source-execution:
+  en: cc9b1424eab880eb
+  zh: ddd0a60b7967f5a7

@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/util/package-manifest/README.md
+/:
+  en: d1a5f53973981b8f
+  zh: 648638aef7ff0193
+/cortex-ai-cortex-package-manifest:
+  en: eb5100548a810b1c
+  zh: fb1bf9809e977292
+/cortex-ai-cortex-package-manifest/summary:
+  en: 4cb9bf64028776df
+  zh: 51646b5e1ebe1d39
+/cortex-ai-cortex-package-manifest/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 1db86285abf6c499
+/cortex-ai-cortex-package-manifest/use-this-package:
+  en: 976c9968a00ac296
+  zh: 12d6542a7ee88390
+/cortex-ai-cortex-package-manifest/understand-the-implementation:
+  en: 64e1e57d1c3761e0
+  zh: 9fc039770ce43c63
+/cortex-ai-cortex-package-manifest/further-exploration:
+  en: 97a9c258ca021eb3
+  zh: a352f3174e9441ad
+/cortex-ai-cortex-package-manifest/model-experience:
+  en: 0b5aaa4787068a57
+  zh: bdb5dabe0b33ff9d
+/cortex-ai-cortex-package-manifest/model-experience/kv-cache-effect:
+  en: 2ed74a2a33958543
+  zh: 7d63c3a3801bef13
+/cortex-ai-cortex-package-manifest/known-limitations-and-deferred-work:
+  en: f1fc378eee4ea70f
+  zh: 0d7f963a6cf83bda
+/cortex-ai-cortex-package-manifest/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

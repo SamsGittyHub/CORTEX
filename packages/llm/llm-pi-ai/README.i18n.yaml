@@ -1,0 +1,94 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/llm/llm-pi-ai/README.md
+/:
+  en: 8a6ec0a589e6fd18
+  zh: e85fc352c9cba373
+/cortex-ai-cortex-llm-pi-ai:
+  en: 9e23138208771325
+  zh: 5806c8944d70187a
+/cortex-ai-cortex-llm-pi-ai/summary:
+  en: 8acf9e0a4b63857e
+  zh: e00d1401cf88cf42
+/cortex-ai-cortex-llm-pi-ai/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-llm-pi-ai/use-this-package:
+  en: 684d82b377015802
+  zh: c2b622660907b923
+/cortex-ai-cortex-llm-pi-ai/use-this-package/when-to-choose-it:
+  en: 2b4b454f8590e5d4
+  zh: b67067cc5c89b2d3
+/cortex-ai-cortex-llm-pi-ai/use-this-package/configure-provider-routes:
+  en: 069e1053d890a267
+  zh: ae0781d463e9bf4f
+/cortex-ai-cortex-llm-pi-ai/use-this-package/sign-in-to-a-provider:
+  en: c36f66438638ae08
+  zh: 066a2fc4cb97c86f
+/cortex-ai-cortex-llm-pi-ai/use-this-package/resolve-the-model-catalog:
+  en: 376f83206858b601
+  zh: 38bb6993609c96a6
+/cortex-ai-cortex-llm-pi-ai/use-this-package/run-with-reasoning-and-wire-compatibility:
+  en: 86b456496b54854e
+  zh: ff77ca11d39ba8d2
+/cortex-ai-cortex-llm-pi-ai/use-this-package/change-configuration-at-runtime:
+  en: 92f554e1718614ca
+  zh: f17ed3ad3e5d28e2
+/cortex-ai-cortex-llm-pi-ai/use-this-package/discover-models-from-endpoints:
+  en: 6619e8cfe7555c73
+  zh: b2f80c25acb81cf8
+/cortex-ai-cortex-llm-pi-ai/use-this-package/failures-and-recovery:
+  en: 65bcc3b0db3f98e5
+  zh: 3c994e74894bea52
+/cortex-ai-cortex-llm-pi-ai/understand-the-implementation:
+  en: 1598ac8a8bb9b6bf
+  zh: fdd089c5ae7722cd
+/cortex-ai-cortex-llm-pi-ai/understand-the-implementation/design-philosophy:
+  en: 280416de410744bb
+  zh: 64cbfc0902e3f436
+/cortex-ai-cortex-llm-pi-ai/understand-the-implementation/source-map:
+  en: 20afee7bbfb332ca
+  zh: b080cf4e97094366
+/cortex-ai-cortex-llm-pi-ai/understand-the-implementation/registration-and-directory:
+  en: 4da379c9be65c18a
+  zh: fd305d4bd3dfa452
+/cortex-ai-cortex-llm-pi-ai/understand-the-implementation/replay-and-vocabulary:
+  en: 36e0c59a0f9f5980
+  zh: 90a62c4a9cd23429
+/cortex-ai-cortex-llm-pi-ai/further-exploration:
+  en: f1d5d402093689ec
+  zh: 64592d914f21ec27
+/cortex-ai-cortex-llm-pi-ai/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-request-through-pi-ai:
+  en: e7348db3f7115960
+  zh: 5fd5fb09d7d09982
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-request-through-pi-ai/what-the-model-sees:
+  en: b8147d7633898405
+  zh: 86a13265dfa97820
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-request-through-pi-ai/token-effect:
+  en: 820221e8ae37aa61
+  zh: 7e6ff4db10067fc0
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-request-through-pi-ai/kv-cache-effect:
+  en: 8c1f842a95ab46fb
+  zh: d6dd124c82f1d96b
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-response:
+  en: 802d7ff60a1d03ff
+  zh: c41c56e28f3e8680
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-response/what-the-model-sees:
+  en: 9b7d6b95ec2c4351
+  zh: 356ac01aef9e8bed
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-response/token-effect:
+  en: f002b21d0f4c3df0
+  zh: 388c8ed4676ed1af
+/cortex-ai-cortex-llm-pi-ai/model-experience/provider-response/kv-cache-effect:
+  en: b6bd570c0159ba08
+  zh: 7d2d91eea6a8d830
+/cortex-ai-cortex-llm-pi-ai/known-limitations-and-deferred-work:
+  en: bb240ee5dd3f81c7
+  zh: 884506a36f4aac62
+/cortex-ai-cortex-llm-pi-ai/known-limitations-and-deferred-work/dev-note:
+  en: be67a4547256efbf
+  zh: 8c32799683ba292c

@@ -1,0 +1,61 @@
+{
+  "name": "@cortex-ai/cortex-token-meter",
+  "description": "Replay-aware token measurement service (ctx.tokenMeter) for the CORTEX",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/llm/token-meter"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client.d.ts",
+      "default": "./lib/types/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json",
+    "./estimate": {
+      "types": "./lib/types/estimate.d.ts",
+      "default": "./lib/types/estimate.js"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-retry": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-compaction-image-offload": "workspace:*"
+  },
+  "dependencies": {
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-retry": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-compaction-image-offload": "workspace:*"
+  }
+}

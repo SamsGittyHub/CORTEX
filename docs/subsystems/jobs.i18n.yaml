@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for jobs.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/jobs.md
+/background-job-runtime:
+  en: fc68672dad96ef8d
+  zh: d164b81f9936e0b0
+/background-job-runtime/ids-and-status:
+  en: 66a2c0e1af5a3c48
+  zh: 9d58ef4c78b052ec
+/background-job-runtime/producer-contract:
+  en: c01f2ee41cc25e4a
+  zh: 14d967ec6f685e0a
+/background-job-runtime/the-output-ring:
+  en: 28a3fae8e5e915aa
+  zh: 1233b1f1a423d50d
+/background-job-runtime/consumer-views:
+  en: 8923d586da35964e
+  zh: 85437e407856cd5f
+/background-job-runtime/events:
+  en: 413216510fce678e
+  zh: 18efe733a0b35d0c
+/background-job-runtime/service-behavior:
+  en: 7db8598cc5963c5a
+  zh: 9ba2f73d2590e003

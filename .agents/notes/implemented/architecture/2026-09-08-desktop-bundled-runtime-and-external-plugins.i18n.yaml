@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for 2026-09-08-desktop-bundled-runtime-and-external-plugins.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-09-08-desktop-bundled-runtime-and-external-plugins.md
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins:
+  en: 30d064c9beaf9279
+  zh: 2e7ad48eefa27efe
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/problem:
+  en: fe97fe6ba33cb23a
+  zh: c83a1f023c4e352d
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/decision:
+  en: 168136225bf813ee
+  zh: 5c1e97b84ee7de07
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/package-ownership:
+  en: 14cd25de0141b40d
+  zh: c7dbd7525e99d86f
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/transactions-and-upgrades:
+  en: ce534d59f47b20bc
+  zh: c3f03a892503517c
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/alternatives-considered:
+  en: 48f2ca9041e7203c
+  zh: ceae60011e83cd15
+/agent-note-bundle-the-desktop-runtime-and-retain-external-plugins/consequences:
+  en: c1e85431916c4312
+  zh: 66367627671f17f7

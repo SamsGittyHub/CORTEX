@@ -1,0 +1,48 @@
+{
+  "name": "@cortex-ai/cortex-fs",
+  "description": "Abstract filesystem capability seam (ctx.fs) for the CORTEX — vocabulary types, the FileSystem service (text IO + optional version-guarded atomic mutations), and the fs/* policy event vocabulary",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/fs/fs"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  }
+}

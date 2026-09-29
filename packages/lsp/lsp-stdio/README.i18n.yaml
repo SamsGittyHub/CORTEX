@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/lsp/lsp-stdio/README.md
+/:
+  en: c9eac4288ae5293a
+  zh: fb718ad3c2da3e49
+/cortex-ai-cortex-lsp-stdio:
+  en: 1a26cbc673dcb72b
+  zh: 96ce11f890f380b9
+/cortex-ai-cortex-lsp-stdio/summary:
+  en: 4e7610305c7f0ec9
+  zh: 615315674600db50
+/cortex-ai-cortex-lsp-stdio/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-lsp-stdio/use-this-package:
+  en: 1d9423fd2d5b7f6e
+  zh: 41f13811a586f574
+/cortex-ai-cortex-lsp-stdio/use-this-package/minimal-configuration:
+  en: fa55bb0fe3801c44
+  zh: 3cebdfa7273b1978
+/cortex-ai-cortex-lsp-stdio/use-this-package/what-a-query-does:
+  en: 41363baf8fdba020
+  zh: d1a6193b1aa813ba
+/cortex-ai-cortex-lsp-stdio/use-this-package/observable-success-and-failures:
+  en: 57f3a82c014af107
+  zh: 770fc617c1ab0eab
+/cortex-ai-cortex-lsp-stdio/use-this-package/security-boundary:
+  en: f1f7fef771bcaa6d
+  zh: f11dcf771a6fecfc
+/cortex-ai-cortex-lsp-stdio/understand-the-implementation:
+  en: 8a5efa64f5b12f88
+  zh: 451548c05c045c22
+/cortex-ai-cortex-lsp-stdio/understand-the-implementation/design-philosophy:
+  en: 7e5e63f993a287f2
+  zh: a5a01b22551e5d46
+/cortex-ai-cortex-lsp-stdio/understand-the-implementation/source-map:
+  en: c1eb566e6aa64d09
+  zh: 6fa10484e329e570
+/cortex-ai-cortex-lsp-stdio/understand-the-implementation/protocol-behavior:
+  en: 0f9bac88ad9448b8
+  zh: f5d3a2e61a596003
+/cortex-ai-cortex-lsp-stdio/further-exploration:
+  en: aa4a316736f20e8e
+  zh: 52137a54eb5a14eb
+/cortex-ai-cortex-lsp-stdio/model-experience:
+  en: bc78826116756eb2
+  zh: 77f9b1e3eb14b1bf
+/cortex-ai-cortex-lsp-stdio/model-experience/kv-cache-effect:
+  en: 5a61698afaad112d
+  zh: 89d9219be2aa6080
+/cortex-ai-cortex-lsp-stdio/known-limitations-and-deferred-work:
+  en: dc4fc5797b3b2d38
+  zh: f04e4159ce280218
+/cortex-ai-cortex-lsp-stdio/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

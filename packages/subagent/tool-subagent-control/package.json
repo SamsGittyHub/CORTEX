@@ -1,0 +1,61 @@
+{
+  "name": "@cortex-ai/cortex-tool-subagent-control",
+  "description": "Globally named send_message, interrupt_agent, and list_agents tools over ctx.subagents continuations",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/subagent/tool-subagent-control"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./list-agents": {
+      "types": "./lib/types/list-agents.d.ts",
+      "default": "./lib/types/list-agents.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-agent-loop-testkit": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-subagent-fork-in-process": "workspace:*",
+    "@cortex-ai/cortex-subagent-spawn-in-process": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*"
+  },
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "@cortex-ai/cortex-sdk-minimal",
+  "description": "The standalone minimal SDK profile bundle: JSON-RPC, one DeepSeek adapter, persistent shell, and JSONL sessions",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/bundle/sdk-minimal"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "cortex": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@cortex-ai/cordis-plugin-timer": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-deepseek-llm-api-extensions": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-jobs-local": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek-api-key": "workspace:*",
+    "@cortex-ai/cortex-llm-retry": "workspace:*",
+    "@cortex-ai/cortex-mcp-resources": "workspace:*",
+    "@cortex-ai/cortex-plugin-package-inventory-deepseek": "workspace:*",
+    "@cortex-ai/cortex-sandbox-local": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-sdk-app": "workspace:*",
+    "@cortex-ai/cortex-sdk-jsonrpc-server": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-log-deepseek": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-subprocess-local": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-terminal": "workspace:*",
+    "@cortex-ai/cortex-terminal-bash": "workspace:*",
+    "@cortex-ai/cortex-tool-bash-persistent": "workspace:*",
+    "@cortex-ai/cortex-tool-pwsh-persistent": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  }
+}

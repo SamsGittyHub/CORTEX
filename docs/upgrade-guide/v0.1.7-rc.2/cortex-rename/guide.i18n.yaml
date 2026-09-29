@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.1.7-rc.2/cortex-rename/guide.md
+/:
+  en: 6a7474a899e90bd0
+  zh: 0cda59c9a21c40b0
+/the-product-is-renamed-cortex:
+  en: 9a2ef1819b45957e
+  zh: 16782b74a21c5f36
+/the-product-is-renamed-cortex/change:
+  en: f490becafafb3244
+  zh: c17e0f6b4ca98295
+/the-product-is-renamed-cortex/migration:
+  en: c5f1c8d57395b389
+  zh: 5678ee8218893271

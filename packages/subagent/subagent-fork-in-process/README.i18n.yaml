@@ -1,0 +1,82 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/subagent/subagent-fork-in-process/README.md
+/:
+  en: a4a75d423f70c4de
+  zh: a60816274b877a80
+/cortex-ai-cortex-subagent-fork-in-process:
+  en: 7d67a0ce6441df48
+  zh: 1e59c24f9fe24595
+/cortex-ai-cortex-subagent-fork-in-process/summary:
+  en: 895c51f244493d7d
+  zh: 71d85d14592e16da
+/cortex-ai-cortex-subagent-fork-in-process/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-subagent-fork-in-process/use-this-package:
+  en: 6fccca57bbaf3afc
+  zh: b40f18fc5735bf6c
+/cortex-ai-cortex-subagent-fork-in-process/use-this-package/when-to-choose-it:
+  en: 05090df7cc302c6a
+  zh: bd988019ba062e0a
+/cortex-ai-cortex-subagent-fork-in-process/use-this-package/seed-boundary:
+  en: f4dfd1ce652f019b
+  zh: 9bb75239491f07cc
+/cortex-ai-cortex-subagent-fork-in-process/use-this-package/minimal-configuration:
+  en: f2d4028e9c0468ae
+  zh: ce64e248332f8a74
+/cortex-ai-cortex-subagent-fork-in-process/use-this-package/what-a-fork-delegation-does:
+  en: 221626f65c2faf04
+  zh: dfa8200b5349340f
+/cortex-ai-cortex-subagent-fork-in-process/understand-the-implementation:
+  en: 6a0fe4b9cc780aaa
+  zh: 50cd69ceb8296827
+/cortex-ai-cortex-subagent-fork-in-process/understand-the-implementation/design-concept:
+  en: 3917de9c152828e0
+  zh: 4c48bb580510ef0e
+/cortex-ai-cortex-subagent-fork-in-process/understand-the-implementation/source-map:
+  en: b629a79a8b4de729
+  zh: 3b3019101cf70c54
+/cortex-ai-cortex-subagent-fork-in-process/understand-the-implementation/run-flow:
+  en: 59b82d0f46c21967
+  zh: aacc5455eaabc8f7
+/cortex-ai-cortex-subagent-fork-in-process/understand-the-implementation/lifecycle-binding:
+  en: 86befc0f90b76f88
+  zh: 7dbb94ac8cbf4282
+/cortex-ai-cortex-subagent-fork-in-process/further-exploration:
+  en: d87a7be2de4dbd47
+  zh: 997dbf8446e6df67
+/cortex-ai-cortex-subagent-fork-in-process/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/child-agent-history-and-envelope:
+  en: 91a5bd22001586e9
+  zh: 456e5bf20881a70d
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/child-agent-history-and-envelope/what-the-model-sees:
+  en: fe88f3e65bb01009
+  zh: 64e05acfe80e81f3
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/child-agent-history-and-envelope/token-effect:
+  en: db9ae2edb5ee28ce
+  zh: 5a342ffa3e7a7b40
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/child-agent-history-and-envelope/kv-cache-effect:
+  en: 87bc75e5a198c781
+  zh: 6c9e0361c043f068
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/parent-tool-result-indirectly:
+  en: 75d061c2151624a7
+  zh: 71e58e020b60ff90
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/parent-tool-result-indirectly/what-the-model-sees:
+  en: c3cab3e3c86496f8
+  zh: 2dd3476a5b9d60d3
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/parent-tool-result-indirectly/token-effect:
+  en: 8c81bab3c5d6a38a
+  zh: 44c798432a4bfdfb
+/cortex-ai-cortex-subagent-fork-in-process/model-experience/parent-tool-result-indirectly/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: 3d6bc05b9eadfbc2
+/cortex-ai-cortex-subagent-fork-in-process/known-limitations-and-deferred-work:
+  en: b70f8a6c4d6c81d5
+  zh: b4aad5334328d645
+/cortex-ai-cortex-subagent-fork-in-process/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

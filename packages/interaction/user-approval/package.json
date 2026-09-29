@@ -1,0 +1,62 @@
+{
+  "name": "@cortex-ai/cortex-user-approval",
+  "description": "User-approval seam (ctx.approval) for the CORTEX: one-shot permission decisions dispatched to composed answerers over the approval/request waterfall, fail-closed by default",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/interaction/user-approval"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  }
+}

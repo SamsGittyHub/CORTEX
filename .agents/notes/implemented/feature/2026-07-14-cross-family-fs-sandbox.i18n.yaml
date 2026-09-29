@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for 2026-07-14-cross-family-fs-sandbox.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-07-14-cross-family-fs-sandbox.md
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity:
+  en: f187a71f3b26d7c1
+  zh: 653324a78189be56
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/problem:
+  en: e04b4c5e6f3dd771
+  zh: e413d54b566a513d
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision:
+  en: dd825d09d6d850ed
+  zh: 0c355b56ff17d099
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision/ctx-sandboxpolicy-one-home-for-mode-and-workspace-root:
+  en: 45ef4263905dd2b7
+  zh: 1151d03dbfb17e80
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision/dsh-fs-sandbox-enforcement-inside-the-provider:
+  en: 077a767b86dd7860
+  zh: e8797afed2f65fa6
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision/tool-parity-one-denial-marker-one-escalation-flow:
+  en: 102b988a3a945cbe
+  zh: b1eafec08db3520b
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision/the-enforcement-point-provider-not-intent-gate:
+  en: 98549276110ac457
+  zh: d680c26086c68a8c
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/decision/out-of-scope:
+  en: 9157891a477f17bd
+  zh: 58d926d0b86bc4fd
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/alternatives-considered:
+  en: 669431ca494a7783
+  zh: e875a63c553135e1
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/consequences:
+  en: 3848066c5a8c56ef
+  zh: 048cdf6cb8dbde4d
+/agent-note-cross-family-file-sandbox-one-policy-home-a-sandboxed-fs-provider-and-fs-escalation-parity/testing:
+  en: dc226f5a587ff7d4
+  zh: 55f5d937d6bc86e9

@@ -1,0 +1,52 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/util/home-paths/README.md
+/:
+  en: 007a3605ad512fdc
+  zh: dc83b68361f924c5
+/cortex-ai-cortex-home-paths:
+  en: d6a2ea747e032c4a
+  zh: fdd110d70fd4f555
+/cortex-ai-cortex-home-paths/summary:
+  en: b706fd8419fc11ae
+  zh: 780274feac58ac88
+/cortex-ai-cortex-home-paths/table-of-contents:
+  en: 80b31a934611cb4a
+  zh: 05f3f7f9cb2fd881
+/cortex-ai-cortex-home-paths/use-this-package:
+  en: 5322022224da2f27
+  zh: d5cba67f4ea3e429
+/cortex-ai-cortex-home-paths/use-this-package/resolving-the-home:
+  en: a2f43628fe117c90
+  zh: 5628dd0ae595b773
+/cortex-ai-cortex-home-paths/use-this-package/displaying-a-home:
+  en: 9987842ab5fbcdb2
+  zh: d7aa7e0ac79ab328
+/cortex-ai-cortex-home-paths/use-this-package/expanding-user-paths:
+  en: 80bf5dead177c1d8
+  zh: 6faf257afbb9c246
+/cortex-ai-cortex-home-paths/use-this-package/canonicalizing-watch-paths:
+  en: 55c5d8179de704c5
+  zh: b86395e9605807cd
+/cortex-ai-cortex-home-paths/understand-the-implementation:
+  en: a3896db883f77b47
+  zh: 45c71eccc31682b5
+/cortex-ai-cortex-home-paths/understand-the-implementation/source-map:
+  en: ab001f10961a5a98
+  zh: 2209a79d2d5d9b68
+/cortex-ai-cortex-home-paths/understand-the-implementation/resolution-rules:
+  en: 25e409ab546fbe7f
+  zh: 27ba9c62cc3513e2
+/cortex-ai-cortex-home-paths/understand-the-implementation/canonicalization-mechanics:
+  en: a79aecd162317dc2
+  zh: 342f9bae0231c3de
+/cortex-ai-cortex-home-paths/further-exploration:
+  en: c00f4636a4c54bb3
+  zh: 5ed60e23dc6afc23
+/cortex-ai-cortex-home-paths/known-limitations-and-deferred-work:
+  en: aa4aecf31a596da0
+  zh: 22dea997610fae2d
+/cortex-ai-cortex-home-paths/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

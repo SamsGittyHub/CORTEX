@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-07-28-api-browser-trust-boundary.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-07-28-api-browser-trust-boundary.md
+/agent-note-one-carrier-level-browser-trust-boundary-for-all-api-routes:
+  en: ff06121ac459918d
+  zh: 877353f9c848f0b3
+/agent-note-one-carrier-level-browser-trust-boundary-for-all-api-routes/problem:
+  en: c25db2ef111b2276
+  zh: 557891ca9e030ae5
+/agent-note-one-carrier-level-browser-trust-boundary-for-all-api-routes/decision:
+  en: 91c7e0cb7de954e8
+  zh: fabd64f15d3ad3b5
+/agent-note-one-carrier-level-browser-trust-boundary-for-all-api-routes/alternatives-considered:
+  en: 995af8b597723842
+  zh: ec417b0b83f754d0
+/agent-note-one-carrier-level-browser-trust-boundary-for-all-api-routes/consequences:
+  en: 8acf5e6f55a747c2
+  zh: bbd0b10927302965

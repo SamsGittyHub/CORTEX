@@ -1,0 +1,24 @@
+- name: '@cortex-ai/cortex-llm'
+- name: '@cortex-ai/cortex-session'
+- name: '@cortex-ai/cortex-session-projection'
+- name: '@cortex-ai/cortex-system-prompt'
+- name: '@cortex-ai/cortex-tools'
+- name: '@cortex-ai/cortex-agent'
+- name: '@cortex-ai/cortex-agent-loop'
+  config:
+    agents: []
+- name: '@cortex-ai/cortex-credentials-local'
+  config:
+    path: {{credentials}}
+    watch: false
+- name: '@cortex-ai/cortex-llm-deepseek-api-key'
+  config:
+    apiKeyEnv: DEEPSEEK_API_KEY
+    baseURL: {{endpoint}}
+    thinking: enabled
+    reasoningEffort: high
+    maxTokens: 256000
+    streamIdleTimeoutMs: 300000
+- name: '@cortex-ai/cortex-llm-deepseek-account'
+  config:
+    baseURL: {{endpoint}}

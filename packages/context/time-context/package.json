@@ -1,0 +1,67 @@
+{
+  "name": "@cortex-ai/cortex-time-context",
+  "description": "Durable per-step context with the current time and elapsed time",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/context/time-context"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "locale/*.json",
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "zod": "^4.4.3"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-agent-loop-testkit": "workspace:*",
+    "@cortex-ai/cortex-app-boot": "workspace:*",
+    "@cortex-ai/cortex-bash-local": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-loader-smoke": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-checkpoint-policy": "workspace:*",
+    "@cortex-ai/cortex-session-persistence-jsonl": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-subprocess-local": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*"
+  }
+}

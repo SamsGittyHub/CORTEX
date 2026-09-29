@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/locale/README.md
+/:
+  en: d2aaa955e01c2679
+  zh: 9d264cf8be1536cf
+/cortex-ai-cortex-client-locale:
+  en: c69cbc04ea65d10d
+  zh: ea6790c87c9c7f2d
+/cortex-ai-cortex-client-locale/summary:
+  en: d02737910f8d2eec
+  zh: e6ba20e8d4393317
+/cortex-ai-cortex-client-locale/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: bda879a892f240f0
+/cortex-ai-cortex-client-locale/use-this-package:
+  en: 7fedfbcbc3ad8cea
+  zh: e29ba5230e0b9ecb
+/cortex-ai-cortex-client-locale/use-this-package/choosing-a-language:
+  en: 34d13a18e71ca406
+  zh: 04ba8cf5e31f67c2
+/cortex-ai-cortex-client-locale/use-this-package/registering-a-dictionary:
+  en: 9b2fcfa8cae8dc4b
+  zh: 293012a4d364ef59
+/cortex-ai-cortex-client-locale/use-this-package/resolving-package-text:
+  en: 03c49f386a9db13b
+  zh: f2edecf1e1bb3ad6
+/cortex-ai-cortex-client-locale/use-this-package/registering-a-language-pack:
+  en: aa4e9c70523339cc
+  zh: 3359eddc4e9ef15e
+/cortex-ai-cortex-client-locale/use-this-package/what-the-host-half-does:
+  en: 8fa91333f7fc3387
+  zh: 789a9cbb3eace3b0
+/cortex-ai-cortex-client-locale/understand-the-implementation:
+  en: 288d8db39f9acfc5
+  zh: d65cf2ffae8ad35c
+/cortex-ai-cortex-client-locale/understand-the-implementation/design-concept:
+  en: bb916885820e417a
+  zh: 6138d67e8247b760
+/cortex-ai-cortex-client-locale/understand-the-implementation/preference-resolution:
+  en: 4bc9dffa4629f537
+  zh: f51633c658b8d25b
+/cortex-ai-cortex-client-locale/understand-the-implementation/dictionary-lookup:
+  en: f8dcc4035830e738
+  zh: 8452ac63ee148c61
+/cortex-ai-cortex-client-locale/understand-the-implementation/source-map:
+  en: a382e032c06ced3f
+  zh: 419cb5f60b075388
+/cortex-ai-cortex-client-locale/further-exploration:
+  en: 04a9113421247b05
+  zh: b3b91912c9a5aaf6
+/cortex-ai-cortex-client-locale/model-experience:
+  en: 209321ba2d2e6710
+  zh: 21deb6c973f69b66
+/cortex-ai-cortex-client-locale/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-locale/known-limitations-and-deferred-work:
+  en: 500ede048ef44c6a
+  zh: f741fae55b29a627
+/cortex-ai-cortex-client-locale/known-limitations-and-deferred-work/dev-note:
+  en: 82fb34d8a128a0ac
+  zh: fa3f40c900032aae

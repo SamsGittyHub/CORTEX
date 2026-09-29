@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-open-in-app/README.md
+/:
+  en: be11314755d8f4f9
+  zh: dd75b03074eea543
+/cortex-ai-cortex-client-ui-open-in-app:
+  en: b537feab38d29656
+  zh: 6461ad3a21a4f05a
+/cortex-ai-cortex-client-ui-open-in-app/summary:
+  en: eb4550abb3006048
+  zh: 651df0a7948205b8
+/cortex-ai-cortex-client-ui-open-in-app/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 725b47765ee8f30b
+/cortex-ai-cortex-client-ui-open-in-app/use-this-package:
+  en: 6331ecf18482b2c4
+  zh: 1fb2ef596b478dd5
+/cortex-ai-cortex-client-ui-open-in-app/use-this-package/what-to-expect:
+  en: df05c2adfe278a14
+  zh: d58c7a19e6144fbc
+/cortex-ai-cortex-client-ui-open-in-app/understand-the-implementation:
+  en: dbb618d9ff9021fc
+  zh: 09fc48054c0a4b14
+/cortex-ai-cortex-client-ui-open-in-app/further-exploration:
+  en: 39192f452d118872
+  zh: fd681553eae82c8c
+/cortex-ai-cortex-client-ui-open-in-app/model-experience:
+  en: 5f9e6e0fb0438628
+  zh: fc9a81185ea6cb14
+/cortex-ai-cortex-client-ui-open-in-app/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: c2241315dc0c89c9
+/cortex-ai-cortex-client-ui-open-in-app/known-limitations-and-deferred-work:
+  en: 60c88ce19d292642
+  zh: e70fc64a46a245e3
+/cortex-ai-cortex-client-ui-open-in-app/known-limitations-and-deferred-work/dev-note:
+  en: 2ec8b6124e943710
+  zh: d5976d5a986a2d29

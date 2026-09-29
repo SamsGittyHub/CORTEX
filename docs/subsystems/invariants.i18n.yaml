@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for invariants.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/invariants.md
+/runtime-invariants:
+  en: 603cf47f9b848fee
+  zh: fc17adeefbb68f50
+/runtime-invariants/selection:
+  en: a74938a56f0e36af
+  zh: c2e48115800c0c38
+/runtime-invariants/the-installer:
+  en: ba1607612e5ed640
+  zh: 33459bdb7c42443c
+/runtime-invariants/the-service:
+  en: 6368b54b2cbdb36c
+  zh: 4859ac095e536d42
+/runtime-invariants/the-companion-contract:
+  en: ab5d69c81e9c20b8
+  zh: c647364622a164f0

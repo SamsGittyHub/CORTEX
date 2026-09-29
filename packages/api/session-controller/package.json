@@ -1,0 +1,165 @@
+{
+  "name": "@cortex-ai/cortex-api-session-controller",
+  "description": "Session Remote commands, cold reads, and live control transport",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/api/session-controller"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./remote-events": {
+      "types": "./lib/types/remote-events.d.ts",
+      "default": "./lib/types/remote-events.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./typert": {
+      "types": "./lib/typert.host.d.ts",
+      "default": "./lib/typert.host.js"
+    },
+    "./remote": {
+      "types": "./lib/typert.remote-client.d.ts",
+      "default": "./lib/typert.remote-client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "cortex": {
+    "client": {
+      "external": [
+        "@cortex-ai/cortex-api-gateway/client"
+      ],
+      "inject": [
+        "@cortex-ai/cortex-api-gateway",
+        "@cortex-ai/cortex-client-file-upload"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts",
+    "lib/typert.host.js",
+    "lib/typert.host.d.ts",
+    "lib/typert.remote-client.js",
+    "lib/typert.remote-client.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-deque": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "mime-types": "^3.0.2",
+    "zod": "^4.4.3"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-default-model": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-api-gateway": "workspace:*",
+    "@cortex-ai/cortex-attachment": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-file-upload": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-credentials": "workspace:*",
+    "@cortex-ai/cortex-file-reference": "workspace:*",
+    "@cortex-ai/cortex-fs": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-native-command": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-projection-cache": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-settings": "workspace:*",
+    "@cortex-ai/cortex-skill": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-typert-registry": "workspace:*",
+    "@cortex-ai/cortex-util-time": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/cortex-util-workspace-path": "workspace:*",
+    "@cortex-ai/cortex-workspace": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cortex-session-persistence": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-session-projection-cache": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-settings": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-default-model": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-agent-loop-testkit": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-api-gateway": "workspace:*",
+    "@cortex-ai/cortex-attachment": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-file-upload": "workspace:*",
+    "@cortex-ai/cortex-client-store": "workspace:*",
+    "@cortex-ai/cortex-client-test-runtime": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-credentials": "workspace:*",
+    "@cortex-ai/cortex-file-reference": "workspace:*",
+    "@cortex-ai/cortex-fs": "workspace:*",
+    "@cortex-ai/cortex-fs-local": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-native-command": "workspace:*",
+    "@cortex-ai/cortex-permission-presets": "workspace:*",
+    "@cortex-ai/cortex-remote-mock": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-projection-cache": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-settings": "workspace:*",
+    "@cortex-ai/cortex-skill": "workspace:*",
+    "@cortex-ai/cortex-storage": "workspace:*",
+    "@cortex-ai/cortex-storage-domain": "workspace:*",
+    "@cortex-ai/cortex-storage-json": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-typert-registry": "workspace:*",
+    "@cortex-ai/cortex-util-crypto": "workspace:*",
+    "@cortex-ai/cortex-util-time": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/cortex-util-workspace-path": "workspace:*",
+    "@cortex-ai/cortex-workspace": "workspace:*",
+    "@types/mime-types": "^3.0.1"
+  }
+}

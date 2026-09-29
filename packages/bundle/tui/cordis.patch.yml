@@ -1,0 +1,34 @@
+# The cortex-tui bundle patch: an interactive terminal chat directly over
+# cortex-base. It mounts no Host, HTTP server, Web runtime, or browser plugin.
+# An ordinary provider plugin injects `cmdlineArgs`, parses the optional first
+# message (`cortex --profile tui "<message>"`), `--resume`, `--no-color`, and this
+# app's --help, then the direct driver creates a fresh Agent, or continues the
+# exact Session the flag names, and reads lines from the terminal until the user
+# leaves.
+
+- id: system-prompt
+  config:
+    personaSuffix: Your working directory is {{cwd}}.
+    personaPrefix: >-
+      You are a coding agent powered by the {{model}} model, chatting with a person in their terminal.
+
+- id: tools
+  config:
+    # Keep the same temporary process-wide PTC mode opt-in as the other surfaces.
+    mode: !!js process.env.CORTEX_TOOLS_MODE
+
+- insert:
+    - id: tui-startup
+      name: '@cortex-ai/cortex-tui/startup'
+
+    # Reads its launch options from the ordinary tuiStartup provider.
+    - id: tui-runner
+      name: '@cortex-ai/cortex-tui'
+      inject: [tuiStartup]
+      config:
+        message: !!js ctx.tuiStartup.message
+        resume: !!js ctx.tuiStartup.resume
+        noColor: !!js ctx.tuiStartup.noColor
+
+- id: hmr
+  disabled: true

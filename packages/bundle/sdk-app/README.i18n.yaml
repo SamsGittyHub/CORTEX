@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/sdk-app/README.md
+/:
+  en: 8148fef9eb6f852e
+  zh: f4419bed153c9760
+/cortex-ai-cortex-sdk-app:
+  en: dd76d52f9ef4612d
+  zh: fb97240bb09f5d08
+/cortex-ai-cortex-sdk-app/summary:
+  en: 4f08a8d1381260ba
+  zh: d504534183ebaba1
+/cortex-ai-cortex-sdk-app/table-of-contents:
+  en: 4e53164159b5ce41
+  zh: 89582dc0294d0776
+/cortex-ai-cortex-sdk-app/use-this-package:
+  en: 9e8aac04beae2905
+  zh: 7e07b0fe95713f35
+/cortex-ai-cortex-sdk-app/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-sdk-app/model-experience/sdk-coding-agent-persona:
+  en: af149b1e7ed0a5fc
+  zh: fe483822d03deddb
+/cortex-ai-cortex-sdk-app/model-experience/sdk-coding-agent-persona/what-the-model-sees:
+  en: 895f2c7fc9357d23
+  zh: d2e6455f4adcf7d3
+/cortex-ai-cortex-sdk-app/model-experience/sdk-coding-agent-persona/token-effect:
+  en: 371d28831239e0a8
+  zh: 57595359ff30a259
+/cortex-ai-cortex-sdk-app/model-experience/sdk-coding-agent-persona/kv-cache-effect:
+  en: 5b0e33295fb90e19
+  zh: 4d48ca75bb677202
+/cortex-ai-cortex-sdk-app/known-limitations-and-deferred-work:
+  en: fe7e859b95b2d4d3
+  zh: cb57bec4acc491e5
+/cortex-ai-cortex-sdk-app/known-limitations-and-deferred-work/dev-note:
+  en: 8bc6c774f783517d
+  zh: b1ae7ae9832b2444

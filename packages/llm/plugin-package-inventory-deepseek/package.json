@@ -1,0 +1,63 @@
+{
+  "name": "@cortex-ai/cortex-plugin-package-inventory-deepseek",
+  "description": "Active Loader-backed plugin package inventory for official DeepSeek LLM API requests",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/llm/plugin-package-inventory-deepseek"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-deepseek-llm-api-extensions": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cortex-agent-preset-registry": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-app-boot": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-deepseek-llm-api-extensions": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*"
+  }
+}

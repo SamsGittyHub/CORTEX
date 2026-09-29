@@ -1,0 +1,67 @@
+{
+  "name": "@cortex-ai/cortex-client-ui-jobs",
+  "description": "Session-header background-job list with on-demand streaming record panels",
+  "version": "0.2.0-rc.2",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/client/ui-jobs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-api-job-controller": "workspace:*",
+    "@cortex-ai/cortex-client-locale": "workspace:*",
+    "@cortex-ai/cortex-client-test-runtime": "workspace:*",
+    "@cortex-ai/cortex-client-ui-conversation": "workspace:*",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-client-ui-renderer": "workspace:*",
+    "@cortex-ai/cortex-client-ui-session": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@cortex-ai/cortex-jobs": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@types/react": "~18.3.1",
+    "react": "^18.2.0"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-api-job-controller",
+        "@cortex-ai/cortex-client-locale",
+        "@cortex-ai/cortex-client-ui-conversation",
+        "@cortex-ai/cortex-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  }
+}

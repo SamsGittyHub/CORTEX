@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-09-13-macos-hidden-titlebar-vibrancy.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-09-13-macos-hidden-titlebar-vibrancy.md
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar:
+  en: e6d86a4bf5b610fd
+  zh: 8fa8aaf47cddab97
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar/problem:
+  en: 199f00b0e7f3c09c
+  zh: bb331fc8d7d46bbd
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar/decision:
+  en: 0929d5bf35905620
+  zh: 50a7e3071ff18c71
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar/alternatives-considered:
+  en: 28d920253012bd11
+  zh: ae6a27f959d5afe3
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar/consequences:
+  en: 0533a999ad010624
+  zh: 6309528eae1c6219
+/agent-note-macos-hidden-titlebar-with-vibrancy-sidebar/testing:
+  en: a075febd9b78dc5f
+  zh: 7c59a9b7f0798dac

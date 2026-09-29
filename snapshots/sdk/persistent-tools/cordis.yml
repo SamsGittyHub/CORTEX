@@ -1,0 +1,168 @@
+# Per-launch SDK customization: retain only persistent Bash and the string
+# editor as model-facing tools, with process-local providers and an explicit
+# danger-full-access / never-ask policy.
+
+- insert:
+    - id: tool-str-replace-editor
+      name: '@cortex-ai/cortex-tool-str-replace-editor'
+      config:
+        maxOutputChars: 16000
+
+- id: llm-deepseek
+  name: '@cortex-ai/cortex-llm-deepseek-api-key'
+  config:
+    apiKeyEnv: DEEPSEEK_API_KEY
+    streamIdleTimeoutMs: 172800000
+    models:
+      - id: !!js process.env.CORTEX_MODEL ?? 'deepseek-v4-flash'
+        contextWindow: !!js Number(process.env.CORTEX_CONTEXT_WINDOW ?? 1000000)
+
+- id: sandbox-policy
+  name: '@cortex-ai/cortex-sandbox-policy'
+  config:
+    mode: danger-full-access
+    workspaceRoot: !!js process.cwd()
+
+- id: approval
+  name: '@cortex-ai/cortex-user-approval'
+  config:
+    policy: never
+
+- id: permission
+  name: '@cortex-ai/cortex-permission-presets'
+  disabled: true
+
+- id: bash-sandbox
+  name: '@cortex-ai/cortex-bash-sandbox'
+  disabled: true
+
+- id: pwsh-sandbox
+  name: '@cortex-ai/cortex-pwsh-sandbox'
+  disabled: true
+
+- id: fs-sandbox
+  name: '@cortex-ai/cortex-fs-sandbox'
+  disabled: true
+
+- id: tool-bash
+  name: '@cortex-ai/cortex-tool-bash'
+  disabled: true
+
+- id: tool-pwsh
+  name: '@cortex-ai/cortex-tool-pwsh'
+  disabled: true
+
+- id: agent-instructions
+  name: '@cortex-ai/cortex-agent-instructions'
+  disabled: true
+
+- id: skill
+  name: '@cortex-ai/cortex-skill'
+  disabled: true
+
+- id: skill-filesystem
+  name: '@cortex-ai/cortex-skill-filesystem'
+  disabled: true
+
+- id: tool-skill
+  name: '@cortex-ai/cortex-tool-skill'
+  disabled: true
+
+- id: tool-jobs
+  name: '@cortex-ai/cortex-tool-jobs'
+  disabled: true
+
+- id: tool-fs
+  name: '@cortex-ai/cortex-tool-fs'
+  disabled: true
+
+- id: tool-fs-search
+  name: '@cortex-ai/cortex-tool-fs-search'
+  disabled: true
+
+- id: tool-subagent-control
+  name: '@cortex-ai/cortex-tool-subagent-control'
+  disabled: true
+
+- id: tool-subagent-list-agents
+  name: '@cortex-ai/cortex-tool-subagent-control/list-agents'
+  disabled: true
+
+- id: tool-subagent
+  name: '@cortex-ai/cortex-tool-subagent'
+  disabled: true
+
+- id: tool-subagent-fork
+  name: '@cortex-ai/cortex-tool-subagent'
+  disabled: true
+
+- id: tool-workflow
+  name: '@cortex-ai/cortex-tool-workflow'
+  disabled: true
+
+- id: tool-todo
+  name: '@cortex-ai/cortex-tool-todo'
+  disabled: true
+
+- id: tool-goal
+  name: '@cortex-ai/cortex-tool-goal'
+  disabled: true
+
+- id: tool-ralph
+  name: '@cortex-ai/cortex-tool-ralph'
+  disabled: true
+
+- id: tool-web
+  name: '@cortex-ai/cortex-tool-web'
+  disabled: true
+
+- id: plan-mode
+  name: '@cortex-ai/cortex-plan-mode'
+  disabled: true
+
+- id: system-prompt
+  name: '@cortex-ai/cortex-system-prompt'
+  config:
+    includeHarnessIdentity: false
+    personaPrefix: !!js process.env.CORTEX_SYSTEM_PROMPT ?? 'You are a helpful software engineer assistant.'
+
+- id: session-persistence-jsonl
+  name: '@cortex-ai/cortex-session-persistence-jsonl'
+  config:
+    root: !!js cortexHomePath('sessions')
+    compression: none
+
+- insert:
+    - id: bash-local
+      name: '@cortex-ai/cortex-bash-local'
+
+    - id: fs-local
+      name: '@cortex-ai/cortex-fs-local'
+      config:
+        cwd: !!js process.cwd()
+
+    - id: terminal
+      name: '@cortex-ai/cortex-terminal'
+
+    - id: terminal-bash
+      name: '@cortex-ai/cortex-terminal-bash'
+      config:
+        timeoutMs: 300000
+
+    - id: persistent-bash
+      name: '@cortex-ai/cortex-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * To inspect a particular line range of a file, e.g. lines 10-25, try 'sed -n 10,25p /path/to/the/file'.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: session-log-deepseek
+  config:
+    enabled: false

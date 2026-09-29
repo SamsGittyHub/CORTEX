@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/sdk-minimal/README.md
+/:
+  en: ae5bdac5add26503
+  zh: 93cd37d41c05fc9c
+/cortex-ai-cortex-sdk-minimal:
+  en: b88465bc65c43989
+  zh: 60e0ba1c833ef74b
+/cortex-ai-cortex-sdk-minimal/summary:
+  en: 403d4d577f167f48
+  zh: 6c41df52f7fde6bb
+/cortex-ai-cortex-sdk-minimal/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-sdk-minimal/use-this-package:
+  en: e1706996a28868b4
+  zh: fb648d0b9ec35d16
+/cortex-ai-cortex-sdk-minimal/understand-the-implementation:
+  en: fe03bc657a6c3cf6
+  zh: a4dd2e38001d197a
+/cortex-ai-cortex-sdk-minimal/understand-the-implementation/source-map:
+  en: d992e946f4928fa3
+  zh: 46d6b3d1aabdc3f4
+/cortex-ai-cortex-sdk-minimal/further-exploration:
+  en: 5219068e441e0ba5
+  zh: 1b019ee71bb9a384
+/cortex-ai-cortex-sdk-minimal/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-sdk-minimal/model-experience/minimal-coding-agent-composition:
+  en: bd87e16b0c6e0506
+  zh: c8ee5e3b4578754e
+/cortex-ai-cortex-sdk-minimal/model-experience/minimal-coding-agent-composition/what-the-model-sees:
+  en: 6109ded51103fe85
+  zh: a870bbbd2fadc3d8
+/cortex-ai-cortex-sdk-minimal/model-experience/minimal-coding-agent-composition/token-effect:
+  en: 65613fb41fcc3151
+  zh: fc20a732aca8282c
+/cortex-ai-cortex-sdk-minimal/model-experience/minimal-coding-agent-composition/kv-cache-effect:
+  en: 904ae09b5fdb87c1
+  zh: de6fcaaa12bd9733
+/cortex-ai-cortex-sdk-minimal/known-limitations-and-deferred-work:
+  en: e19a1b3a16170382
+  zh: d48f667503b977c1
+/cortex-ai-cortex-sdk-minimal/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

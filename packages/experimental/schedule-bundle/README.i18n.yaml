@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/schedule-bundle/README.md
+/:
+  en: 06ac0f83120e2636
+  zh: 24407e82f408f03c
+/cortex-ai-cortex-experimental-schedule-bundle:
+  en: a30d3484ca74f497
+  zh: 367951ff6bdc8362
+/cortex-ai-cortex-experimental-schedule-bundle/summary:
+  en: cd6bb19197192724
+  zh: 983a579ee54aa098
+/cortex-ai-cortex-experimental-schedule-bundle/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 364c80ee00a374ff
+/cortex-ai-cortex-experimental-schedule-bundle/use-this-package:
+  en: 632033572617d7bc
+  zh: b2a050e68cf3f3e1
+/cortex-ai-cortex-experimental-schedule-bundle/understand-the-implementation:
+  en: e21640d9109228e1
+  zh: c55c4b868453781a
+/cortex-ai-cortex-experimental-schedule-bundle/further-exploration:
+  en: 4e29d3de667ab4e9
+  zh: 03bf2dfcc7ec8210
+/cortex-ai-cortex-experimental-schedule-bundle/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-experimental-schedule-bundle/model-experience/reminder-tools-and-clock-readings:
+  en: c7fec3a37d945018
+  zh: 164346dc63d188dd
+/cortex-ai-cortex-experimental-schedule-bundle/model-experience/reminder-tools-and-clock-readings/what-the-model-sees:
+  en: fb1906621d02c594
+  zh: 394dc933ed63b349
+/cortex-ai-cortex-experimental-schedule-bundle/model-experience/reminder-tools-and-clock-readings/token-effect:
+  en: 7c44bfc062010b7b
+  zh: 15f431db31ad53eb
+/cortex-ai-cortex-experimental-schedule-bundle/model-experience/reminder-tools-and-clock-readings/kv-cache-effect:
+  en: 0b01d8c40b422f5b
+  zh: 57fede4db59a62b8
+/cortex-ai-cortex-experimental-schedule-bundle/known-limitations-and-deferred-work:
+  en: 6c0599acfe520c6a
+  zh: 69063300060b5785
+/cortex-ai-cortex-experimental-schedule-bundle/known-limitations-and-deferred-work/dev-note:
+  en: 0225ba087c5266f3
+  zh: 4e706f1b2b984e63

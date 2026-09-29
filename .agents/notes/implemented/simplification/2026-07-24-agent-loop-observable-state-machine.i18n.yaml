@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-07-24-agent-loop-observable-state-machine.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/simplification/2026-07-24-agent-loop-observable-state-machine.md
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine:
+  en: b077815d3f9cba2d
+  zh: 9dfb449c28ee9cd4
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine/problem:
+  en: c55232633eaacf5a
+  zh: a71c538c61234c42
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine/decision:
+  en: 4149515c7ccbe6be
+  zh: 6fb51ce5367dad57
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine/alternatives-considered:
+  en: f6e05df16786426b
+  zh: 2014691e275b76c4
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine/consequences:
+  en: 675d4ae63174031d
+  zh: 2649109d067352e2
+/agent-note-collapse-agent-loop-events-around-the-observable-state-machine/related:
+  en: 814cc5b53f211f1c
+  zh: 147ed92889a5b449

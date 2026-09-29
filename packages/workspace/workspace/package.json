@@ -1,0 +1,61 @@
+{
+  "name": "@cortex-ai/cortex-workspace",
+  "description": "Workspace entity registry (ctx.workspaceRegistry): durable workspace records with validated session attachment over the domain data form for the CORTEX",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/workspace/workspace"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-storage": "workspace:*",
+    "@cortex-ai/cortex-storage-domain": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*"
+  },
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-storage": "workspace:*",
+    "@cortex-ai/cortex-storage-domain": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*"
+  }
+}

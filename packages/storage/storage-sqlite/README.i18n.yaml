@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/storage/storage-sqlite/README.md
+/:
+  en: 07adf973ef2924fb
+  zh: dbc6a9255d76b7e4
+/cortex-ai-cortex-storage-sqlite:
+  en: cbaf515887767592
+  zh: 064c81d779474d38
+/cortex-ai-cortex-storage-sqlite/summary:
+  en: 4dd16a4390a17c4f
+  zh: a140f4c67fde4b05
+/cortex-ai-cortex-storage-sqlite/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-storage-sqlite/use-this-package:
+  en: 98de508e10f22c1e
+  zh: 1e7d0cadc10cba8d
+/cortex-ai-cortex-storage-sqlite/use-this-package/when-to-choose-it:
+  en: 8e1ba279af55e197
+  zh: 7dfad7470534de6c
+/cortex-ai-cortex-storage-sqlite/use-this-package/configuration:
+  en: 77d5186c1b05f748
+  zh: e80793a88f9dd06b
+/cortex-ai-cortex-storage-sqlite/use-this-package/observable-behavior:
+  en: b260d7bdf7971f9d
+  zh: 22dd2f633f507545
+/cortex-ai-cortex-storage-sqlite/understand-the-implementation:
+  en: 6867b52cbb94e572
+  zh: 187d5d61980c8fe7
+/cortex-ai-cortex-storage-sqlite/understand-the-implementation/design-concept:
+  en: 54ee8d9d7746e82d
+  zh: 2cc9f29ebcc29adc
+/cortex-ai-cortex-storage-sqlite/understand-the-implementation/open-sequence:
+  en: 50d85e8d8e8b5bc1
+  zh: 2a7067bd7fb47b35
+/cortex-ai-cortex-storage-sqlite/understand-the-implementation/source-map:
+  en: 67d89a03fae74e28
+  zh: 853578def3ab01f1
+/cortex-ai-cortex-storage-sqlite/further-exploration:
+  en: 29ea2b6e64e8bd70
+  zh: c50994cd93ce45de
+/cortex-ai-cortex-storage-sqlite/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-storage-sqlite/model-experience/stored-domain-records:
+  en: c5d5ffaf6b114f3e
+  zh: 97db23b0b14ff1c0
+/cortex-ai-cortex-storage-sqlite/model-experience/stored-domain-records/what-the-model-sees:
+  en: d0798e9e30583b55
+  zh: 968f7f595b4bf1ff
+/cortex-ai-cortex-storage-sqlite/model-experience/stored-domain-records/token-effect:
+  en: 592ed887c69e5c46
+  zh: cb9be9de6e38db55
+/cortex-ai-cortex-storage-sqlite/model-experience/stored-domain-records/kv-cache-effect:
+  en: c13c59d13a5f1651
+  zh: 5aab838ae3ff5324
+/cortex-ai-cortex-storage-sqlite/known-limitations-and-deferred-work:
+  en: c24fe7a01bc44ed3
+  zh: 69638d0692bdb637
+/cortex-ai-cortex-storage-sqlite/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

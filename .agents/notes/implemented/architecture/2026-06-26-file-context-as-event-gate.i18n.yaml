@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for 2026-06-26-file-context-as-event-gate.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-06-26-file-context-as-event-gate.md
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface:
+  en: 11a01e313a92fcfb
+  zh: 1e1e24cddaffe1ab
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/problem:
+  en: 457e67d3df808ef4
+  zh: 10be3c91b587f308
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/decision:
+  en: eb8355d4b7a6c66b
+  zh: 712c6f932f26a0d3
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/the-policy-is-enforced-by-provider-cas-not-by-dsh-fs-observation-policy-stat:
+  en: 2edc42b8210c995b
+  zh: 48f4354c9ec625ee
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/provider-contract-change-the-version-guard-is-optional:
+  en: a282600f92568e07
+  zh: 3e6b2bec22c170c6
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/event-vocabulary-owned-by-dsh-fs:
+  en: f57494c21daf90ea
+  zh: 1a1f8623dc0cbef3
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/tool-contract-dsh-tool-fs:
+  en: c7f4457a83739520
+  zh: f2d55d018c7dab4f
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/policy-plugin-contract-dsh-fs-observation-policy:
+  en: a239deb5dde631df
+  zh: 68cc6c954b247596
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/bare-provider-behavior-no-dsh-fs-observation-policy:
+  en: 5aed537454b78157
+  zh: 9e8e7108be6a9537
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/supersedes:
+  en: 7c243a66c09105fd
+  zh: 66bbcd3f718df7ab
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/verification:
+  en: 1e3de2836160b4c2
+  zh: a8af173d161f0949
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/alternatives-considered:
+  en: 904b9dd05b1ca676
+  zh: 1d110dc6c2d58ea2
+/agent-note-make-dsh-fs-observation-policy-an-event-gate-plugin-not-a-method-interface/consequences:
+  en: a1c00220fa5c6ce1
+  zh: 4691374274aa8df9

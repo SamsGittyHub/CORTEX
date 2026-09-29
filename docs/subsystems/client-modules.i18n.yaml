@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for client-modules.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/client-modules.md
+/client-modules:
+  en: 41226b5bad47d14b
+  zh: 3b715679c94e074e
+/client-modules/the-wire:
+  en: 624c24311ae427a8
+  zh: f83508a774900f8d
+/client-modules/the-scan:
+  en: 86c5288936821fd4
+  zh: 02d48cd0b03b0725
+/client-modules/the-bundle-route-and-index-injection:
+  en: d653be500d3a0d67
+  zh: fffb1901ce8ba7d9
+/client-modules/the-service:
+  en: 7f9af84a20f41514
+  zh: 38f175e3c5d195c9

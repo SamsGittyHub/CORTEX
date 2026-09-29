@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-sidebar-documentpreview/README.md
+/:
+  en: ef50065f5ff17aa1
+  zh: ee5d2b7986739fca
+/cortex-ai-cortex-client-ui-sidebar-documentpreview:
+  en: 2ff05839d4f7ab7f
+  zh: 1ba20603dddf4fb7
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/summary:
+  en: a74c16667d0baada
+  zh: 4fd709ff9f98b84f
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/table-of-contents:
+  en: 0dd8c3a22e28aacf
+  zh: c27c11bf4b5cceba
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/what-it-registers:
+  en: 7c40b3c0389bef04
+  zh: af64c610a97c7006
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/addresses:
+  en: 05a04e8888e85aac
+  zh: 8453798103cbce9b
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/how-it-reads:
+  en: f244f452f80dae6a
+  zh: 7bf2633c7df9e768
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/excel-preview:
+  en: ae1b9c3b5baf9056
+  zh: 545a8b3706297947
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/office-preview:
+  en: 130f638a6976cea7
+  zh: 8ccf19d409e302c7
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/navigation:
+  en: 5cd81a7b3cdc83bd
+  zh: 4cdd1b7ede497925
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/model-experience:
+  en: ca1deb99d0e44755
+  zh: f285fc56cee669ec
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/model-experience/kv-cache-effect:
+  en: 7edb4c0bb5f13847
+  zh: ae5d0bbebe4aa563
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/known-limitations-and-deferred-work:
+  en: 69fddd1c9c658a4f
+  zh: 75033aab9263283a
+/cortex-ai-cortex-client-ui-sidebar-documentpreview/known-limitations-and-deferred-work/dev-note:
+  en: 3d8904cb970145a3
+  zh: a0c0cddcfedf9e42

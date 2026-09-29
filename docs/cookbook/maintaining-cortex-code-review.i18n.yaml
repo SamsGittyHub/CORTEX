@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for maintaining-cortex-code-review.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cookbook/maintaining-cortex-code-review.md
+/maintaining-the-cortex-code-review-skill:
+  en: 33ab745ad3abeeee
+  zh: 0f40419a21c33b1a
+/maintaining-the-cortex-code-review-skill/what-the-maintainer-receives:
+  en: 6660860338becb50
+  zh: b351365ae5c7d2a5
+/maintaining-the-cortex-code-review-skill/what-the-operator-does-with-a-candidate-diff:
+  en: 60e6d6d294b35616
+  zh: 7ccdb2cf831f451c
+/maintaining-the-cortex-code-review-skill/when-a-run-produces-no-candidate:
+  en: feb6d261939d6c19
+  zh: 044d8238cd6537d3
+/maintaining-the-cortex-code-review-skill/interruptions-and-handoff:
+  en: 3079988132a81d7f
+  zh: 52ccb82ba3696b49
+/maintaining-the-cortex-code-review-skill/where-the-operator-s-private-setup-lives:
+  en: ae06145764738c16
+  zh: d527b944db8c52be

@@ -1,0 +1,3 @@
+import { clientBundle } from '../tsdown.client.ts'
+
+export default clientBundle('@cortex-ai/cortex-client-ui-permission-presets', ['lib/types/index.js'])

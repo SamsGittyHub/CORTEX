@@ -1,0 +1,11 @@
+# Opt-in companion to claude-mem.cordis.yml: runs claude-mem's own Claude Code
+# hooks so CORTEX sessions are captured and summarized automatically. The bridge
+# runs only the command-hook events it supports; claude-mem's Setup and
+# SessionEnd hooks are ignored. Use the same CLAUDE_MEM_PLUGIN_ROOT as the MCP row.
+- insert:
+    - id: memory-claude-mem-hooks
+      name: '@cortex-ai/cortex-hooks-claude-code'
+      config:
+        configPath: !!js (process.env.CLAUDE_MEM_PLUGIN_ROOT || ((process.env.CLAUDE_CONFIG_DIR || (process.env.HOME || process.env.USERPROFILE) + '/.claude') + '/plugins/marketplaces/thedotmack/plugin')) + '/hooks/hooks.json'
+        pluginRoot: !!js process.env.CLAUDE_MEM_PLUGIN_ROOT || ((process.env.CLAUDE_CONFIG_DIR || (process.env.HOME || process.env.USERPROFILE) + '/.claude') + '/plugins/marketplaces/thedotmack/plugin')
+        projectDir: !!js process.cwd()

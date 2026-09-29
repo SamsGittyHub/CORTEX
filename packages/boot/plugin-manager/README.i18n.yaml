@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/boot/plugin-manager/README.md
+/:
+  en: 65283627208ef4c9
+  zh: aa3f833ec24bb65a
+/cortex-ai-cortex-plugin-manager:
+  en: f033ccb8a081e537
+  zh: 3f45791f7187f117
+/cortex-ai-cortex-plugin-manager/summary:
+  en: d6afcaa1594efcdb
+  zh: 459cb6ac0dcb2d46
+/cortex-ai-cortex-plugin-manager/table-of-contents:
+  en: 87679c51aa3693f5
+  zh: 11684a48a5806afb
+/cortex-ai-cortex-plugin-manager/use-this-package:
+  en: 53cc4a49381449f2
+  zh: e4f80d4d9566b27c
+/cortex-ai-cortex-plugin-manager/use-this-package/version-compatibility-and-exemptions:
+  en: c74aa244dbf02a0c
+  zh: 89c79f7c625f1f90
+/cortex-ai-cortex-plugin-manager/use-this-package/configuration:
+  en: a836c443cfb93d99
+  zh: 7bba11ee8d26c724
+/cortex-ai-cortex-plugin-manager/understand-the-implementation:
+  en: 31bbcafe6ee1cbb8
+  zh: 8d3ffd489f75152d
+/cortex-ai-cortex-plugin-manager/further-exploration:
+  en: 3d34a6e6cc237cf2
+  zh: 83f71786ba9cdb67
+/cortex-ai-cortex-plugin-manager/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-plugin-manager/model-experience/management-tool:
+  en: 1815ec6ce56c80d4
+  zh: 2d7ac75d3b25eb6b
+/cortex-ai-cortex-plugin-manager/model-experience/management-tool/what-the-model-sees:
+  en: fed7a0c0aa3e5d96
+  zh: 3305b08531b8e1a6
+/cortex-ai-cortex-plugin-manager/model-experience/management-tool/token-effect:
+  en: bc70208bd361dbcd
+  zh: bb651d6066066c6c
+/cortex-ai-cortex-plugin-manager/model-experience/management-tool/kv-cache-effect:
+  en: c29f60be7f3edc1a
+  zh: d9b9388b96ef95cc
+/cortex-ai-cortex-plugin-manager/known-limitations-and-deferred-work:
+  en: a40803388d29c208
+  zh: efe658353ac9835c
+/cortex-ai-cortex-plugin-manager/known-limitations-and-deferred-work/failure-behavior:
+  en: 2fdd4e5043c1b747
+  zh: 9ee97db22c1c8892
+/cortex-ai-cortex-plugin-manager/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

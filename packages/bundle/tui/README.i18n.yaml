@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/tui/README.md
+/:
+  en: 224876f2b639c266
+  zh: 8bcf19467822665a
+/cortex-ai-cortex-tui:
+  en: 30e4aa40ca5f2145
+  zh: cc3357bc02562163
+/cortex-ai-cortex-tui/summary:
+  en: 540ad67938237009
+  zh: c2a3bf7f01149865
+/cortex-ai-cortex-tui/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tui/use-this-package:
+  en: 490579810eb443f1
+  zh: 02b8d4f3a1025122
+/cortex-ai-cortex-tui/use-this-package/starting-a-conversation:
+  en: f168d39aba76369b
+  zh: c22ab19fe7834d63
+/cortex-ai-cortex-tui/use-this-package/planning-first-with-plan:
+  en: eac5561cb42cebee
+  zh: 599b598f1eff8a8a
+/cortex-ai-cortex-tui/use-this-package/what-you-see-while-the-agent-works:
+  en: d23bb7477cd9b44b
+  zh: 771c03dc50ef9d2e
+/cortex-ai-cortex-tui/use-this-package/commands-completion-and-themes:
+  en: 794cf6cdf2763419
+  zh: 9c4421d70844e158
+/cortex-ai-cortex-tui/use-this-package/approvals-and-questions:
+  en: 134ac5e20c2c6508
+  zh: 20828055eecafb9f
+/cortex-ai-cortex-tui/use-this-package/interrupting-and-leaving:
+  en: fcbf0480bbf6bbfe
+  zh: 4f699f7df92ef688
+/cortex-ai-cortex-tui/use-this-package/when-to-use-it:
+  en: 52d7b3ebbf478f41
+  zh: d20df9a2cab5870f
+/cortex-ai-cortex-tui/understand-the-implementation:
+  en: a79e50fc7ccbce36
+  zh: f3cc3319d7fa5120
+/cortex-ai-cortex-tui/understand-the-implementation/run-flow:
+  en: c2c6bf38b429ba57
+  zh: 7539de5d6a2f54e5
+/cortex-ai-cortex-tui/understand-the-implementation/commands:
+  en: 22e10863ecc2010a
+  zh: d1b55685f4339726
+/cortex-ai-cortex-tui/understand-the-implementation/activity-view:
+  en: 58e4022698cbd298
+  zh: 76f479f32ab13a00
+/cortex-ai-cortex-tui/understand-the-implementation/input-handling:
+  en: 3d4d0f5d6400c482
+  zh: f8cf7196df4d18f9
+/cortex-ai-cortex-tui/understand-the-implementation/patch-surface-over-base:
+  en: da79c85b9fc140aa
+  zh: a6dc14ad4f17c341
+/cortex-ai-cortex-tui/understand-the-implementation/source-map:
+  en: 8d24ea34230d816b
+  zh: 16865e5dcc4139da
+/cortex-ai-cortex-tui/understand-the-implementation/invariant-ownership:
+  en: b6b98bf0db9abdb8
+  zh: fece1d15a1a56df7
+/cortex-ai-cortex-tui/further-exploration:
+  en: 366fb6c884b60996
+  zh: c0e489f1f8138b05
+/cortex-ai-cortex-tui/model-experience:
+  en: eb18b8bf0e0efa11
+  zh: 20cda7da7e3faa97
+/cortex-ai-cortex-tui/model-experience/kv-cache-effect:
+  en: 50538f4dd777160e
+  zh: 70b10710daad3f4e
+/cortex-ai-cortex-tui/known-limitations-and-deferred-work:
+  en: bc70ff7061fa68b3
+  zh: 6afd5732f1e04f4e
+/cortex-ai-cortex-tui/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 1499f90e25f08424

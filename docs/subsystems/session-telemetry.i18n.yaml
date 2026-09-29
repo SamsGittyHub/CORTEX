@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for session-telemetry.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/session-telemetry.md
+/sessiontelemetrybackend:
+  en: 5b80a2876f09094e
+  zh: d167f14d38ba7f67
+/sessiontelemetrybackend/the-logical-record:
+  en: 3a74dc8641a13158
+  zh: ec67636e6c8cce6d
+/sessiontelemetrybackend/the-sharing-disclosure:
+  en: 5a6ebf62c759092f
+  zh: 33000a27129b2f8f
+/sessiontelemetrybackend/capture-policy:
+  en: 84aea3b8fd82d3f7
+  zh: 3e3e1cf29c8560a3
+/sessiontelemetrybackend/the-backend-contract:
+  en: 6d4467aeab2822be
+  zh: 6a874e8014c34683
+/sessiontelemetrybackend/the-redact-waterfall-session-telemetry-record:
+  en: 3b1e20db4bf6a591
+  zh: 0aadcdc92a0f2a1a

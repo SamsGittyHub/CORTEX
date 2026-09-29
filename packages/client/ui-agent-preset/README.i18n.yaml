@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-agent-preset/README.md
+/:
+  en: 03dc41b8fb76229e
+  zh: a66439c4378fc6fc
+/cortex-ai-cortex-client-ui-agent-preset:
+  en: c36743aa6d9a753f
+  zh: 5b798a7aed641d6e
+/cortex-ai-cortex-client-ui-agent-preset/summary:
+  en: 405fc7224ffd6c97
+  zh: 4ff5930a4c5bc64a
+/cortex-ai-cortex-client-ui-agent-preset/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: b3ad7867f23dad1c
+/cortex-ai-cortex-client-ui-agent-preset/use-this-package:
+  en: a50da1a9dfdaf624
+  zh: faaffc5fbeec446b
+/cortex-ai-cortex-client-ui-agent-preset/understand-the-implementation:
+  en: 7813f0063c15e241
+  zh: 6eabc242edfc45ec
+/cortex-ai-cortex-client-ui-agent-preset/further-exploration:
+  en: e5102fdec3ed895d
+  zh: 1ca2f94c4385c832
+/cortex-ai-cortex-client-ui-agent-preset/model-experience:
+  en: ff77436515de40ff
+  zh: 6c6a23f85ba318bc
+/cortex-ai-cortex-client-ui-agent-preset/model-experience/kv-cache-effect:
+  en: 713c6916c3dd7360
+  zh: 9c582f94b926d51b
+/cortex-ai-cortex-client-ui-agent-preset/known-limitations-and-deferred-work:
+  en: 2c5e994e86b1ae4a
+  zh: 8bc5a90d3a2133ba
+/cortex-ai-cortex-client-ui-agent-preset/known-limitations-and-deferred-work/dev-note:
+  en: 6ce953763f1dc0f0
+  zh: 2d8cabb28ccd151b

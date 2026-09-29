@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/acp-app/README.md
+/:
+  en: 54af04fe07d4168b
+  zh: e4ceb9a3f653e74b
+/cortex-ai-cortex-acp-app:
+  en: 1d005bd74bb17e47
+  zh: 5032e2d4866dd77d
+/cortex-ai-cortex-acp-app/summary:
+  en: bcffedcd9573baed
+  zh: ded955c04d2a5890
+/cortex-ai-cortex-acp-app/table-of-contents:
+  en: 636fbd365057be75
+  zh: d12fd8759c7e62e5
+/cortex-ai-cortex-acp-app/use-this-package:
+  en: 253968fa459a1fe0
+  zh: 419ff64d21b0f8d4
+/cortex-ai-cortex-acp-app/standard-automation-workflow:
+  en: fea4bef691b392fe
+  zh: 9ed7cb9bb2d0f322
+/cortex-ai-cortex-acp-app/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-acp-app/model-experience/acp-coding-agent-persona:
+  en: a7451ee84e5e156a
+  zh: a7451ee84e5e156a
+/cortex-ai-cortex-acp-app/model-experience/acp-coding-agent-persona/what-the-model-sees:
+  en: bc0db4c628a1e547
+  zh: 740d07803bca3ce4
+/cortex-ai-cortex-acp-app/model-experience/acp-coding-agent-persona/token-effect:
+  en: 371d28831239e0a8
+  zh: 0d2678654607b657
+/cortex-ai-cortex-acp-app/model-experience/acp-coding-agent-persona/kv-cache-effect:
+  en: 8a5d250256381538
+  zh: 0578eaa7f774753e
+/cortex-ai-cortex-acp-app/known-limitations-and-deferred-work:
+  en: 635f88ed8da4c819
+  zh: 3b71367919708f37
+/cortex-ai-cortex-acp-app/known-limitations-and-deferred-work/dev-note:
+  en: 8bc6c774f783517d
+  zh: d1643c271de867ae

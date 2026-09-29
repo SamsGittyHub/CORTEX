@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for ptc-runtime.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/ptc-runtime.md
+/ptc-runtime:
+  en: 08ee45c69b96ed5d
+  zh: 3f8be1e266ad8ed3
+/ptc-runtime/the-run-request-in-result-out:
+  en: b11e176bee0ca6bd
+  zh: 843d5d70c58dec42
+/ptc-runtime/bindings-host-functions-as-program-globals:
+  en: 182147ddf388c600
+  zh: c0a7d77602c78bcd
+/ptc-runtime/captured-output-and-the-failure-taxonomy:
+  en: 2485eda35bb46f01
+  zh: 45bb51a15d31df20
+/ptc-runtime/the-service:
+  en: a82f828fa006c7e9
+  zh: 2279d36867335b57

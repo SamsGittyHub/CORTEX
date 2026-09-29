@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-commands/README.md
+/:
+  en: e85ec1ccd1b80d98
+  zh: 1272b2ae6abeabdc
+/cortex-ai-cortex-client-ui-commands:
+  en: 75e108c19a3ad464
+  zh: 0be0c3fd8a5051cf
+/cortex-ai-cortex-client-ui-commands/summary:
+  en: 770b1f492ac735e7
+  zh: 5602493729149219
+/cortex-ai-cortex-client-ui-commands/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-commands/use-this-package:
+  en: 01adce72791579fa
+  zh: 70eb55a1529038e7
+/cortex-ai-cortex-client-ui-commands/use-this-package/kinds-and-decorations:
+  en: 57679a20574d8b3f
+  zh: 98d5e5a7781e6de1
+/cortex-ai-cortex-client-ui-commands/use-this-package/built-in-row-faces:
+  en: e96156be95ea87e3
+  zh: f5350db26483ec9f
+/cortex-ai-cortex-client-ui-commands/use-this-package/attachment-carrying-submissions:
+  en: 4feecdbec0c3f39e
+  zh: 618944ecade8a3a2
+/cortex-ai-cortex-client-ui-commands/understand-the-implementation:
+  en: 29bb8b6eec3f1024
+  zh: a244bf163060ef9a
+/cortex-ai-cortex-client-ui-commands/further-exploration:
+  en: 6083314fb9481cc5
+  zh: 656f216cfd8cd36c
+/cortex-ai-cortex-client-ui-commands/model-experience:
+  en: 3ec197644f2fe6ce
+  zh: a06a6fe8909b064f
+/cortex-ai-cortex-client-ui-commands/model-experience/kv-cache-effect:
+  en: 08efc268737977ca
+  zh: 7772a59064ea4039
+/cortex-ai-cortex-client-ui-commands/known-limitations-and-deferred-work:
+  en: cfce26d6a603cb7d
+  zh: 8332a8d1ad44abcf
+/cortex-ai-cortex-client-ui-commands/known-limitations-and-deferred-work/dev-note:
+  en: 2f5e19244ac6c305
+  zh: e43b52ae5b4af798

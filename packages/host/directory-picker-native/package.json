@@ -1,0 +1,46 @@
+{
+  "name": "@cortex-ai/cortex-host-directory-picker-native",
+  "description": "Native-OS-chooser backend of the directory-picker seam for the CORTEX web GUI host",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/host/directory-picker-native"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./worker": {
+      "types": "./lib/types/win32-dialog-worker.d.ts",
+      "default": "./lib/worker.cjs"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/worker.cjs",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-host-directory-picker": "workspace:*",
+    "@cortex-ai/cortex-native-command": "workspace:*",
+    "koffi": "3.1.1"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "tsx": "^4.19.2"
+  }
+}

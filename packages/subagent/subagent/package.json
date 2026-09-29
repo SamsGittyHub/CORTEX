@@ -1,0 +1,147 @@
+{
+  "name": "@cortex-ai/cortex-subagent",
+  "description": "Abstract subagent seam (ctx.subagents): named-provider registry for delegating to child agents",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/subagent/subagent"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./internal": {
+      "types": "./lib/types/internal.d.ts",
+      "default": "./lib/types/internal.js"
+    },
+    "./invariant": {
+      "types": "./lib/types/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./client": {
+      "types": "./lib/types/client.d.ts",
+      "default": "./lib/types/client.js"
+    },
+    "./typert": {
+      "types": "./lib/typert.host.d.ts",
+      "default": "./lib/typert.host.js"
+    },
+    "./remote": {
+      "types": "./lib/typert.remote-client.d.ts",
+      "default": "./lib/typert.remote-client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts",
+    "lib/typert.host.js",
+    "lib/typert.host.d.ts",
+    "lib/typert.remote-client.js",
+    "lib/typert.remote-client.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-brand": "workspace:*",
+    "@cortex-ai/cortex-chunked-list": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "zod": "^4.4.3"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-attachment": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-jobs": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-user-approval": "workspace:*",
+    "@cortex-ai/cortex-util-time": "workspace:*",
+    "@cortex-ai/cortex-permission-presets": "workspace:*",
+    "@cortex-ai/cortex-workspace": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cortex-agent-preset-registry": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-permission-presets": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-sandbox": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-sandbox-policy": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-session-persistence": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-session-projection": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-session-query": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-workspace": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-jobs": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-user-approval": {
+      "optional": true
+    },
+    "@cortex-ai/cortex-settings": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-attachment": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-jobs": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*",
+    "@cortex-ai/cortex-schedule": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-storage": "workspace:*",
+    "@cortex-ai/cortex-storage-domain": "workspace:*",
+    "@cortex-ai/cortex-storage-json": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-user-approval": "workspace:*",
+    "@cortex-ai/cortex-util-time": "workspace:*",
+    "@cortex-ai/cortex-permission-presets": "workspace:*",
+    "@cortex-ai/cortex-workspace": "workspace:*"
+  }
+}

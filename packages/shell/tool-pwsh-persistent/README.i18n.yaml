@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/shell/tool-pwsh-persistent/README.md
+/:
+  en: 07c1a52a0f913391
+  zh: a0c8579b535a1782
+/cortex-ai-cortex-tool-pwsh-persistent:
+  en: a58d498f2d338e0a
+  zh: f6a1e9f36bfc17cd
+/cortex-ai-cortex-tool-pwsh-persistent/summary:
+  en: fb954c00f0b516d9
+  zh: 3ceb6896f0310670
+/cortex-ai-cortex-tool-pwsh-persistent/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tool-pwsh-persistent/use-this-package:
+  en: 490f506d92451632
+  zh: 3798ab7336f04fe6
+/cortex-ai-cortex-tool-pwsh-persistent/use-this-package/when-to-choose-it:
+  en: e47d071764415068
+  zh: 6cc6b44105eb951b
+/cortex-ai-cortex-tool-pwsh-persistent/use-this-package/minimal-configuration:
+  en: a4a9586193bf612a
+  zh: 63c2bdab7b7e4bef
+/cortex-ai-cortex-tool-pwsh-persistent/use-this-package/what-the-agent-can-rely-on:
+  en: 9f4c22b06f940caf
+  zh: 61f755cec7ff5b76
+/cortex-ai-cortex-tool-pwsh-persistent/use-this-package/what-can-go-wrong:
+  en: 70bf2e1e8d8ccbf6
+  zh: 6c78d8c85113adf7
+/cortex-ai-cortex-tool-pwsh-persistent/understand-the-implementation:
+  en: 8d94a7381bca3fa9
+  zh: f4bd2866fff6fa8d
+/cortex-ai-cortex-tool-pwsh-persistent/understand-the-implementation/design-philosophy:
+  en: bd5b9f4b18d380ed
+  zh: 41cf9d4d1638a0cd
+/cortex-ai-cortex-tool-pwsh-persistent/understand-the-implementation/source-map:
+  en: bb2d17f1385fb11d
+  zh: 8e103837238ccda2
+/cortex-ai-cortex-tool-pwsh-persistent/understand-the-implementation/command-flow:
+  en: 7440916d998ed5bd
+  zh: 66f70f803c519802
+/cortex-ai-cortex-tool-pwsh-persistent/further-exploration:
+  en: cc53a2a9701dba90
+  zh: 772661fbf706f0b5
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-schema:
+  en: e4c7376d4f29dbd5
+  zh: 6b7a9eaf69c9ea53
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-schema/what-the-model-sees:
+  en: cfaba670f48a235d
+  zh: d26811c7e757a2fd
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-schema/token-effect:
+  en: 120147c962cbb894
+  zh: 8952abc085cf3812
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-schema/kv-cache-effect:
+  en: 7d9323583a83cb95
+  zh: cc5daa6bce8450f8
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-results:
+  en: beaabb79f229692a
+  zh: 8573891441963be4
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-results/what-the-model-sees:
+  en: bc99957e721951de
+  zh: e384874a0f2f63e8
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-results/token-effect:
+  en: 5dea04ce6a30ad48
+  zh: c2434253dc517d3d
+/cortex-ai-cortex-tool-pwsh-persistent/model-experience/tool-results/kv-cache-effect:
+  en: ba6a48888c3361e5
+  zh: 3a8f648053555dc9
+/cortex-ai-cortex-tool-pwsh-persistent/known-limitations-and-deferred-work:
+  en: e2f1a18c599a82ba
+  zh: 1f00c387a4bb85a8
+/cortex-ai-cortex-tool-pwsh-persistent/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

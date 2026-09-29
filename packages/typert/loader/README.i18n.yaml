@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/typert/loader/README.md
+/:
+  en: 3fa30a143acc79d7
+  zh: 0c6fe79fba20f26f
+/cortex-ai-cortex-typert-loader:
+  en: aad805ae2c0d24b6
+  zh: 2d9a271679210d4c
+/cortex-ai-cortex-typert-loader/summary:
+  en: b37acbc16522185e
+  zh: 6ccb75cfc1a84997
+/cortex-ai-cortex-typert-loader/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-typert-loader/use-this-package:
+  en: 48a51fd646c53c79
+  zh: 8a0097e788a844b6
+/cortex-ai-cortex-typert-loader/use-this-package/minimal-configuration:
+  en: 97beaf49f10e2607
+  zh: 167ba83e75f72643
+/cortex-ai-cortex-typert-loader/use-this-package/what-gets-registered:
+  en: 01318fcba39e9b0f
+  zh: c5f6528a91b335ac
+/cortex-ai-cortex-typert-loader/use-this-package/observable-behavior-and-failures:
+  en: 01494e9fbd469ec8
+  zh: 3025d870c0f36e2b
+/cortex-ai-cortex-typert-loader/understand-the-implementation:
+  en: 519c0242ef4d9e21
+  zh: a72967feb0ea1b41
+/cortex-ai-cortex-typert-loader/understand-the-implementation/design-concept:
+  en: 03fc077e58271e18
+  zh: 20f8fc02008cee5e
+/cortex-ai-cortex-typert-loader/understand-the-implementation/manifest-validation:
+  en: eb246aef15ea0532
+  zh: 7a4a7bcc788b3ba3
+/cortex-ai-cortex-typert-loader/understand-the-implementation/caching-and-ownership:
+  en: 38e781e052fdf44e
+  zh: d8f6b4d119bf9856
+/cortex-ai-cortex-typert-loader/understand-the-implementation/source-map:
+  en: 40a8a6723d33b335
+  zh: 5b806e49b6279818
+/cortex-ai-cortex-typert-loader/further-exploration:
+  en: 58c96821dfc87828
+  zh: 0e78d548fcc3c196
+/cortex-ai-cortex-typert-loader/model-experience:
+  en: d3555a846d0b19a6
+  zh: eb4815fbd81a3561
+/cortex-ai-cortex-typert-loader/model-experience/kv-cache-effect:
+  en: f8a0ad3d0fc0eb32
+  zh: 7649a694b279f5f3
+/cortex-ai-cortex-typert-loader/known-limitations-and-deferred-work:
+  en: a7e281826b58b218
+  zh: b4347c965151a1a9
+/cortex-ai-cortex-typert-loader/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

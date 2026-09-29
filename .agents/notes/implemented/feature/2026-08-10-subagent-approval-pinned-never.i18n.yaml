@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-08-10-subagent-approval-pinned-never.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-08-10-subagent-approval-pinned-never.md
+/agent-note-delegated-subagents-run-with-approvals-pinned-to-never:
+  en: df6ad69c17980949
+  zh: 768fa257e85e8377
+/agent-note-delegated-subagents-run-with-approvals-pinned-to-never/problem:
+  en: fa1add8bd8bb3733
+  zh: 35ac0951e676acaf
+/agent-note-delegated-subagents-run-with-approvals-pinned-to-never/decision:
+  en: 0d8d5c949fd14b35
+  zh: d015c438f5b5a71a
+/agent-note-delegated-subagents-run-with-approvals-pinned-to-never/alternatives-considered:
+  en: 0331e30efda9371a
+  zh: 094611e65b72df2c
+/agent-note-delegated-subagents-run-with-approvals-pinned-to-never/consequences:
+  en: 4503eecfc7f17fed
+  zh: 1f201ba769ec0354

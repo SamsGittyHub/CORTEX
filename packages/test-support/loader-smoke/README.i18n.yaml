@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/test-support/loader-smoke/README.md
+/:
+  en: 00a7ac59f751e4d0
+  zh: 35334966b956621d
+/cortex-ai-cortex-loader-smoke:
+  en: bd3ca5554fe792a7
+  zh: ca020e7b3096767c
+/cortex-ai-cortex-loader-smoke/summary:
+  en: 038940a95fa287d5
+  zh: 08b9ebaacd280f8d
+/cortex-ai-cortex-loader-smoke/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-loader-smoke/use-this-package:
+  en: 682780f6cbeb85cb
+  zh: 07a2458db985471a
+/cortex-ai-cortex-loader-smoke/use-this-package/booting-an-application-fixture:
+  en: 7a166abe222ddb88
+  zh: 039795d345f67ec8
+/cortex-ai-cortex-loader-smoke/use-this-package/testing-a-shipped-profile:
+  en: d3000b586020b9ae
+  zh: 3767aabefce184dd
+/cortex-ai-cortex-loader-smoke/use-this-package/driving-a-fixture-turn:
+  en: c99402b3d2219738
+  zh: cbff00f4bfb7d625
+/cortex-ai-cortex-loader-smoke/use-this-package/source-or-built-mode:
+  en: fdb896c59c363abf
+  zh: 783cea4e0a1a2bfe
+/cortex-ai-cortex-loader-smoke/use-this-package/what-can-go-wrong:
+  en: 18547e08d14e8b8f
+  zh: 935102bd11650ef6
+/cortex-ai-cortex-loader-smoke/understand-the-implementation:
+  en: 3ffb8df759bf5071
+  zh: a93d3dd6472d9782
+/cortex-ai-cortex-loader-smoke/understand-the-implementation/design:
+  en: 1ac738c296a3dd4c
+  zh: 1128b3578e80556e
+/cortex-ai-cortex-loader-smoke/understand-the-implementation/source-map:
+  en: 4212f963f739e76e
+  zh: 1a08bcb7654df951
+/cortex-ai-cortex-loader-smoke/further-exploration:
+  en: f9a8d3864faf4649
+  zh: 5d464166ca40e6ff
+/cortex-ai-cortex-loader-smoke/model-experience:
+  en: 27696a3c4d31d171
+  zh: 48b6df074e0b0911
+/cortex-ai-cortex-loader-smoke/model-experience/kv-cache-effect:
+  en: c204a02c386ca3a0
+  zh: ce9b24304f9644aa
+/cortex-ai-cortex-loader-smoke/known-limitations-and-deferred-work:
+  en: a3e0e21178bb00cc
+  zh: f3dc6139370330f6
+/cortex-ai-cortex-loader-smoke/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

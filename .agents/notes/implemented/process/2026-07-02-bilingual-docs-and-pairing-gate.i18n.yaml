@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for 2026-07-02-bilingual-docs-and-pairing-gate.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-07-02-bilingual-docs-and-pairing-gate.md
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate:
+  en: 24913d5c748b82a3
+  zh: d7d5cb9ab528f71f
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/problem:
+  en: 9a5d7cc02947a98c
+  zh: 89b5ea3e992982dc
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/decision:
+  en: b7c14dd2439aaf56
+  zh: ed519f634dcb1d46
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/verification:
+  en: 8fbf681b863a831c
+  zh: e5ba11a549a92612
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/alternatives-considered:
+  en: 995a746c59ea7b6c
+  zh: 04a248329dc0d04b
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/industry-precedent:
+  en: 6b5d62086bfd3868
+  zh: 219dad72943f590a
+/agent-note-bilingual-documentation-via-paired-sibling-files-and-a-pairing-gate/consequences:
+  en: 7856099275013ab1
+  zh: ef4549604b435082

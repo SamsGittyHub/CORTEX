@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-09-09-consumer-owned-startup-strictness.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-09-09-consumer-owned-startup-strictness.md
+/agent-note-consumer-owned-startup-strictness:
+  en: 29a61a9637358f15
+  zh: 824f4b7b826535a3
+/agent-note-consumer-owned-startup-strictness/problem:
+  en: 4548e7fbdbee5b5a
+  zh: 0078762ea92fa180
+/agent-note-consumer-owned-startup-strictness/decision:
+  en: b9d8c88b5cd14e21
+  zh: f6de07df771fe0f3
+/agent-note-consumer-owned-startup-strictness/alternatives-considered:
+  en: 1b67e062213184cd
+  zh: 91cc8a015de2bfe4
+/agent-note-consumer-owned-startup-strictness/consequences:
+  en: 283dec1b336c540d
+  zh: 2ed358079072cfff
+/agent-note-consumer-owned-startup-strictness/testing:
+  en: 38564e08ee403af1
+  zh: 6840b017dd4c9677

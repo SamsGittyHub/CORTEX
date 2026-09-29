@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-primitives/README.md
+/:
+  en: a4c1e2f29b84aedd
+  zh: 68e7c9593114bed9
+/cortex-ai-cortex-client-ui-primitives:
+  en: 8a370a37c7b7332f
+  zh: f2151f4bd590acfe
+/cortex-ai-cortex-client-ui-primitives/summary:
+  en: 00536220faa54495
+  zh: 86a0604de215c1f0
+/cortex-ai-cortex-client-ui-primitives/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-primitives/use-this-package:
+  en: 7bae72c97d0449f5
+  zh: 4589ecc2b216edc5
+/cortex-ai-cortex-client-ui-primitives/use-this-package/component-catalog:
+  en: e12f05a49098161c
+  zh: 1c82cdf52b5b767b
+/cortex-ai-cortex-client-ui-primitives/use-this-package/controls-and-icons:
+  en: 66402b55068a3aeb
+  zh: ab4b37e4f5eaca2b
+/cortex-ai-cortex-client-ui-primitives/use-this-package/rendering-agent-output:
+  en: 29b00ff623468d6e
+  zh: 0a45888c465dbbad
+/cortex-ai-cortex-client-ui-primitives/use-this-package/localizing-copy:
+  en: 4aef65dea11de083
+  zh: abc22cd7c65cdf38
+/cortex-ai-cortex-client-ui-primitives/understand-the-implementation:
+  en: fc176ed8905bc0a2
+  zh: d9c3036b5b7701b5
+/cortex-ai-cortex-client-ui-primitives/understand-the-implementation/source-map:
+  en: 44eb32370cbeafe8
+  zh: 728009c66375c6bb
+/cortex-ai-cortex-client-ui-primitives/understand-the-implementation/input-modality:
+  en: b67ffb7b8709f2a4
+  zh: fe58eac9cc303d7d
+/cortex-ai-cortex-client-ui-primitives/understand-the-implementation/streaming-markdown:
+  en: 8bbfa14c27f3bfd7
+  zh: 88f7548ac3a114e1
+/cortex-ai-cortex-client-ui-primitives/understand-the-implementation/geometry-and-overflow:
+  en: 49f6341d81ded00e
+  zh: cab87dc54a42ba69
+/cortex-ai-cortex-client-ui-primitives/further-exploration:
+  en: b5e8c0d0f3234e1b
+  zh: b658edb3ee88c8ae
+/cortex-ai-cortex-client-ui-primitives/model-experience:
+  en: 3120df665299c634
+  zh: 1d9f365d091d0d2a
+/cortex-ai-cortex-client-ui-primitives/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-ui-primitives/known-limitations-and-deferred-work:
+  en: 486ec4a70704587b
+  zh: 280c9968367e4314
+/cortex-ai-cortex-client-ui-primitives/known-limitations-and-deferred-work/dev-note:
+  en: ae1d5d1bcc80c932
+  zh: 15709ccdbfcdf26c

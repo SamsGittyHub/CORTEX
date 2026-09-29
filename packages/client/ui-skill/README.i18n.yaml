@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-skill/README.md
+/:
+  en: 47cc577c25469b66
+  zh: 183f00783acb8947
+/cortex-ai-cortex-client-ui-skill:
+  en: 04694a9db5957f58
+  zh: 32996dff09f53e76
+/cortex-ai-cortex-client-ui-skill/summary:
+  en: dcc4eec91602ad00
+  zh: 46b18ae373b0c98d
+/cortex-ai-cortex-client-ui-skill/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-skill/use-this-package:
+  en: 2f17d0875048ef3c
+  zh: 6878ee4c75f2b2cf
+/cortex-ai-cortex-client-ui-skill/use-this-package/what-the-source-offers:
+  en: 2ba1a6158c85b46e
+  zh: 9ab58ceef8743849
+/cortex-ai-cortex-client-ui-skill/use-this-package/the-skill-tool-row:
+  en: 975c6cd80af3684a
+  zh: 395c10e51c6a15f6
+/cortex-ai-cortex-client-ui-skill/understand-the-implementation:
+  en: df2a0ee9d2638f41
+  zh: 3b4af7e505e990ca
+/cortex-ai-cortex-client-ui-skill/understand-the-implementation/candidate-flow:
+  en: 1a02a85859f851c7
+  zh: 03bd48b83c4a287c
+/cortex-ai-cortex-client-ui-skill/understand-the-implementation/registration:
+  en: 1965ad3169b7fd97
+  zh: efc23c44ad1d2765
+/cortex-ai-cortex-client-ui-skill/further-exploration:
+  en: 594e7616731600ba
+  zh: a0e9d2cc02af156e
+/cortex-ai-cortex-client-ui-skill/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-client-ui-skill/model-experience/user-explicit-skill-invocation:
+  en: ae1928252b0ea55c
+  zh: 6c78cb51c6805a2d
+/cortex-ai-cortex-client-ui-skill/model-experience/user-explicit-skill-invocation/what-the-model-sees:
+  en: edd3349611edc98c
+  zh: c37cd6f6509c183a
+/cortex-ai-cortex-client-ui-skill/model-experience/user-explicit-skill-invocation/token-effect:
+  en: cb759321f8c62a96
+  zh: 6d479501856d9cd6
+/cortex-ai-cortex-client-ui-skill/model-experience/user-explicit-skill-invocation/kv-cache-effect:
+  en: da53c649077dad7e
+  zh: 845f77793f8e10a2
+/cortex-ai-cortex-client-ui-skill/known-limitations-and-deferred-work:
+  en: aed53b17a91d4b02
+  zh: fac571e9228e69c5
+/cortex-ai-cortex-client-ui-skill/known-limitations-and-deferred-work/dev-note:
+  en: f3cb9f98b665c2f9
+  zh: 2275c60173ce961b

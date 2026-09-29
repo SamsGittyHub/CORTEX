@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-title/README.md
+/:
+  en: fc980ca9ef6bd49a
+  zh: 8c5f7b9dfe3046b5
+/cortex-ai-cortex-session-title:
+  en: 891605383722bbfc
+  zh: 855e0dc8904a0a60
+/cortex-ai-cortex-session-title/summary:
+  en: df22519245afaa79
+  zh: fefcee3faec529eb
+/cortex-ai-cortex-session-title/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-session-title/use-this-package:
+  en: ea340b8dc55a6792
+  zh: 8db3a4e92a46e8fd
+/cortex-ai-cortex-session-title/use-this-package/choosing-a-title-source:
+  en: ce4d31ea1dad6afc
+  zh: baf718edb594bfe2
+/cortex-ai-cortex-session-title/use-this-package/minimal-configuration:
+  en: 5bb59165626d2028
+  zh: 852aac5984a0bbce
+/cortex-ai-cortex-session-title/use-this-package/adding-a-provider:
+  en: 39fc5a6a2b2c2667
+  zh: f949ac2be6ec86a9
+/cortex-ai-cortex-session-title/use-this-package/reading-titles:
+  en: 34148c23c20ee6f4
+  zh: b0d10677722f3f63
+/cortex-ai-cortex-session-title/use-this-package/failures-and-recovery:
+  en: 9acca330c1f36a5a
+  zh: 453fe66a6aee042a
+/cortex-ai-cortex-session-title/understand-the-implementation:
+  en: 55b154c6d77c4f5d
+  zh: 29c67a3a57b3c071
+/cortex-ai-cortex-session-title/understand-the-implementation/design-concept:
+  en: 4fb45f133de0e8a3
+  zh: 41b15f42100d816b
+/cortex-ai-cortex-session-title/understand-the-implementation/source-map:
+  en: 84f4a3ff08caf847
+  zh: 9ed3acae2bb2a8b0
+/cortex-ai-cortex-session-title/understand-the-implementation/lifecycle-and-concurrency:
+  en: 0167ad2951e5ae4d
+  zh: 0b1df4b7f20eb2f5
+/cortex-ai-cortex-session-title/understand-the-implementation/normalization:
+  en: 0fa22531683cc824
+  zh: c6379873eb809e76
+/cortex-ai-cortex-session-title/further-exploration:
+  en: b53e8e00378b10db
+  zh: abd8e5d20ba9a110
+/cortex-ai-cortex-session-title/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session-title/model-experience/session-title-state:
+  en: 9cbc63f58901ad4a
+  zh: a3b3049b2392eaf0
+/cortex-ai-cortex-session-title/model-experience/session-title-state/what-the-model-sees:
+  en: afa80385f0e94fc1
+  zh: 47728506e55e29de
+/cortex-ai-cortex-session-title/model-experience/session-title-state/token-effect:
+  en: 3b9d201fd468e785
+  zh: 14ab9ab70c39fa4f
+/cortex-ai-cortex-session-title/model-experience/session-title-state/kv-cache-effect:
+  en: 2e04436408a67949
+  zh: 076e6a50c7357cd0
+/cortex-ai-cortex-session-title/known-limitations-and-deferred-work:
+  en: 97affcb6a7089b59
+  zh: c166733b7be38d9b
+/cortex-ai-cortex-session-title/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

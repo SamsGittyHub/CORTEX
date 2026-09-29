@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/typert/generator/README.md
+/:
+  en: 3fe330c4d51197ec
+  zh: 5874f3bcd419dbbc
+/cortex-ai-cortex-typert-generator:
+  en: 0517f6da239184e3
+  zh: 031784530621f017
+/cortex-ai-cortex-typert-generator/summary:
+  en: 5b1b9575661a8db2
+  zh: 26b53d3cd276a778
+/cortex-ai-cortex-typert-generator/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-typert-generator/use-this-package:
+  en: 949dec3bb987644a
+  zh: 0ed333a6067465dc
+/cortex-ai-cortex-typert-generator/use-this-package/publishing-typert-artifacts-from-a-package:
+  en: e1335d6744b2e6dc
+  zh: 44dff9a2b9e19797
+/cortex-ai-cortex-typert-generator/use-this-package/analyzing-a-workspace-statically:
+  en: 88f4e7fc9d4c7701
+  zh: cecd35ff4f35bfd2
+/cortex-ai-cortex-typert-generator/use-this-package/running-generation-inside-a-tsdown-build:
+  en: cc3f7d23739380f6
+  zh: 864d15088f581271
+/cortex-ai-cortex-typert-generator/understand-the-implementation:
+  en: b90762df7a978580
+  zh: 123ab225a2b5df2a
+/cortex-ai-cortex-typert-generator/understand-the-implementation/design-concept:
+  en: 0a515742229bf442
+  zh: dfd2c5eddd943af9
+/cortex-ai-cortex-typert-generator/understand-the-implementation/source-map:
+  en: 783dec50106bcabb
+  zh: 2627f55ce69a1a2c
+/cortex-ai-cortex-typert-generator/understand-the-implementation/analysis-and-faces:
+  en: b70c1f5a1467c34f
+  zh: d2c78cb0f01c9d4d
+/cortex-ai-cortex-typert-generator/understand-the-implementation/emission-and-publication-contract:
+  en: c99db0b49889e5ac
+  zh: 761eb7fe1a237f0f
+/cortex-ai-cortex-typert-generator/understand-the-implementation/catalog-projection:
+  en: e85b521a1e01ab2c
+  zh: 4416dca569de0f61
+/cortex-ai-cortex-typert-generator/further-exploration:
+  en: bf35db82e71970b4
+  zh: adb13004627e46e6
+/cortex-ai-cortex-typert-generator/model-experience:
+  en: e6641e8b5e5f42ca
+  zh: 2fdc0d3fde7e9216
+/cortex-ai-cortex-typert-generator/model-experience/kv-cache-effect:
+  en: 09310605f7d136d4
+  zh: 3535ec7eba83b90f
+/cortex-ai-cortex-typert-generator/known-limitations-and-deferred-work:
+  en: f3b1002133fe8736
+  zh: e8d5fecd10db5e3a
+/cortex-ai-cortex-typert-generator/known-limitations-and-deferred-work/dev-note:
+  en: cc7e47f271475e4c
+  zh: 8426eb322816bd28

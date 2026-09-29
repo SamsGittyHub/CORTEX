@@ -1,0 +1,127 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/shell/tool-bash/README.md
+/:
+  en: aa0f6a31440050d2
+  zh: 388fc575115b9a4f
+/cortex-ai-cortex-tool-bash:
+  en: 6083891a275aaac5
+  zh: 3b9482b910d7500f
+/cortex-ai-cortex-tool-bash/summary:
+  en: 1ae7e04035d43724
+  zh: f55b6b23d3b47099
+/cortex-ai-cortex-tool-bash/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tool-bash/use-this-package:
+  en: dd8bf01b28124256
+  zh: ff072f69aff2370a
+/cortex-ai-cortex-tool-bash/use-this-package/minimal-configuration:
+  en: b432ce6c720c686a
+  zh: 50bceeb877464516
+/cortex-ai-cortex-tool-bash/use-this-package/running-a-command:
+  en: 1710624931aa2aa7
+  zh: ef4fa86fd05a1cc8
+/cortex-ai-cortex-tool-bash/use-this-package/running-long-commands-in-the-background:
+  en: 5e6a4d88dfceb44a
+  zh: be4af6ba07317298
+/cortex-ai-cortex-tool-bash/use-this-package/foreground-commands-as-jobs:
+  en: 5eef538028ca60d6
+  zh: dc1c8ec24c81d2ca
+/cortex-ai-cortex-tool-bash/use-this-package/sandboxed-execution-and-escalation:
+  en: e0b05ecbbcf58bf2
+  zh: bfab37bb4c17325c
+/cortex-ai-cortex-tool-bash/use-this-package/what-can-go-wrong:
+  en: 1c8288b473ad461d
+  zh: 268653f1586691c1
+/cortex-ai-cortex-tool-bash/understand-the-implementation:
+  en: 8d94a7381bca3fa9
+  zh: f4bd2866fff6fa8d
+/cortex-ai-cortex-tool-bash/understand-the-implementation/design-philosophy:
+  en: 28436bcf9ae0d875
+  zh: 2bbae329e2679bf1
+/cortex-ai-cortex-tool-bash/understand-the-implementation/source-map:
+  en: 5fe11138a292e82d
+  zh: e3e94af07b90b5ba
+/cortex-ai-cortex-tool-bash/understand-the-implementation/request-resolution:
+  en: b03c1d84aa4b5cd4
+  zh: 111eba387b7082ae
+/cortex-ai-cortex-tool-bash/understand-the-implementation/rendering-story:
+  en: 8b21576e543c9a3c
+  zh: 2582127bb85e6c24
+/cortex-ai-cortex-tool-bash/further-exploration:
+  en: 6dbb285df8a60827
+  zh: bd190ecb8ab2ab06
+/cortex-ai-cortex-tool-bash/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-bash/model-experience/system-prompt:
+  en: cf78b9dd5596495f
+  zh: bd44560f8c2435e8
+/cortex-ai-cortex-tool-bash/model-experience/system-prompt/what-the-model-sees:
+  en: f8173d0103e0c6b6
+  zh: ed8b92539ee74156
+/cortex-ai-cortex-tool-bash/model-experience/system-prompt/what-the-model-sees/bash-guidance:
+  en: 2d65d6ca9b82df1d
+  zh: 016a14eee33eba62
+/cortex-ai-cortex-tool-bash/model-experience/system-prompt/token-effect:
+  en: a38d59e3e6d8a1c9
+  zh: 96d60abecd38307b
+/cortex-ai-cortex-tool-bash/model-experience/system-prompt/kv-cache-effect:
+  en: 06f29b209347522f
+  zh: 4dd39a5a3b738c59
+/cortex-ai-cortex-tool-bash/model-experience/tool-schemas:
+  en: 3039bc5e7a796b21
+  zh: 6b7a9eaf69c9ea53
+/cortex-ai-cortex-tool-bash/model-experience/tool-schemas/what-the-model-sees:
+  en: 986b4a65df56a474
+  zh: 0a6f0eb64db51374
+/cortex-ai-cortex-tool-bash/model-experience/tool-schemas/token-effect:
+  en: cdbd4262314e6856
+  zh: e8c12c0cf5492386
+/cortex-ai-cortex-tool-bash/model-experience/tool-schemas/kv-cache-effect:
+  en: 8b821a8b34948af9
+  zh: 858244c080bfc5cb
+/cortex-ai-cortex-tool-bash/model-experience/foreground-result:
+  en: d83f1f25a3719c54
+  zh: 445ca808e28dc936
+/cortex-ai-cortex-tool-bash/model-experience/foreground-result/what-the-model-sees:
+  en: e9f0d7ad7a2aa417
+  zh: d411a2320f751324
+/cortex-ai-cortex-tool-bash/model-experience/foreground-result/token-effect:
+  en: b2018adbda15b8a7
+  zh: 79521073a45c7f80
+/cortex-ai-cortex-tool-bash/model-experience/foreground-result/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: 31911b4f3506d6c8
+/cortex-ai-cortex-tool-bash/model-experience/background-job-context-and-results:
+  en: 38ce70c1818a5694
+  zh: ed3ad10f12ed1b8e
+/cortex-ai-cortex-tool-bash/model-experience/background-job-context-and-results/what-the-model-sees:
+  en: 2dcf9ed501f8e3cc
+  zh: d8faa5aa59aa6a9e
+/cortex-ai-cortex-tool-bash/model-experience/background-job-context-and-results/token-effect:
+  en: 3a0d2d43640158d6
+  zh: 45ae711aedaa1d41
+/cortex-ai-cortex-tool-bash/model-experience/background-job-context-and-results/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: 31911b4f3506d6c8
+/cortex-ai-cortex-tool-bash/model-experience/tool-errors:
+  en: 2d4f2c8605eccab3
+  zh: 67f1f0218f73c6bf
+/cortex-ai-cortex-tool-bash/model-experience/tool-errors/what-the-model-sees:
+  en: 0fb8626074f0bfa7
+  zh: 202e2cc593f72c6c
+/cortex-ai-cortex-tool-bash/model-experience/tool-errors/token-effect:
+  en: a3a78ef476ec5e56
+  zh: dd2c8ad0f69e8ff1
+/cortex-ai-cortex-tool-bash/model-experience/tool-errors/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: 31911b4f3506d6c8
+/cortex-ai-cortex-tool-bash/known-limitations-and-deferred-work:
+  en: a8490263bac06a24
+  zh: de1b2eb5083d8f71
+/cortex-ai-cortex-tool-bash/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

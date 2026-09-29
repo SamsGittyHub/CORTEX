@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling==1.30.1"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cortex-runtime-bin"
+version = "0.0.0.dev0"
+description = "Bundled cortex CLI runtime for the CORTEX Python SDK"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "DeepSeek" }]
+
+[project.urls]
+Homepage = "https://github.com/cortex-ai/cortex"
+Documentation = "https://github.com/cortex-ai/cortex/blob/master/python/sdk-runtime/README.md"
+Issues = "https://github.com/cortex-ai/cortex/issues"
+Source = "https://github.com/cortex-ai/cortex"
+
+[project.scripts]
+cortex = "cortex_runtime:main"
+
+# Include the injected cortex executable and sidecars; exclude the dev-only node closure.
+[tool.hatch.build]
+artifacts = [
+  "src/cortex_runtime/runtime/cortex-sdk-runtime-*",
+  "src/cortex_runtime/runtime/cortex-sdk-runtime-*/**",
+  "src/cortex_runtime/runtime/linux-*/**",
+  "src/cortex_runtime/runtime/macos-*/**",
+  "src/cortex_runtime/runtime/win-*/**",
+]
+exclude = ["src/cortex_runtime/runtime/node"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cortex_runtime"]
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+
+[tool.hatch.build.targets.sdist.hooks.custom]

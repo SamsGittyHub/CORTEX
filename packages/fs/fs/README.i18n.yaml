@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/fs/fs/README.md
+/:
+  en: a94eb1470c498a2c
+  zh: cdd5faa0a8fcb562
+/cortex-ai-cortex-fs:
+  en: ac623fddb87aad0b
+  zh: 1bbfa05ee61dc743
+/cortex-ai-cortex-fs/summary:
+  en: cb583b71a0217cf9
+  zh: 850106e0b8f25063
+/cortex-ai-cortex-fs/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-fs/use-this-package:
+  en: d652d32340e40759
+  zh: 428b3dfc190d4c94
+/cortex-ai-cortex-fs/use-this-package/choosing-and-mounting-a-backend:
+  en: e15821771a9f75bb
+  zh: df6cbee54e06d291
+/cortex-ai-cortex-fs/use-this-package/what-the-service-lets-you-do:
+  en: 48aa680bb26e99c7
+  zh: 4f9b6e47292c233e
+/cortex-ai-cortex-fs/understand-the-implementation:
+  en: 7e13d669ecc96d59
+  zh: b5fe7ae65812d926
+/cortex-ai-cortex-fs/understand-the-implementation/design-philosophy:
+  en: 917593125b3b63db
+  zh: 7a930a31fa2be028
+/cortex-ai-cortex-fs/understand-the-implementation/source-map:
+  en: 9507d7d9259fc89e
+  zh: aa500435e02e6de3
+/cortex-ai-cortex-fs/understand-the-implementation/how-a-call-flows:
+  en: 6ce9e67b0f5653e5
+  zh: 6d974a760352417f
+/cortex-ai-cortex-fs/understand-the-implementation/the-fs-policy-events:
+  en: 2c311f64bee3439a
+  zh: caa55e3352126909
+/cortex-ai-cortex-fs/understand-the-implementation/invariants:
+  en: 15b98bc9800b6eae
+  zh: 434d9dd05fa1a332
+/cortex-ai-cortex-fs/further-exploration:
+  en: 867963ad4ef79db9
+  zh: 26c20a266165ea3c
+/cortex-ai-cortex-fs/model-experience:
+  en: 782f0ad54d3df765
+  zh: 019473f3c6cbd5c8
+/cortex-ai-cortex-fs/model-experience/kv-cache-effect:
+  en: 40294c1c31b74824
+  zh: 0857e9b4dd363e0a
+/cortex-ai-cortex-fs/known-limitations-and-deferred-work:
+  en: 4e26d609232af482
+  zh: 14a7d35637a92ac3
+/cortex-ai-cortex-fs/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

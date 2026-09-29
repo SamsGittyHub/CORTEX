@@ -1,0 +1,67 @@
+{
+  "name": "@cortex-ai/cortex-compaction-basic",
+  "description": "Token-meter-driven compaction policy and LLM summarization backend for the CORTEX",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/compaction/compaction-basic"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-compaction-tool-result-pruner": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-token-meter": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cortex-compaction-tool-result-pruner": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*",
+    "@cortex-ai/cortex-agent-loop-testkit": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-compaction": "workspace:*",
+    "@cortex-ai/cortex-compaction-tool-result-pruner": "workspace:*",
+    "@cortex-ai/cortex-invariants": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-retry": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-token-meter": "workspace:*",
+    "@cortex-ai/cortex-tools": "workspace:*",
+    "@cortex-ai/cortex-compaction-image-offload": "workspace:*"
+  }
+}

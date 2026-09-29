@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for workspace.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/workspace.md
+/workspaces:
+  en: 30194e6731359a00
+  zh: 6e0050f6c496c0f8
+/workspaces/identity:
+  en: 567aecaca1baec00
+  zh: b7a2bea56a304b43
+/workspaces/the-workspace-entity:
+  en: 697698bc46adc477
+  zh: 73d073933ed68c53
+/workspaces/the-registry-ctx-workspaceregistry:
+  en: 810ec63c51ffecf3
+  zh: d1545f196067c781
+/workspaces/default-workspace-initialization:
+  en: 963b9b6bb81cd358
+  zh: e88e020ea3d149c3
+/workspaces/session-pinning:
+  en: 3f5ab940adbfab1e
+  zh: f759cd34e3b06ca1
+/workspaces/archive-admission:
+  en: 265ef4ff0228deff
+  zh: a243efe0ae30455e
+/workspaces/consumers:
+  en: 56cbde108d60434e
+  zh: bba1bab479bdc71a

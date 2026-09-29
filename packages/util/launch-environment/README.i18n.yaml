@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/util/launch-environment/README.md
+/:
+  en: 6bd544ce4e92a4e1
+  zh: cb05ca5ce08f4bd4
+/cortex-ai-cortex-launch-environment:
+  en: 6fb1371d9ec0340f
+  zh: 484d5a0af63ff101
+/cortex-ai-cortex-launch-environment/summary:
+  en: e64aea068fc5502b
+  zh: 429fa5a8a3245a48
+/cortex-ai-cortex-launch-environment/table-of-contents:
+  en: 80b31a934611cb4a
+  zh: 05f3f7f9cb2fd881
+/cortex-ai-cortex-launch-environment/use-this-package:
+  en: c9df1b8cf300ab4f
+  zh: 6f80e2e72fc5b1d4
+/cortex-ai-cortex-launch-environment/use-this-package/resolving-a-value:
+  en: 5aed2d5fa0b116c0
+  zh: 9ad018c5cb09791d
+/cortex-ai-cortex-launch-environment/use-this-package/how-layers-rank:
+  en: e482ffd6f0f0a13b
+  zh: a41ca44e025cb7e9
+/cortex-ai-cortex-launch-environment/use-this-package/when-no-launcher-booted-the-tree:
+  en: 3c368938c6960588
+  zh: c704bee90390f259
+/cortex-ai-cortex-launch-environment/understand-the-implementation:
+  en: c2cdb9ea66c61cc5
+  zh: 5ccf1802da65483d
+/cortex-ai-cortex-launch-environment/understand-the-implementation/source-map:
+  en: eed450e5587bdd6e
+  zh: 986cf651a118b3f2
+/cortex-ai-cortex-launch-environment/understand-the-implementation/how-the-snapshot-stays-frozen:
+  en: f933fc349e258d27
+  zh: 717166c9a80a4821
+/cortex-ai-cortex-launch-environment/understand-the-implementation/what-omission-means:
+  en: 03782c3e48792227
+  zh: c83116ba53b3ab12
+/cortex-ai-cortex-launch-environment/further-exploration:
+  en: d5ff1344a6dad21f
+  zh: a0268faa65f57d2a
+/cortex-ai-cortex-launch-environment/known-limitations-and-deferred-work:
+  en: d87f5e86faaf3a12
+  zh: 4c9c24b2061afe7e
+/cortex-ai-cortex-launch-environment/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

@@ -1,0 +1,70 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/fs/fs-observation-policy/README.md
+/:
+  en: 2e7d205b959bad5b
+  zh: 78111c063c98c309
+/cortex-ai-cortex-fs-observation-policy:
+  en: e169e55b79cff16c
+  zh: 4c3ee52f6f555924
+/cortex-ai-cortex-fs-observation-policy/summary:
+  en: 5062411206cfbb3f
+  zh: 4ccc8c45837f9183
+/cortex-ai-cortex-fs-observation-policy/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-fs-observation-policy/use-this-package:
+  en: 077c06e3d9c00033
+  zh: 18bab3aeaec3215d
+/cortex-ai-cortex-fs-observation-policy/use-this-package/minimal-composition:
+  en: d85e3b814b43768e
+  zh: 89d3672dbb2f6d30
+/cortex-ai-cortex-fs-observation-policy/use-this-package/what-changes-for-the-model:
+  en: 91686925a433794d
+  zh: 9ac2a197203d6549
+/cortex-ai-cortex-fs-observation-policy/use-this-package/failures-and-recovery:
+  en: 1ecc7b68f7c7b3f0
+  zh: f6a9800786ed30c0
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation:
+  en: 612e69f76edc8795
+  zh: 55edab9956941616
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation/design-concept:
+  en: 1e340ed06e38d430
+  zh: 970f8f9c950e1bf4
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation/source-map:
+  en: 6a55bd72a91664bf
+  zh: fc22345acfd9d850
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation/decision-flow:
+  en: 79ddd675e3c27d62
+  zh: b9b74b63aad5b42d
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation/single-slot-first-wins:
+  en: 226bb7885eb147b8
+  zh: 0b68d59ddc55fb07
+/cortex-ai-cortex-fs-observation-policy/understand-the-implementation/lifecycle:
+  en: 02a1e3e7707706fb
+  zh: eff587af0445d032
+/cortex-ai-cortex-fs-observation-policy/further-exploration:
+  en: 2cafac1adb17da5b
+  zh: cdc2162a379f7883
+/cortex-ai-cortex-fs-observation-policy/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-fs-observation-policy/model-experience/filesystem-tool-outcome:
+  en: ee1f02dc1bb69955
+  zh: 9ba9205a9b15d132
+/cortex-ai-cortex-fs-observation-policy/model-experience/filesystem-tool-outcome/what-the-model-sees:
+  en: 228458e79abfb3b9
+  zh: f98a297792b78ace
+/cortex-ai-cortex-fs-observation-policy/model-experience/filesystem-tool-outcome/token-effect:
+  en: 425ccc7dafa6218d
+  zh: d2c1a29955a60e3d
+/cortex-ai-cortex-fs-observation-policy/model-experience/filesystem-tool-outcome/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: 3d6bc05b9eadfbc2
+/cortex-ai-cortex-fs-observation-policy/known-limitations-and-deferred-work:
+  en: 75c20c26c0307473
+  zh: 3d708e88cac76478
+/cortex-ai-cortex-fs-observation-policy/known-limitations-and-deferred-work/dev-note:
+  en: 9979632783da7b78
+  zh: c42c1feec2905268

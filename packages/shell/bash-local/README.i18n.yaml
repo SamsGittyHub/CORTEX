@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/shell/bash-local/README.md
+/:
+  en: f70a1e0bb1e0d56d
+  zh: 927e75bc75573410
+/cortex-ai-cortex-bash-local:
+  en: 07ac465a2b25b346
+  zh: 09087131fd81798c
+/cortex-ai-cortex-bash-local/summary:
+  en: 9a5c32d42c53f8ff
+  zh: d1b3240785d23a86
+/cortex-ai-cortex-bash-local/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-bash-local/use-this-package:
+  en: 95ae7843275778ca
+  zh: 43b5069075a99625
+/cortex-ai-cortex-bash-local/use-this-package/minimal-configuration:
+  en: dd1ee4f977dcc940
+  zh: a5aa6144c03bbcf0
+/cortex-ai-cortex-bash-local/use-this-package/running-commands:
+  en: a27f24e1c9908612
+  zh: 4183e0c89aebb96c
+/cortex-ai-cortex-bash-local/use-this-package/background-processes:
+  en: 3c580842cc8452af
+  zh: 5a156670a7cacc2a
+/cortex-ai-cortex-bash-local/use-this-package/adjusting-budgets-at-runtime:
+  en: 1098db4c932a48f8
+  zh: 33f78ab65dbfeb1d
+/cortex-ai-cortex-bash-local/understand-the-implementation:
+  en: 05e2abe4a25886fd
+  zh: 3f7f1326dc3c1d3f
+/cortex-ai-cortex-bash-local/understand-the-implementation/design-concept:
+  en: ec84e5746de85fe0
+  zh: 1c353325eeae87c6
+/cortex-ai-cortex-bash-local/understand-the-implementation/source-map:
+  en: 254759ab26151a72
+  zh: e94679a11b67dc10
+/cortex-ai-cortex-bash-local/understand-the-implementation/main-flow:
+  en: 723bbaedc34e58f3
+  zh: d0239dcfdd8a53c6
+/cortex-ai-cortex-bash-local/understand-the-implementation/invariants-and-ownership:
+  en: 15b75ff1bb9a75f7
+  zh: 531486d53466f7a9
+/cortex-ai-cortex-bash-local/further-exploration:
+  en: 50054fa4acc3db17
+  zh: a61bf74d7c56c1d3
+/cortex-ai-cortex-bash-local/model-experience:
+  en: 8ee7955676097806
+  zh: 8e2fbe27eda3063c
+/cortex-ai-cortex-bash-local/model-experience/kv-cache-effect:
+  en: 40294c1c31b74824
+  zh: 788a4799b1d65a8b
+/cortex-ai-cortex-bash-local/known-limitations-and-deferred-work:
+  en: 8e8e154b0c3ebc14
+  zh: 06fd7b6490e625a1
+/cortex-ai-cortex-bash-local/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

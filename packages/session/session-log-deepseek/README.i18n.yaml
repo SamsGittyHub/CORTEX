@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-log-deepseek/README.md
+/:
+  en: 29b2294131f1a592
+  zh: 6d7f4fa9e1f46943
+/cortex-ai-cortex-session-log-deepseek:
+  en: 8be45a2826ae55ce
+  zh: 1ad8de37f6d93053
+/cortex-ai-cortex-session-log-deepseek/summary:
+  en: 66df1e1aff790ae4
+  zh: d518101cabb4f38d
+/cortex-ai-cortex-session-log-deepseek/table-of-contents:
+  en: e2aa29e41bc101c4
+  zh: 2ef629f2a444bc13
+/cortex-ai-cortex-session-log-deepseek/configuration:
+  en: f273978aa2a933f3
+  zh: 135cc6ee20b5073a
+/cortex-ai-cortex-session-log-deepseek/request-field:
+  en: 2a9b114ca3a854a2
+  zh: ac56d6c885798a03
+/cortex-ai-cortex-session-log-deepseek/acceptance-and-retry:
+  en: 1f5ae41b465c0c9d
+  zh: c8b4aca934634d99
+/cortex-ai-cortex-session-log-deepseek/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session-log-deepseek/model-experience/session-log-metadata:
+  en: 468b9eaee350f6e2
+  zh: c192ad6228e7044d
+/cortex-ai-cortex-session-log-deepseek/model-experience/session-log-metadata/what-the-model-sees:
+  en: ffa79d77b7b71989
+  zh: b7f9141192deb01a
+/cortex-ai-cortex-session-log-deepseek/model-experience/session-log-metadata/token-effect:
+  en: 6a1bb7bbc7db7f06
+  zh: 94ddaa773b7538f7
+/cortex-ai-cortex-session-log-deepseek/model-experience/session-log-metadata/kv-cache-effect:
+  en: dcf00aa1af688f09
+  zh: df5851d66c3a6b4f
+/cortex-ai-cortex-session-log-deepseek/known-limitations-and-deferred-work:
+  en: 249ef8dbc237a0c2
+  zh: c169d64ce9ab984c
+/cortex-ai-cortex-session-log-deepseek/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

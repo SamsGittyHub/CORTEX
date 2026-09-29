@@ -1,0 +1,61 @@
+{
+  "name": "@cortex-ai/cortex-ptc-runtime-node",
+  "description": "Sandboxed Node process implementation of the CORTEX PTC execution capability",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/ptc-runtime/ptc-runtime-node"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json",
+    "./process": {
+      "types": "./lib/types/process-entry.d.ts",
+      "default": "./lib/process.js"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/process.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-ptc-runtime": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-timeout": "workspace:*",
+    "@cortex-ai/cortex-fs": "workspace:*",
+    "@cortex-ai/cortex-subprocess": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*"
+  },
+  "dependencies": {
+    "@cortex-ai/cortex-util-values": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-ptc-runtime": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-timeout": "workspace:*",
+    "@cortex-ai/cortex-fs": "workspace:*",
+    "@cortex-ai/cortex-subprocess": "workspace:*",
+    "@cortex-ai/cortex-sandbox": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*",
+    "@cortex-ai/cortex-fs-local": "workspace:*",
+    "@cortex-ai/cortex-subprocess-local": "workspace:*",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-sandbox-local": "workspace:*"
+  }
+}

@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/host/directory-picker-auto/README.md
+/:
+  en: 347a16b9a8de1f7c
+  zh: 5fb4c04b69c2f947
+/cortex-ai-cortex-host-directory-picker-auto:
+  en: ccb11d0e7ecf0e8f
+  zh: ad45937eeed32614
+/cortex-ai-cortex-host-directory-picker-auto/summary:
+  en: bd4d9a284b5f22e8
+  zh: 30c634dcb778bf8c
+/cortex-ai-cortex-host-directory-picker-auto/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-host-directory-picker-auto/use-this-package:
+  en: 9ed11c3e0a03da01
+  zh: ffa5e373dfc99bb8
+/cortex-ai-cortex-host-directory-picker-auto/use-this-package/how-the-choice-is-made:
+  en: 7cb84cbb06667f0f
+  zh: 5d08f41dda7b08d2
+/cortex-ai-cortex-host-directory-picker-auto/use-this-package/what-you-get:
+  en: 6571c17daecc1e29
+  zh: d70089d67e41a32e
+/cortex-ai-cortex-host-directory-picker-auto/use-this-package/pinning-an-interaction:
+  en: a7e61292ef261aa8
+  zh: ae8bb5a1ada21d21
+/cortex-ai-cortex-host-directory-picker-auto/use-this-package/observable-failures:
+  en: 764e80ffbfd4d19e
+  zh: dd2f61b462023031
+/cortex-ai-cortex-host-directory-picker-auto/understand-the-implementation:
+  en: 42b15ac6321706aa
+  zh: 4ed0861911abaf5d
+/cortex-ai-cortex-host-directory-picker-auto/understand-the-implementation/design-concept:
+  en: abc8d3962e4580c3
+  zh: 4442dde69faf680f
+/cortex-ai-cortex-host-directory-picker-auto/understand-the-implementation/the-resolution-table:
+  en: 70aa594193336a2a
+  zh: 9ff39c2878e8f471
+/cortex-ai-cortex-host-directory-picker-auto/understand-the-implementation/source-map:
+  en: 43a0268a54380a72
+  zh: a8f8cd0c3f502e6b
+/cortex-ai-cortex-host-directory-picker-auto/further-exploration:
+  en: bfcf55b4be2aaef6
+  zh: 8db3bc71e13f61ea
+/cortex-ai-cortex-host-directory-picker-auto/model-experience:
+  en: 4cf1e8312ed3f5e6
+  zh: 5410cb77865fca9e
+/cortex-ai-cortex-host-directory-picker-auto/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-host-directory-picker-auto/known-limitations-and-deferred-work:
+  en: 2caf1f412c050856
+  zh: 0e71bc66bc54bbb4
+/cortex-ai-cortex-host-directory-picker-auto/known-limitations-and-deferred-work/dev-note:
+  en: ac7266ba5ad8bd79
+  zh: d9143a2061a07cfd

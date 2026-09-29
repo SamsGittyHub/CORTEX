@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for 2026-07-25-web-client-session-scope-and-provide-channel.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-07-25-web-client-session-scope-and-provide-channel.md
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide:
+  en: 14e2d83bb3a0fe21
+  zh: b24860f39839c24d
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/problem:
+  en: 1738c071cb9824bc
+  zh: 7af7770739d5430a
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision:
+  en: dc31717b5ac7b054
+  zh: 5fa52ad965c432f5
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/the-parity-model-client-and-host-share-one-root-state-axis:
+  en: 607e0707dc012619
+  zh: 288b3d3632391709
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/agent-scope-the-actx-is-the-sole-session-carrier-in-the-client-side-cordis-world:
+  en: 6e6488b3eab757c2
+  zh: 4ee3d1cc415234df
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/scope-lifecycle-anchored-to-explicit-references:
+  en: e2ed0052678a2b9b
+  zh: e0fe1b87dc3766af
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/the-blank-bit-the-empty-session-s-visible-projection-conversion-and-reuse:
+  en: e8f63a272b10a897
+  zh: e955e3cf0a6c6383
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/connectworkspace-the-sole-entry-point-of-new-session:
+  en: 833df42c5a87afbd
+  zh: 82d789a99fd2b968
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/per-session-provisioning-the-uisession-provide-standard-kit-channel:
+  en: 3c739c21ea490f09
+  zh: 5508153f313a86d9
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/input-delivery:
+  en: 2073e96f851d1e6e
+  zh: f0433bf5dfd0a23d
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/decision/host-wire-smalls:
+  en: 0985b4ec989266d8
+  zh: 01734d6e99df8c7b
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/alternatives-considered:
+  en: 2a69d71f4bdf0f76
+  zh: dd768c273728d354
+/agent-note-web-client-agent-scope-parity-model-and-the-provisioning-channel-agents-scope-blank-reuse-provide/consequences:
+  en: 1521d64cdb0f0a64
+  zh: eaaa8e1cfd0e3980

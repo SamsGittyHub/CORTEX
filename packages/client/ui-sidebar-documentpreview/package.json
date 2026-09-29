@@ -1,0 +1,99 @@
+{
+  "name": "@cortex-ai/cortex-client-ui-sidebar-documentpreview",
+  "description": "Extensible Sidebar previews for Office documents, spreadsheets, Markdown, code, images, PDF, HTML, and plain text",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/client/ui-sidebar-documentpreview"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-api-gateway",
+        "@cortex-ai/cortex-api-workspace-files",
+        "@cortex-ai/cortex-client-resources",
+        "@cortex-ai/cortex-client-ui-sidebar-right",
+        "@cortex-ai/cortex-client-ui-session",
+        "@cortex-ai/cortex-api-remotes",
+        "@cortex-ai/cortex-client-locale",
+        "@cortex-ai/cortex-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-api-gateway": "workspace:*",
+    "@cortex-ai/cortex-api-remotes": "workspace:*",
+    "@cortex-ai/cortex-api-workspace-files": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-locale": "workspace:*",
+    "@cortex-ai/cortex-client-resources": "workspace:*",
+    "@cortex-ai/cortex-client-store": "workspace:*",
+    "@cortex-ai/cortex-client-test-runtime": "workspace:*",
+    "@cortex-ai/cortex-client-ui-dockkit": "workspace:*",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-client-ui-renderer": "workspace:*",
+    "@cortex-ai/cortex-client-ui-session": "workspace:*",
+    "@cortex-ai/cortex-client-ui-settings": "workspace:*",
+    "@cortex-ai/cortex-client-ui-sidebar-right": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@cortex-ai/cortex-office-to-pdf": "workspace:*",
+    "@cortex-ai/cortex-host-webserver": "workspace:*",
+    "@cortex-ai/cortex-office-to-pdf": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-util-workspace-path": "workspace:*",
+    "@fortune-sheet/core": "1.0.4",
+    "@fortune-sheet/react": "1.0.4",
+    "@testing-library/react": "^16.1.0",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "~18.3.1",
+    "@types/react-dom": "~18.3.0",
+    "clsx": "^2.0.0",
+    "dompurify": "^3.4.11",
+    "exceljs": "4.4.0",
+    "fast-xml-parser": "5.11.1",
+    "fflate": "^0.8.3",
+    "papaparse": "5.5.3",
+    "pdfjs-dist": "6.3.289",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/client.*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  }
+}

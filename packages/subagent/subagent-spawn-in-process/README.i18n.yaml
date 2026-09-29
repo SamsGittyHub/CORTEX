@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/subagent/subagent-spawn-in-process/README.md
+/:
+  en: d510765ec1bebc28
+  zh: 35efb9f71f05f326
+/cortex-ai-cortex-subagent-spawn-in-process:
+  en: 738168b445292782
+  zh: f4713204893a150d
+/cortex-ai-cortex-subagent-spawn-in-process/summary:
+  en: ce92aee234d9b581
+  zh: 6892c8726cafe5b0
+/cortex-ai-cortex-subagent-spawn-in-process/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-subagent-spawn-in-process/use-this-package:
+  en: 9c62864f225579c5
+  zh: 7a7fe86fc6b7b27e
+/cortex-ai-cortex-subagent-spawn-in-process/use-this-package/when-to-choose-it:
+  en: 5f14443940e59bb5
+  zh: 3e8610aec21c55e8
+/cortex-ai-cortex-subagent-spawn-in-process/use-this-package/minimal-configuration:
+  en: e8efaea1790c3905
+  zh: b2c1799fe928a50a
+/cortex-ai-cortex-subagent-spawn-in-process/use-this-package/what-a-delegation-does:
+  en: 9f4e6f31ad4d86d1
+  zh: 4ad77e0b80c6efcc
+/cortex-ai-cortex-subagent-spawn-in-process/understand-the-implementation:
+  en: 9e00b9dc2f9cf38c
+  zh: 60ce00ce6c3b5564
+/cortex-ai-cortex-subagent-spawn-in-process/understand-the-implementation/design-concept:
+  en: 22c29d70ff0f60e5
+  zh: 3c5ea9ac16139370
+/cortex-ai-cortex-subagent-spawn-in-process/understand-the-implementation/source-map:
+  en: 6252313b7a004fda
+  zh: 85c1b0a872d4d846
+/cortex-ai-cortex-subagent-spawn-in-process/understand-the-implementation/run-flow:
+  en: 7b55a5649bc38155
+  zh: 51fe220c84ca759a
+/cortex-ai-cortex-subagent-spawn-in-process/understand-the-implementation/ownership-and-scope:
+  en: 8af949dc29cb4a5c
+  zh: f4e4f9f9f4a4b7c9
+/cortex-ai-cortex-subagent-spawn-in-process/further-exploration:
+  en: 002ec03bbf2c4294
+  zh: 3edc997a8b80fcf6
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/child-agent-request:
+  en: 05e6180f1498fdf9
+  zh: 2b05d2b97bfa67da
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/child-agent-request/what-the-model-sees:
+  en: 2035bdd8640e5a8a
+  zh: 5afa645d7dbe31a5
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/child-agent-request/token-effect:
+  en: e74d21e38e4a53a9
+  zh: 6a5e3ef5fe0f4f14
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/child-agent-request/kv-cache-effect:
+  en: 78d800b26fb3b0af
+  zh: 313169b62c29af1d
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/parent-tool-result-indirectly:
+  en: 75d061c2151624a7
+  zh: 71e58e020b60ff90
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/parent-tool-result-indirectly/what-the-model-sees:
+  en: f8bb426a4bb4370a
+  zh: e59d255d7b4b3b5b
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/parent-tool-result-indirectly/token-effect:
+  en: ff8045aa0f466c2a
+  zh: e38fc5c6af2ce076
+/cortex-ai-cortex-subagent-spawn-in-process/model-experience/parent-tool-result-indirectly/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: 3d6bc05b9eadfbc2
+/cortex-ai-cortex-subagent-spawn-in-process/known-limitations-and-deferred-work:
+  en: 68720f2a663a4aad
+  zh: a472436c5cc2b801
+/cortex-ai-cortex-subagent-spawn-in-process/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

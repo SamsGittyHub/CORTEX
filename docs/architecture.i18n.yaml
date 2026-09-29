@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for architecture.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/architecture.md
+/cortex-architecture:
+  en: 881874f3203cbc9c
+  zh: a83748af2c55f5c7
+/cortex-architecture/cordis:
+  en: 8655fe58f2e00389
+  zh: 20a15dcfdee5b51b
+/cortex-architecture/profiles-and-bundles:
+  en: ce19ba24c9fe7d15
+  zh: 5e66401df04f7709
+/cortex-architecture/application-launch:
+  en: a0f8489cb2067bf6
+  zh: df3de218e644f6d7
+/cortex-architecture/desktop-application:
+  en: f3977bc152a589e5
+  zh: 85f5c46cc07b06b0
+/cortex-architecture/core-packages:
+  en: 1d4810ebe7eefa55
+  zh: c903bd35db375af7
+/cortex-architecture/events:
+  en: e2acdd6b91133c4d
+  zh: 6520e8d03d40d937
+/cortex-architecture/turn-flow:
+  en: 503e52da6d3622e7
+  zh: c6e7c7c2f6168256
+/cortex-architecture/session-log:
+  en: 40ff824b5620c07a
+  zh: 2d34c4c0d06df4ca
+/cortex-architecture/capability-seams:
+  en: ff1c970d99c110ef
+  zh: be750e746cb63880
+/cortex-architecture/where-new-behavior-goes:
+  en: 3dbd72116fc11a11
+  zh: b022ea70539fc1cd

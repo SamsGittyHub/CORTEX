@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-plan/README.md
+/:
+  en: 1d5e0e4466f12e0f
+  zh: 14072627e89bc20b
+/cortex-ai-cortex-client-ui-plan:
+  en: 84cd04e998d2dc92
+  zh: 1632d67474854f47
+/cortex-ai-cortex-client-ui-plan/summary:
+  en: 958c2c8bf80759a0
+  zh: 57ffbbfa1bcbdff4
+/cortex-ai-cortex-client-ui-plan/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-plan/use-this-package:
+  en: 8b62f4154204ac76
+  zh: 23dacf33a471e8c4
+/cortex-ai-cortex-client-ui-plan/use-this-package/what-the-chip-shows:
+  en: 1622db30d5378225
+  zh: 819c9cdb59d010a8
+/cortex-ai-cortex-client-ui-plan/use-this-package/reading-submitted-plans:
+  en: 1d2fecc23c658516
+  zh: 24a894dc2bbb1b78
+/cortex-ai-cortex-client-ui-plan/use-this-package/failures:
+  en: a13078ade4ef3b9d
+  zh: 2c8b3e8b62ad5652
+/cortex-ai-cortex-client-ui-plan/understand-the-implementation:
+  en: 3c09a00bc75213b3
+  zh: 8f1041a272e3f3e8
+/cortex-ai-cortex-client-ui-plan/further-exploration:
+  en: 47316d00b87b8e10
+  zh: 0929cebe369dbd57
+/cortex-ai-cortex-client-ui-plan/model-experience:
+  en: 895e29f8d4ba12f1
+  zh: 07e3ff1d9f74d171
+/cortex-ai-cortex-client-ui-plan/model-experience/kv-cache-effect:
+  en: 0eeecf007103b9ba
+  zh: 4a105d4b5ec85547
+/cortex-ai-cortex-client-ui-plan/known-limitations-and-deferred-work:
+  en: f74784ddad90a7e1
+  zh: 638ce5a243e6b5cc
+/cortex-ai-cortex-client-ui-plan/known-limitations-and-deferred-work/dev-note:
+  en: 670c30650eb8bb41
+  zh: fe91cf2c868bd66b

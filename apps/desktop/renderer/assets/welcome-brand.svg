@@ -1,0 +1,7 @@
+<svg width="472" height="40" viewBox="0 0 472 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  :root { --brand-text: #0f1115; }
+  @media (prefers-color-scheme: dark) { :root { --brand-text: #f9fafb; } }
+</style>
+<text x="236" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="600" letter-spacing="8" fill="var(--brand-text)">CORTEX</text>
+</svg>

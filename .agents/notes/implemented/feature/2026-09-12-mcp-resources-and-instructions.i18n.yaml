@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-09-12-mcp-resources-and-instructions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-09-12-mcp-resources-and-instructions.md
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions:
+  en: ee04b70159eebe19
+  zh: f9c9d0828ef5016d
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions/problem:
+  en: 0d6c75e85a04c36a
+  zh: fe5043f324369cdd
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions/decision:
+  en: 9dcc94411a722254
+  zh: 178bb2d21d3c0448
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions/alternatives-considered:
+  en: 02bc8e76ce4d68ab
+  zh: 0991cc64ff9e3011
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions/verification:
+  en: 6ea3c74462e8ce6d
+  zh: ca283f73d6de6e1c
+/agent-note-on-demand-mcp-resources-and-scoped-server-instructions/consequences:
+  en: 432b24aa763eff2e
+  zh: 236825ede84e2c0d

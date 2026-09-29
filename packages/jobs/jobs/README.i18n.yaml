@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/jobs/jobs/README.md
+/:
+  en: 4055a3bc920e4ac2
+  zh: 3bc99f3b5bc2fd71
+/cortex-ai-cortex-jobs:
+  en: 2fec2cb4ee9822e4
+  zh: cf019a31a2f038bf
+/cortex-ai-cortex-jobs/summary:
+  en: a163230d3bb38364
+  zh: 181493835c5c5a6c
+/cortex-ai-cortex-jobs/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-jobs/use-this-package:
+  en: d44d959ef87fa726
+  zh: 80cbc85fa87c3d73
+/cortex-ai-cortex-jobs/use-this-package/what-a-background-job-gives-you:
+  en: 60f86c1c4f235fc5
+  zh: 99fdf943ab8b1541
+/cortex-ai-cortex-jobs/use-this-package/the-ownership-boundary:
+  en: 873494750b38dae5
+  zh: 2e6142ab889f7a8b
+/cortex-ai-cortex-jobs/use-this-package/starting-background-work-needs-a-controller:
+  en: 1ad1f5b4fc97099d
+  zh: 49f93c811639f00d
+/cortex-ai-cortex-jobs/use-this-package/smallest-working-composition:
+  en: e4d4222a8c9a2fcb
+  zh: 32fcd80bbce2da45
+/cortex-ai-cortex-jobs/use-this-package/what-can-go-wrong:
+  en: fcfee3f72ea703ac
+  zh: 80299901bd44783b
+/cortex-ai-cortex-jobs/understand-the-implementation:
+  en: 7e13d669ecc96d59
+  zh: b5fe7ae65812d926
+/cortex-ai-cortex-jobs/understand-the-implementation/design-philosophy:
+  en: 4c6c313a215fa16d
+  zh: 74a5f6a4ae114f10
+/cortex-ai-cortex-jobs/understand-the-implementation/source-map:
+  en: 2416d5be526d4dba
+  zh: 1090a9373258d7bb
+/cortex-ai-cortex-jobs/understand-the-implementation/service-operations:
+  en: b998620f05070ce8
+  zh: 9a73dd4c3e835a5a
+/cortex-ai-cortex-jobs/further-exploration:
+  en: b7b8ef774a82c8fb
+  zh: a0bde882d609b765
+/cortex-ai-cortex-jobs/model-experience:
+  en: efb58cac0fc08163
+  zh: 838791f77fd79917
+/cortex-ai-cortex-jobs/model-experience/kv-cache-effect:
+  en: e290ccc9b3c92c08
+  zh: d75d48f485447a74
+/cortex-ai-cortex-jobs/known-limitations-and-deferred-work:
+  en: bf4e5e0bd25d579e
+  zh: ed995c02012f0c72
+/cortex-ai-cortex-jobs/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

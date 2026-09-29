@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/lsp/lsp/README.md
+/:
+  en: 1a8099ab9b557ff7
+  zh: 7054b2eab0e1fda8
+/cortex-ai-cortex-lsp:
+  en: 21a4d25d24e85354
+  zh: 9f99838b1d6add7c
+/cortex-ai-cortex-lsp/summary:
+  en: ca86f3e11be419b1
+  zh: e76806880687b6f2
+/cortex-ai-cortex-lsp/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-lsp/use-this-package:
+  en: 39ddcc57203b5a43
+  zh: ee46b6bb58434337
+/cortex-ai-cortex-lsp/use-this-package/when-to-choose-it:
+  en: 104953d3732e7d81
+  zh: 54acd5d4742bd728
+/cortex-ai-cortex-lsp/use-this-package/composing-a-navigation-stack:
+  en: a8def8b0fe2aeb3f
+  zh: 056a22e60d47ad89
+/cortex-ai-cortex-lsp/use-this-package/the-four-operations:
+  en: 201a9b2f8dfb13eb
+  zh: c9041adde15602c1
+/cortex-ai-cortex-lsp/use-this-package/failures-and-recovery:
+  en: eeeff6f68bba6807
+  zh: a83372441c505bb6
+/cortex-ai-cortex-lsp/understand-the-implementation:
+  en: 1e0acac55fc6c314
+  zh: fe4ebe8a86dc480f
+/cortex-ai-cortex-lsp/understand-the-implementation/design-philosophy:
+  en: 1bf5e764750bd952
+  zh: 731534d94483abc2
+/cortex-ai-cortex-lsp/understand-the-implementation/source-map:
+  en: 25af1e58f8ab8854
+  zh: 90aec5ee2441bd96
+/cortex-ai-cortex-lsp/understand-the-implementation/registration-and-selection-lifecycle:
+  en: 549e97f436b1570c
+  zh: df0436c58dd31175
+/cortex-ai-cortex-lsp/further-exploration:
+  en: c378b98447292b8e
+  zh: ec2f75512f5155c3
+/cortex-ai-cortex-lsp/model-experience:
+  en: 1d862e1aaf37712a
+  zh: be4a5808f83288c1
+/cortex-ai-cortex-lsp/model-experience/kv-cache-effect:
+  en: 5a61698afaad112d
+  zh: 89d9219be2aa6080
+/cortex-ai-cortex-lsp/known-limitations-and-deferred-work:
+  en: e7ba99257e4da9e6
+  zh: e384e82d4c707af1
+/cortex-ai-cortex-lsp/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

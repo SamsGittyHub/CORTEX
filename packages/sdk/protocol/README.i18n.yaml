@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/sdk/protocol/README.md
+/:
+  en: f7e65364dfe462b8
+  zh: 20d2b8f84f10f681
+/cortex-ai-cortex-sdk-protocol:
+  en: 8748b387731c5bbc
+  zh: ebc357d348f77b54
+/cortex-ai-cortex-sdk-protocol/summary:
+  en: 700157435a2f7a30
+  zh: 39b0f497453a40a5
+/cortex-ai-cortex-sdk-protocol/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-sdk-protocol/use-this-package:
+  en: c4ca91b51aab452a
+  zh: 1c77b1deaeb34931
+/cortex-ai-cortex-sdk-protocol/use-this-package/framing-and-transport:
+  en: be53c71505c0d1b4
+  zh: 6210dee577715539
+/cortex-ai-cortex-sdk-protocol/use-this-package/the-sdk-methods:
+  en: 8cfc9efc99c7198d
+  zh: ac00d94406fc2388
+/cortex-ai-cortex-sdk-protocol/use-this-package/payload-semantics:
+  en: fc0dbda124f1b6c0
+  zh: 7ec651fefc091d56
+/cortex-ai-cortex-sdk-protocol/understand-the-implementation:
+  en: a11b136d8296deda
+  zh: 85081da5be53c9e1
+/cortex-ai-cortex-sdk-protocol/understand-the-implementation/design-concept:
+  en: bc4b8dfc36ed4565
+  zh: 6a707eff1a4bbf2f
+/cortex-ai-cortex-sdk-protocol/understand-the-implementation/source-map:
+  en: bfeb9999d7e71aaf
+  zh: afc873a229bb4bc5
+/cortex-ai-cortex-sdk-protocol/understand-the-implementation/frame-dispatch:
+  en: eaf7d095810481c8
+  zh: 92767f908500be5e
+/cortex-ai-cortex-sdk-protocol/further-exploration:
+  en: bd1892c77b1171c7
+  zh: b7aa422917d0d3d0
+/cortex-ai-cortex-sdk-protocol/model-experience:
+  en: 1c3205c59385b059
+  zh: 9198a341567beca0
+/cortex-ai-cortex-sdk-protocol/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 696d26adaf4eda6d
+/cortex-ai-cortex-sdk-protocol/known-limitations-and-deferred-work:
+  en: 44b744cefc4b21e2
+  zh: c8802677211cb252
+/cortex-ai-cortex-sdk-protocol/known-limitations-and-deferred-work/dev-note:
+  en: 951fa06249790ac1
+  zh: da66e7f53df3ab00

@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/web/web/README.md
+/:
+  en: 31868a4f15364a93
+  zh: 86824e1a18e237a7
+/cortex-ai-cortex-web:
+  en: 0555f70dc6c48884
+  zh: 938ce9e4c6f81126
+/cortex-ai-cortex-web/summary:
+  en: 306ca33167c04b1b
+  zh: 175ef066b5732e5c
+/cortex-ai-cortex-web/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-web/use-this-package:
+  en: 8a4b9484f2b1ffae
+  zh: 8ca50321efdb65a0
+/cortex-ai-cortex-web/use-this-package/when-to-choose-it:
+  en: 112ed8cd09a9dab1
+  zh: 4a729a73a91777e0
+/cortex-ai-cortex-web/use-this-package/minimal-configuration:
+  en: 0c9e549f7e441315
+  zh: 60116f4fdeb197e1
+/cortex-ai-cortex-web/use-this-package/searching-and-fetching:
+  en: e81ba46476dbb04f
+  zh: 1b4204117c80ef91
+/cortex-ai-cortex-web/use-this-package/provider-selection:
+  en: a1d16fc8e3d3d7eb
+  zh: d7c91ce0bbd5e0e7
+/cortex-ai-cortex-web/use-this-package/failures-and-recovery:
+  en: d8d09ed3839f6474
+  zh: 7164d902f333592a
+/cortex-ai-cortex-web/understand-the-implementation:
+  en: a3364d8193deb7f0
+  zh: d1c4afbf25a7ae4d
+/cortex-ai-cortex-web/understand-the-implementation/design-philosophy:
+  en: c4d5437cfb1e2157
+  zh: 411b1b398de73426
+/cortex-ai-cortex-web/understand-the-implementation/source-map:
+  en: 75e450b263def321
+  zh: 7f28ff78ba2a5f03
+/cortex-ai-cortex-web/understand-the-implementation/data-model:
+  en: 745508ebd6d2c1e7
+  zh: 1e75b90f28c546b0
+/cortex-ai-cortex-web/understand-the-implementation/selection-flow:
+  en: 07dcd35a0a6369b2
+  zh: 927fe797d9079547
+/cortex-ai-cortex-web/further-exploration:
+  en: 3a8bf8998168e913
+  zh: 3189f9411c843382
+/cortex-ai-cortex-web/model-experience:
+  en: 438671580524e10d
+  zh: 749a6f3ab127b5ee
+/cortex-ai-cortex-web/model-experience/kv-cache-effect:
+  en: 40294c1c31b74824
+  zh: d75d48f485447a74
+/cortex-ai-cortex-web/known-limitations-and-deferred-work:
+  en: a5c16f205eb1430e
+  zh: 15987bfcefe63053
+/cortex-ai-cortex-web/known-limitations-and-deferred-work/dev-note:
+  en: 7f775cc79dbce94b
+  zh: 12b8f68f9e7c48ca
+/cortex-ai-cortex-web/known-limitations-and-deferred-work/dev-note/future-observing-provider-state:
+  en: 855f97574a820579
+  zh: 360ff6cd2ed82904

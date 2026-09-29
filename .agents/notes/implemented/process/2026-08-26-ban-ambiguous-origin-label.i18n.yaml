@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-08-26-ban-ambiguous-origin-label.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-08-26-ban-ambiguous-origin-label.md
+/agent-note-ban-an-ambiguous-origin-label:
+  en: 235eea3759b69446
+  zh: 203b64f919265263
+/agent-note-ban-an-ambiguous-origin-label/problem:
+  en: 78d23c954293907f
+  zh: 5e1562788c430afe
+/agent-note-ban-an-ambiguous-origin-label/decision:
+  en: 91a29471533aad89
+  zh: ac9642f5f576ea62
+/agent-note-ban-an-ambiguous-origin-label/alternatives-considered:
+  en: 50421d71ea80fef9
+  zh: 512625bd4dac0734
+/agent-note-ban-an-ambiguous-origin-label/consequences:
+  en: 51a4f9c099f993f1
+  zh: 655bcf2eda1835ff

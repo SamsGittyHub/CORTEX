@@ -1,0 +1,97 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/shell/bash-sandbox/README.md
+/:
+  en: 2d1caa2e6179218a
+  zh: 0b51a5dbda727ffa
+/cortex-ai-cortex-bash-sandbox:
+  en: 3e4a465ffc61abfa
+  zh: 71552d614b847613
+/cortex-ai-cortex-bash-sandbox/summary:
+  en: 597bf1434a6458f6
+  zh: 102bd0d12e321578
+/cortex-ai-cortex-bash-sandbox/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-bash-sandbox/use-this-package:
+  en: a493fe5d0f3f93cb
+  zh: dcc127a69e996e8a
+/cortex-ai-cortex-bash-sandbox/use-this-package/when-to-choose-it:
+  en: 97bffcd0e1ca527f
+  zh: 622fd97ae2351142
+/cortex-ai-cortex-bash-sandbox/use-this-package/modes-and-file-effects:
+  en: bc096fe6f8eb54cd
+  zh: 1a3e3122ca40b0e5
+/cortex-ai-cortex-bash-sandbox/use-this-package/minimal-configuration:
+  en: 2c3d9120481e21e8
+  zh: 43c91c2279681be9
+/cortex-ai-cortex-bash-sandbox/use-this-package/denials-are-result-facts:
+  en: a10127c3fb2869ef
+  zh: 17908b572ddb5507
+/cortex-ai-cortex-bash-sandbox/use-this-package/failures-and-recovery:
+  en: 0d5b6818c3dad919
+  zh: cd0357477c0726c3
+/cortex-ai-cortex-bash-sandbox/understand-the-implementation:
+  en: 05e2abe4a25886fd
+  zh: 9240b331c45ac81e
+/cortex-ai-cortex-bash-sandbox/understand-the-implementation/design-concept:
+  en: c6c3e5d658392f2c
+  zh: 02159844a463e1fb
+/cortex-ai-cortex-bash-sandbox/understand-the-implementation/source-map:
+  en: 418d9c2a61061adb
+  zh: ffbc0d7723b45017
+/cortex-ai-cortex-bash-sandbox/understand-the-implementation/main-flow:
+  en: 731878f592fa79c6
+  zh: 3187f4c6907a13c2
+/cortex-ai-cortex-bash-sandbox/understand-the-implementation/invariants:
+  en: 0b6c6d7e216e1d23
+  zh: 15f94cfccf4fa242
+/cortex-ai-cortex-bash-sandbox/further-exploration:
+  en: 9623c8cbe2d603ea
+  zh: 2c1bcb852cb00156
+/cortex-ai-cortex-bash-sandbox/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-schema-indirectly:
+  en: 8e3df84fdcaeee60
+  zh: 25ad519340c6c232
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-schema-indirectly/what-the-model-sees:
+  en: ef799b01bfbff774
+  zh: 8b2732bd232bcbc3
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-schema-indirectly/token-effect:
+  en: 3c13545e43fb2884
+  zh: 285bb260121f2af0
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-schema-indirectly/kv-cache-effect:
+  en: d25d46a61dc2b0c1
+  zh: e1deea6d70be4691
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-result-indirectly:
+  en: ba37fed04252f1eb
+  zh: 0e91d66334ec17c3
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-result-indirectly/what-the-model-sees:
+  en: 6b86ae2b3b41e8b2
+  zh: 825a446625a1d594
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-result-indirectly/token-effect:
+  en: b06db71c69ceaf8c
+  zh: e0b8230b993c93cc
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-result-indirectly/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: f681f89596f500f5
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-error-indirectly:
+  en: 8e6caeadd596ea8f
+  zh: fe525ddc52b2d711
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-error-indirectly/what-the-model-sees:
+  en: 74fcc73436adbb3b
+  zh: ae1387cf44c6ecb8
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-error-indirectly/token-effect:
+  en: 8f514efe94edfa8a
+  zh: 8a7ae8a2bdb4c01a
+/cortex-ai-cortex-bash-sandbox/model-experience/bash-tool-error-indirectly/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: f681f89596f500f5
+/cortex-ai-cortex-bash-sandbox/known-limitations-and-deferred-work:
+  en: 056f7e09b6ad03f9
+  zh: 2996d78fbe0c70e1
+/cortex-ai-cortex-bash-sandbox/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

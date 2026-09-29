@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 07-into-the-harness.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cordis-tutorial/07-into-the-harness.md
+/7-into-the-harness:
+  en: 27e6f3da2d57d9be
+  zh: b8ddaed2f850d29e
+/7-into-the-harness/a-tool-plugin:
+  en: c88eb36e70012a54
+  zh: c41a31aca35b8ace
+/7-into-the-harness/an-observer-plugin:
+  en: f0de71d97d21fe27
+  zh: 026c3869456c009d
+/7-into-the-harness/compose-and-run:
+  en: 5f2301e8c8599d43
+  zh: a8b9842eb200ccf7
+/7-into-the-harness/from-here-to-a-full-agent:
+  en: 7814015d501dcdcf
+  zh: 8a3b7a3aa29ad5aa

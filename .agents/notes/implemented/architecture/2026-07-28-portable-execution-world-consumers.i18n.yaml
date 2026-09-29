@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for 2026-07-28-portable-execution-world-consumers.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-07-28-portable-execution-world-consumers.md
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds:
+  en: f0025baecc29e53e
+  zh: f1c9342507889061
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/problem:
+  en: 959a378a04f28e89
+  zh: ff496169735b4d7b
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/decision:
+  en: d5115afa062ec11e
+  zh: 989af1f40991ede2
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/remote-provider-ownership:
+  en: 3eadb5184138dbae
+  zh: 511a47c60bf197b9
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/verification:
+  en: b34540c3548ea98f
+  zh: 79e53bda3981802c
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/alternatives-considered:
+  en: a5f455ad35d0615c
+  zh: df4f501a6d723838
+/agent-note-portable-consumers-over-filesystem-and-subprocess-execution-worlds/consequences:
+  en: 3e8426e4a6788505
+  zh: 143b8c07d21d95d1

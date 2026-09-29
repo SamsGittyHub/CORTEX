@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 2026-06-11-quality-gates.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-06-11-quality-gates.md
+/agent-note-mechanical-quality-gates-over-prose-guidelines:
+  en: c021ae2662d43e03
+  zh: bb9465a9c0b2c222
+/agent-note-mechanical-quality-gates-over-prose-guidelines/problem:
+  en: 526b060333ea2457
+  zh: 182f46699589aff5
+/agent-note-mechanical-quality-gates-over-prose-guidelines/decision:
+  en: 7e1caca73a6b2707
+  zh: 01f899638c04de45
+/agent-note-mechanical-quality-gates-over-prose-guidelines/consequences:
+  en: 05f336b58efe6133
+  zh: 57fd44ea83a9706b

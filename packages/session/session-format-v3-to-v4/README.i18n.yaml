@@ -1,0 +1,91 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-format-v3-to-v4/README.md
+/:
+  en: a24b02a97921b07a
+  zh: 92428dfee88d27fd
+/cortex-ai-cortex-session-format-v3-to-v4:
+  en: 1705d04ae522709e
+  zh: ba001956a98a23a8
+/cortex-ai-cortex-session-format-v3-to-v4/summary:
+  en: 0162a0e7e6493e0a
+  zh: 4107af760c449097
+/cortex-ai-cortex-session-format-v3-to-v4/table-of-contents:
+  en: b501b06f4b21cc31
+  zh: bd67928bedf6c786
+/cortex-ai-cortex-session-format-v3-to-v4/use-this-package:
+  en: 056d43b4e49493d9
+  zh: e4d6f6b378f9e108
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification:
+  en: d3463f5e222c44a2
+  zh: ec932eb4acac30f4
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/header-and-physical-framing:
+  en: 69f24696bd941ceb
+  zh: bc51ca330a4aa361
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/tool-result-representation:
+  en: 32b845f1e1867195
+  zh: 3e4e046dbc36478e
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/extension-data:
+  en: 3e7af0248b029e9a
+  zh: b73ddd133db65d05
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/message-source-conversion:
+  en: c0e5cd3dce6d2b79
+  zh: 7205897e22be3b10
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/parent-catalog-prerequisites:
+  en: b943c3eaecefae0d
+  zh: 3e9655a2cdc2df0e
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/sequence-references-and-inheritance:
+  en: 8543a15b3c24cd43
+  zh: 5eacb6ffd009d1bc
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/delivery-generations:
+  en: 1af75967fd8296c7
+  zh: 4efd2a3a3a288610
+/cortex-ai-cortex-session-format-v3-to-v4/v3-to-v4-specification/source-audit-and-refusal:
+  en: bfc56afb05348d19
+  zh: 21afbb4ced91e87f
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission:
+  en: 7c2a1375c98e9b9f
+  zh: 39a57a82df56a2d4
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission/header-messages-and-surface-metadata:
+  en: 610f35b8c44538a2
+  zh: 17e5c07f09783106
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission/lifecycle-and-reference-relationships:
+  en: e0adea057d2491a1
+  zh: dba01f9ffbf3842e
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission/developer-changes-and-deferred-schemas:
+  en: f07d71df38c968dc
+  zh: 11db59ee965caba0
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission/fork-generated-results:
+  en: db82b002989ac151
+  zh: da80b797bf321c3f
+/cortex-ai-cortex-session-format-v3-to-v4/native-v4-admission/validation-entry-points-and-recovery:
+  en: 1d6db95cf7a82846
+  zh: 837c690fe87f47db
+/cortex-ai-cortex-session-format-v3-to-v4/understand-the-implementation:
+  en: d27e081c4e2ecd86
+  zh: 0dd639484f67dba9
+/cortex-ai-cortex-session-format-v3-to-v4/further-exploration:
+  en: 13addeeae42d57b9
+  zh: 5e5606a235708d15
+/cortex-ai-cortex-session-format-v3-to-v4/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session-format-v3-to-v4/model-experience/historical-restoration:
+  en: e63dd8ef6de7cf7c
+  zh: f1e356f01b601079
+/cortex-ai-cortex-session-format-v3-to-v4/model-experience/historical-restoration/what-the-model-sees:
+  en: 8885a0ae5f305b88
+  zh: 2064d2d02dd1b303
+/cortex-ai-cortex-session-format-v3-to-v4/model-experience/historical-restoration/token-effect:
+  en: adb2bef43125d1df
+  zh: 02f8d1d6a25d57ab
+/cortex-ai-cortex-session-format-v3-to-v4/model-experience/historical-restoration/kv-cache-effect:
+  en: 143ddba012e03d0c
+  zh: 93dfdb806bf9a697
+/cortex-ai-cortex-session-format-v3-to-v4/known-limitations-and-deferred-work:
+  en: 52171b2eaeaaa58a
+  zh: 0dd7c2225f87692a
+/cortex-ai-cortex-session-format-v3-to-v4/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 8ec3e73528ddb1a6

@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-schedule/README.md
+/:
+  en: 265778d19fe0dd76
+  zh: 78b0a191a4bd4e4e
+/cortex-ai-cortex-client-ui-schedule:
+  en: a917d3ea14db44c3
+  zh: c4f461fd212dddc7
+/cortex-ai-cortex-client-ui-schedule/summary:
+  en: 8dfc371c14bb4415
+  zh: 9b3545c1a7468a7a
+/cortex-ai-cortex-client-ui-schedule/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 405b30feaf48c087
+/cortex-ai-cortex-client-ui-schedule/use-this-package:
+  en: f81de486ecd84036
+  zh: 1261f7285fdb13e0
+/cortex-ai-cortex-client-ui-schedule/use-this-package/time-zone-data-source:
+  en: fe8f2adcfb7b27ed
+  zh: 8a26a718b8c83b9c
+/cortex-ai-cortex-client-ui-schedule/understand-the-implementation:
+  en: d99ae752e01f3194
+  zh: 33353b6eb2bd5e12
+/cortex-ai-cortex-client-ui-schedule/further-exploration:
+  en: 0b99296d5a5c664a
+  zh: 8a6099ec134a7b7b
+/cortex-ai-cortex-client-ui-schedule/model-experience:
+  en: a8838aba5fd29fd8
+  zh: b9f67d82c81dd030
+/cortex-ai-cortex-client-ui-schedule/model-experience/kv-cache-effect:
+  en: 4b81350950285d47
+  zh: 6dc3d5cf7ca8a622
+/cortex-ai-cortex-client-ui-schedule/known-limitations-and-deferred-work:
+  en: 58a458bf045493da
+  zh: f479ce811e582d78
+/cortex-ai-cortex-client-ui-schedule/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: a4b126f9a4eaca6f

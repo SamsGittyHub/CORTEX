@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/llm/llm/README.md
+/:
+  en: 860509fb08c860f4
+  zh: b2c4448e8afc1f12
+/cortex-ai-cortex-llm:
+  en: af346107c4d85eb3
+  zh: d964979acbfe5256
+/cortex-ai-cortex-llm/summary:
+  en: 58be23aeb47ebc36
+  zh: d7210e0da256500e
+/cortex-ai-cortex-llm/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-llm/use-this-package:
+  en: 33738e61ce410ac0
+  zh: 363760460f4d4bed
+/cortex-ai-cortex-llm/use-this-package/when-to-choose-it:
+  en: 57864ea7f126cb2a
+  zh: 69d3622a1bd73851
+/cortex-ai-cortex-llm/use-this-package/minimal-composition:
+  en: 7550d716b90fcb09
+  zh: 77891a44ee623c7a
+/cortex-ai-cortex-llm/use-this-package/what-you-can-do:
+  en: b45d7a414141734e
+  zh: a641c8ea3827cee6
+/cortex-ai-cortex-llm/use-this-package/failures-and-recovery:
+  en: bd09bcebe7b843a9
+  zh: 208b4eb882d38b5d
+/cortex-ai-cortex-llm/understand-the-implementation:
+  en: 9630d7e26193a512
+  zh: 94222c2a487c4b8c
+/cortex-ai-cortex-llm/understand-the-implementation/design-philosophy:
+  en: 12d0444c18a397c7
+  zh: 9d4a5468b4bb7fcd
+/cortex-ai-cortex-llm/understand-the-implementation/source-map:
+  en: ae1618577f4e8364
+  zh: a6e8ab1563c08dfb
+/cortex-ai-cortex-llm/understand-the-implementation/main-flow:
+  en: bba8716be6d5873f
+  zh: 9bd61d88766a0cb2
+/cortex-ai-cortex-llm/understand-the-implementation/invariants:
+  en: 0163a050239248e5
+  zh: 885c95bedcbe2ff4
+/cortex-ai-cortex-llm/further-exploration:
+  en: 3b557b8083e56838
+  zh: 8eff2a6245a7d16f
+/cortex-ai-cortex-llm/model-experience:
+  en: fa5677003ad6bc0a
+  zh: ba33cfc860d9c37c
+/cortex-ai-cortex-llm/model-experience/kv-cache-effect:
+  en: a81634136baef72f
+  zh: b92dda883986b0e1
+/cortex-ai-cortex-llm/known-limitations-and-deferred-work:
+  en: 6e8e8327e3308b0e
+  zh: 5eb7a355ae73ab86
+/cortex-ai-cortex-llm/known-limitations-and-deferred-work/dev-note:
+  en: ecbc333b88e14d88
+  zh: 77c725d92efd8646
+/cortex-ai-cortex-llm/known-limitations-and-deferred-work/dev-note/open-items:
+  en: 629ccc9169dbb696
+  zh: 3dfbd5cb9371508c

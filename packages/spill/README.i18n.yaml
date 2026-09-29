@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/spill/README.md
+/:
+  en: a626d8ec938bc3c3
+  zh: 2bbf8c20e53a3ea1
+/spill-text-spill-capability-family:
+  en: f783cc310ca8e20f
+  zh: b7bcfbf2c7c4e0b1
+/spill-text-spill-capability-family/summary:
+  en: 33302d15c9df134f
+  zh: e76b9606bc0c33c1
+/spill-text-spill-capability-family/table-of-contents:
+  en: 1eb35b015a6c423f
+  zh: a8a3dceee2c9e943
+/spill-text-spill-capability-family/packages:
+  en: 5f3f395ce0b888e4
+  zh: 1a0d01342634f312
+/spill-text-spill-capability-family/related-documentation:
+  en: a872915bf40d7581
+  zh: a5bea77fa3101272
+/spill-text-spill-capability-family/dev-note:
+  en: 5de1d6304e00c58f
+  zh: 8d8225361cfa29e5

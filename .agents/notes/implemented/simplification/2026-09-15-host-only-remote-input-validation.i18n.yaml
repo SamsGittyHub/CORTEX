@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-09-15-host-only-remote-input-validation.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/simplification/2026-09-15-host-only-remote-input-validation.md
+/agent-note-validate-remote-inputs-only-on-the-host:
+  en: 96e6060a60adefd0
+  zh: 862b944b6e77b595
+/agent-note-validate-remote-inputs-only-on-the-host/problem:
+  en: 6cddd9c31c5bf1e5
+  zh: f2730b6448f7fc26
+/agent-note-validate-remote-inputs-only-on-the-host/decision:
+  en: d1476c7e0f5f59d6
+  zh: f2d41fd42a40b479
+/agent-note-validate-remote-inputs-only-on-the-host/alternatives-considered:
+  en: 1c9ed80b25403e03
+  zh: edbc8301e50cf3a1
+/agent-note-validate-remote-inputs-only-on-the-host/consequences:
+  en: caf3ffc95133ac40
+  zh: f29864e4b636d6f7

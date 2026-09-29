@@ -1,0 +1,48 @@
+{
+  "name": "@cortex-ai/cortex-session-title-first-prompt-llm",
+  "description": "First-message LLM provider plugin for CORTEX session titles",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/session/session-title-first-prompt-llm"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["lib/index.js", "lib/types/**/*.d.ts"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-session-title-llm": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek-api-key": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-title": "workspace:*",
+    "@cortex-ai/cortex-session-title-llm": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-session-projection": "workspace:*",
+    "@cortex-ai/cortex-agent-loop": "workspace:*"
+  }
+}

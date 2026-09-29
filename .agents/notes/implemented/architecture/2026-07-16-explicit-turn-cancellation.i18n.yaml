@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-07-16-explicit-turn-cancellation.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-07-16-explicit-turn-cancellation.md
+/agent-note-explicit-turn-cancellation-capability:
+  en: ae05e2a8e4b30390
+  zh: 6c9f2d65e3d9a97c
+/agent-note-explicit-turn-cancellation-capability/problem:
+  en: 0a6d69d9ff55a93b
+  zh: 1340f41f83720846
+/agent-note-explicit-turn-cancellation-capability/decision:
+  en: 32389567c27cfc5e
+  zh: 5a7a34ba5cef70b2
+/agent-note-explicit-turn-cancellation-capability/verification:
+  en: a7ab1d06542be1c0
+  zh: 1687979b7f2460fa
+/agent-note-explicit-turn-cancellation-capability/alternatives-considered:
+  en: bf69bbf7eb280306
+  zh: a434a0ecb5008b2b
+/agent-note-explicit-turn-cancellation-capability/consequences:
+  en: 1066aff1aec4ed01
+  zh: 31d6a60496e2e730

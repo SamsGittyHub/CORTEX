@@ -1,0 +1,34 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-sidebar-files/README.md
+/:
+  en: 08d5ffc539da2f13
+  zh: 79fba15ab68141aa
+/cortex-ai-cortex-client-ui-sidebar-files:
+  en: cbbba2733399254c
+  zh: f0ddb4d345db59f0
+/cortex-ai-cortex-client-ui-sidebar-files/summary:
+  en: 1605ae92aee5c231
+  zh: ad519ddb9e338892
+/cortex-ai-cortex-client-ui-sidebar-files/table-of-contents:
+  en: 9411fb4809692e09
+  zh: dd13990d39c5be7f
+/cortex-ai-cortex-client-ui-sidebar-files/what-it-registers:
+  en: 6b4fd084ea7209e6
+  zh: 4042a92d2c5fe2d1
+/cortex-ai-cortex-client-ui-sidebar-files/the-tree:
+  en: 6b91f675ca8916b1
+  zh: 7df877ec11706ae9
+/cortex-ai-cortex-client-ui-sidebar-files/model-experience:
+  en: a18a43f6842f1371
+  zh: 69f2a2b35f06dfc7
+/cortex-ai-cortex-client-ui-sidebar-files/model-experience/kv-cache-effect:
+  en: 5a6febb45089991a
+  zh: b17ed755fd098b83
+/cortex-ai-cortex-client-ui-sidebar-files/known-limitations-and-deferred-work:
+  en: c0e1831d8975186c
+  zh: 332aac8738458bb0
+/cortex-ai-cortex-client-ui-sidebar-files/known-limitations-and-deferred-work/dev-note:
+  en: 3e8f2f242d43973b
+  zh: fb919fb393d51b20

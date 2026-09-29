@@ -1,0 +1,34 @@
+# Bilingual-pair consistency record for deepseek-llm-api-wire-extensions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/deepseek-llm-api-wire-extensions.md
+/official-deepseek-llm-api-wire-extensions:
+  en: 8c98e7589f62ea18
+  zh: 40ddfddf3c72784d
+/official-deepseek-llm-api-wire-extensions/wire-namespaces-and-versioning:
+  en: 77a0d227cbcdd895
+  zh: 8fe2e5eb39b5cda6
+/official-deepseek-llm-api-wire-extensions/request-headers:
+  en: 39cc676ac7d8c3eb
+  zh: 6d14384b9546e323
+/official-deepseek-llm-api-wire-extensions/body-extension-transaction:
+  en: f0b1443c364a431c
+  zh: 16d16ddf5c451e8e
+/official-deepseek-llm-api-wire-extensions/cortex-plugin-packages:
+  en: df7c0c32c64bb319
+  zh: 62999290167640ad
+/official-deepseek-llm-api-wire-extensions/cortex-session-log:
+  en: 0398d44fd3352ca2
+  zh: 104f257d8a78713a
+/official-deepseek-llm-api-wire-extensions/cortex-session-log/wire-session-header:
+  en: 215a6b95b6d19835
+  zh: b68f6138fa1f5930
+/official-deepseek-llm-api-wire-extensions/cortex-session-log/canonical-event-envelopes:
+  en: 008a21df5e314154
+  zh: 8855710a37542ec5
+/official-deepseek-llm-api-wire-extensions/cortex-session-log/acceptance-watermark-and-at-least-once-delivery:
+  en: 4d84cb1e61f9cf58
+  zh: 8a63ce3069e2f0b3
+/official-deepseek-llm-api-wire-extensions/exposure-and-receiver-requirements:
+  en: 3637f0a2340b6495
+  zh: ae6a70b1fa241bec

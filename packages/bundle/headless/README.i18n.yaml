@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/headless/README.md
+/:
+  en: 27b754085150e240
+  zh: 01e788d62aa907b2
+/cortex-ai-cortex-headless:
+  en: 8900b88f80326924
+  zh: 165b57a9815a6e5e
+/cortex-ai-cortex-headless/summary:
+  en: aefbbb6c66768467
+  zh: ca1e65e19e0c69f5
+/cortex-ai-cortex-headless/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-headless/use-this-package:
+  en: 4447012f4c84100d
+  zh: faf579ae9f04c096
+/cortex-ai-cortex-headless/use-this-package/running-a-one-shot-task:
+  en: 401e02db6843e8b2
+  zh: 30187832ab158877
+/cortex-ai-cortex-headless/use-this-package/choosing-the-session-identity:
+  en: dbaa2fac63910a4c
+  zh: 4fd5c17815ca444b
+/cortex-ai-cortex-headless/use-this-package/machine-readable-output:
+  en: a40ccb4e95dee497
+  zh: 344fe3ae89c631f3
+/cortex-ai-cortex-headless/use-this-package/when-to-use-it:
+  en: 18baf66f697d03d7
+  zh: 1c519359dee5bc5b
+/cortex-ai-cortex-headless/use-this-package/help-and-task-errors:
+  en: 4b7988b9bbcedd48
+  zh: 2858b8efa62b3ad7
+/cortex-ai-cortex-headless/understand-the-implementation:
+  en: be1b73a6d0ee3902
+  zh: bdba099685d68b27
+/cortex-ai-cortex-headless/understand-the-implementation/run-flow:
+  en: 1cb1318b9b1b5193
+  zh: f7bbeb1a56b9a727
+/cortex-ai-cortex-headless/understand-the-implementation/patch-surface-over-base:
+  en: d850c144973bb058
+  zh: ec851501c18e3da6
+/cortex-ai-cortex-headless/understand-the-implementation/exit-mapping:
+  en: f6f75406690915d3
+  zh: a7ab0a9c0c96c726
+/cortex-ai-cortex-headless/understand-the-implementation/source-map:
+  en: 1b7225ee7da2ea6b
+  zh: e153b8765cefeb69
+/cortex-ai-cortex-headless/understand-the-implementation/invariant-ownership:
+  en: 329f170dec4b2279
+  zh: bb40f8beda5b3a1c
+/cortex-ai-cortex-headless/further-exploration:
+  en: 9a789e024906939a
+  zh: 1201fe733cdb5108
+/cortex-ai-cortex-headless/model-experience:
+  en: c5a0991833f64dd7
+  zh: 46f9feb255778f11
+/cortex-ai-cortex-headless/model-experience/kv-cache-effect:
+  en: 0b0f74b412c7c6d8
+  zh: 6e8f918d0c4bf342
+/cortex-ai-cortex-headless/known-limitations-and-deferred-work:
+  en: 0f7db1f79b84aa91
+  zh: 45c4c3c3c4ed8518
+/cortex-ai-cortex-headless/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

@@ -1,0 +1,106 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/core/session/README.md
+/:
+  en: 54dedea99ec5492c
+  zh: 23b29cb5d738dadb
+/cortex-ai-cortex-session:
+  en: a1cc578fc7ab75da
+  zh: 493ee3549fcace27
+/cortex-ai-cortex-session/summary:
+  en: 31eafbbe9a7bb70c
+  zh: 1d6d9363ee130c2b
+/cortex-ai-cortex-session/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-session/use-this-package:
+  en: c71cebef1764ee14
+  zh: 0b4fea8a875eb09d
+/cortex-ai-cortex-session/use-this-package/create-and-inspect-sessions:
+  en: f80dab583fa3939d
+  zh: 5a9a79ebcef86119
+/cortex-ai-cortex-session/use-this-package/append-and-derive:
+  en: 9b26bdf8b4e2f2f5
+  zh: b8672e5b5e90d91b
+/cortex-ai-cortex-session/use-this-package/read-the-log:
+  en: e11bfe47360ac460
+  zh: e594a51c56bcee7a
+/cortex-ai-cortex-session/use-this-package/fork-a-session:
+  en: b568670126c1e40e
+  zh: a392c80d0513db2c
+/cortex-ai-cortex-session/use-this-package/flush-durable-state:
+  en: 70a7673145c851ad
+  zh: 0dd1667d9518993d
+/cortex-ai-cortex-session/understand-the-implementation:
+  en: ce7e776e9d516bdb
+  zh: 59d2751743db7795
+/cortex-ai-cortex-session/understand-the-implementation/design-concept:
+  en: dabbe938e288c55a
+  zh: 31c7ac2bee2a2846
+/cortex-ai-cortex-session/understand-the-implementation/request-headers:
+  en: 838b53fbcb5c57a8
+  zh: 4d4b81794beade14
+/cortex-ai-cortex-session/understand-the-implementation/source-map:
+  en: 32a529064c2aeb3f
+  zh: 3ff9d21220f95b40
+/cortex-ai-cortex-session/understand-the-implementation/append-validation:
+  en: 5c09583bc8e1ffc6
+  zh: 3b25552de2d1f9b6
+/cortex-ai-cortex-session/understand-the-implementation/shared-recovery:
+  en: e73927c9a0c73409
+  zh: 80b816d8d2e8c0e1
+/cortex-ai-cortex-session/understand-the-implementation/derived-history:
+  en: 0cc7a06f76bd7eca
+  zh: 1db25185b15cad23
+/cortex-ai-cortex-session/understand-the-implementation/the-request-header:
+  en: 1349f47bea4dab00
+  zh: 20cc03f2c87ec492
+/cortex-ai-cortex-session/further-exploration:
+  en: fd160743ef763bf8
+  zh: 3bd8173138fe975a
+/cortex-ai-cortex-session/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session/model-experience/derived-message-history:
+  en: 3005f28ded3b28ea
+  zh: daaddc6df470b396
+/cortex-ai-cortex-session/model-experience/derived-message-history/what-the-model-sees:
+  en: 30ccd8296306b132
+  zh: 19efa5a43745585c
+/cortex-ai-cortex-session/model-experience/derived-message-history/token-effect:
+  en: 05e088199dac7f98
+  zh: 35868b5fb768e240
+/cortex-ai-cortex-session/model-experience/derived-message-history/kv-cache-effect:
+  en: 6c8079c7de029ed4
+  zh: 634d6f93ce6373c4
+/cortex-ai-cortex-session/model-experience/tool-result-recovery-and-fork-results:
+  en: 9c2efc3e9064e3c4
+  zh: 9a7783991b322750
+/cortex-ai-cortex-session/model-experience/tool-result-recovery-and-fork-results/what-the-model-sees:
+  en: 480923fc390af4d6
+  zh: 6c46ad14684477de
+/cortex-ai-cortex-session/model-experience/tool-result-recovery-and-fork-results/token-effect:
+  en: 1339facbd3d7cee0
+  zh: 9d392a053ef90032
+/cortex-ai-cortex-session/model-experience/tool-result-recovery-and-fork-results/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: b84ef7f75f2e25d0
+/cortex-ai-cortex-session/model-experience/logged-request-header:
+  en: 5397f067293a55cd
+  zh: 1dcc30d0c214f175
+/cortex-ai-cortex-session/model-experience/logged-request-header/what-the-model-sees:
+  en: c7ce1d3549e3ef64
+  zh: 6eaba5c92537a0cb
+/cortex-ai-cortex-session/model-experience/logged-request-header/token-effect:
+  en: 310b8f36a86443e5
+  zh: 906c4da8d03c5966
+/cortex-ai-cortex-session/model-experience/logged-request-header/kv-cache-effect:
+  en: 5eb30cfb410d52c0
+  zh: da56365b8ab896da
+/cortex-ai-cortex-session/known-limitations-and-deferred-work:
+  en: 21a1c7d7d86b031e
+  zh: 0235bd9f67a81e8c
+/cortex-ai-cortex-session/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

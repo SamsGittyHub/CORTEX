@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for 2026-07-26-ci-failover-runbook.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-07-26-ci-failover-runbook.md
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool:
+  en: 1e6e6dc8592f5b34
+  zh: 7c81b1a0f71f3ea3
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/problem:
+  en: e4954579e583f5b6
+  zh: 29523f8be7c00230
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/decision:
+  en: be15b3c132fa4a49
+  zh: f50942f40a830b26
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/decision/release-rehearsals-share-the-linux-switch:
+  en: 05b529b3ffcd372c
+  zh: 8c5f3aa777670587
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/decision/what-the-in-house-pool-is:
+  en: 00d8934ed30e838c
+  zh: bdb5584fbaf27c7d
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/decision/what-the-in-house-pool-is/windows-pool:
+  en: f395af725d1deaf1
+  zh: 896cedbb36c13758
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/decision/switch-any-repository-writer-1-minute-no-merge:
+  en: 7a00dae33988dfc9
+  zh: bc57f1e07c3991df
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/capacity-during-failover:
+  en: f3667a61c1cfe657
+  zh: 421d86956be6e2eb
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/capacity-during-failover/switch-back:
+  en: 63cf911019db8d2f
+  zh: 5eb3903b0ceb30db
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/capacity-during-failover/trust-boundary:
+  en: c05bc0ceba304ff0
+  zh: 19ae9a2d70f25d33
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/alternatives-considered:
+  en: e68b70d7caca52f1
+  zh: e6f0be792105a9e6
+/agent-note-ci-failover-runbook-hosted-pools-in-house-pool/consequences:
+  en: eac4597fd1990d2e
+  zh: 67c23b4821811d65

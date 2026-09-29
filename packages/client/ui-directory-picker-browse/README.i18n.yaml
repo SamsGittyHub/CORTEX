@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-directory-picker-browse/README.md
+/:
+  en: 5f823b578f5be33d
+  zh: 5e12bb5290b0286b
+/cortex-ai-cortex-client-ui-directory-picker-browse:
+  en: 0274ff80c812f0b4
+  zh: 8fbcd700b44d86b4
+/cortex-ai-cortex-client-ui-directory-picker-browse/summary:
+  en: 6b612120f590d666
+  zh: 995c3fe698eb66aa
+/cortex-ai-cortex-client-ui-directory-picker-browse/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-directory-picker-browse/use-this-package:
+  en: b8c4f18e5d50541f
+  zh: 579f29707f23b16d
+/cortex-ai-cortex-client-ui-directory-picker-browse/use-this-package/navigating-and-creating:
+  en: 18e10884b02f288f
+  zh: 06debd0a4a88bdac
+/cortex-ai-cortex-client-ui-directory-picker-browse/understand-the-implementation:
+  en: fb217b7d152731db
+  zh: 9ee3c0a9f15a5a29
+/cortex-ai-cortex-client-ui-directory-picker-browse/further-exploration:
+  en: ef91f2fef728ebf9
+  zh: 90015b8854e59920
+/cortex-ai-cortex-client-ui-directory-picker-browse/model-experience:
+  en: 3bcc2b54b66f366e
+  zh: 489716ece3a4ef2a
+/cortex-ai-cortex-client-ui-directory-picker-browse/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: f57cc48a1b5cbfa9
+/cortex-ai-cortex-client-ui-directory-picker-browse/known-limitations-and-deferred-work:
+  en: 20e381071e1644e2
+  zh: 9260bcb09a52dd8c
+/cortex-ai-cortex-client-ui-directory-picker-browse/known-limitations-and-deferred-work/dev-note:
+  en: d31303387d07ac33
+  zh: 5613857edfa8b0b4

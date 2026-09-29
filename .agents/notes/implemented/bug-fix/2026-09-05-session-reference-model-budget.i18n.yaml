@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-09-05-session-reference-model-budget.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/bug-fix/2026-09-05-session-reference-model-budget.md
+/agent-note-model-relative-session-reference-budgets:
+  en: 33f983dcabe7437f
+  zh: a14f39241af5b8d6
+/agent-note-model-relative-session-reference-budgets/problem:
+  en: 2bc7bc4083a96c5d
+  zh: d0d290871def4abf
+/agent-note-model-relative-session-reference-budgets/decision:
+  en: 829e1d6425f54809
+  zh: 0a8dba9dab9df309
+/agent-note-model-relative-session-reference-budgets/alternatives-considered:
+  en: 77148c41d109895a
+  zh: dba534347f0e0877
+/agent-note-model-relative-session-reference-budgets/consequences:
+  en: 6ee6a4b3229ff378
+  zh: 9e30e71ac15da8c4

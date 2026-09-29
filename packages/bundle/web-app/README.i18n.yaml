@@ -1,0 +1,76 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/web-app/README.md
+/:
+  en: a9003e7e1951cc37
+  zh: 9d36dae75378ba45
+/cortex-ai-cortex-web-app:
+  en: e572307bde7edba8
+  zh: 01bf4313eea63178
+/cortex-ai-cortex-web-app/summary:
+  en: fbe7cfa456665e78
+  zh: a6eda851a87325b5
+/cortex-ai-cortex-web-app/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-web-app/use-this-package:
+  en: 3bd37b85139d2fa7
+  zh: ba86c807eb83866e
+/cortex-ai-cortex-web-app/use-this-package/starting-the-web-gui:
+  en: 7697958bf99cfdf6
+  zh: ed177f8a996dc97c
+/cortex-ai-cortex-web-app/use-this-package/configuration:
+  en: 5bdded309330cebd
+  zh: a50a1fdb7c74ee0d
+/cortex-ai-cortex-web-app/use-this-package/lan-access-and-trusted-hosts:
+  en: 2522c806db384ddc
+  zh: 7e96f11194af9f9f
+/cortex-ai-cortex-web-app/use-this-package/running-over-ssh:
+  en: 4e52fd50a309fe82
+  zh: c087e41135ad4b4e
+/cortex-ai-cortex-web-app/use-this-package/per-session-agent-setup:
+  en: 63ad0c77455d0ba9
+  zh: 07ea87c909075f45
+/cortex-ai-cortex-web-app/understand-the-implementation:
+  en: e808d62dacdf5fb2
+  zh: ffa6c52c28c824cd
+/cortex-ai-cortex-web-app/understand-the-implementation/patch-semantics:
+  en: bb901caef159e420
+  zh: ca27188667a694e3
+/cortex-ai-cortex-web-app/understand-the-implementation/readiness:
+  en: 973128fd346869df
+  zh: 54e6792f9f82a192
+/cortex-ai-cortex-web-app/understand-the-implementation/lan-trust-sampling:
+  en: b5ed8ff0056ca9da
+  zh: fdc1fa4f14cb00b3
+/cortex-ai-cortex-web-app/understand-the-implementation/source-map:
+  en: 54e0c290e8a19437
+  zh: e1ddf71f96a95313
+/cortex-ai-cortex-web-app/understand-the-implementation/invariant-ownership:
+  en: 34767bb4c0471622
+  zh: e6d76e7c7a0b9ce8
+/cortex-ai-cortex-web-app/further-exploration:
+  en: 764a25d91215bc78
+  zh: 6f8b603327e3fdd6
+/cortex-ai-cortex-web-app/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-web-app/model-experience/harness-source-and-web-surface-context:
+  en: e6febc53efe0f51d
+  zh: 9177816a8678d65d
+/cortex-ai-cortex-web-app/model-experience/harness-source-and-web-surface-context/what-the-model-sees:
+  en: d6deda837d1b7fee
+  zh: 4c757785474379ce
+/cortex-ai-cortex-web-app/model-experience/harness-source-and-web-surface-context/token-effect:
+  en: 908fc84d6849a830
+  zh: 56fe5e418bab60ba
+/cortex-ai-cortex-web-app/model-experience/harness-source-and-web-surface-context/kv-cache-effect:
+  en: da0f568d6d661c5e
+  zh: 606919b7d37c95bf
+/cortex-ai-cortex-web-app/known-limitations-and-deferred-work:
+  en: fead2f7bcd17e1ab
+  zh: 80949c203c0a0732
+/cortex-ai-cortex-web-app/known-limitations-and-deferred-work/dev-note:
+  en: 3f81b4f3beb74a0d
+  zh: 2e377ca40822d093

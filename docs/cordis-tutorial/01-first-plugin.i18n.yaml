@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 01-first-plugin.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cordis-tutorial/01-first-plugin.md
+/1-your-first-plugin:
+  en: 8ee29a19edeb9aac
+  zh: 39e8871748377e8d
+/1-your-first-plugin/write-the-plugin:
+  en: d2463e76475aee5d
+  zh: 8f51b6578376d2e0
+/1-your-first-plugin/compose-the-app:
+  en: 15740048ee489dad
+  zh: 530b2893ec77f610
+/1-your-first-plugin/run-it:
+  en: 41bab0262c5a6c5a
+  zh: d6e9d9ce35d9d8f0
+/1-your-first-plugin/the-two-other-plugin-shapes:
+  en: c6938a6269351cd9
+  zh: ea28c263c66a4285
+/1-your-first-plugin/try-breaking-it:
+  en: 2f14b4311b4e1d58
+  zh: d3101473cfd4b814

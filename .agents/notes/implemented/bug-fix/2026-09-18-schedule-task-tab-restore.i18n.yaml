@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-09-18-schedule-task-tab-restore.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/bug-fix/2026-09-18-schedule-task-tab-restore.md
+/agent-note-task-tab-recovery-after-a-reload:
+  en: 8f6e32388f9d5b12
+  zh: e62cf5762cb1fa22
+/agent-note-task-tab-recovery-after-a-reload/problem:
+  en: 865bfa29b58f8d5f
+  zh: 46cf6325f4a94bb2
+/agent-note-task-tab-recovery-after-a-reload/decision:
+  en: 16e1bcb4a0860e91
+  zh: 587715df43d5c96f
+/agent-note-task-tab-recovery-after-a-reload/alternatives-considered:
+  en: 570b2068131f6255
+  zh: 676297ca4f6ed7e7
+/agent-note-task-tab-recovery-after-a-reload/consequences:
+  en: 20b7e4c551df0bc0
+  zh: c17426fb981f0b06
+/agent-note-task-tab-recovery-after-a-reload/testing:
+  en: 3581ad83c52ee3b0
+  zh: fbffd886a46b76c6

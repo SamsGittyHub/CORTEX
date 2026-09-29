@@ -1,0 +1,83 @@
+{
+  "name": "@cortex-ai/cortex-session-log-export",
+  "description": "Web Session-log export command and shared download dialog",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/session-query/session-log-export"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@cortex-ai/cortex-session-format": "workspace:*",
+    "@cortex-ai/schemastery": "workspace:~",
+    "fflate": "^0.8.2",
+    "@cortex-ai/cortex-brand": "workspace:*"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-attachment": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-locale": "workspace:*",
+    "@cortex-ai/cortex-client-store": "workspace:*",
+    "@cortex-ai/cortex-client-ui-commands": "workspace:*",
+    "@cortex-ai/cortex-client-ui-conversation": "workspace:*",
+    "@cortex-ai/cortex-client-ui-message-feedback": "workspace:*",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-client-ui-renderer": "workspace:*",
+    "@cortex-ai/cortex-client-ui-session": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-session-persistence": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@types/react": "~18.3.1",
+    "react": "^18.2.0"
+  },
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-client-locale",
+        "@cortex-ai/cortex-client-ui-commands",
+        "@cortex-ai/cortex-client-ui-conversation",
+        "@cortex-ai/cortex-client-ui-renderer",
+        "@cortex-ai/cortex-client-ui-session"
+      ],
+      "platform": "web"
+    }
+  }
+}

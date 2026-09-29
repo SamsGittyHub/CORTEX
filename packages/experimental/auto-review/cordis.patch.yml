@@ -1,0 +1,3 @@
+- insert:
+    - id: auto-review
+      name: '@cortex-ai/cortex-experimental-auto-review'

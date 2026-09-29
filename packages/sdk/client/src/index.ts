@@ -1,0 +1,30 @@
+/**
+ * TypeScript client SDK for the CORTEX runtime: spawn the
+ * same-version `cortex --profile sdk` runtime as a subprocess and drive agent
+ * turns over stdio JSON-RPC. `Cortex` is the high-level run API;
+ * `HarnessClient` is the lower-level protocol client. A pure library — it
+ * registers nothing on a Cordis context; named profiles and ordered patch
+ * files customize the runtime process it spawns.
+ *
+ * @module @cortex-ai/cortex-sdk-client
+ */
+
+export { Cortex, HarnessSession } from './api.ts'
+export type { RunOptions } from './api.ts'
+export {
+  HarnessClient,
+  RequestTimeoutError,
+  SdkProtocolError,
+  TransportClosedError,
+} from './client.ts'
+export type { NotificationSubscription } from './client.ts'
+export { JsonRpcResponseError } from '@cortex-ai/cortex-sdk-protocol'
+export type {
+  ContentBlock,
+  SdkPromptContentBlock,
+  CortexOptions,
+  HarnessClientOptions,
+  HarnessNotification,
+  NotificationFilter,
+  RunResult,
+} from './types.ts'

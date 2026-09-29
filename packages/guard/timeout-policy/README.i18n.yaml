@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/guard/timeout-policy/README.md
+/:
+  en: 7020f47046dc8148
+  zh: 191dea4c788f374b
+/cortex-ai-cortex-tool-call-timeout-policy:
+  en: 53b72917af16a75c
+  zh: 00e24f416f71f852
+/cortex-ai-cortex-tool-call-timeout-policy/summary:
+  en: cede1cca9180de76
+  zh: 6253a01adba4a533
+/cortex-ai-cortex-tool-call-timeout-policy/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tool-call-timeout-policy/use-this-package:
+  en: 180a7e9419681a7d
+  zh: e0a983522ae29306
+/cortex-ai-cortex-tool-call-timeout-policy/use-this-package/when-to-choose-it:
+  en: 2c6495054dfaf09c
+  zh: 7f2d65c3202d75f3
+/cortex-ai-cortex-tool-call-timeout-policy/use-this-package/setting-it-up:
+  en: 1236b1fd2f4bfc8f
+  zh: 62f5e2d39d38e515
+/cortex-ai-cortex-tool-call-timeout-policy/use-this-package/what-you-get:
+  en: 339ff1d6001f3def
+  zh: c3e378abc7c58fa4
+/cortex-ai-cortex-tool-call-timeout-policy/understand-the-implementation:
+  en: 9bdd0f9388915825
+  zh: c101ec504869d187
+/cortex-ai-cortex-tool-call-timeout-policy/understand-the-implementation/design-philosophy:
+  en: 97cd266e1088cff5
+  zh: b5a4a99806b2c0c7
+/cortex-ai-cortex-tool-call-timeout-policy/understand-the-implementation/how-a-deadline-is-armed-and-mapped:
+  en: 4c2f31d760d5ad4b
+  zh: 42e5c42675c32dcc
+/cortex-ai-cortex-tool-call-timeout-policy/understand-the-implementation/composing-with-other-wrappers:
+  en: 09fba7333cf511f6
+  zh: 965c60634d370287
+/cortex-ai-cortex-tool-call-timeout-policy/understand-the-implementation/source-map:
+  en: 35abf9419848ba92
+  zh: 3c08b161064abdcd
+/cortex-ai-cortex-tool-call-timeout-policy/further-exploration:
+  en: 677e063e48c81b5c
+  zh: 3deeccc45dd4eba8
+/cortex-ai-cortex-tool-call-timeout-policy/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-call-timeout-policy/model-experience/conditional-tool-result:
+  en: 7877631ca859b191
+  zh: fb6f2aa33f70b82c
+/cortex-ai-cortex-tool-call-timeout-policy/model-experience/conditional-tool-result/what-the-model-sees:
+  en: 1fd9832261036f56
+  zh: 245b04969f3bc26d
+/cortex-ai-cortex-tool-call-timeout-policy/model-experience/conditional-tool-result/token-effect:
+  en: 063d0485b8631d04
+  zh: 13c1a680cfa9f02b
+/cortex-ai-cortex-tool-call-timeout-policy/model-experience/conditional-tool-result/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: f681f89596f500f5
+/cortex-ai-cortex-tool-call-timeout-policy/known-limitations-and-deferred-work:
+  en: 8b51b07b2fc6d1bc
+  zh: f65e3760a6ea5f2f
+/cortex-ai-cortex-tool-call-timeout-policy/known-limitations-and-deferred-work/dev-note:
+  en: 6a2c36f5b96d2372
+  zh: 80178d249e6b9688

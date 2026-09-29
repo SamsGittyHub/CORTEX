@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/mcp/mcp-resources/README.md
+/:
+  en: 34b851d97ea0313e
+  zh: 2fa00063647b6eee
+/cortex-ai-cortex-mcp-resources:
+  en: 76705b374d5d0fe6
+  zh: 8c99a48b707120ea
+/cortex-ai-cortex-mcp-resources/summary:
+  en: 83e45b0bc8cc292e
+  zh: 6bbee8ccc23b44ee
+/cortex-ai-cortex-mcp-resources/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 725b47765ee8f30b
+/cortex-ai-cortex-mcp-resources/use-this-package:
+  en: 376902d6b4583f46
+  zh: a3edc2dc5a77ffb7
+/cortex-ai-cortex-mcp-resources/use-this-package/server-configuration:
+  en: 9b1d255b037f9fb1
+  zh: 34dd87d11269a27f
+/cortex-ai-cortex-mcp-resources/use-this-package/discover-and-read:
+  en: f7fb6597acd3c5dc
+  zh: 9c59219fb4ab00d9
+/cortex-ai-cortex-mcp-resources/understand-the-implementation:
+  en: 97e45eb03496c2ca
+  zh: afe75fb8cbd8a9c0
+/cortex-ai-cortex-mcp-resources/further-exploration:
+  en: a19035503c7f05cf
+  zh: 93b78c604f095818
+/cortex-ai-cortex-mcp-resources/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-mcp-resources/model-experience/shared-resource-tools:
+  en: 520e0b6cb35e4285
+  zh: 20a323f87e6d12fc
+/cortex-ai-cortex-mcp-resources/model-experience/shared-resource-tools/what-the-model-sees:
+  en: 9526ba03cc49f40f
+  zh: b2c3beca4a89f49b
+/cortex-ai-cortex-mcp-resources/model-experience/shared-resource-tools/token-effect:
+  en: 92682e15ca9e90a5
+  zh: 3487ef2adb89c9e4
+/cortex-ai-cortex-mcp-resources/model-experience/shared-resource-tools/kv-cache-effect:
+  en: fdb450babcdf877b
+  zh: f013ae46ce9e1125
+/cortex-ai-cortex-mcp-resources/model-experience/resource-results:
+  en: f46ae3151a215b4d
+  zh: 8d15019792d3fe61
+/cortex-ai-cortex-mcp-resources/model-experience/resource-results/what-the-model-sees:
+  en: 62d0a18c52283474
+  zh: 70b2fbea70c98818
+/cortex-ai-cortex-mcp-resources/model-experience/resource-results/token-effect:
+  en: e6fb5043a1ccc6ff
+  zh: d15d2e7b5986d614
+/cortex-ai-cortex-mcp-resources/model-experience/resource-results/kv-cache-effect:
+  en: ea0dfc069bf175c0
+  zh: 3e1465e56ff79764
+/cortex-ai-cortex-mcp-resources/known-limitations-and-deferred-work:
+  en: 58d13dc99946c11d
+  zh: 4099c46a1ca60512
+/cortex-ai-cortex-mcp-resources/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

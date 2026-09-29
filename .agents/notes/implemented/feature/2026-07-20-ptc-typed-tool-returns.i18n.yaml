@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for 2026-07-20-ptc-typed-tool-returns.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-07-20-ptc-typed-tool-returns.md
+/agent-note-typed-tool-returns-in-ptc-mode:
+  en: 59f3024b8405d605
+  zh: dfb136fc63dc6889
+/agent-note-typed-tool-returns-in-ptc-mode/problem:
+  en: a9dea82cf778d88b
+  zh: c1d930931e196ad6
+/agent-note-typed-tool-returns-in-ptc-mode/decision:
+  en: 823824277d31b96c
+  zh: 1862961b97b0dfac
+/agent-note-typed-tool-returns-in-ptc-mode/decision/generated-sdk:
+  en: 30583e9ac6715952
+  zh: 3a85c9482abf574c
+/agent-note-typed-tool-returns-in-ptc-mode/decision/binding-values-and-failures:
+  en: ecb95cafa2dc1297
+  zh: ccdf300ca936ca12
+/agent-note-typed-tool-returns-in-ptc-mode/decision/outer-result-and-output-ledger:
+  en: d907d0a8205157e1
+  zh: 1ed99168266a7ca4
+/agent-note-typed-tool-returns-in-ptc-mode/decision/typed-handles-and-lifetime:
+  en: a63b63384c9f3d83
+  zh: 7025c37f6d37ddd2
+/agent-note-typed-tool-returns-in-ptc-mode/decision/persistence-metadata-and-spill:
+  en: 2b8f72ff1db77b73
+  zh: cd850ecda5d605d5
+/agent-note-typed-tool-returns-in-ptc-mode/testing:
+  en: 728513c779f031f8
+  zh: f6d869f18add7242
+/agent-note-typed-tool-returns-in-ptc-mode/alternatives-considered:
+  en: dedd87b9b35d8fab
+  zh: 78db4c7e8c4e5f61
+/agent-note-typed-tool-returns-in-ptc-mode/consequences:
+  en: 7c2ee65532ab76f8
+  zh: 3fb074c69909d390
+/agent-note-typed-tool-returns-in-ptc-mode/known-limitations-and-deferred-work:
+  en: a42af629ad6872cc
+  zh: 41e5c0bb3de0ae4d

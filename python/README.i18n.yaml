@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write python/README.md
+/cortex-python-sdk:
+  en: 65673232052fcad1
+  zh: fec7f90fc3a76804
+/cortex-python-sdk/packages:
+  en: cb5300a578347c3a
+  zh: 27e5c545e365b67a
+/cortex-python-sdk/behavior:
+  en: feb00687cb33789b
+  zh: d401eb97ce814475
+/cortex-python-sdk/contributor-workflows:
+  en: 805d8e149fafd9e4
+  zh: 245e05fb777d5739

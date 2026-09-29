@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for ui-radius.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/ui-radius.md
+/cortex-unified-corner-radius-standard:
+  en: e45cc83763971832
+  zh: 1e665ecd955ead95
+/cortex-unified-corner-radius-standard/summary:
+  en: 6f81cf5bd9f24cda
+  zh: b2bbdbcd25ee8196
+/cortex-unified-corner-radius-standard/table-of-contents:
+  en: aad65e4a8399adbb
+  zh: e76b80d421b17992
+/cortex-unified-corner-radius-standard/scope-and-authority:
+  en: b22b77d01b2c0412
+  zh: a0f599ab1639e207
+/cortex-unified-corner-radius-standard/select-the-radius:
+  en: 06ddd6bf9ef1e48c
+  zh: 4c42d0c9266a00e8
+/cortex-unified-corner-radius-standard/reuse-tokens-and-preserve-deliberate-shapes:
+  en: 503598e898ec82a5
+  zh: 38d4732de60cf140
+/cortex-unified-corner-radius-standard/nested-geometry-and-hover:
+  en: 3920921700d8ad1c
+  zh: fc99da8a5e905a27
+/cortex-unified-corner-radius-standard/settings-card-materials:
+  en: 85e7e63183df06d1
+  zh: 1da2b44083d7ebe2
+/cortex-unified-corner-radius-standard/apply-and-verify:
+  en: 2f6f10e45b27c19b
+  zh: 9eb5fd964c643be6

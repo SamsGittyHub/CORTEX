@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/attachment/attachment-local/README.md
+/:
+  en: dc6adfd077394c51
+  zh: 16ecb7dd811316fc
+/cortex-ai-cortex-attachment-local:
+  en: 168351e792f127ca
+  zh: e01675e6994effc3
+/cortex-ai-cortex-attachment-local/summary:
+  en: d860b1d9233190d1
+  zh: 4b9d0191f24a0be5
+/cortex-ai-cortex-attachment-local/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-attachment-local/use-this-package:
+  en: 912a19be4b59ff8a
+  zh: 9c14694cf2ebbaf2
+/cortex-ai-cortex-attachment-local/use-this-package/minimal-configuration:
+  en: 0e9c49edf4a44020
+  zh: 7773a99f25976edb
+/cortex-ai-cortex-attachment-local/use-this-package/where-your-images-are-stored-and-how-long-they-last:
+  en: d34ec118f5c681c7
+  zh: 869d5852a9c6ecb9
+/cortex-ai-cortex-attachment-local/use-this-package/what-happens-when-you-attach-an-image:
+  en: 75ba799b1e4edba4
+  zh: 06c5f76200e8da8a
+/cortex-ai-cortex-attachment-local/use-this-package/what-can-go-wrong:
+  en: 377696b2dc08b170
+  zh: 6b831ef31c93f712
+/cortex-ai-cortex-attachment-local/understand-the-implementation:
+  en: e44b0aa3e234a0ef
+  zh: b7dd6829478eb7f1
+/cortex-ai-cortex-attachment-local/understand-the-implementation/design-decisions:
+  en: dcd9857653645420
+  zh: a27259a09f17465d
+/cortex-ai-cortex-attachment-local/understand-the-implementation/write-and-read-paths:
+  en: 5a3100b67f7e4ef6
+  zh: c7e52c7aec214430
+/cortex-ai-cortex-attachment-local/understand-the-implementation/source-map:
+  en: b092fd38c68a06bd
+  zh: 4f3f4f1ec98401f4
+/cortex-ai-cortex-attachment-local/further-exploration:
+  en: 68750cfe0ca342e9
+  zh: 31ca4e774ee3bc14
+/cortex-ai-cortex-attachment-local/model-experience:
+  en: 2e18b3dfbc5af126
+  zh: aaee1745632c561a
+/cortex-ai-cortex-attachment-local/model-experience/kv-cache-effect:
+  en: 64670486210bdab7
+  zh: 44c988dd6268c1ff
+/cortex-ai-cortex-attachment-local/known-limitations-and-deferred-work:
+  en: 46a33da5b3740127
+  zh: c3ac244228b81d8f
+/cortex-ai-cortex-attachment-local/known-limitations-and-deferred-work/dev-note:
+  en: d56846da29ad869c
+  zh: 41e655e01351fd1d
+/cortex-ai-cortex-attachment-local/known-limitations-and-deferred-work/dev-note/future-retention-and-remote-storage:
+  en: 9da26d9b3946439d
+  zh: ff5055b85501f36b

@@ -1,0 +1,34 @@
+# Bilingual-pair consistency record for 2026-09-18-session-pin-and-sidebar-archive.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-09-18-session-pin-and-sidebar-archive.md
+/agent-note-session-pinning-and-the-sidebar-archived-filter:
+  en: d92261c9e347a24a
+  zh: da4f81dea20d27d2
+/agent-note-session-pinning-and-the-sidebar-archived-filter/problem:
+  en: 8a33826809d1dd8f
+  zh: b37aa33a8e2ed8d8
+/agent-note-session-pinning-and-the-sidebar-archived-filter/decision:
+  en: c483432158826f12
+  zh: 2fc1e96f276420a7
+/agent-note-session-pinning-and-the-sidebar-archived-filter/decision/complete-session-order:
+  en: ce5c959a04e3a92b
+  zh: 3a2e9dbdad8af099
+/agent-note-session-pinning-and-the-sidebar-archived-filter/decision/archive-restoration:
+  en: dd9154a8516a8037
+  zh: a5dfaa7fb3e93800
+/agent-note-session-pinning-and-the-sidebar-archived-filter/decision/archived-visibility-and-row-motion:
+  en: 83dd778a865f2cf5
+  zh: 7636166749f63633
+/agent-note-session-pinning-and-the-sidebar-archived-filter/decision/persistence:
+  en: 4bcb0398b47334aa
+  zh: fa386724afa99a77
+/agent-note-session-pinning-and-the-sidebar-archived-filter/alternatives-considered:
+  en: 3bf6fc0c22b17377
+  zh: 0fc64131ee8be859
+/agent-note-session-pinning-and-the-sidebar-archived-filter/consequences:
+  en: a487faf9af215726
+  zh: a92cae8b15fba541
+/agent-note-session-pinning-and-the-sidebar-archived-filter/related:
+  en: 6c67f3a071f80c15
+  zh: e0455cddc9c4bea9

@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/skill/skill-badge/README.md
+/:
+  en: 4e954bf128f74d0a
+  zh: a01dbcaa759aa1af
+/cortex-ai-cortex-skill-badge:
+  en: 39efbf81a989c77c
+  zh: 92a543e36397c0ce
+/cortex-ai-cortex-skill-badge/summary:
+  en: fde6bee6b4800c95
+  zh: 30ef8d373573ef9a
+/cortex-ai-cortex-skill-badge/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-skill-badge/use-this-package:
+  en: 72cf87fb7a3f09ce
+  zh: 5d0ea839393cc8b4
+/cortex-ai-cortex-skill-badge/use-this-package/when-to-choose-it:
+  en: 72028fd6e6e3e543
+  zh: 54b4a6cc6eeecf4b
+/cortex-ai-cortex-skill-badge/use-this-package/enable-the-plugin:
+  en: 79d58cdebcb0b835
+  zh: a56927a2d3a31f96
+/cortex-ai-cortex-skill-badge/use-this-package/what-the-badge-skill-provides:
+  en: b240d406725ed808
+  zh: 3f05070e70e798af
+/cortex-ai-cortex-skill-badge/use-this-package/observable-success-and-failures:
+  en: a265e29ee865bafe
+  zh: 3e3480fec1a0c1eb
+/cortex-ai-cortex-skill-badge/understand-the-implementation:
+  en: 63465b0133f30e85
+  zh: 84bebb7c1fe0ceba
+/cortex-ai-cortex-skill-badge/understand-the-implementation/design-concept:
+  en: da705bbc3fa46252
+  zh: ecbcdbe2e5ab0ef1
+/cortex-ai-cortex-skill-badge/understand-the-implementation/source-map:
+  en: ca447599379ab5c3
+  zh: 1d202038abdbfda6
+/cortex-ai-cortex-skill-badge/further-exploration:
+  en: 36f3b372edaca7e7
+  zh: 2f8e77a88ec48723
+/cortex-ai-cortex-skill-badge/model-experience:
+  en: b819c79b0109d314
+  zh: e4dd7cbe6a303ab8
+/cortex-ai-cortex-skill-badge/model-experience/kv-cache-effect:
+  en: 6a8366520852a607
+  zh: 453ec29827b82bbc
+/cortex-ai-cortex-skill-badge/known-limitations-and-deferred-work:
+  en: b090aed7b1662a83
+  zh: 0d8f5e519e39bd61
+/cortex-ai-cortex-skill-badge/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

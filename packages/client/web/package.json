@@ -1,0 +1,54 @@
+{
+  "name": "@cortex-ai/cortex-client-web",
+  "description": "Web boot kernel: static module table, Cordis loader, framework-free boot page, and UI-renderer handoff",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/client/web"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json",
+    "./injections": {
+      "types": "./lib/types/apply-injections.d.ts",
+      "default": "./lib/apply-injections.js"
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cortex-client-modules": "workspace:*",
+    "@cortex-ai/cortex-client-store": "workspace:*",
+    "@cortex-ai/cortex-client-ui-dockkit": "workspace:*",
+    "@cortex-ai/cortex-client-ui-renderer": "workspace:*",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@types/react": "~18.3.1",
+    "@types/react-dom": "~18.3.0",
+    "@cortex-ai/cordis": "workspace:~",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^6.0.3",
+    "@cortex-ai/cortex-host-webserver": "workspace:*"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/**/*.css",
+    "lib/apply-injections.js",
+    "lib/types/**/*.d.ts"
+  ]
+}

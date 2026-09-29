@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-model-selection/README.md
+/:
+  en: f39813648aeef5a0
+  zh: eea25094e8bfc031
+/cortex-ai-cortex-client-ui-model-selection:
+  en: 0cf99d3c745314b6
+  zh: 3944a1ef79ceb163
+/cortex-ai-cortex-client-ui-model-selection/summary:
+  en: 2fb361ef704528fb
+  zh: 2537d2afb4d2cb45
+/cortex-ai-cortex-client-ui-model-selection/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-model-selection/use-this-package:
+  en: 62235f8c8c9e1e7e
+  zh: c18dc9c38ef9d4f9
+/cortex-ai-cortex-client-ui-model-selection/use-this-package/model-and-effort:
+  en: 2a3a6b450cb9ab6c
+  zh: 2e8e0cdfedbea95b
+/cortex-ai-cortex-client-ui-model-selection/use-this-package/unroutable-sessions:
+  en: 7f20428c747ff052
+  zh: 975e6de728e02fa0
+/cortex-ai-cortex-client-ui-model-selection/use-this-package/selection-failures:
+  en: 724dbd795f614dff
+  zh: 350b08a61ca4083f
+/cortex-ai-cortex-client-ui-model-selection/understand-the-implementation:
+  en: 886980275fec985a
+  zh: c993ea5ebd4b4008
+/cortex-ai-cortex-client-ui-model-selection/further-exploration:
+  en: 515c0cc1cf786422
+  zh: 47be675e5c4cfac1
+/cortex-ai-cortex-client-ui-model-selection/model-experience:
+  en: 782f79ed910f426a
+  zh: 54a2e3e32a747544
+/cortex-ai-cortex-client-ui-model-selection/model-experience/kv-cache-effect:
+  en: 68e54c00412a40d1
+  zh: 0ac96f57fd194d96
+/cortex-ai-cortex-client-ui-model-selection/known-limitations-and-deferred-work:
+  en: 75b37954ceacd92a
+  zh: a49d0361486e35c4
+/cortex-ai-cortex-client-ui-model-selection/known-limitations-and-deferred-work/dev-note:
+  en: 83bfc3dae3365b49
+  zh: f7dc4d0654ec83e1

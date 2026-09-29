@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/connection/README.md
+/:
+  en: 13b131457d03a224
+  zh: 6dedd0706d5ffc0a
+/cortex-ai-cortex-client-connection:
+  en: 8fcfb55e2ab13b9c
+  zh: a91e3cd719819c48
+/cortex-ai-cortex-client-connection/summary:
+  en: a83b5e9fd1968062
+  zh: ac68628e185a4bff
+/cortex-ai-cortex-client-connection/table-of-contents:
+  en: 18792bf2fb4f8030
+  zh: 84c63acc7e0099ae
+/cortex-ai-cortex-client-connection/use-this-package:
+  en: e0708f4848e21d42
+  zh: 1b86a7cec9680288
+/cortex-ai-cortex-client-connection/browser-authentication-and-request-trust:
+  en: f055b869605f2c4c
+  zh: d85442a0b8e378b4
+/cortex-ai-cortex-client-connection/connection-generation:
+  en: 7759b23f63f5a9f5
+  zh: bb01ca5f7570698e
+/cortex-ai-cortex-client-connection/model-experience:
+  en: 88bbc33fe9ae9df8
+  zh: bfbab6d51b4abd40
+/cortex-ai-cortex-client-connection/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-connection/known-limitations-and-deferred-work:
+  en: e57a7ed3969e0653
+  zh: 793f925bdf32fe4a
+/cortex-ai-cortex-client-connection/known-limitations-and-deferred-work/dev-note:
+  en: c51db1312f6a43ef
+  zh: 7193ff08f53e3230

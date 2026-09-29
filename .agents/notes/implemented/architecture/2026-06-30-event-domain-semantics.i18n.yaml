@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for 2026-06-30-event-domain-semantics.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-06-30-event-domain-semantics.md
+/agent-note-event-domain-semantics-session-is-the-fact-log-agent-is-the-live-event-channel:
+  en: f9845b7f1d590be2
+  zh: 495e4e0d9c2b546c
+/agent-note-event-domain-semantics-session-is-the-fact-log-agent-is-the-live-event-channel/problem:
+  en: f8c0e8e437483895
+  zh: 43cf7077f68513e9
+/agent-note-event-domain-semantics-session-is-the-fact-log-agent-is-the-live-event-channel/decision:
+  en: ccc0fed9b7388112
+  zh: 3cc527b11affd941
+/agent-note-event-domain-semantics-session-is-the-fact-log-agent-is-the-live-event-channel/consequences:
+  en: e0c5aa60322e67a1
+  zh: 7495550f0c863eda

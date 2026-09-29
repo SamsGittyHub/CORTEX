@@ -1,0 +1,112 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/core/agent-loop/README.md
+/:
+  en: 5d57c28077cb670a
+  zh: 8113ea0248d66a17
+/cortex-ai-cortex-agent-loop:
+  en: de314c46232b7906
+  zh: 14c05d9665f5535d
+/cortex-ai-cortex-agent-loop/summary:
+  en: 87808ea2af0b1aec
+  zh: 292447344a4a4e33
+/cortex-ai-cortex-agent-loop/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-agent-loop/use-this-package:
+  en: 11ca6e909205abe4
+  zh: a0aaf4f1adc9701a
+/cortex-ai-cortex-agent-loop/use-this-package/configure-declarative-agents:
+  en: f1a9b5ff08af9971
+  zh: a1b79cc1c4453921
+/cortex-ai-cortex-agent-loop/use-this-package/create-or-resume-agents-programmatically:
+  en: 82ec792637e8e57f
+  zh: e32f8ec5ee17afcf
+/cortex-ai-cortex-agent-loop/use-this-package/what-a-step-does:
+  en: 15ce4783b53532a2
+  zh: b04a18337281237a
+/cortex-ai-cortex-agent-loop/understand-the-implementation:
+  en: ce7e776e9d516bdb
+  zh: 59d2751743db7795
+/cortex-ai-cortex-agent-loop/understand-the-implementation/design-concept:
+  en: 030202c112f89366
+  zh: 621d53ed755cafa3
+/cortex-ai-cortex-agent-loop/understand-the-implementation/request-headers-and-adapter-defaults:
+  en: 8c5fe7ee773389c4
+  zh: 0e31b43e4b4ab1f1
+/cortex-ai-cortex-agent-loop/understand-the-implementation/source-map:
+  en: d7f6b2947ec9b2f3
+  zh: 8a3d566fb8cf2938
+/cortex-ai-cortex-agent-loop/understand-the-implementation/creation-and-teardown:
+  en: 6bc52b8ef503eeda
+  zh: 3290052ebc47baf6
+/cortex-ai-cortex-agent-loop/understand-the-implementation/persistence-integration:
+  en: da056b9f0dde4ab3
+  zh: ba9ce3b19c17ca22
+/cortex-ai-cortex-agent-loop/understand-the-implementation/turn-and-step-flow:
+  en: ed5137ef858b3424
+  zh: af2ff3bc15576456
+/cortex-ai-cortex-agent-loop/understand-the-implementation/failure-and-cancellation:
+  en: a8037967f0cd6121
+  zh: 2351401ee66b2777
+/cortex-ai-cortex-agent-loop/further-exploration:
+  en: 1b13e9c4d85adb26
+  zh: 02a27e5a1bab5063
+/cortex-ai-cortex-agent-loop/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-agent-loop/model-experience/complete-conversation-request:
+  en: 5507d83eb979c737
+  zh: 0ffde85d627b3933
+/cortex-ai-cortex-agent-loop/model-experience/complete-conversation-request/what-the-model-sees:
+  en: cd89b20032608049
+  zh: 1f57d4cecc30313b
+/cortex-ai-cortex-agent-loop/model-experience/complete-conversation-request/token-effect:
+  en: ad93d8d61968a25d
+  zh: 268ff858b0fa96e8
+/cortex-ai-cortex-agent-loop/model-experience/complete-conversation-request/kv-cache-effect:
+  en: c002d27c825d04e8
+  zh: b0dbdd95d3b3b6b5
+/cortex-ai-cortex-agent-loop/model-experience/retained-message-history:
+  en: 50d33d852dec1e28
+  zh: ec15695304f25f38
+/cortex-ai-cortex-agent-loop/model-experience/retained-message-history/what-the-model-sees:
+  en: 0a36273eff0815fd
+  zh: 1aa1e856d8b1afc9
+/cortex-ai-cortex-agent-loop/model-experience/retained-message-history/token-effect:
+  en: 91552b9cbef55638
+  zh: 6e835a66d984f62d
+/cortex-ai-cortex-agent-loop/model-experience/retained-message-history/kv-cache-effect:
+  en: 2b82cd95e6335e91
+  zh: 2275f0c808427bf1
+/cortex-ai-cortex-agent-loop/model-experience/undispatched-calls-after-cancellation:
+  en: a7afa95628111dd8
+  zh: 1d72925e9915f75f
+/cortex-ai-cortex-agent-loop/model-experience/undispatched-calls-after-cancellation/what-the-model-sees:
+  en: e3c07034229f15ed
+  zh: b0ee0507606b34ce
+/cortex-ai-cortex-agent-loop/model-experience/undispatched-calls-after-cancellation/token-effect:
+  en: 7c139b3584615343
+  zh: 02d5d8239b502b06
+/cortex-ai-cortex-agent-loop/model-experience/undispatched-calls-after-cancellation/kv-cache-effect:
+  en: 1750eea3cc5bf2d8
+  zh: 519d37b0cb4467a7
+/cortex-ai-cortex-agent-loop/model-experience/unanswered-calls-after-step-failure:
+  en: 0f150799ee294e40
+  zh: 4c283b07367dfa4a
+/cortex-ai-cortex-agent-loop/model-experience/unanswered-calls-after-step-failure/what-the-model-sees:
+  en: a62feae35f09ff13
+  zh: d20a0172d86f6515
+/cortex-ai-cortex-agent-loop/model-experience/unanswered-calls-after-step-failure/token-effect:
+  en: cefdf878a21a681a
+  zh: 96d8271b257478d6
+/cortex-ai-cortex-agent-loop/model-experience/unanswered-calls-after-step-failure/kv-cache-effect:
+  en: 83531f2a13cc1f0e
+  zh: 81a780d637dd8c5d
+/cortex-ai-cortex-agent-loop/known-limitations-and-deferred-work:
+  en: 5cc5ace0b02aea56
+  zh: 7c9b33ee4775659d
+/cortex-ai-cortex-agent-loop/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

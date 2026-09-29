@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-07-08-interactive-side-sessions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/proposed/feature/2026-07-08-interactive-side-sessions.md
+/agent-note-interactive-side-sessions-and-merge-back:
+  en: c341ed6ad1c4d1ec
+  zh: 19c3e2cdc276f80c
+/agent-note-interactive-side-sessions-and-merge-back/problem:
+  en: 82ff8f6d28749c63
+  zh: 4b49ee5b0ac928b6
+/agent-note-interactive-side-sessions-and-merge-back/proposal:
+  en: ea4297bcd5081862
+  zh: 7085ae46dbd8bf1f
+/agent-note-interactive-side-sessions-and-merge-back/alternatives-considered:
+  en: de50cab213a61b91
+  zh: 85b912193092dfe2
+/agent-note-interactive-side-sessions-and-merge-back/acceptance-criteria:
+  en: 17d0937a1f28b1ac
+  zh: 9710ab0af3268da1
+/agent-note-interactive-side-sessions-and-merge-back/risks:
+  en: 69280a909365d303
+  zh: c547ceced13cc534

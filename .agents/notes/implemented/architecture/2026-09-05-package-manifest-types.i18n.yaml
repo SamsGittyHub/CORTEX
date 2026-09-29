@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-09-05-package-manifest-types.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-09-05-package-manifest-types.md
+/agent-note-package-manifest-declaration-ownership:
+  en: cbbde94412b5236a
+  zh: 247562fd4d5c4bd5
+/agent-note-package-manifest-declaration-ownership/problem:
+  en: bdc0fcaf27081889
+  zh: 45eb034edd0bed82
+/agent-note-package-manifest-declaration-ownership/decision:
+  en: a40a5a60b0a9d265
+  zh: 645766e7a26d60fc
+/agent-note-package-manifest-declaration-ownership/alternatives-considered:
+  en: bf99e75ffab5cb45
+  zh: 398f5934858aaca5
+/agent-note-package-manifest-declaration-ownership/consequences:
+  en: 6ac64416539cfcb5
+  zh: c065e23bac89b81f

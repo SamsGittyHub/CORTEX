@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-plugin-manager/README.md
+/:
+  en: 65c981be6a40344b
+  zh: 468873de4e2db85f
+/cortex-ai-cortex-client-ui-plugin-manager:
+  en: 141dcc1dd41ddd06
+  zh: a022088f35f3076f
+/cortex-ai-cortex-client-ui-plugin-manager/summary:
+  en: 0dc67850ca5358de
+  zh: 4ff1bb5bdc184e3e
+/cortex-ai-cortex-client-ui-plugin-manager/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package:
+  en: 3ce7e13cb269d2ad
+  zh: 0e077e3f7a310c75
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package/installing-a-bundle:
+  en: db20f1fdbf1578c8
+  zh: bed84d1522d9bf26
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package/switching-a-bundle:
+  en: abc90531efa889d5
+  zh: 0562570f85e69c35
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package/switching-one-row-of-a-bundle:
+  en: 620c6a3ee20848bd
+  zh: a9429f047a12bb4c
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package/configuration-pages:
+  en: 012bc946f6f0446e
+  zh: d52a0a510ae58823
+/cortex-ai-cortex-client-ui-plugin-manager/use-this-package/detail-page-extension-points:
+  en: 87f6d96467dc2383
+  zh: e0fb91aa4c4d5a12
+/cortex-ai-cortex-client-ui-plugin-manager/understand-the-implementation:
+  en: 8ca48e1365f18adf
+  zh: 91eadd683d2d8b5b
+/cortex-ai-cortex-client-ui-plugin-manager/understand-the-implementation/registration:
+  en: c5a1f14d37433d07
+  zh: 75014f10a155fadb
+/cortex-ai-cortex-client-ui-plugin-manager/understand-the-implementation/the-store:
+  en: 21a0bbe8eb92229c
+  zh: 096ff63db61992bb
+/cortex-ai-cortex-client-ui-plugin-manager/understand-the-implementation/configuration-slots:
+  en: 5904da21dfa60f84
+  zh: 6a2c486ab5917817
+/cortex-ai-cortex-client-ui-plugin-manager/further-exploration:
+  en: e26bc0700724354e
+  zh: a6ca140c14776016
+/cortex-ai-cortex-client-ui-plugin-manager/model-experience:
+  en: 8dcc6c6fbfb567d2
+  zh: 43690ae350f1d6a7
+/cortex-ai-cortex-client-ui-plugin-manager/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 2064958b0754647e
+/cortex-ai-cortex-client-ui-plugin-manager/known-limitations-and-deferred-work:
+  en: a90e0fcf8af52015
+  zh: 4005db02a2242009
+/cortex-ai-cortex-client-ui-plugin-manager/known-limitations-and-deferred-work/dev-note:
+  en: 3856b8f32b9d2655
+  zh: 8eae0dd37f198555

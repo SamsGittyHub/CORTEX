@@ -1,0 +1,85 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/compaction/compaction/README.md
+/:
+  en: 5c47c9629036f119
+  zh: 7730d7468a38b38d
+/cortex-ai-cortex-compaction:
+  en: 5ed5e92b2160b809
+  zh: 267389f0de54c41a
+/cortex-ai-cortex-compaction/summary:
+  en: 2890e40139bce69e
+  zh: ce55228854191b8f
+/cortex-ai-cortex-compaction/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-compaction/use-this-package:
+  en: 7d1dad97626dbd2e
+  zh: 075fef4e1844ad12
+/cortex-ai-cortex-compaction/use-this-package/when-to-choose-it:
+  en: 61674ac43b1e2df1
+  zh: 57ced74603ae0e3c
+/cortex-ai-cortex-compaction/use-this-package/what-condensation-looks-like:
+  en: 0abbee3a3b929a90
+  zh: 334736dffe93488d
+/cortex-ai-cortex-compaction/use-this-package/turning-condensation-on:
+  en: deb7e68460b1b542
+  zh: a14d14d71eec2936
+/cortex-ai-cortex-compaction/use-this-package/implementing-a-backend:
+  en: 54706face64cae49
+  zh: 6f48ad763b2a3ca5
+/cortex-ai-cortex-compaction/use-this-package/recognizing-condensed-history:
+  en: 35502487f2850f05
+  zh: 333d2b86cc1d6eb0
+/cortex-ai-cortex-compaction/understand-the-implementation:
+  en: 321c3dc665ea03ff
+  zh: f0fa408cde7b0454
+/cortex-ai-cortex-compaction/understand-the-implementation/design-philosophy:
+  en: 2a02bba9e2b1afe1
+  zh: 06ab90d258d4b89c
+/cortex-ai-cortex-compaction/understand-the-implementation/service-api:
+  en: 7ece717c6752cb47
+  zh: 7e262f87fa183679
+/cortex-ai-cortex-compaction/understand-the-implementation/manual-failure-taxonomy:
+  en: abd139fdbf87782a
+  zh: dc336959b0fd86ec
+/cortex-ai-cortex-compaction/understand-the-implementation/tool-pairing-boundaries:
+  en: 15dad68a04d6c86b
+  zh: 3b95acf1b7e503bf
+/cortex-ai-cortex-compaction/understand-the-implementation/the-surface-contract:
+  en: df1d81a36a4368ac
+  zh: 599f65ced8991652
+/cortex-ai-cortex-compaction/understand-the-implementation/source-map:
+  en: 121139cf1878d7cf
+  zh: f8f9d8d3eb9866b5
+/cortex-ai-cortex-compaction/understand-the-implementation/locking-and-serialization:
+  en: 68caa51bed28bada
+  zh: 3f8261f9dcba95ed
+/cortex-ai-cortex-compaction/understand-the-implementation/events:
+  en: c9758e65ba2fdfe8
+  zh: 96d36e06bf1325c0
+/cortex-ai-cortex-compaction/further-exploration:
+  en: 488d54f473340008
+  zh: eaf08142c1f7284a
+/cortex-ai-cortex-compaction/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-compaction/model-experience/conversation-history-when-a-backend-is-invoked:
+  en: 94de97ed1e85db85
+  zh: c8e37d8050609e63
+/cortex-ai-cortex-compaction/model-experience/conversation-history-when-a-backend-is-invoked/what-the-model-sees:
+  en: 3c4875a13da17814
+  zh: 9b257950a9e2c7c1
+/cortex-ai-cortex-compaction/model-experience/conversation-history-when-a-backend-is-invoked/token-effect:
+  en: be91f4a4bbb9338b
+  zh: 2b5de31d4d7caff1
+/cortex-ai-cortex-compaction/model-experience/conversation-history-when-a-backend-is-invoked/kv-cache-effect:
+  en: 40ba838a2309c44a
+  zh: c609fc1587a0d666
+/cortex-ai-cortex-compaction/known-limitations-and-deferred-work:
+  en: fee9ba06d3e5f35c
+  zh: 2bb5241e2447d15d
+/cortex-ai-cortex-compaction/known-limitations-and-deferred-work/dev-note:
+  en: 270e23ae6414aff0
+  zh: c6d219b8a547dbca

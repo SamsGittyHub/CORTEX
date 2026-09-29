@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for session-format-status.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/session-format-status.md
+/session-format-version-and-release-status:
+  en: 844dfc21bc8fb5bd
+  zh: ea20cd8776442148
+/session-format-version-and-release-status/summary:
+  en: 702f6c39cc29beca
+  zh: 75cd72d886640bb5
+/session-format-version-and-release-status/table-of-contents:
+  en: 4b723de0471eae1b
+  zh: b308bf89ea47ae05
+/session-format-version-and-release-status/sources-of-truth:
+  en: b9ded64ed210bd64
+  zh: 1d2aea1dc8e71491
+/session-format-version-and-release-status/finalization-record:
+  en: 87b6a0b2474b9f15
+  zh: 48a4f5f5faeb4928
+/session-format-version-and-release-status/release-record:
+  en: 55e716cf6c764393
+  zh: 344d1162ff132456
+/session-format-version-and-release-status/updating-the-record:
+  en: 65efd03aeea4991c
+  zh: faa3571c37f19bd4
+/session-format-version-and-release-status/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

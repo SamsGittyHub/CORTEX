@@ -1,0 +1,91 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/todo/tool-todo/README.md
+/:
+  en: 05a169e09b902d10
+  zh: 4fbad0b38e46443e
+/cortex-ai-cortex-tool-todo:
+  en: e0e04a08e0e946e2
+  zh: 7ebf196746a7d9ff
+/cortex-ai-cortex-tool-todo/summary:
+  en: 4916978b818d9214
+  zh: 2bb654d6db69723d
+/cortex-ai-cortex-tool-todo/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tool-todo/use-this-package:
+  en: d10c650faab8695d
+  zh: 6018b5a53501d88b
+/cortex-ai-cortex-tool-todo/use-this-package/when-to-choose-it:
+  en: c964ee10289fcd21
+  zh: 4c1e68220906eb06
+/cortex-ai-cortex-tool-todo/use-this-package/minimal-configuration:
+  en: 4f4a64a6542f59f1
+  zh: f74e7d75f6ce9de6
+/cortex-ai-cortex-tool-todo/use-this-package/what-each-call-does:
+  en: 415a6775984f539d
+  zh: 04e6f16e7c81b8ba
+/cortex-ai-cortex-tool-todo/use-this-package/single-owner:
+  en: f051cbd97dab2436
+  zh: 18976a8affed8cab
+/cortex-ai-cortex-tool-todo/understand-the-implementation:
+  en: 8d94a7381bca3fa9
+  zh: f4bd2866fff6fa8d
+/cortex-ai-cortex-tool-todo/understand-the-implementation/design-philosophy:
+  en: 79e0ce717098e5eb
+  zh: ec34658fb269c2e1
+/cortex-ai-cortex-tool-todo/understand-the-implementation/source-map:
+  en: d53829e90f7f63ca
+  zh: fc3006d788a84013
+/cortex-ai-cortex-tool-todo/understand-the-implementation/export-shape:
+  en: 8b57702674f3d56b
+  zh: 50d12c787a72cbe2
+/cortex-ai-cortex-tool-todo/understand-the-implementation/session-projection:
+  en: 45898c7bfce45302
+  zh: 4f726a43d09f5b64
+/cortex-ai-cortex-tool-todo/understand-the-implementation/durable-log-invariant:
+  en: 3234e0405b88e314
+  zh: 135a5b12d810e6dd
+/cortex-ai-cortex-tool-todo/understand-the-implementation/call-mechanics:
+  en: d55f6a32b05ed686
+  zh: c815f930a2acebda
+/cortex-ai-cortex-tool-todo/further-exploration:
+  en: 22592226e38d96b6
+  zh: bfbec2f5096a6cf6
+/cortex-ai-cortex-tool-todo/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-todo/model-experience/tool-schema:
+  en: e4c7376d4f29dbd5
+  zh: 6b7a9eaf69c9ea53
+/cortex-ai-cortex-tool-todo/model-experience/tool-schema/what-the-model-sees:
+  en: eea580aaa15b0c80
+  zh: 7c3ad1a996360ccf
+/cortex-ai-cortex-tool-todo/model-experience/tool-schema/token-effect:
+  en: a0a8f5ec3db0f500
+  zh: eac37a524c6e777e
+/cortex-ai-cortex-tool-todo/model-experience/tool-schema/kv-cache-effect:
+  en: b385b04c94496e5b
+  zh: 3a361ac90ef5f037
+/cortex-ai-cortex-tool-todo/model-experience/tool-call-history-and-result:
+  en: 9717b983b6a857e3
+  zh: 611a2dadf7c0c706
+/cortex-ai-cortex-tool-todo/model-experience/tool-call-history-and-result/what-the-model-sees:
+  en: 05644654d1bce8c6
+  zh: ea2a42470fbb2ee1
+/cortex-ai-cortex-tool-todo/model-experience/tool-call-history-and-result/token-effect:
+  en: 7763a0e875faf53d
+  zh: fe33c3973215dc53
+/cortex-ai-cortex-tool-todo/model-experience/tool-call-history-and-result/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: a5411047e008a0c1
+/cortex-ai-cortex-tool-todo/known-limitations-and-deferred-work:
+  en: 71e2aed21b2545c3
+  zh: 775300a3618a861a
+/cortex-ai-cortex-tool-todo/known-limitations-and-deferred-work/dev-note:
+  en: ac1d08360a93382b
+  zh: 703a65fbcc38edc7
+/cortex-ai-cortex-tool-todo/known-limitations-and-deferred-work/dev-note/future-cross-agent-and-shared-lists:
+  en: 071b9c5be71f799f
+  zh: dee15fe922a3ab95

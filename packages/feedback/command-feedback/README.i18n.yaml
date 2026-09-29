@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/feedback/command-feedback/README.md
+/:
+  en: 6fde8a2c01a13756
+  zh: 63b06f1e5373a1f0
+/cortex-ai-cortex-command-feedback:
+  en: 26b0df15b6e5b5d5
+  zh: 6920b0ccebeeabd8
+/cortex-ai-cortex-command-feedback/summary:
+  en: f4a216e715038406
+  zh: 991a000e13084cb2
+/cortex-ai-cortex-command-feedback/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-command-feedback/use-this-package:
+  en: 9d2647c17222a3ae
+  zh: b3503f4c2f2463f4
+/cortex-ai-cortex-command-feedback/use-this-package/the-feedback-command:
+  en: 645ee72ee1af491d
+  zh: 32b86c39307093e3
+/cortex-ai-cortex-command-feedback/use-this-package/the-web-feedback-dialog:
+  en: 21fae542942446d2
+  zh: 34d83535891dabee
+/cortex-ai-cortex-command-feedback/use-this-package/recording-feedback-from-your-own-ui:
+  en: c6ee98ae5229d76f
+  zh: e058dae4cb5dd254
+/cortex-ai-cortex-command-feedback/understand-the-implementation:
+  en: 42b15ac6321706aa
+  zh: 4ed0861911abaf5d
+/cortex-ai-cortex-command-feedback/understand-the-implementation/design-concept:
+  en: 8363f597c28788d2
+  zh: 9dda2a864a01f4ce
+/cortex-ai-cortex-command-feedback/understand-the-implementation/how-a-remark-is-recorded:
+  en: 0c6ceecbb1f45224
+  zh: 8138bb0fd3e68317
+/cortex-ai-cortex-command-feedback/understand-the-implementation/source-map:
+  en: 4fd622508f032a28
+  zh: fa336bcbaabca58e
+/cortex-ai-cortex-command-feedback/further-exploration:
+  en: 2feb0feb3b8419b8
+  zh: 326039195a34c5ef
+/cortex-ai-cortex-command-feedback/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-command-feedback/model-experience/human-feedback-capture:
+  en: 987bab29bbe8ec43
+  zh: 725efc45361172b5
+/cortex-ai-cortex-command-feedback/model-experience/human-feedback-capture/what-the-model-sees:
+  en: 6ad8e2a4f961d2f4
+  zh: b510d05a74d6df0c
+/cortex-ai-cortex-command-feedback/model-experience/human-feedback-capture/token-effect:
+  en: 1fcbd4d84eff267f
+  zh: 8da9902c44bf8dc4
+/cortex-ai-cortex-command-feedback/model-experience/human-feedback-capture/kv-cache-effect:
+  en: c72e7dfee7b0957a
+  zh: b122fce5efccfafa
+/cortex-ai-cortex-command-feedback/known-limitations-and-deferred-work:
+  en: b45e656a009e37b7
+  zh: 4949bd712564ee54
+/cortex-ai-cortex-command-feedback/known-limitations-and-deferred-work/dev-note:
+  en: b4bf58d55f599bc2
+  zh: fea7a6b69b0266e1

@@ -1,0 +1,53 @@
+{
+  "name": "@cortex-ai/cortex-llm-deepseek-api-key",
+  "description": "DeepSeek api-key provider authentication and discovery",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/llm/llm-deepseek-api-key"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek": "workspace:*",
+    "@cortex-ai/cortex-launch-environment": "workspace:*",
+    "@cortex-ai/cortex-credentials": "workspace:*",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-llm-deepseek": "workspace:*",
+    "@cortex-ai/cortex-launch-environment": "workspace:*",
+    "@cortex-ai/cortex-credentials": "workspace:*",
+    "@cortex-ai/cordis-plugin-loader": "workspace:~"
+  },
+  "peerDependenciesMeta": {
+    "@cortex-ai/cordis-plugin-loader": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@cortex-ai/schemastery": "workspace:~"
+  }
+}

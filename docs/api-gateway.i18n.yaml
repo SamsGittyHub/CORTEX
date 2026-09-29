@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for api-gateway.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/api-gateway.md
+/api-gateway:
+  en: d74d8dbe49eb0467
+  zh: acbeced0e7634317
+/api-gateway/programming-model:
+  en: 7f4fc9f2caedaf98
+  zh: 8d92d4dd01735f67
+/api-gateway/component-responsibilities:
+  en: 442acabca6c31ec1
+  zh: d0e7e7b6b9580345
+/api-gateway/strict-generation-pipeline:
+  en: 0bbdfbb396e5741c
+  zh: 0939ff67f1b7a268
+/api-gateway/runtime-invocation:
+  en: 2a2fed340aaa926c
+  zh: 46bb1f500c870a76
+/api-gateway/src-development-fallback:
+  en: 9570ffe7a348e5ac
+  zh: 2b70b61b1ff1fbb0
+/api-gateway/development-mode:
+  en: 53809f9bcea6a0ec
+  zh: 50b66b08a3eb6996
+/api-gateway/boundaries:
+  en: bc9ddfb27c9563fd
+  zh: 5d6c6b1940e2cf33

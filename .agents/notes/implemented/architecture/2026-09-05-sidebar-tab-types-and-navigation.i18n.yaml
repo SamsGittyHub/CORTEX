@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for 2026-09-05-sidebar-tab-types-and-navigation.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-09-05-sidebar-tab-types-and-navigation.md
+/agent-note-right-sidebar-tab-types-and-navigation:
+  en: 1be50f869347f08a
+  zh: 0e058f9ebc3062e0
+/agent-note-right-sidebar-tab-types-and-navigation/problem:
+  en: 17d7dfc8a8808173
+  zh: 5c0a7b75254af29c
+/agent-note-right-sidebar-tab-types-and-navigation/decision:
+  en: 905fd6fbedad540f
+  zh: 5420c0dff38012d8
+/agent-note-right-sidebar-tab-types-and-navigation/decision/the-type-registry-ctx-sidebarrighttabs:
+  en: 2a0a68968dd814cc
+  zh: c4988149ecd1a80d
+/agent-note-right-sidebar-tab-types-and-navigation/decision/bodies-and-titles-keyed-slot-seats-under-the-definition-s-id:
+  en: 9e80f2d213b394fe
+  zh: 79f2e5c504b9863e
+/agent-note-right-sidebar-tab-types-and-navigation/decision/tab-occurrence-information:
+  en: ef1693651877ce71
+  zh: bf756775583f1a27
+/agent-note-right-sidebar-tab-types-and-navigation/decision/navigation-ctx-sidebarright:
+  en: c52363f57001b7ac
+  zh: bbcbdbc038cbf316
+/agent-note-right-sidebar-tab-types-and-navigation/decision/addresses:
+  en: eeb1e7e7478a2f2c
+  zh: bddbc5bc78245f63
+/agent-note-right-sidebar-tab-types-and-navigation/decision/entry-points:
+  en: 6386bde2654f9a0a
+  zh: 700439be6a01e162
+/agent-note-right-sidebar-tab-types-and-navigation/alternatives-considered:
+  en: e5a1e8cf9d91ac47
+  zh: 19dccab6be31d235
+/agent-note-right-sidebar-tab-types-and-navigation/consequences:
+  en: 3cdb1159ee55d851
+  zh: dcd068005e678a89
+/agent-note-right-sidebar-tab-types-and-navigation/testing:
+  en: 49449a6c8465c098
+  zh: 1f476cc1226aa9cd
+/agent-note-right-sidebar-tab-types-and-navigation/deferred:
+  en: 5b2416692028bf89
+  zh: 65930102aa253bf2

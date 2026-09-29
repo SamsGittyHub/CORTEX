@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for 2026-06-21-subagent-capability-seam.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-06-21-subagent-capability-seam.md
+/agent-note-subagent-capability-seam:
+  en: aee1aec1915d5b76
+  zh: 63ea80a6a011b26d
+/agent-note-subagent-capability-seam/problem:
+  en: 7c982998d973c40e
+  zh: bd334e77e9b106dc
+/agent-note-subagent-capability-seam/alternatives-considered:
+  en: 6119e2aff3b6be5a
+  zh: 76136ef5249c23eb
+/agent-note-subagent-capability-seam/alternatives-considered/why-not-the-bash-seam-shape:
+  en: efa9205e4344cf9d
+  zh: 509e956aed2ec78d
+/agent-note-subagent-capability-seam/decision:
+  en: a15c7c13f167e5ac
+  zh: 63bcc2ef60c2f344
+/agent-note-subagent-capability-seam/decision/the-three-package-boundary:
+  en: c470cd9518cebc8b
+  zh: 228b559f73c58f2b
+/agent-note-subagent-capability-seam/decision/the-primitive-async-start-subagentrun:
+  en: 08250dc4d5faf918
+  zh: 1b413cb438af6796
+/agent-note-subagent-capability-seam/decision/two-kinds-of-optional-capability-discovered-two-ways:
+  en: c5c68f836bdfc959
+  zh: 48d8f00ec9683bfc
+/agent-note-subagent-capability-seam/decision/fork-vs-fresh-are-separate-backends-not-a-flag:
+  en: a8e071639738ea79
+  zh: 3fd7cc7427843efe
+/agent-note-subagent-capability-seam/decision/child-isolation-and-the-parent-log:
+  en: e970f97f27d11f4a
+  zh: 34ece0dfe5ec6185
+/agent-note-subagent-capability-seam/decision/synchronous-collect-first-cut:
+  en: 11b55279dca442f1
+  zh: 727bec0c38c6af53
+/agent-note-subagent-capability-seam/decision/transport-provider-selection-is-config-not-model-facing:
+  en: afe5530e2f46c9f6
+  zh: 7170e12efa0f0827
+/agent-note-subagent-capability-seam/testing:
+  en: 67a21cae758bbad1
+  zh: 7c08417e11583e24
+/agent-note-subagent-capability-seam/consequences:
+  en: 773e52c662e9bee0
+  zh: b5e7e3a35f81704f

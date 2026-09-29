@@ -1,0 +1,100 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/agent-team/README.md
+/:
+  en: 6dbca19f6b32549f
+  zh: dae9c49eab8f6fee
+/cortex-ai-cortex-experimental-agent-team:
+  en: e96247136a62d3c0
+  zh: b51cb10067cbb099
+/cortex-ai-cortex-experimental-agent-team/summary:
+  en: ee7979a0b7ee86ef
+  zh: 71f2669d42c1fdf2
+/cortex-ai-cortex-experimental-agent-team/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-experimental-agent-team/use-this-package:
+  en: ef0bc1de84e9e0e1
+  zh: 0f5b1441ef8cfded
+/cortex-ai-cortex-experimental-agent-team/use-this-package/when-to-choose-it:
+  en: 8da318ac2f4343d7
+  zh: b31a399d6e3fd64e
+/cortex-ai-cortex-experimental-agent-team/use-this-package/smallest-working-setup:
+  en: e07864fedd4b5e11
+  zh: ef609c6cd7448554
+/cortex-ai-cortex-experimental-agent-team/use-this-package/teammates:
+  en: 5a314d1f80ecd31b
+  zh: c34e6a93dd1e2045
+/cortex-ai-cortex-experimental-agent-team/use-this-package/messages-between-teammates:
+  en: 2c45b2c18c8317e7
+  zh: d4ab2259f976b19d
+/cortex-ai-cortex-experimental-agent-team/use-this-package/shared-task-board:
+  en: 73682f0d2001b517
+  zh: 3744d82eb3b7fcb9
+/cortex-ai-cortex-experimental-agent-team/use-this-package/waiting-and-interruption:
+  en: f8e38ccf6295b375
+  zh: 44f008e23613c0af
+/cortex-ai-cortex-experimental-agent-team/use-this-package/what-success-and-failure-look-like:
+  en: 0d523eb8ffe0a928
+  zh: 270b2502db285ed8
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation:
+  en: 6a18034f1ccc247a
+  zh: e08b0eb0ccb41ea8
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/design-philosophy:
+  en: cf99f7d1934b0481
+  zh: 974e803310a5c8ac
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/source-map:
+  en: 53e2dda7c2adb34c
+  zh: 562590e3d42c029e
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/team-identity-and-roster:
+  en: 85f97723e45e43de
+  zh: def66721e21339cc
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/durable-mailbox:
+  en: 26041ce90cc48a35
+  zh: 677d85f22969f941
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/shared-task-board:
+  en: 2dc37ba97a8a7178
+  zh: 96bd24033030e19d
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/waiting-and-interruption:
+  en: 3becd36b407aac95
+  zh: c9e4895ee59696bb
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/durability-model:
+  en: 66dcbc543f2d3576
+  zh: cd8de23c555696df
+/cortex-ai-cortex-experimental-agent-team/understand-the-implementation/disposal:
+  en: 3ae69e3b7905cffe
+  zh: 0fb159101f6d646b
+/cortex-ai-cortex-experimental-agent-team/further-exploration:
+  en: 9cb16f787995820f
+  zh: aa996cb611b048b3
+/cortex-ai-cortex-experimental-agent-team/further-exploration/browser-projection:
+  en: 4c66dea7d8dde328
+  zh: 7f09bf58e0bffd44
+/cortex-ai-cortex-experimental-agent-team/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-experimental-agent-team/model-experience/peer-messages:
+  en: 7a72088145dd45ec
+  zh: 6763071c604c2edd
+/cortex-ai-cortex-experimental-agent-team/model-experience/peer-messages/what-the-model-sees:
+  en: 4f9110ba058f25cd
+  zh: cf820293929ea993
+/cortex-ai-cortex-experimental-agent-team/model-experience/peer-messages/token-effect:
+  en: 5d10261f09129c62
+  zh: f4b3f0705321ba49
+/cortex-ai-cortex-experimental-agent-team/model-experience/peer-messages/kv-cache-effect:
+  en: ff845d434b857afe
+  zh: 04479bddf7650ede
+/cortex-ai-cortex-experimental-agent-team/known-limitations-and-deferred-work:
+  en: 777abba6e3b496eb
+  zh: 2b8cd95e73f5e369
+/cortex-ai-cortex-experimental-agent-team/known-limitations-and-deferred-work/dev-note:
+  en: 498e4cf9fe5741a7
+  zh: 9d2bab630e655c99
+/cortex-ai-cortex-experimental-agent-team/known-limitations-and-deferred-work/dev-note/promotion:
+  en: 3d126e3b1015e4ce
+  zh: 22f0d18e2ce5c30f
+/cortex-ai-cortex-experimental-agent-team/known-limitations-and-deferred-work/dev-note/future-directions:
+  en: 38eadeacd73b9c02
+  zh: 05c5b55022e0b8d9

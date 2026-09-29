@@ -1,0 +1,82 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/acp/acp/README.md
+/:
+  en: a4ece1ae940ef20b
+  zh: 6417f057eb43cfa2
+/cortex-ai-cortex-acp:
+  en: 0799009453e47ec1
+  zh: 1ca7cc47165ff53c
+/cortex-ai-cortex-acp/summary:
+  en: 7de62518976aebad
+  zh: a285c189d12dad1a
+/cortex-ai-cortex-acp/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-acp/use-this-package:
+  en: 014a5573a8c05663
+  zh: e45302786655eea5
+/cortex-ai-cortex-acp/use-this-package/when-to-choose-it:
+  en: fba20147003446d4
+  zh: ade1175773f5393c
+/cortex-ai-cortex-acp/use-this-package/minimal-configuration:
+  en: 0987e0a364d83cbc
+  zh: f4cfa93d0cd7393f
+/cortex-ai-cortex-acp/use-this-package/start-a-server:
+  en: 1cc45ccdd472fde2
+  zh: a178dc360a73099b
+/cortex-ai-cortex-acp/use-this-package/protocol-contract:
+  en: 804b87d8ebed9f8d
+  zh: 1b0c1c7269cdf040
+/cortex-ai-cortex-acp/understand-the-implementation:
+  en: ea8afe89dbdd1934
+  zh: 6567979f92f34afd
+/cortex-ai-cortex-acp/understand-the-implementation/design-philosophy:
+  en: b1113fcc3562e1d3
+  zh: 659a0dbb9dd4f3c6
+/cortex-ai-cortex-acp/understand-the-implementation/source-map:
+  en: 837330574e01d196
+  zh: 46f29717d175f7bb
+/cortex-ai-cortex-acp/understand-the-implementation/admission-and-prompt-settlement:
+  en: 6485d449b5945b4a
+  zh: 90e56a9b410c9c42
+/cortex-ai-cortex-acp/understand-the-implementation/teardown-and-connection-ownership:
+  en: 7e2be6a9e211d4d6
+  zh: 3ba8482d3231b9d0
+/cortex-ai-cortex-acp/further-exploration:
+  en: 6bb6017bf3790ae1
+  zh: 2c338e58ff2a64dd
+/cortex-ai-cortex-acp/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-acp/model-experience/prompt-content:
+  en: 7fca865c9895801f
+  zh: 78a0ab12c0bb0499
+/cortex-ai-cortex-acp/model-experience/prompt-content/what-the-model-sees:
+  en: e3adbb072da5ff1d
+  zh: 0af2105dd9e171d3
+/cortex-ai-cortex-acp/model-experience/prompt-content/token-effect:
+  en: 93b8f76c67bef353
+  zh: 354fa2dca0804f72
+/cortex-ai-cortex-acp/model-experience/prompt-content/kv-cache-effect:
+  en: 54946b64b26a3171
+  zh: 09550292ccfb36b0
+/cortex-ai-cortex-acp/model-experience/permission-decisions:
+  en: 2e6d83c846a3a5e1
+  zh: 8d4339c26f3d8f68
+/cortex-ai-cortex-acp/model-experience/permission-decisions/what-the-model-sees:
+  en: 87b55e04137085c3
+  zh: cdba4acf2e38b872
+/cortex-ai-cortex-acp/model-experience/permission-decisions/token-effect:
+  en: bd0ded535cbedb19
+  zh: 47bcaa76827f88f2
+/cortex-ai-cortex-acp/model-experience/permission-decisions/kv-cache-effect:
+  en: 83120763a07c4b72
+  zh: 6a1a181dc4da869d
+/cortex-ai-cortex-acp/known-limitations-and-deferred-work:
+  en: d47bb33ff87bc20e
+  zh: a6f85a5a116eee64
+/cortex-ai-cortex-acp/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

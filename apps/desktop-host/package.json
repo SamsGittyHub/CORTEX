@@ -1,0 +1,35 @@
+{
+  "name": "@cortex-ai/cortex-desktop-host",
+  "description": "Private Node-mode host process for the Electron desktop application",
+  "version": "0.2.0-rc.2",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/cli.js"
+  ],
+  "dependencies": {
+    "koffi": "^3.1.0",
+    "@deepseek-ai/libreoffice-kit": "^0.1.1",
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex": "workspace:*",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-app-boot": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-host-webserver": "workspace:*",
+    "@cortex-ai/cortex-home-paths": "workspace:*",
+    "@cortex-ai/cortex-jobs": "workspace:*",
+    "@cortex-ai/cortex-schedule": "workspace:*",
+    "@cortex-ai/cortex-tool-workspace-dependencies": "workspace:*",
+    "@cortex-ai/cortex-skill-office": "workspace:*",
+    "@cortex-ai/cortex-deepseek-account": "workspace:*",
+    "@cortex-ai/cortex-workspace": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cordis-plugin-loader": "workspace:~",
+    "@cortex-ai/cordis-plugin-include": "workspace:~",
+    "@cortex-ai/cortex-skill": "workspace:*"
+  }
+}

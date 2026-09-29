@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/shell/shell/README.md
+/:
+  en: 4a173bf52227a3b6
+  zh: 76bb85595252765c
+/cortex-ai-cortex-shell:
+  en: f6decf605c418aab
+  zh: e7b58583057007c6
+/cortex-ai-cortex-shell/summary:
+  en: bb40932744bc4b80
+  zh: 22e2af1327b2f835
+/cortex-ai-cortex-shell/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-shell/use-this-package:
+  en: b81fffe9eb713a49
+  zh: ac37478e7f1f7499
+/cortex-ai-cortex-shell/use-this-package/foreground-commands:
+  en: cf38f6bc0e150602
+  zh: 2ff6cfb0ce48a7b8
+/cortex-ai-cortex-shell/use-this-package/background-processes:
+  en: 277c543917453017
+  zh: d2c100e37944f151
+/cortex-ai-cortex-shell/use-this-package/deadlines-and-bounded-waits:
+  en: 719b0708bf3cf1cf
+  zh: 044f53d543960f42
+/cortex-ai-cortex-shell/use-this-package/requests-and-resolved-specs:
+  en: 362ebb873d755905
+  zh: 09f4a60f3bc3a180
+/cortex-ai-cortex-shell/use-this-package/choosing-and-composing-an-executor:
+  en: b5e86b6873d39f27
+  zh: 13cf385d57c5c5a0
+/cortex-ai-cortex-shell/use-this-package/the-shared-exit-status-contract:
+  en: f4125282c1deab36
+  zh: 46b8ee789ae68a9a
+/cortex-ai-cortex-shell/understand-the-implementation:
+  en: d2192b68c2faf92b
+  zh: 7678a2fd356d8587
+/cortex-ai-cortex-shell/understand-the-implementation/design-philosophy:
+  en: 95c83d1b13d5f7a6
+  zh: fcd31dc47cdd22ad
+/cortex-ai-cortex-shell/understand-the-implementation/source-map:
+  en: 80d45b2de500588a
+  zh: 23da8d99b05f4db6
+/cortex-ai-cortex-shell/understand-the-implementation/settings-namespace:
+  en: a5b81ecee7fe9938
+  zh: 25fcf060b48e14cf
+/cortex-ai-cortex-shell/understand-the-implementation/background-lifecycle-and-ownership:
+  en: 63853c610719e1bb
+  zh: 09668e6fd34c9161
+/cortex-ai-cortex-shell/further-exploration:
+  en: 2eed8983397e17a1
+  zh: 1d4d5eeb0e37bd9b
+/cortex-ai-cortex-shell/model-experience:
+  en: d7bb578a3b0ab939
+  zh: ee76f0b670871ea4
+/cortex-ai-cortex-shell/model-experience/kv-cache-effect:
+  en: 40294c1c31b74824
+  zh: 788a4799b1d65a8b
+/cortex-ai-cortex-shell/known-limitations-and-deferred-work:
+  en: 27a3c3647e09c039
+  zh: 202c7f79afb6cded
+/cortex-ai-cortex-shell/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3c8bbe93d71a3377

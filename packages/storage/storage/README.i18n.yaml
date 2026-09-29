@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/storage/storage/README.md
+/:
+  en: 8f04de41fc5df74d
+  zh: 966708180702ef43
+/cortex-ai-cortex-storage:
+  en: 4638e5896beb58d9
+  zh: 24e49e003e075b3e
+/cortex-ai-cortex-storage/summary:
+  en: b601bb9f8a8a14f6
+  zh: bd9e164601793191
+/cortex-ai-cortex-storage/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-storage/use-this-package:
+  en: 1328892ee0bc22ed
+  zh: a49eab5e48a7e70b
+/cortex-ai-cortex-storage/use-this-package/when-to-use-it:
+  en: 6e4ea48645af5d26
+  zh: cfe3e192216030d1
+/cortex-ai-cortex-storage/use-this-package/a-minimal-composition:
+  en: 22e44eb219b0269c
+  zh: 8815478b9619e6d1
+/cortex-ai-cortex-storage/use-this-package/what-you-get:
+  en: 240ae33969a3b666
+  zh: e9efb4a5d9a599e2
+/cortex-ai-cortex-storage/use-this-package/failures-and-recovery:
+  en: b242c4e4b3ba90d6
+  zh: 9f4b89eed4e85c15
+/cortex-ai-cortex-storage/understand-the-implementation:
+  en: c0990f4e7806a4c4
+  zh: 5250e7b6a80653a4
+/cortex-ai-cortex-storage/understand-the-implementation/design-concept:
+  en: bbdc4833afb85dad
+  zh: 7494de01d5a4aecf
+/cortex-ai-cortex-storage/understand-the-implementation/the-backend-contract:
+  en: 28b6c4e8efb4ffd1
+  zh: 4726c72b925c333f
+/cortex-ai-cortex-storage/understand-the-implementation/source-map:
+  en: dc862f7fc6c02d10
+  zh: 4600aeb07e2fdd4f
+/cortex-ai-cortex-storage/further-exploration:
+  en: 4cc0f4dc919e10a9
+  zh: c0a2529cdcde8228
+/cortex-ai-cortex-storage/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-storage/model-experience/backend-and-form-registrations:
+  en: 28a0394f484bf87b
+  zh: 9a08192ffdbb8ac3
+/cortex-ai-cortex-storage/model-experience/backend-and-form-registrations/what-the-model-sees:
+  en: fda1261c4b916ad3
+  zh: f8f4974cbf427621
+/cortex-ai-cortex-storage/model-experience/backend-and-form-registrations/token-effect:
+  en: 5b83ac7ce1ea1346
+  zh: 04b7d01da48ec90d
+/cortex-ai-cortex-storage/model-experience/backend-and-form-registrations/kv-cache-effect:
+  en: 5126a2c239cb5913
+  zh: 0869bc380ea1dc1a
+/cortex-ai-cortex-storage/known-limitations-and-deferred-work:
+  en: 4d9c91eb4cdc3a36
+  zh: b91a1ad06b00162b
+/cortex-ai-cortex-storage/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

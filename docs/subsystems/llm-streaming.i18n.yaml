@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for llm-streaming.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/llm-streaming.md
+/llm-streaming:
+  en: 560fba8a2f0fda60
+  zh: d4f1b5810b3db06a
+/llm-streaming/content-blocks-and-messages:
+  en: 52e542743479faf5
+  zh: ba327b8abdd142df
+/llm-streaming/streamchunk-the-raw-protocol:
+  en: a18fe401763efde4
+  zh: ef59a76d9c694654
+/llm-streaming/compact-assistant-streams:
+  en: 014b389576fa61ac
+  zh: dee50b577e5a5551
+/llm-streaming/llmfailure:
+  en: 13415501869b4ca9
+  zh: 723c7533cce3d1d6
+/llm-streaming/request-image-pricing:
+  en: 10598e1a98262415
+  zh: 7fb85b22174a1497
+/llm-streaming/the-adapter-contract:
+  en: 8a336f2bc830d617
+  zh: a23ca4d18fb860c4
+/llm-streaming/resolvedretrypolicy:
+  en: e55df72a447ff8bc
+  zh: c6ec9092a83a6e99
+/llm-streaming/appidentity-app-attribution:
+  en: 3d32e1cf98fadb78
+  zh: 678c4a84c3b47f7a
+/llm-streaming/tokenusage:
+  en: 33830f78fdb845fa
+  zh: f43a4502c4c3bfff
+/llm-streaming/blockassembler:
+  en: 58dec2259b0b1c6f
+  zh: fc99fe965acaabf3
+/llm-streaming/the-model-request:
+  en: 85e59b22ff4a1ac6
+  zh: 5639284cc6522695
+/llm-streaming/the-model-request/the-request-envelope-llmcallconfig-and-the-logged-header:
+  en: fdbafac3466af035
+  zh: 9e0126c462072437
+/llm-streaming/official-deepseek-request-extensions:
+  en: 33be9c3f79247e1e
+  zh: d680c9e5798aa546
+/llm-streaming/service-and-provider-contracts:
+  en: fa1810234faea6e8
+  zh: 11adc8e81703e89e

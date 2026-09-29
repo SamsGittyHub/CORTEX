@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-07-31-web-default-search.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/feature/2026-07-31-web-default-search.md
+/agent-note-default-web-search-in-shipped-compositions:
+  en: 93428687dec39078
+  zh: 46df266453b20c67
+/agent-note-default-web-search-in-shipped-compositions/problem:
+  en: cd5af0c73d578874
+  zh: 29e14c7ff1c77391
+/agent-note-default-web-search-in-shipped-compositions/decision:
+  en: 0cb3d8e1323a46ac
+  zh: 8d361bee89f7eb26
+/agent-note-default-web-search-in-shipped-compositions/alternatives-considered:
+  en: 5fe487246672ef6f
+  zh: 2091a4b164fc82cc
+/agent-note-default-web-search-in-shipped-compositions/consequences:
+  en: d69965f3be327186
+  zh: 4e2b10bb0a227f0a

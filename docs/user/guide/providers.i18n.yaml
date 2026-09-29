@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for providers.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/user/guide/providers.md
+/configure-models:
+  en: 1b337ec31d4e4944
+  zh: 0975245b68dba8d1
+/configure-models/configure-deepseek:
+  en: f143293098e266f6
+  zh: cfe5645b5f960f24
+/configure-models/add-a-third-party-provider:
+  en: 978bcedafbb19350
+  zh: dfa8cc578322db4f
+/configure-models/add-a-custom-model-api:
+  en: 17867305a3e1b52a
+  zh: 876fedf1f6f563e4
+/configure-models/add-a-custom-model-api/discover-models:
+  en: 97318c5a115199ff
+  zh: 0c455e4232cf0265
+/configure-models/select-a-model:
+  en: 6a94264c99535caf
+  zh: f97bb0dc6a40c0d3
+/configure-models/advanced-configuration:
+  en: fdfa6a4dbd2529ed
+  zh: cc1d22862c035214
+/configure-models/advanced-configuration/image-input:
+  en: 62634149118e4d81
+  zh: d8cb6f6ada6656dc
+/configure-models/advanced-configuration/reasoning-effort:
+  en: eedf157aaeb353cd
+  zh: 3a16efc5916a564e
+/configure-models/advanced-configuration/request-compatibility:
+  en: e866111f8dd10867
+  zh: 699576fdf228be9d
+/configure-models/troubleshooting:
+  en: 0477cd6fa2772d6b
+  zh: 780619fe998bdef7

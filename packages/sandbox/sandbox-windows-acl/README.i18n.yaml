@@ -1,0 +1,67 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/sandbox/sandbox-windows-acl/README.md
+/:
+  en: 14d3fdd57b94c86f
+  zh: abcd3b4f9dd908fa
+/cortex-ai-cortex-sandbox-windows-acl:
+  en: 3985e7b08220079d
+  zh: 042fe3a81a63a32e
+/cortex-ai-cortex-sandbox-windows-acl/summary:
+  en: 9f4930a63f70d8eb
+  zh: d504ec5d5082a82a
+/cortex-ai-cortex-sandbox-windows-acl/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-sandbox-windows-acl/use-this-package:
+  en: 58b220faa66b2f05
+  zh: dda42e4197d80bfe
+/cortex-ai-cortex-sandbox-windows-acl/use-this-package/when-to-choose-it:
+  en: 510d0b1ef7db159d
+  zh: dc2cf25b3db14c63
+/cortex-ai-cortex-sandbox-windows-acl/use-this-package/direct-api:
+  en: 16596607bbccc2a3
+  zh: 30bc370a5281bf0d
+/cortex-ai-cortex-sandbox-windows-acl/use-this-package/what-confinement-gives-you:
+  en: 289e65bddf20dd79
+  zh: 7ff72ed64c4b4d1c
+/cortex-ai-cortex-sandbox-windows-acl/use-this-package/failures-and-recovery:
+  en: a69715ee2740850c
+  zh: bf98a4ad84f273e0
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation:
+  en: c2cde86c85c2c619
+  zh: a29a114e591f9d3f
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation/mechanism:
+  en: ffc422c19d3431d9
+  zh: ca5f6c6256c3769a
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation/modes-and-token-lists:
+  en: 9c8d9af84f9abd99
+  zh: 1c82b355aa5f210f
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation/the-confinement-runner:
+  en: c4bdccfb95f99e76
+  zh: 1b6649940d5e3a73
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation/verified-boundaries:
+  en: b121d85d3ef1e9e1
+  zh: b68c827b4b8e3132
+/cortex-ai-cortex-sandbox-windows-acl/understand-the-implementation/header-verification-and-source-map:
+  en: 9b3906d4b1d106c9
+  zh: 6445b2d900eb0e7b
+/cortex-ai-cortex-sandbox-windows-acl/further-exploration:
+  en: 7d821ddf4b67f09a
+  zh: c74b8e22bc1f1a1d
+/cortex-ai-cortex-sandbox-windows-acl/model-experience:
+  en: b667889c90858d29
+  zh: 8a73d2b24fdb8ed6
+/cortex-ai-cortex-sandbox-windows-acl/model-experience/kv-cache-effect:
+  en: 817eb1b7de13872e
+  zh: 06fe175e41e7459b
+/cortex-ai-cortex-sandbox-windows-acl/known-limitations-and-deferred-work:
+  en: a160c73bd861b86f
+  zh: a12a9cc3764c5916
+/cortex-ai-cortex-sandbox-windows-acl/known-limitations-and-deferred-work/dev-note:
+  en: cc273320f6a1beaf
+  zh: 5c57a312ddc50651
+/cortex-ai-cortex-sandbox-windows-acl/known-limitations-and-deferred-work/dev-note/future-warnings-and-cleanup-surfaces:
+  en: 4c65be775f25c367
+  zh: 467b2ce99030dcf5

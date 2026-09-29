@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-persistence/README.md
+/:
+  en: 99acbd5c1e2a16ce
+  zh: 31342508a4e1bf09
+/cortex-ai-cortex-session-persistence:
+  en: 50a9260555cf026c
+  zh: b5338c9ae54473fd
+/cortex-ai-cortex-session-persistence/summary:
+  en: 2946011494c29117
+  zh: 9a90e7ed1a58b971
+/cortex-ai-cortex-session-persistence/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-session-persistence/use-this-package:
+  en: bd48e96d14122170
+  zh: f8a06e7246b55a6f
+/cortex-ai-cortex-session-persistence/use-this-package/choosing-a-backend:
+  en: 8cc014f4200a131b
+  zh: 0fd5b0c2c2aeead9
+/cortex-ai-cortex-session-persistence/use-this-package/what-the-service-provides:
+  en: c10b9c7d9bad305c
+  zh: 0e9c391e9df37da6
+/cortex-ai-cortex-session-persistence/use-this-package/ownership-and-visibility:
+  en: 16d4abbb05a67360
+  zh: fc91863169570795
+/cortex-ai-cortex-session-persistence/use-this-package/the-live-write-path-and-shutdown-drain:
+  en: 282c5bc8a391159f
+  zh: 96682e345ef301f6
+/cortex-ai-cortex-session-persistence/use-this-package/resuming-and-crash-recovery:
+  en: 08b09dce0bcf47c8
+  zh: b6c5926d6e440a7b
+/cortex-ai-cortex-session-persistence/use-this-package/failures-and-recovery:
+  en: 6d8beec038b1121a
+  zh: 1f02952eb2a0b386
+/cortex-ai-cortex-session-persistence/understand-the-implementation:
+  en: e4c87d78762cbb07
+  zh: 34f22a0edd29cdf8
+/cortex-ai-cortex-session-persistence/understand-the-implementation/design-concept:
+  en: 3d21cded1f7e74ff
+  zh: 5f624aefebb1f63d
+/cortex-ai-cortex-session-persistence/understand-the-implementation/the-invariants-every-backend-honors:
+  en: a3b5e0e6747f5ab4
+  zh: fcbcc16c04e15edb
+/cortex-ai-cortex-session-persistence/understand-the-implementation/source-map:
+  en: 3868942fde28ff0a
+  zh: 865208afd7d04b49
+/cortex-ai-cortex-session-persistence/understand-the-implementation/the-write-path-at-a-glance:
+  en: c920cf9262f4a563
+  zh: 0f8e3ff17e39c861
+/cortex-ai-cortex-session-persistence/understand-the-implementation/stored-record-validation:
+  en: 9134a179426a078f
+  zh: c1b1b541bffd72f1
+/cortex-ai-cortex-session-persistence/further-exploration:
+  en: b9ab35974c8212ae
+  zh: d1b47285063f8f7f
+/cortex-ai-cortex-session-persistence/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session-persistence/model-experience/resumed-conversation-history:
+  en: 062875aab7f3f138
+  zh: c7285918227e6f5c
+/cortex-ai-cortex-session-persistence/model-experience/resumed-conversation-history/what-the-model-sees:
+  en: f697ddcf1a13c439
+  zh: a3b5050484be4b9b
+/cortex-ai-cortex-session-persistence/model-experience/resumed-conversation-history/token-effect:
+  en: 375253768652244e
+  zh: c5bf6c3dcf707ab2
+/cortex-ai-cortex-session-persistence/model-experience/resumed-conversation-history/kv-cache-effect:
+  en: 70a8139de5fd1cec
+  zh: 66dfba4b93e63c55
+/cortex-ai-cortex-session-persistence/known-limitations-and-deferred-work:
+  en: 97296c31399996e4
+  zh: 86a5c1e771415e99
+/cortex-ai-cortex-session-persistence/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

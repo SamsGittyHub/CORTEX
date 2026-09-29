@@ -1,0 +1,92 @@
+{
+  "name": "@cortex-ai/cortex-client-ui-deliverables",
+  "description": "Changed-files card with per-file comparison tabs, delivery cards, and clickable final-response file references for Web",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/client/ui-deliverables"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-api-remotes",
+        "@cortex-ai/cortex-client-connection",
+        "@cortex-ai/cortex-client-locale",
+        "@cortex-ai/cortex-client-ui-chat",
+        "@cortex-ai/cortex-client-ui-conversation",
+        "@cortex-ai/cortex-client-ui-renderer",
+        "@cortex-ai/cortex-client-ui-sidebar-right",
+        "@cortex-ai/cortex-client-ui-tool",
+        "@cortex-ai/cortex-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-api-remotes": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-locale": "workspace:*",
+    "@cortex-ai/cortex-client-store": "workspace:*",
+    "@cortex-ai/cortex-client-test-runtime": "workspace:*",
+    "@cortex-ai/cortex-client-ui-chat": "workspace:*",
+    "@cortex-ai/cortex-client-ui-conversation": "workspace:*",
+    "@cortex-ai/cortex-client-ui-dockkit": "workspace:*",
+    "@cortex-ai/cortex-client-ui-renderer": "workspace:*",
+    "@cortex-ai/cortex-client-ui-sidebar-right": "workspace:*",
+    "@cortex-ai/cortex-client-ui-slots": "workspace:*",
+    "@types/react": "~18.3.1",
+    "@cortex-ai/cordis": "workspace:~",
+    "react": "^18.2.0",
+    "@cortex-ai/cortex-client-ui-primitives": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-system-prompt": "workspace:*",
+    "@cortex-ai/cortex-session-query": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-client-ui-tool": "workspace:*",
+    "@cortex-ai/cortex-tool-present": "workspace:*",
+    "@cortex-ai/cortex-workspace-changes": "workspace:*",
+    "@cortex-ai/cortex-api-session-controller": "workspace:*",
+    "@cortex-ai/cortex-util-workspace-path": "workspace:*",
+    "@cortex-ai/cortex-api-workspace-files": "workspace:*",
+    "@cortex-ai/cortex-fs": "workspace:*",
+    "@cortex-ai/cortex-fs-local": "workspace:*",
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-sandbox-policy": "workspace:*",
+    "@cortex-ai/cortex-client-ui-settings": "workspace:*"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "dependencies": {
+    "@cortex-ai/cortex-typert-protocol": "workspace:*"
+  }
+}

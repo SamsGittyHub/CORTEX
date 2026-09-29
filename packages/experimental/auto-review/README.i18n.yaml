@@ -1,0 +1,64 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/auto-review/README.md
+/:
+  en: 4f245200f5345e3c
+  zh: 221e9996e8ce2963
+/cortex-ai-cortex-experimental-auto-review:
+  en: 3afede90a5d81bc9
+  zh: dd4ab162103299f6
+/cortex-ai-cortex-experimental-auto-review/summary:
+  en: cc22708b0a842b92
+  zh: bb007edf06a2223d
+/cortex-ai-cortex-experimental-auto-review/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-experimental-auto-review/use-this-package:
+  en: bbff250eba0f1b89
+  zh: 0a618f05cc88ee2b
+/cortex-ai-cortex-experimental-auto-review/use-this-package/install-into-a-profile:
+  en: 7c8af67d767e3915
+  zh: 2b8d1df90686faa8
+/cortex-ai-cortex-experimental-auto-review/use-this-package/what-you-get:
+  en: 75233325c6ea8f1a
+  zh: 90f4fe31f37e7d3a
+/cortex-ai-cortex-experimental-auto-review/understand-the-implementation:
+  en: 8eb8f63bc82e4088
+  zh: 713bdbe93c277c35
+/cortex-ai-cortex-experimental-auto-review/further-exploration:
+  en: 22a7c4b9261e7e08
+  zh: cafb66a0fe6da9ed
+/cortex-ai-cortex-experimental-auto-review/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-experimental-auto-review/model-experience/per-call-reviewer:
+  en: 7ec217b1012cd8fa
+  zh: 6188796b4990f2ef
+/cortex-ai-cortex-experimental-auto-review/model-experience/per-call-reviewer/what-the-model-sees:
+  en: b3e50d879db13221
+  zh: 81f9c8f2793bea0d
+/cortex-ai-cortex-experimental-auto-review/model-experience/per-call-reviewer/token-effect:
+  en: 9c3e575c061d53fe
+  zh: 74db1c5a77b2d2a7
+/cortex-ai-cortex-experimental-auto-review/model-experience/per-call-reviewer/kv-cache-effect:
+  en: 67b73d97f22f3c75
+  zh: 4dd263e571043cf4
+/cortex-ai-cortex-experimental-auto-review/model-experience/tool-denial:
+  en: f9b4d7b686f14fc5
+  zh: a2fac9a8eaf5e2a3
+/cortex-ai-cortex-experimental-auto-review/model-experience/tool-denial/what-the-model-sees:
+  en: a0b93e8eebc1b497
+  zh: aec11cfbf6c1ec75
+/cortex-ai-cortex-experimental-auto-review/model-experience/tool-denial/token-effect:
+  en: 679cb3d82e97022f
+  zh: 15c98505e75ff881
+/cortex-ai-cortex-experimental-auto-review/model-experience/tool-denial/kv-cache-effect:
+  en: 8da1089dee147f94
+  zh: 87361347bfd10c6c
+/cortex-ai-cortex-experimental-auto-review/known-limitations-and-deferred-work:
+  en: 36668df86d96ea2a
+  zh: 4cf27f0bfb9ab6ba
+/cortex-ai-cortex-experimental-auto-review/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-09-18-messages-input-history-compatibility.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/bug-fix/2026-09-18-messages-input-history-compatibility.md
+/agent-note-replay-assistant-blocks-in-messages-user-input:
+  en: e80c9235ace7682e
+  zh: c397885a0c79292d
+/agent-note-replay-assistant-blocks-in-messages-user-input/problem:
+  en: a833e339d626482c
+  zh: 4bfe32b3ca9888df
+/agent-note-replay-assistant-blocks-in-messages-user-input/decision:
+  en: fe277b63f33e3c9d
+  zh: defe15b59992fcd8
+/agent-note-replay-assistant-blocks-in-messages-user-input/alternatives-considered:
+  en: a1dc047ed83af39d
+  zh: 403ede313d560f4b
+/agent-note-replay-assistant-blocks-in-messages-user-input/consequences:
+  en: c1770c7aa4097c42
+  zh: 80ab7f2b66408ad7

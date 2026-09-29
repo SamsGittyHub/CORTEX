@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write apps/desktop/README.md
+/cortex-desktop:
+  en: b546339f61517181
+  zh: 426062f75c4e7e92
+/cortex-desktop/terminal-command:
+  en: f37ad58dbc704431
+  zh: c56251ba2c2d50b2
+/cortex-desktop/closing-the-window-and-quitting:
+  en: 41ced10e37565be7
+  zh: 435ebb3d9e5f61cb
+/cortex-desktop/key-technical-decisions:
+  en: 62b709b1be5787df
+  zh: 4edb9cfe773fb2ad
+/cortex-desktop/key-technical-decisions/bundled-workspace-dependencies:
+  en: ed7bbee3ea3de302
+  zh: 199a33cb725e4357
+/cortex-desktop/bundled-command-runtime:
+  en: 595a1419baccb37c
+  zh: 60ddd8f52ce9bf16
+/cortex-desktop/installation-ownership:
+  en: 4b8eba5e8905fb2a
+  zh: e3f0eb187919caf0
+/cortex-desktop/installation-ownership/runtime-and-plugin-activation:
+  en: 74925d249c5c144b
+  zh: 8c30362fab29f828
+/cortex-desktop/installation-ownership/host-environment:
+  en: fa4b93907fbb4704
+  zh: b551ea6617e35b4c
+/cortex-desktop/develop:
+  en: bdf15e74b5f91511
+  zh: 7aeb87751a36e166
+/cortex-desktop/develop/startup-onboarding:
+  en: 6f23f104622f9d57
+  zh: e18f02d863f8380a
+/cortex-desktop/develop/welcome-window-appearance:
+  en: 13b0e54d8e1d6f5a
+  zh: 9d5f5a3e9609ac5a
+/cortex-desktop/package:
+  en: 4cd8a8da6977928d
+  zh: 9f624855a2edac37
+/cortex-desktop/package/release-versions:
+  en: 8f0ac6d7555fc299
+  zh: 51de7422816566ab
+/cortex-desktop/package/runtime-file-selection:
+  en: f170076fd3ed2579
+  zh: f92d2d0806301487
+/cortex-desktop/package/upload-updates:
+  en: 2fb4af46b0bc95d3
+  zh: c11fefc8a5675119
+/cortex-desktop/package/unsigned-windows-test-installer:
+  en: 0bd42a6da852bda0
+  zh: 9f6db1edb8f2d85d
+/cortex-desktop/package/windows-installer-interface:
+  en: de48ea8f80c0e34c
+  zh: 9db2b925ce6f88b2
+/cortex-desktop/package/windows-ev-signing:
+  en: 9f5f5a89f888be97
+  zh: cf7a301fb58b8a9e
+/cortex-desktop/updates:
+  en: 153b9e185d192934
+  zh: 2d4665fac0c2bbd8
+/cortex-desktop/updates/mandatory-update-policy:
+  en: 6abe7f8c52f2c4e8
+  zh: 9deacca840661a04
+/cortex-desktop/updates/local-updater-qualification:
+  en: ca856ca71f0121cb
+  zh: 5b6ab109f12cf6b2
+/cortex-desktop/low-level-development-overrides:
+  en: d4e448458a795a0c
+  zh: 0117994264dcd2bf
+/cortex-desktop/known-limitations:
+  en: 72a28064b9c248ba
+  zh: 8a2903c3ee4250eb
+/cortex-desktop/dev-note:
+  en: a8dbdac48d7108c7
+  zh: 331f6b2eb161be59

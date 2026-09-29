@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for publish.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/user/develop/basic/publish.md
+/package-and-install-a-plugin:
+  en: 6362b57cb4901198
+  zh: 2825c94d293c7c90
+/package-and-install-a-plugin/two-concepts-two-manifests:
+  en: cf6ede9ad903f3d8
+  zh: 8a53b0886ab0a453
+/package-and-install-a-plugin/two-concepts-two-manifests/the-bundle-manifest:
+  en: be85eee88507da09
+  zh: b7ad525f7e0bdfe0
+/package-and-install-a-plugin/two-concepts-two-manifests/the-profile-manifest:
+  en: 908f939c431c45f8
+  zh: fab9a7c578f4d735
+/package-and-install-a-plugin/install-into-a-profile:
+  en: f37259c3366601e5
+  zh: f3e6dbe9fb4813bd
+/package-and-install-a-plugin/the-loading-order:
+  en: 5bb99b34b6fb854c
+  zh: ef64cd8fc053b43f
+/package-and-install-a-plugin/give-a-surface-bundle-its-own-command-line:
+  en: 96bdaccf48077f3c
+  zh: 7c23ba3cd058a901
+/package-and-install-a-plugin/installing-from-github-the-build-script-catch:
+  en: 0ec3d5b1ce1f454e
+  zh: 80d214690c06ccd4
+/package-and-install-a-plugin/next-steps:
+  en: d148659952e9cffb
+  zh: 1464e01286470d9c

@@ -1,0 +1,70 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/ptc-runtime/ptc-runtime/README.md
+/:
+  en: 8904d5f5d5251a83
+  zh: 69b48f289b0416f0
+/cortex-ai-cortex-ptc-runtime:
+  en: d8ea10505883a3b6
+  zh: 1e0b122bc6f5fa31
+/cortex-ai-cortex-ptc-runtime/summary:
+  en: 814389062bfa1dc0
+  zh: 4458a91baabe3646
+/cortex-ai-cortex-ptc-runtime/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-ptc-runtime/use-this-package:
+  en: 2f871ec0a02b695a
+  zh: da5540f0f9874269
+/cortex-ai-cortex-ptc-runtime/use-this-package/run-a-program:
+  en: 6f97019cebc2f417
+  zh: c56f18a690dbe814
+/cortex-ai-cortex-ptc-runtime/use-this-package/choose-a-backend:
+  en: 132b08dbfa0a6583
+  zh: 97b976d7d0e5d0ca
+/cortex-ai-cortex-ptc-runtime/use-this-package/name-your-bindings-portably:
+  en: 4e46c1672701b8df
+  zh: 0353c5855c9ff6be
+/cortex-ai-cortex-ptc-runtime/use-this-package/what-can-go-wrong:
+  en: 44f9fdf2c8e2cacc
+  zh: 99dd555a49075f88
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation:
+  en: 686d570f5e669fa4
+  zh: 2075cf27c30f251a
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation/design-concept:
+  en: 2be6b9f6374831da
+  zh: b2c638f2f3045dc1
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation/service-api:
+  en: da1de83dc217163e
+  zh: 2c6618d02988b1ce
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation/vocabulary:
+  en: 855cb8366e3bd293
+  zh: da6d7a0ce51f97fc
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation/portable-identifiers:
+  en: 01c82c6e73180979
+  zh: e29b066f9f82c8b4
+/cortex-ai-cortex-ptc-runtime/understand-the-implementation/source-map:
+  en: 73b7deab23f3b00d
+  zh: 780ddf5ff0dd5f65
+/cortex-ai-cortex-ptc-runtime/further-exploration:
+  en: 2a67ff05ccee3862
+  zh: 2cdad2d4d8a78b52
+/cortex-ai-cortex-ptc-runtime/model-experience:
+  en: 648ac52f0cdf138a
+  zh: 67a89086b24506cd
+/cortex-ai-cortex-ptc-runtime/model-experience/kv-cache-effect:
+  en: 40294c1c31b74824
+  zh: 081cebc2e2650f03
+/cortex-ai-cortex-ptc-runtime/known-limitations-and-deferred-work:
+  en: 7f30f78c5d427667
+  zh: 99d21160016deea2
+/cortex-ai-cortex-ptc-runtime/known-limitations-and-deferred-work/dev-note:
+  en: d56846da29ad869c
+  zh: 0397151a7e29b8ba
+/cortex-ai-cortex-ptc-runtime/known-limitations-and-deferred-work/dev-note/future-persistent-kernel-backend:
+  en: cfefaae6ed9705d5
+  zh: 3cca5b1bd92445b0
+/cortex-ai-cortex-ptc-runtime/known-limitations-and-deferred-work/dev-note/future-container-backend:
+  en: 2b94202842f0556c
+  zh: 5aa0311fa621a018

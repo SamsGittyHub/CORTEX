@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session-query/session-log-export/README.md
+/:
+  en: 3b67077a6dfacd19
+  zh: e5b78d039d310dc2
+/cortex-ai-cortex-session-log-export:
+  en: 6eea3448c926658d
+  zh: 21bdf72207618f14
+/cortex-ai-cortex-session-log-export/summary:
+  en: 70cd96b1273e4764
+  zh: 1123c03ef20e39c6
+/cortex-ai-cortex-session-log-export/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-session-log-export/use-this-package:
+  en: e13917595b7cfe8e
+  zh: 304a4322f78d4ea4
+/cortex-ai-cortex-session-log-export/use-this-package/when-to-choose-it:
+  en: 2b9dbec4877d332e
+  zh: dcf6638938eedb01
+/cortex-ai-cortex-session-log-export/use-this-package/composition:
+  en: 2c9d57cf90753420
+  zh: 5540516c6af22b91
+/cortex-ai-cortex-session-log-export/use-this-package/configuration:
+  en: 377a0d8860c46f63
+  zh: 9eb7698f813b2fa3
+/cortex-ai-cortex-session-log-export/use-this-package/command-contract:
+  en: 26329688b9a924a7
+  zh: 94e21c10fdcfc1ac
+/cortex-ai-cortex-session-log-export/use-this-package/what-to-expect:
+  en: 44be1f1d1903d12a
+  zh: c8f1eb5b92b71a30
+/cortex-ai-cortex-session-log-export/use-this-package/failures:
+  en: 3fc8985946d67024
+  zh: 5bb40a4b531d68f4
+/cortex-ai-cortex-session-log-export/understand-the-implementation:
+  en: 7cb82a6851405f95
+  zh: b8c525170d19dc6c
+/cortex-ai-cortex-session-log-export/understand-the-implementation/design-split:
+  en: d135d90a02c6d829
+  zh: 587d7ff2d17b056b
+/cortex-ai-cortex-session-log-export/understand-the-implementation/download-flow:
+  en: 028ea3bff05250ba
+  zh: 63250c4d3369ebbd
+/cortex-ai-cortex-session-log-export/further-exploration:
+  en: 2620164cf5ef4779
+  zh: af323575e3c2dbb5
+/cortex-ai-cortex-session-log-export/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-session-log-export/model-experience/human-export-control:
+  en: 55c1a61a041a2aeb
+  zh: 48e05043cc42304f
+/cortex-ai-cortex-session-log-export/model-experience/human-export-control/what-the-model-sees:
+  en: 6b3c3cfc5d68d5f9
+  zh: b1689c57ee3b4ccb
+/cortex-ai-cortex-session-log-export/model-experience/human-export-control/token-effect:
+  en: 380535e564a4ea2c
+  zh: 2672eac76afd90f5
+/cortex-ai-cortex-session-log-export/model-experience/human-export-control/kv-cache-effect:
+  en: 78163c30fdf0b43d
+  zh: 165043e307b38cb3
+/cortex-ai-cortex-session-log-export/known-limitations-and-deferred-work:
+  en: 9978d234cbfe7e73
+  zh: 9ba0b12300ff4d38
+/cortex-ai-cortex-session-log-export/known-limitations-and-deferred-work/dev-note:
+  en: 4ee4d24c26c127bf
+  zh: 1facdfbfa3ccefbc
+/cortex-ai-cortex-session-log-export/known-limitations-and-deferred-work/dev-note/future-export-destinations-beyond-the-browser:
+  en: 226726899a479680
+  zh: 26f72519513d4782

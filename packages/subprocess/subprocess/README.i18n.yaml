@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/subprocess/subprocess/README.md
+/:
+  en: 04735af7a998f2ae
+  zh: ab6bf3d0f098877a
+/cortex-ai-cortex-subprocess:
+  en: 12a249699e03c1a5
+  zh: b9d54c1eeb15a005
+/cortex-ai-cortex-subprocess/summary:
+  en: f1b161348d65b15b
+  zh: 1c4105a5a3e02786
+/cortex-ai-cortex-subprocess/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-subprocess/use-this-package:
+  en: a43391b5840a4c58
+  zh: a0a9c3fa577d92c0
+/cortex-ai-cortex-subprocess/use-this-package/mounting-the-service:
+  en: 82be7c63ab95994f
+  zh: 8810e7c489b444df
+/cortex-ai-cortex-subprocess/use-this-package/starting-a-managed-process:
+  en: 891cb74d5d35095c
+  zh: 296cb1890116fb05
+/cortex-ai-cortex-subprocess/use-this-package/choosing-how-output-is-delivered:
+  en: c02fe7246326c164
+  zh: 1d31096e31e1feee
+/cortex-ai-cortex-subprocess/use-this-package/using-a-control-pipe:
+  en: d1011c55a9f0b722
+  zh: 02c2169679c66bbb
+/cortex-ai-cortex-subprocess/use-this-package/managing-process-lifetime:
+  en: 83d662d278184411
+  zh: 2c4e7fbe76823fa8
+/cortex-ai-cortex-subprocess/use-this-package/running-a-terminal-session:
+  en: e3631497344c2ebd
+  zh: c4ebc7b08f0a316e
+/cortex-ai-cortex-subprocess/use-this-package/environment-every-child-starts-from:
+  en: caaad505e10f164d
+  zh: 6039a3a36478f624
+/cortex-ai-cortex-subprocess/use-this-package/what-can-go-wrong:
+  en: 51f2f43087a1ed18
+  zh: 6d2ebb099b707df3
+/cortex-ai-cortex-subprocess/understand-the-implementation:
+  en: 25cd344c959cfd9e
+  zh: 045880776ab82d1e
+/cortex-ai-cortex-subprocess/understand-the-implementation/design-concept:
+  en: 2836644051853658
+  zh: 5afbb1606f2ecbfa
+/cortex-ai-cortex-subprocess/understand-the-implementation/source-map:
+  en: 763741f9d5659fda
+  zh: b0380d554bc3d031
+/cortex-ai-cortex-subprocess/understand-the-implementation/data-model-and-flow:
+  en: 9998dc0a990fbcf1
+  zh: ba179617f60cb9bc
+/cortex-ai-cortex-subprocess/understand-the-implementation/lifecycle-and-invariants:
+  en: a132325eea7cadb4
+  zh: 434cbbc61ff9cd0e
+/cortex-ai-cortex-subprocess/further-exploration:
+  en: 2b56f014746c5ce3
+  zh: 811cc35f77368776
+/cortex-ai-cortex-subprocess/model-experience:
+  en: 36d8f1820f81de29
+  zh: da18a4123bdd28b7
+/cortex-ai-cortex-subprocess/model-experience/kv-cache-effect:
+  en: e290ccc9b3c92c08
+  zh: d75d48f485447a74
+/cortex-ai-cortex-subprocess/known-limitations-and-deferred-work:
+  en: 0b1c46aec1ba628d
+  zh: cf2a0db9d0682155
+/cortex-ai-cortex-subprocess/known-limitations-and-deferred-work/dev-note:
+  en: 56709c22873429b5
+  zh: c0e86c62982a3e29

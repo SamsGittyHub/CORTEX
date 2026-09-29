@@ -1,0 +1,103 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/core/tools/README.md
+/:
+  en: 3b12a77945c0d1e9
+  zh: e9af32047e4f658b
+/cortex-ai-cortex-tools:
+  en: 53429c7a0b85acae
+  zh: 2475868f2ad07411
+/cortex-ai-cortex-tools/summary:
+  en: 6b318e312aa42506
+  zh: 5e873999a6dfd9ba
+/cortex-ai-cortex-tools/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tools/use-this-package:
+  en: 396f4f5c59d73598
+  zh: 9eb10f95b0a5059a
+/cortex-ai-cortex-tools/use-this-package/register-a-tool:
+  en: 02fce53c21a33d74
+  zh: 01110c4714dfd602
+/cortex-ai-cortex-tools/use-this-package/configure-the-presentation-mode:
+  en: bf44cf02ab83836f
+  zh: b4d3cde3e0e04852
+/cortex-ai-cortex-tools/use-this-package/restrict-tools-per-agent:
+  en: c6f98b2283cc2e47
+  zh: c2cdce5d13473f15
+/cortex-ai-cortex-tools/use-this-package/enforce-policy-on-calls:
+  en: cbfe8317565ac62d
+  zh: 1e71c66941e50881
+/cortex-ai-cortex-tools/use-this-package/host-presentation-descriptors:
+  en: 392fb479fefbc80c
+  zh: 580f81ef9efcc653
+/cortex-ai-cortex-tools/understand-the-implementation:
+  en: ce7e776e9d516bdb
+  zh: 59d2751743db7795
+/cortex-ai-cortex-tools/understand-the-implementation/design-concept:
+  en: 92e8af53e6067bad
+  zh: 33c7b99b42c5acac
+/cortex-ai-cortex-tools/understand-the-implementation/source-map:
+  en: 7f61ed30a231b7ba
+  zh: c7587af984650f8b
+/cortex-ai-cortex-tools/understand-the-implementation/execution-and-cancellation:
+  en: dc44a88997777988
+  zh: 56454aeace1c8b77
+/cortex-ai-cortex-tools/understand-the-implementation/ptc-mode:
+  en: eac1ba8d31cee5a9
+  zh: 0f94afc80cd89edb
+/cortex-ai-cortex-tools/understand-the-implementation/extension-points:
+  en: c2a14d6f22bc9428
+  zh: 89c1414fca465931
+/cortex-ai-cortex-tools/further-exploration:
+  en: fda349d64830dcd0
+  zh: 7392f3e40710b42c
+/cortex-ai-cortex-tools/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tools/model-experience/normal-tool-schemas:
+  en: 483b01d9bb2cb49a
+  zh: 1d95095e76fb0996
+/cortex-ai-cortex-tools/model-experience/normal-tool-schemas/what-the-model-sees:
+  en: 3a29f72df8fc515c
+  zh: 666f73dffda5c7a1
+/cortex-ai-cortex-tools/model-experience/normal-tool-schemas/token-effect:
+  en: d594b71ff5e4cc87
+  zh: dcec1ea0dd2a0fa6
+/cortex-ai-cortex-tools/model-experience/normal-tool-schemas/kv-cache-effect:
+  en: 7c5e75964e020b2c
+  zh: d50d0402d15232d9
+/cortex-ai-cortex-tools/model-experience/ptc-mode-schema-and-system-prompt:
+  en: eaefd7303f22977d
+  zh: 9c425f9501128224
+/cortex-ai-cortex-tools/model-experience/ptc-mode-schema-and-system-prompt/what-the-model-sees:
+  en: e861b3378a4df84f
+  zh: 04c64ab0efb83790
+/cortex-ai-cortex-tools/model-experience/ptc-mode-schema-and-system-prompt/what-the-model-sees/typescript-ptc-mode-sdk-instructions-with-bash:
+  en: 3a8df15e4ae32f9e
+  zh: fc4a800ba363e835
+/cortex-ai-cortex-tools/model-experience/ptc-mode-schema-and-system-prompt/token-effect:
+  en: 12296fcafc14562c
+  zh: f8e9351bb8c6437d
+/cortex-ai-cortex-tools/model-experience/ptc-mode-schema-and-system-prompt/kv-cache-effect:
+  en: 78906628d634441f
+  zh: 492f133aea50cfe3
+/cortex-ai-cortex-tools/model-experience/tool-call-history-and-results:
+  en: a8503137ad03720c
+  zh: 611a2dadf7c0c706
+/cortex-ai-cortex-tools/model-experience/tool-call-history-and-results/what-the-model-sees:
+  en: 7c568da5a45e99ab
+  zh: 7e78f04448fc5450
+/cortex-ai-cortex-tools/model-experience/tool-call-history-and-results/token-effect:
+  en: 8fe3f024f364ed9f
+  zh: 89c1d5d24c5f950b
+/cortex-ai-cortex-tools/model-experience/tool-call-history-and-results/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: ad59a120b54a0996
+/cortex-ai-cortex-tools/known-limitations-and-deferred-work:
+  en: c23c6a5f73b6df82
+  zh: b98a09cb9061904c
+/cortex-ai-cortex-tools/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

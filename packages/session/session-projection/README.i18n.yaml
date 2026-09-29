@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-projection/README.md
+/:
+  en: 85229e402add27cf
+  zh: 66473d34393c44db
+/cortex-ai-cortex-session-projection:
+  en: 9b5ad3f12fc6711b
+  zh: cc2348018a76c0de
+/cortex-ai-cortex-session-projection/summary:
+  en: 9a8f1f3bfbff8de1
+  zh: 34e31d3df819710c
+/cortex-ai-cortex-session-projection/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-session-projection/use-this-package:
+  en: 8443cb8dbbd767ad
+  zh: 2cbbcb0db5902514
+/cortex-ai-cortex-session-projection/use-this-package/when-to-choose-it:
+  en: 90b7c26cb45be52a
+  zh: 386e294ec09607c1
+/cortex-ai-cortex-session-projection/use-this-package/define-a-projection-unit:
+  en: 09758d1475fad86e
+  zh: 473637cb34aebe72
+/cortex-ai-cortex-session-projection/use-this-package/register-and-read:
+  en: 5e754e67dff07b02
+  zh: 2ba1bda464abaa45
+/cortex-ai-cortex-session-projection/use-this-package/persisted-checkpoints:
+  en: 9ea27a218ad61ce5
+  zh: 70a710780b528b5a
+/cortex-ai-cortex-session-projection/understand-the-implementation:
+  en: 3397f58d6f49bfda
+  zh: efb85d382e25574d
+/cortex-ai-cortex-session-projection/understand-the-implementation/design-concept:
+  en: 8afa0fdb49898f6d
+  zh: 6b2da34455963935
+/cortex-ai-cortex-session-projection/understand-the-implementation/source-map:
+  en: 8b6672b48e7607d6
+  zh: 33611e7ea13219f1
+/cortex-ai-cortex-session-projection/understand-the-implementation/drive-and-checkpoint-flow:
+  en: 00136880bb586403
+  zh: bd35f645111c068c
+/cortex-ai-cortex-session-projection/further-exploration:
+  en: e92375ab4e0f7f18
+  zh: 4284600001b13653
+/cortex-ai-cortex-session-projection/model-experience:
+  en: a24045627fb43695
+  zh: a8465196c3948796
+/cortex-ai-cortex-session-projection/model-experience/kv-cache-effect:
+  en: 8a592dae9bc946ab
+  zh: eca939995bb5f8e0
+/cortex-ai-cortex-session-projection/known-limitations-and-deferred-work:
+  en: 6a6959537e22e1c2
+  zh: ce1983f8bfa5a820
+/cortex-ai-cortex-session-projection/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

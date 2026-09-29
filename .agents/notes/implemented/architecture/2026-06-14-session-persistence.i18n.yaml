@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-06-14-session-persistence.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-06-14-session-persistence.md
+/agent-note-session-persistence-as-an-abstract-service-over-the-existing-sessionevent:
+  en: 92ae13981d670290
+  zh: 2d5f4b792bf40588
+/agent-note-session-persistence-as-an-abstract-service-over-the-existing-sessionevent/problem:
+  en: f1b9eae6b633652d
+  zh: 6ca60a03b8cb2470
+/agent-note-session-persistence-as-an-abstract-service-over-the-existing-sessionevent/decision:
+  en: 0eadafe11d2eddd1
+  zh: 2b0e536eb3a15cb6
+/agent-note-session-persistence-as-an-abstract-service-over-the-existing-sessionevent/alternatives-considered:
+  en: 002ee11b5ff4a64b
+  zh: da90c6749733e1a0
+/agent-note-session-persistence-as-an-abstract-service-over-the-existing-sessionevent/consequences:
+  en: 4f00ed0b90442440
+  zh: 994a5b03c862178b

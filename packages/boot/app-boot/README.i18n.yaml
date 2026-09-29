@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/boot/app-boot/README.md
+/:
+  en: 3af558cb136a3e42
+  zh: 8524b02b3250abdf
+/cortex-ai-cortex-app-boot:
+  en: c0da7847db2938cf
+  zh: 924db50612843986
+/cortex-ai-cortex-app-boot/summary:
+  en: 0da2f43d2dddcee9
+  zh: 14fc57e5806e9c27
+/cortex-ai-cortex-app-boot/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-app-boot/use-this-package:
+  en: f6fa378225009c8f
+  zh: 324c0e4640bb1358
+/cortex-ai-cortex-app-boot/use-this-package/when-to-use-it:
+  en: 70b2941d2199ae15
+  zh: 0606dbdb9496e63e
+/cortex-ai-cortex-app-boot/use-this-package/starting-the-app:
+  en: 1099528bde0e2aee
+  zh: b68772bdb9bb7856
+/cortex-ai-cortex-app-boot/use-this-package/profiles:
+  en: dee2390cd79b2ce2
+  zh: f2fb917cde3bb8d0
+/cortex-ai-cortex-app-boot/use-this-package/previewing-the-effective-configuration:
+  en: 646a0ccdd7881ad1
+  zh: e3696acb1573dd7b
+/cortex-ai-cortex-app-boot/use-this-package/inspecting-plugin-configuration-schemas:
+  en: 26db1a7ddb924aa0
+  zh: 0cb2527474025164
+/cortex-ai-cortex-app-boot/use-this-package/reading-plugin-display-metadata:
+  en: 4a58b36300c558f4
+  zh: d2b25b9d0a2785eb
+/cortex-ai-cortex-app-boot/use-this-package/startup-and-reload-failures:
+  en: 810d013c422cc367
+  zh: 646584630bebd23d
+/cortex-ai-cortex-app-boot/use-this-package/telling-the-agent-where-the-harness-lives:
+  en: c0769997b392e870
+  zh: 167f1705cdc423f6
+/cortex-ai-cortex-app-boot/understand-the-implementation:
+  en: f4a2695cb4c8a570
+  zh: 89837235d2f376cf
+/cortex-ai-cortex-app-boot/understand-the-implementation/design-notes:
+  en: ab19fd7602e73b5d
+  zh: cc22dd973640bbef
+/cortex-ai-cortex-app-boot/understand-the-implementation/helper-behavior:
+  en: f7bc3a8dd4b00bdd
+  zh: 30098428aa769ad0
+/cortex-ai-cortex-app-boot/understand-the-implementation/source-map:
+  en: 25602fd8eb9b2907
+  zh: 870a33dd34a52c32
+/cortex-ai-cortex-app-boot/further-exploration:
+  en: c37c98c3035f843b
+  zh: 7b4bb9e3f2c0a59f
+/cortex-ai-cortex-app-boot/model-experience:
+  en: 769777f1cb1a9408
+  zh: f02b2834179df50d
+/cortex-ai-cortex-app-boot/model-experience/kv-cache-effect:
+  en: c4d49630b68ae896
+  zh: 6f450ec6ba39bb81
+/cortex-ai-cortex-app-boot/known-limitations-and-deferred-work:
+  en: bf1a49013cad8e9c
+  zh: 41b2b010f8650ec3
+/cortex-ai-cortex-app-boot/known-limitations-and-deferred-work/dev-note:
+  en: d2f0d68fe29fb750
+  zh: 323d21ee73a9e3f6
+/cortex-ai-cortex-app-boot/known-limitations-and-deferred-work/dev-note/open-yaml-config-dump-stability:
+  en: 23e03e73f7b887a3
+  zh: bc0e5bb712110976

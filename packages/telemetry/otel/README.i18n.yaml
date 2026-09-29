@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/telemetry/otel/README.md
+/:
+  en: 49f35d8bc0fe3689
+  zh: ef2fd903cca7d129
+/cortex-ai-cortex-otel:
+  en: dd32dc2573d7f3ac
+  zh: 9f41dd55f904336f
+/cortex-ai-cortex-otel/summary:
+  en: e32c122f34c04593
+  zh: bea48183ab438454
+/cortex-ai-cortex-otel/table-of-contents:
+  en: 23386452a66b2fbd
+  zh: 55b2121ae6059425
+/cortex-ai-cortex-otel/use-this-package:
+  en: a646256e82c6163f
+  zh: 87af1f6c6e83c721
+/cortex-ai-cortex-otel/understand-the-implementation:
+  en: 0976ab2c661529bb
+  zh: 9653db33fc70195d
+/cortex-ai-cortex-otel/further-exploration:
+  en: aa04e07983a72269
+  zh: 65b61a4baf7ed5ea
+/cortex-ai-cortex-otel/model-experience:
+  en: 5b364b9451ced69f
+  zh: 025feb91ef96bdb8
+/cortex-ai-cortex-otel/model-experience/kv-cache-effect:
+  en: 8be9251f0d5256ed
+  zh: d46143a02855c8bc
+/cortex-ai-cortex-otel/known-limitations-and-deferred-work:
+  en: 5c3e29312d45ee52
+  zh: b148e3a6decc0f7d
+/cortex-ai-cortex-otel/known-limitations-and-deferred-work/dev-note:
+  en: 0a1253c6f7b5e8b9
+  zh: 9f56528562c7c914

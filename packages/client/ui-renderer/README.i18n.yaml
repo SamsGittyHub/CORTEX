@@ -1,0 +1,52 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-renderer/README.md
+/:
+  en: e7348b689d53dc44
+  zh: 1e146b5322315a57
+/cortex-ai-cortex-client-ui-renderer:
+  en: 4de59b6f92cb343f
+  zh: d7291b7d85e199c8
+/cortex-ai-cortex-client-ui-renderer/summary:
+  en: 1f3e25b8fde86c89
+  zh: 5ddb47c66716149a
+/cortex-ai-cortex-client-ui-renderer/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-renderer/use-this-package:
+  en: 22720af2fb33f5f8
+  zh: 8f2c7717c0b30829
+/cortex-ai-cortex-client-ui-renderer/use-this-package/what-mounting-does:
+  en: 1d5350799ce072d0
+  zh: 942e543fdab51818
+/cortex-ai-cortex-client-ui-renderer/use-this-package/for-business-plugins:
+  en: 15a2bfee2c0bd051
+  zh: 0c5b336fc5afbbc6
+/cortex-ai-cortex-client-ui-renderer/understand-the-implementation:
+  en: 0de0a8ad857b93f6
+  zh: 98a0fae2d6606a7d
+/cortex-ai-cortex-client-ui-renderer/understand-the-implementation/activation-and-mount:
+  en: 970aa56021c8343e
+  zh: dda10689f38a36f0
+/cortex-ai-cortex-client-ui-renderer/understand-the-implementation/slot-bindings:
+  en: 6ab26cf5744a23d4
+  zh: 84a531322a724a84
+/cortex-ai-cortex-client-ui-renderer/understand-the-implementation/identity:
+  en: 2a349d500ead79cb
+  zh: ac49c8b1d73dcd6c
+/cortex-ai-cortex-client-ui-renderer/further-exploration:
+  en: b4f1614911167e79
+  zh: 01d5edcff2550da0
+/cortex-ai-cortex-client-ui-renderer/model-experience:
+  en: ca4e29db08d34e6d
+  zh: de6ec680414b1d54
+/cortex-ai-cortex-client-ui-renderer/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: de54f3467ef3b9be
+/cortex-ai-cortex-client-ui-renderer/known-limitations-and-deferred-work:
+  en: 5ebaf02736035a44
+  zh: 3c04f28da7ec6c40
+/cortex-ai-cortex-client-ui-renderer/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

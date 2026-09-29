@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for 2026-09-19-evidence-led-simplification-surveys.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-09-19-evidence-led-simplification-surveys.md
+/agent-note-evidence-led-simplification-surveys:
+  en: 81c43171072da290
+  zh: 8033c18c018942c2
+/agent-note-evidence-led-simplification-surveys/problem:
+  en: 528a0c462d456493
+  zh: a2af4901a8f498a7
+/agent-note-evidence-led-simplification-surveys/decision:
+  en: 1bd2ab9a9b138284
+  zh: 8959811cfcfd1f83
+/agent-note-evidence-led-simplification-surveys/historical-evidence:
+  en: 53eea2f1d7560461
+  zh: 3c55432d9cd3ebe3
+/agent-note-evidence-led-simplification-surveys/bounded-survey-evidence:
+  en: 0524f23c6ed06e83
+  zh: 633d69cbb5db28bf
+/agent-note-evidence-led-simplification-surveys/alternatives-considered:
+  en: 9e0039e0ff82ba1b
+  zh: fa4b0a52bf3dcbdd
+/agent-note-evidence-led-simplification-surveys/consequences:
+  en: 83d4bd0a99c65a29
+  zh: bc50640d22b77f3b

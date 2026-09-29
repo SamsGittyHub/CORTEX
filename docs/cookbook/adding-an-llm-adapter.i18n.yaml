@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for adding-an-llm-adapter.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cookbook/adding-an-llm-adapter.md
+/cookbook-adding-an-llm-adapter:
+  en: 0770678f36d4be9f
+  zh: 0a89daa05e105db8
+/cookbook-adding-an-llm-adapter/the-shape:
+  en: 52a0bbb65eaadf28
+  zh: 106021dc36e12533
+/cookbook-adding-an-llm-adapter/protocol-obligations-the-contract-two-implementations-verified:
+  en: 2702a60f5670dd27
+  zh: 5ac992d0a8a61818
+/cookbook-adding-an-llm-adapter/implementation-structure:
+  en: 609408f6202073c8
+  zh: ec933b15561929b6
+/cookbook-adding-an-llm-adapter/verification:
+  en: b3324dcd1fde8007
+  zh: be8754f2ff371eb7

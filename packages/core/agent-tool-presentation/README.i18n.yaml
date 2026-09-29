@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/core/agent-tool-presentation/README.md
+/:
+  en: 1c67fea11cb4a325
+  zh: 7dc1256148273b02
+/cortex-ai-cortex-agent-tool-presentation:
+  en: 2ef22fefa4435661
+  zh: 33e1f01047fc73a9
+/cortex-ai-cortex-agent-tool-presentation/summary:
+  en: 8287e4489d572f3f
+  zh: 356c2ad069f6e51d
+/cortex-ai-cortex-agent-tool-presentation/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-agent-tool-presentation/use-this-package:
+  en: 58ad1e2bd9dd55b2
+  zh: 05eac342cdc6e052
+/cortex-ai-cortex-agent-tool-presentation/use-this-package/add-the-row-to-a-preset:
+  en: 856458e1ff00f344
+  zh: 8a060693ad1941a2
+/cortex-ai-cortex-agent-tool-presentation/use-this-package/what-ptc-mode-requires:
+  en: ec5ae640f50f4e1e
+  zh: aeb7f32140f69ae1
+/cortex-ai-cortex-agent-tool-presentation/use-this-package/one-presentation-per-agent:
+  en: 46bf80f051175567
+  zh: 8f5e1623da5d1520
+/cortex-ai-cortex-agent-tool-presentation/understand-the-implementation:
+  en: ce7e776e9d516bdb
+  zh: 59d2751743db7795
+/cortex-ai-cortex-agent-tool-presentation/understand-the-implementation/design-concept:
+  en: 6f8bb6bd853cbc13
+  zh: 422fca4b20b79fbd
+/cortex-ai-cortex-agent-tool-presentation/understand-the-implementation/source-map:
+  en: 4c2b10e688997e62
+  zh: 2a6350f4cbfde280
+/cortex-ai-cortex-agent-tool-presentation/understand-the-implementation/behavior-notes:
+  en: bc8e3c7e89eba5a9
+  zh: 57e64fce44b71d31
+/cortex-ai-cortex-agent-tool-presentation/further-exploration:
+  en: d44d142bc49a1556
+  zh: 258a1dd64cc5ba9a
+/cortex-ai-cortex-agent-tool-presentation/model-experience:
+  en: 8c29d3bf8ac70e37
+  zh: db98ec6067fb0ae2
+/cortex-ai-cortex-agent-tool-presentation/model-experience/kv-cache-effect:
+  en: c75b16e38577f026
+  zh: f802d115af4bf9a1
+/cortex-ai-cortex-agent-tool-presentation/known-limitations-and-deferred-work:
+  en: 17a0a213ec65c95f
+  zh: ff96d985f6360338
+/cortex-ai-cortex-agent-tool-presentation/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/webworker-packer/README.md
+/:
+  en: 5bf871fc6ff3da7c
+  zh: eae970e01432a92a
+/cortex-ai-cortex-experimental-webworker-packer:
+  en: 1b2ef21a48ca69ae
+  zh: 140637baff7878a2
+/cortex-ai-cortex-experimental-webworker-packer/summary:
+  en: 256bd0fa4ee030df
+  zh: c4a8ae89a691bc72
+/cortex-ai-cortex-experimental-webworker-packer/table-of-contents:
+  en: 4e53164159b5ce41
+  zh: 89582dc0294d0776
+/cortex-ai-cortex-experimental-webworker-packer/use-this-package:
+  en: 109cb099e1842e6d
+  zh: 66ca249629359073
+/cortex-ai-cortex-experimental-webworker-packer/model-experience:
+  en: e16b355530dadc1c
+  zh: 8488e03b253b7b33
+/cortex-ai-cortex-experimental-webworker-packer/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 64715dc7e6d02f71
+/cortex-ai-cortex-experimental-webworker-packer/known-limitations-and-deferred-work:
+  en: 122f974ff26f787a
+  zh: 3abe75b80a1a243e
+/cortex-ai-cortex-experimental-webworker-packer/known-limitations-and-deferred-work/dev-note:
+  en: 46176f90f22845c7
+  zh: 8e6ba8ba2958fba3

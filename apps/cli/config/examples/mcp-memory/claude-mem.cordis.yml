@@ -1,0 +1,14 @@
+# Opt-in reference for claude-mem 13.28.0 search tools. Install claude-mem first
+# (`npx claude-mem install`); CORTEX starts its MCP server but does not install
+# it, run its worker, or choose its storage. Set CLAUDE_MEM_PLUGIN_ROOT to use
+# an installation outside the default Claude Code plugin directory.
+- insert:
+    - id: memory-claude-mem
+      name: '@cortex-ai/cortex-mcp-client'
+      config:
+        serverName: claude_mem
+        transport: stdio
+        command: node
+        args:
+          - !!js (process.env.CLAUDE_MEM_PLUGIN_ROOT || ((process.env.CLAUDE_CONFIG_DIR || (process.env.HOME || process.env.USERPROFILE) + '/.claude') + '/plugins/marketplaces/thedotmack/plugin')) + '/scripts/mcp-server.cjs'
+        cwd: !!js process.cwd()

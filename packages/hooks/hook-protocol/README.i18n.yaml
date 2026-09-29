@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/hooks/hook-protocol/README.md
+/:
+  en: 7cfe3761eedff848
+  zh: 80b0bed5743d0924
+/cortex-ai-cortex-hook-protocol:
+  en: c85bed35c62cc293
+  zh: 52f3c86c7e4fd351
+/cortex-ai-cortex-hook-protocol/summary:
+  en: 3aee111ac12fb054
+  zh: fb754912d4a623a7
+/cortex-ai-cortex-hook-protocol/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-hook-protocol/use-this-package:
+  en: e9cca386296aa24c
+  zh: 116f842785e0ceaa
+/cortex-ai-cortex-hook-protocol/use-this-package/when-to-choose-it:
+  en: 11c09e72b52eeec2
+  zh: 75da84932232966a
+/cortex-ai-cortex-hook-protocol/use-this-package/what-a-hook-can-do:
+  en: 043f54b3a5b518a7
+  zh: a4115083a9b1cef1
+/cortex-ai-cortex-hook-protocol/use-this-package/what-you-see-when-hooks-run:
+  en: ba2d6ed1db063f53
+  zh: ab1b8d72dccd2ff1
+/cortex-ai-cortex-hook-protocol/understand-the-implementation:
+  en: 08b3960150e9c5e2
+  zh: 6bb2f236d697de01
+/cortex-ai-cortex-hook-protocol/understand-the-implementation/processing-pipeline:
+  en: fd7592de5ca4a597
+  zh: a024447652b374be
+/cortex-ai-cortex-hook-protocol/understand-the-implementation/hook-session-events:
+  en: 4f161b5d5f950128
+  zh: a86954b8c64ac333
+/cortex-ai-cortex-hook-protocol/understand-the-implementation/design-philosophy:
+  en: b11cfeaacb5df13d
+  zh: 40f0f3523a0a4102
+/cortex-ai-cortex-hook-protocol/understand-the-implementation/source-map:
+  en: d613d9bd98d499fb
+  zh: afe2939d7df250ea
+/cortex-ai-cortex-hook-protocol/further-exploration:
+  en: 0451ca65e398004e
+  zh: bfd567c7e52f84d9
+/cortex-ai-cortex-hook-protocol/model-experience:
+  en: a4270ae6def73fd1
+  zh: 8b99a3307c47e310
+/cortex-ai-cortex-hook-protocol/model-experience/kv-cache-effect:
+  en: e290ccc9b3c92c08
+  zh: cb3c8823f41e7afe
+/cortex-ai-cortex-hook-protocol/known-limitations-and-deferred-work:
+  en: 545fbbabdfc30993
+  zh: 9ee8bd1074b3a74f
+/cortex-ai-cortex-hook-protocol/known-limitations-and-deferred-work/dev-note:
+  en: ac1d08360a93382b
+  zh: 6c58749bae9a6e65
+/cortex-ai-cortex-hook-protocol/known-limitations-and-deferred-work/dev-note/future-run-level-halt:
+  en: bfb3db50de22c1d0
+  zh: 2a979359b0edbbe7

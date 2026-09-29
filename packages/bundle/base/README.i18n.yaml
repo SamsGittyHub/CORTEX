@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/bundle/base/README.md
+/:
+  en: c55889c83a8b689a
+  zh: 8af7f94eb372680a
+/cortex-ai-cortex-base:
+  en: f27736426024052c
+  zh: 1eaa37d6f8feb5a7
+/cortex-ai-cortex-base/summary:
+  en: 891914471f616d79
+  zh: 408ef1eae43d7076
+/cortex-ai-cortex-base/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-base/use-this-package:
+  en: df75c32c8b4921b3
+  zh: f3fa50024d7ed0cb
+/cortex-ai-cortex-base/use-this-package/a-minimal-custom-profile:
+  en: ea1d7cdf77884ac7
+  zh: e062a08690082ae2
+/cortex-ai-cortex-base/use-this-package/what-you-get:
+  en: c35fe7fde5ba43d3
+  zh: 4c344f1026268f37
+/cortex-ai-cortex-base/use-this-package/shell-tools-per-platform:
+  en: 2dce12f82d6ee955
+  zh: d4599eb899a3cd88
+/cortex-ai-cortex-base/use-this-package/changing-the-defaults:
+  en: 96a55abd5f7007dd
+  zh: d94f020708c38a17
+/cortex-ai-cortex-base/understand-the-implementation:
+  en: 094cfca8e26a0042
+  zh: de435e3e38420c01
+/cortex-ai-cortex-base/understand-the-implementation/composition-mechanics:
+  en: fd37bc66e39ac5e7
+  zh: 1a039afb8bf2d517
+/cortex-ai-cortex-base/understand-the-implementation/platform-gating:
+  en: e097c5fe705e301b
+  zh: 0d8a13127dd59ecf
+/cortex-ai-cortex-base/understand-the-implementation/source-map:
+  en: 3aaf655b9c93534b
+  zh: 5a1b627cc6385a17
+/cortex-ai-cortex-base/understand-the-implementation/invariant-ownership:
+  en: 533299d7bd555e61
+  zh: 0aed404f790ea447
+/cortex-ai-cortex-base/further-exploration:
+  en: 46dbb0be4a92cd04
+  zh: f45c21e51690a4fb
+/cortex-ai-cortex-base/model-experience:
+  en: f6c4d2609b5f4bb6
+  zh: 869a9565a133fb01
+/cortex-ai-cortex-base/model-experience/kv-cache-effect:
+  en: e6e907c99df7cd0a
+  zh: f19f2f84a5f95177
+/cortex-ai-cortex-base/known-limitations-and-deferred-work:
+  en: af7275e18a8fe161
+  zh: bc01fd575a8b4525
+/cortex-ai-cortex-base/known-limitations-and-deferred-work/dev-note:
+  en: ca037cb236aa841a
+  zh: e06f3899be43b572

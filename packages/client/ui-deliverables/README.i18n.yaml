@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-deliverables/README.md
+/:
+  en: 91a4da87e2e078ed
+  zh: 8d489c6cdf208c4d
+/cortex-ai-cortex-client-ui-deliverables:
+  en: 70a9204a5b87ae2b
+  zh: 385bba3a26fafaba
+/cortex-ai-cortex-client-ui-deliverables/summary:
+  en: a17b97d16803f911
+  zh: ad80cf4bcb5a8018
+/cortex-ai-cortex-client-ui-deliverables/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-deliverables/use-this-package:
+  en: 9c43f57cb5182302
+  zh: 9c5c8a1ad008ae70
+/cortex-ai-cortex-client-ui-deliverables/use-this-package/explicit-deliveries:
+  en: 082ff8550e092f8b
+  zh: 0a759e815f798676
+/cortex-ai-cortex-client-ui-deliverables/use-this-package/the-changed-files-card:
+  en: 4b279e2bddddc083
+  zh: a3135393299c935b
+/cortex-ai-cortex-client-ui-deliverables/use-this-package/the-review-tab:
+  en: caacedb52dc46bdd
+  zh: c369217f34dcc132
+/cortex-ai-cortex-client-ui-deliverables/use-this-package/inline-code-links:
+  en: e36ccef8bf908ea4
+  zh: 30e11327a55e5dfa
+/cortex-ai-cortex-client-ui-deliverables/understand-the-implementation:
+  en: cc242483e6b095bc
+  zh: 9f347185e0201971
+/cortex-ai-cortex-client-ui-deliverables/further-exploration:
+  en: 29b9a8322d60b9c8
+  zh: f5293de40cb66ceb
+/cortex-ai-cortex-client-ui-deliverables/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-client-ui-deliverables/model-experience/clickable-file-reference-guidance:
+  en: eb244aa21a4e5210
+  zh: e3450addfa19cea5
+/cortex-ai-cortex-client-ui-deliverables/model-experience/clickable-file-reference-guidance/what-the-model-sees:
+  en: 78339e353ae47a53
+  zh: 582efa623a5dfd72
+/cortex-ai-cortex-client-ui-deliverables/model-experience/clickable-file-reference-guidance/token-effect:
+  en: eb93ac428cae55d6
+  zh: bfca98d7f8aff839
+/cortex-ai-cortex-client-ui-deliverables/model-experience/clickable-file-reference-guidance/kv-cache-effect:
+  en: 52626a05acc8b320
+  zh: 6a8e62b0d47d5297
+/cortex-ai-cortex-client-ui-deliverables/known-limitations-and-deferred-work:
+  en: 8c31bc2faaab333c
+  zh: dfb5f19aec0ce545
+/cortex-ai-cortex-client-ui-deliverables/known-limitations-and-deferred-work/dev-note:
+  en: a55f817f597aa646
+  zh: aba9a91ecde566ab

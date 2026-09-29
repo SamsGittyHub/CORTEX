@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-settings-plugins/README.md
+/:
+  en: faab271953e809cb
+  zh: ea241c81a499b479
+/cortex-ai-cortex-client-ui-settings-plugins:
+  en: b7004f993e87cde4
+  zh: 24351d94a928ad16
+/cortex-ai-cortex-client-ui-settings-plugins/summary:
+  en: d9b27f1dd9713b4f
+  zh: 3ec674429179ae7d
+/cortex-ai-cortex-client-ui-settings-plugins/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-settings-plugins/use-this-package:
+  en: a8200c67bc162de9
+  zh: 5b8e985351afc99e
+/cortex-ai-cortex-client-ui-settings-plugins/understand-the-implementation:
+  en: c5cfef002b32c7c1
+  zh: 0249b45a28c16b61
+/cortex-ai-cortex-client-ui-settings-plugins/further-exploration:
+  en: 0505e2a88d7c0334
+  zh: a66acf1583a6b328
+/cortex-ai-cortex-client-ui-settings-plugins/model-experience:
+  en: 6b7c6f82ab6c8435
+  zh: 4517689c899abcbe
+/cortex-ai-cortex-client-ui-settings-plugins/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 6e1c9a8fdde89577
+/cortex-ai-cortex-client-ui-settings-plugins/known-limitations-and-deferred-work:
+  en: 262d3dac53b5aff1
+  zh: 3ac7a4d5c0d0f70f
+/cortex-ai-cortex-client-ui-settings-plugins/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

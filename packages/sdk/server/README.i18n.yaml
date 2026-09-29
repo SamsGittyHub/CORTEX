@@ -1,0 +1,73 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/sdk/server/README.md
+/:
+  en: d3d20ec81054cf0e
+  zh: 0a5a9f63d4c94522
+/cortex-ai-cortex-sdk-jsonrpc-server:
+  en: a5a7c3b600ff5e1e
+  zh: b1e8b401aa6f669b
+/cortex-ai-cortex-sdk-jsonrpc-server/summary:
+  en: 625bd734afe81ff2
+  zh: ddf7db47b8e98015
+/cortex-ai-cortex-sdk-jsonrpc-server/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package:
+  en: 7abbf9c04a04b16c
+  zh: dc18b716ed3807d5
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package/wiring:
+  en: 47a33e9397e36e15
+  zh: e6d173820f9ea6e5
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package/configuration:
+  en: 8c31247f7564d3f2
+  zh: 8bac989f1dff2d3b
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package/stdout-is-the-protocol:
+  en: 784b68b5a498f2d5
+  zh: 2c3c5a1490845179
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package/what-sdk-clients-can-do:
+  en: 7f402c6bf8c036f1
+  zh: 50b4c014e4af4626
+/cortex-ai-cortex-sdk-jsonrpc-server/use-this-package/shutdown-and-exit:
+  en: 08c3858f53090f39
+  zh: dfae960e11515b06
+/cortex-ai-cortex-sdk-jsonrpc-server/understand-the-implementation:
+  en: eca39e7027d67d8f
+  zh: dd3f494276322857
+/cortex-ai-cortex-sdk-jsonrpc-server/understand-the-implementation/design-concept:
+  en: 130cf7659c520fa8
+  zh: e3c0e8549ccd6a3c
+/cortex-ai-cortex-sdk-jsonrpc-server/understand-the-implementation/source-map:
+  en: 27474bf15222a95a
+  zh: f293e9b9d9d5dca5
+/cortex-ai-cortex-sdk-jsonrpc-server/understand-the-implementation/request-flow:
+  en: 2658804b2f90b135
+  zh: 085aa00c8f0bbbcd
+/cortex-ai-cortex-sdk-jsonrpc-server/understand-the-implementation/teardown:
+  en: 81786b3bd70b389f
+  zh: da80b4f50f16a098
+/cortex-ai-cortex-sdk-jsonrpc-server/further-exploration:
+  en: 076697228690e8c7
+  zh: 42dc1e2d0b4e06a5
+/cortex-ai-cortex-sdk-jsonrpc-server/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-sdk-jsonrpc-server/model-experience/sdk-user-message:
+  en: 04d1b73cd8e06dfe
+  zh: cd67fbbfdf39f776
+/cortex-ai-cortex-sdk-jsonrpc-server/model-experience/sdk-user-message/what-the-model-sees:
+  en: 2b5a80ec4b4df11e
+  zh: e459fe77cc14d9b8
+/cortex-ai-cortex-sdk-jsonrpc-server/model-experience/sdk-user-message/token-effect:
+  en: 372ed851986b76d2
+  zh: 075b94a565275368
+/cortex-ai-cortex-sdk-jsonrpc-server/model-experience/sdk-user-message/kv-cache-effect:
+  en: f5d5f97a153f7c70
+  zh: f681f89596f500f5
+/cortex-ai-cortex-sdk-jsonrpc-server/known-limitations-and-deferred-work:
+  en: a6d0b12d02961572
+  zh: 92822e033db55980
+/cortex-ai-cortex-sdk-jsonrpc-server/known-limitations-and-deferred-work/dev-note:
+  en: 583a835f84c55c33
+  zh: a4377e2c9bea8c4e

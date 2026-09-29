@@ -1,0 +1,52 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/host/open-in-app/README.md
+/:
+  en: fbd3cf9953271b10
+  zh: 6efe4d036544d0d2
+/cortex-ai-cortex-host-open-in-app:
+  en: 1b0c8e5b4140ce9e
+  zh: a7857c9d2fa9157f
+/cortex-ai-cortex-host-open-in-app/summary:
+  en: e294734078f9d63a
+  zh: 73df4c219c3a20f7
+/cortex-ai-cortex-host-open-in-app/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 725b47765ee8f30b
+/cortex-ai-cortex-host-open-in-app/use-this-package:
+  en: 4bf5c4521e1cb618
+  zh: 1cfba2ad60e1b953
+/cortex-ai-cortex-host-open-in-app/use-this-package/when-to-choose-it:
+  en: f4a082fd0b7ab884
+  zh: a92cad54efb473e2
+/cortex-ai-cortex-host-open-in-app/use-this-package/minimal-configuration:
+  en: 72de1f1619228859
+  zh: 1c12831c5ea189d9
+/cortex-ai-cortex-host-open-in-app/use-this-package/the-catalog-and-how-it-resolves:
+  en: 7a63acc1bc55aa6f
+  zh: bbe541dbe88b2ba6
+/cortex-ai-cortex-host-open-in-app/use-this-package/what-to-expect:
+  en: 3d134627acc745a8
+  zh: 75caba16a34d2767
+/cortex-ai-cortex-host-open-in-app/use-this-package/the-shared-subpath:
+  en: 558e741770080c93
+  zh: 80482d355dc89cae
+/cortex-ai-cortex-host-open-in-app/understand-the-implementation:
+  en: 76e79a0ee9ee621c
+  zh: 647092f449263abf
+/cortex-ai-cortex-host-open-in-app/further-exploration:
+  en: ff83d9d066620f00
+  zh: c92a52ac82be2d2f
+/cortex-ai-cortex-host-open-in-app/model-experience:
+  en: f4b8dd6b4e986564
+  zh: 814a768a38e52c03
+/cortex-ai-cortex-host-open-in-app/model-experience/kv-cache-effect:
+  en: 47f982e326fe77fd
+  zh: c2241315dc0c89c9
+/cortex-ai-cortex-host-open-in-app/known-limitations-and-deferred-work:
+  en: 6e1cf559c4ce0d56
+  zh: f78c5548bb3d6236
+/cortex-ai-cortex-host-open-in-app/known-limitations-and-deferred-work/dev-note:
+  en: 9abbfa25b4fd6ea7
+  zh: 551a354b8fc8b4c2

@@ -1,0 +1,34 @@
+# Bilingual-pair consistency record for filesystem.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/filesystem.md
+/filesystem:
+  en: b3375a7ab73f4972
+  zh: e5cc4d9097975f44
+/filesystem/target-identity-and-metadata-provider-contract:
+  en: 345def8a8e6c58e0
+  zh: 01d6e2f0f22daf9d
+/filesystem/write-and-edit-guards-provider-contract:
+  en: 067137c8b8181c98
+  zh: 0a9c8282789d147f
+/filesystem/the-fs-policy-events-provider-contract-vocabulary:
+  en: 5a2bbca711bb5a8c
+  zh: 04be5d62c3dc7999
+/filesystem/execution-context-policy-plugin:
+  en: 56f1443cf3f1d22c
+  zh: 2b2300ac6c3e2be5
+/filesystem/read-outcome-consumer-read-rendering:
+  en: e2576a995187239f
+  zh: 2324f0b60ef482cd
+/filesystem/observed-file-state-policy-plugin:
+  en: 898cab3cffd8f5d8
+  zh: ffd97602e6d9c3a9
+/filesystem/error-taxonomy-provider-contract:
+  en: f81f72b7f32dddcd
+  zh: 4bd050a71c617fcf
+/filesystem/no-timeouts-on-file-io:
+  en: f67ba428df94915e
+  zh: da52f3a6d681ecab
+/filesystem/the-service-and-the-plugin:
+  en: 9820c884004cfb4d
+  zh: 064bdb799a9f0204

@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/subprocess/README.md
+/:
+  en: 8a625c05bd33b1ae
+  zh: ca401fbbcb64368f
+/subprocess-subprocess-capability-family:
+  en: e6bc23a10d667685
+  zh: 0b2b2335f50373bc
+/subprocess-subprocess-capability-family/summary:
+  en: cccfd01eaced10a3
+  zh: b7372e340927a6ea
+/subprocess-subprocess-capability-family/table-of-contents:
+  en: 1eb35b015a6c423f
+  zh: a8a3dceee2c9e943
+/subprocess-subprocess-capability-family/packages:
+  en: b99c20b8f753c965
+  zh: 5de1a64b72e1bbc5
+/subprocess-subprocess-capability-family/related-documentation:
+  en: 547c50d97546dba2
+  zh: 047a46e196e69ea2
+/subprocess-subprocess-capability-family/dev-note:
+  en: 5de1d6304e00c58f
+  zh: 8d8225361cfa29e5

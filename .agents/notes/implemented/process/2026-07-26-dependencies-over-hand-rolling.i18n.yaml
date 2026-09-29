@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-07-26-dependencies-over-hand-rolling.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-07-26-dependencies-over-hand-rolling.md
+/agent-note-prefer-maintained-dependencies-over-hand-rolling:
+  en: 4886ac5849201805
+  zh: cd0355f6be048815
+/agent-note-prefer-maintained-dependencies-over-hand-rolling/problem:
+  en: 15c7d86e39ffdd64
+  zh: c5cf1af6518bbcdc
+/agent-note-prefer-maintained-dependencies-over-hand-rolling/decision:
+  en: e0f9335b35da649b
+  zh: 2a5caeb7c6290ac0
+/agent-note-prefer-maintained-dependencies-over-hand-rolling/alternatives-considered:
+  en: c3575c5c8b4a6e51
+  zh: f20aa07eefed8a3b
+/agent-note-prefer-maintained-dependencies-over-hand-rolling/consequences:
+  en: e6731d14d68d2093
+  zh: 1950f8044207f33f

@@ -1,0 +1,97 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/jobs/tool-jobs/README.md
+/:
+  en: bab11659311ef065
+  zh: 00536402873e1a55
+/cortex-ai-cortex-tool-jobs:
+  en: d14c022c0b49f9ec
+  zh: c7ade6d28b0ad337
+/cortex-ai-cortex-tool-jobs/summary:
+  en: 04a811a522076754
+  zh: 78e527975690dee7
+/cortex-ai-cortex-tool-jobs/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-tool-jobs/use-this-package:
+  en: 823e94910a15e2e1
+  zh: c23e0b605f32f0bd
+/cortex-ai-cortex-tool-jobs/use-this-package/the-three-tools:
+  en: e9e9cb2ee5cea462
+  zh: 833beb2bca84bd6a
+/cortex-ai-cortex-tool-jobs/use-this-package/completion-notices:
+  en: f69e3f96353234c3
+  zh: 6caa74174a2d79b1
+/cortex-ai-cortex-tool-jobs/use-this-package/minimal-configuration:
+  en: 6d51cf74270bf772
+  zh: 978ead73eb28c07c
+/cortex-ai-cortex-tool-jobs/use-this-package/what-can-go-wrong:
+  en: a09c5c8225dec06c
+  zh: 3e9fcab42613775e
+/cortex-ai-cortex-tool-jobs/understand-the-implementation:
+  en: 32a36a3fe388e2c1
+  zh: f4bd2866fff6fa8d
+/cortex-ai-cortex-tool-jobs/understand-the-implementation/design-philosophy:
+  en: 5b69ae2716a52951
+  zh: fec78d84af7192b1
+/cortex-ai-cortex-tool-jobs/understand-the-implementation/source-map:
+  en: 354782dee6840110
+  zh: dfd46a4eee6b937d
+/cortex-ai-cortex-tool-jobs/understand-the-implementation/output-capping:
+  en: b47638fb0e80287a
+  zh: c47fa4b99b6df4c3
+/cortex-ai-cortex-tool-jobs/understand-the-implementation/notice-delivery-lanes:
+  en: 2540b7abbb3c9710
+  zh: 4fb355bceab2f865
+/cortex-ai-cortex-tool-jobs/further-exploration:
+  en: 65c219a40a3e7b8a
+  zh: 80a107bce109b788
+/cortex-ai-cortex-tool-jobs/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-tool-jobs/model-experience/system-prompt:
+  en: cf78b9dd5596495f
+  zh: bd44560f8c2435e8
+/cortex-ai-cortex-tool-jobs/model-experience/system-prompt/what-the-model-sees:
+  en: 39e8a31dc801e9c5
+  zh: 372c41269cf9c41b
+/cortex-ai-cortex-tool-jobs/model-experience/system-prompt/what-the-model-sees/background-job-guidance:
+  en: 3d751cf8e40e220f
+  zh: 91df3ed91d02b5f2
+/cortex-ai-cortex-tool-jobs/model-experience/system-prompt/token-effect:
+  en: 544674c70d5e5e0f
+  zh: eec61a623f4cfc13
+/cortex-ai-cortex-tool-jobs/model-experience/system-prompt/kv-cache-effect:
+  en: 13e7c6007bf6b5dc
+  zh: 9663c65441f0a3f0
+/cortex-ai-cortex-tool-jobs/model-experience/tool-schemas:
+  en: 3039bc5e7a796b21
+  zh: 6b7a9eaf69c9ea53
+/cortex-ai-cortex-tool-jobs/model-experience/tool-schemas/what-the-model-sees:
+  en: 9718e0dcec261b80
+  zh: dc8872ddf4e1ffee
+/cortex-ai-cortex-tool-jobs/model-experience/tool-schemas/token-effect:
+  en: 3ce42a9605c3596c
+  zh: ab29758f0fbbb1c6
+/cortex-ai-cortex-tool-jobs/model-experience/tool-schemas/kv-cache-effect:
+  en: 24266e9d669810a2
+  zh: bfde811c7e84890f
+/cortex-ai-cortex-tool-jobs/model-experience/results-and-notices:
+  en: 8160e01d6bfc5e0c
+  zh: 570dc95be7f13260
+/cortex-ai-cortex-tool-jobs/model-experience/results-and-notices/what-the-model-sees:
+  en: 960436b3f61c7f96
+  zh: 2c956bb4fee134c2
+/cortex-ai-cortex-tool-jobs/model-experience/results-and-notices/token-effect:
+  en: 16efd9cb948ca4bf
+  zh: 563cc4c78dc63b4d
+/cortex-ai-cortex-tool-jobs/model-experience/results-and-notices/kv-cache-effect:
+  en: 2fbf2175168e8244
+  zh: f681f89596f500f5
+/cortex-ai-cortex-tool-jobs/known-limitations-and-deferred-work:
+  en: 1971e3b84c568c3c
+  zh: 3e357265178a8b00
+/cortex-ai-cortex-tool-jobs/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

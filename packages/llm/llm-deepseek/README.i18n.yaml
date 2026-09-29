@@ -1,0 +1,91 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/llm/llm-deepseek/README.md
+/:
+  en: c6924d7c0d7c82ff
+  zh: 95fbf06db428f532
+/cortex-ai-cortex-llm-deepseek:
+  en: 7e32f92575d3ea4d
+  zh: d2fd981d3d25bf9d
+/cortex-ai-cortex-llm-deepseek/summary:
+  en: 2bfb7abe02b6f884
+  zh: 6af75a44bfd4c93d
+/cortex-ai-cortex-llm-deepseek/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-llm-deepseek/use-this-package:
+  en: 12ef1eed91d8759b
+  zh: 112f9ff6b4550b1e
+/cortex-ai-cortex-llm-deepseek/use-this-package/when-to-choose-it:
+  en: bbafcd8312a57599
+  zh: 2d7ab3fea1577044
+/cortex-ai-cortex-llm-deepseek/use-this-package/minimal-configuration:
+  en: 7e53ff3956c4b3cf
+  zh: 3fd4c3bbf522a2e0
+/cortex-ai-cortex-llm-deepseek/use-this-package/endpoint-and-wire-format:
+  en: fce88d2ebad6296c
+  zh: 0c351f26b472d521
+/cortex-ai-cortex-llm-deepseek/use-this-package/account-credentials:
+  en: fad5e1d58c84ae59
+  zh: caab3f62fb61e3e4
+/cortex-ai-cortex-llm-deepseek/use-this-package/streaming-with-thinking-and-images:
+  en: 9b82549c6ce25261
+  zh: 22a3978c5022576b
+/cortex-ai-cortex-llm-deepseek/use-this-package/dynamic-configuration:
+  en: 49290fc5647136b4
+  zh: 96fa9ce0f9e83c13
+/cortex-ai-cortex-llm-deepseek/use-this-package/provider-specific-request-fields:
+  en: d0593fcb4a0536ca
+  zh: f8f9aeaa35b74f4a
+/cortex-ai-cortex-llm-deepseek/use-this-package/failures-and-recovery:
+  en: b5846a37305a9795
+  zh: bfde5bd0ce96248d
+/cortex-ai-cortex-llm-deepseek/understand-the-implementation:
+  en: 1598ac8a8bb9b6bf
+  zh: fdd089c5ae7722cd
+/cortex-ai-cortex-llm-deepseek/understand-the-implementation/design-philosophy:
+  en: 829203c4c282dc46
+  zh: e05dada4a1420a95
+/cortex-ai-cortex-llm-deepseek/understand-the-implementation/source-map:
+  en: dc2d2409ad8c41cc
+  zh: 51fc4ad65dab6378
+/cortex-ai-cortex-llm-deepseek/understand-the-implementation/wire-flow:
+  en: 9477d8af3d762450
+  zh: 52a2967518509f94
+/cortex-ai-cortex-llm-deepseek/further-exploration:
+  en: 96e4e7cb21d25977
+  zh: f429dc8b12956ff2
+/cortex-ai-cortex-llm-deepseek/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-request:
+  en: 1dc50052999253c6
+  zh: 7abf968fc18bffcd
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-request/what-the-model-sees:
+  en: 14110610860656e8
+  zh: 995e28d6931ebe4e
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-request/token-effect:
+  en: dc61f58602578721
+  zh: 97f0d0f1272af796
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-request/kv-cache-effect:
+  en: 87ac92776176ee15
+  zh: bb49edf3a68dda07
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-response:
+  en: 957d6665495e5ca5
+  zh: 0aa72b2c2dc07167
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-response/what-the-model-sees:
+  en: 36a3d0297d6ca209
+  zh: bfc68b8300f61593
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-response/token-effect:
+  en: 533309d1f93b89de
+  zh: 4cc0b86f05c9be53
+/cortex-ai-cortex-llm-deepseek/model-experience/deepseek-response/kv-cache-effect:
+  en: ddfbea043596878d
+  zh: 4fbf5864a684c053
+/cortex-ai-cortex-llm-deepseek/known-limitations-and-deferred-work:
+  en: b4c46c3c809d02d2
+  zh: 13c105eb60868b3b
+/cortex-ai-cortex-llm-deepseek/known-limitations-and-deferred-work/dev-note:
+  en: fa99fecd8d6e4a4c
+  zh: 70d0b731ab842110

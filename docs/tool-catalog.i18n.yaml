@@ -1,0 +1,313 @@
+# Bilingual-pair consistency record for tool-catalog.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/tool-catalog.md
+/:
+  en: 0be8ffbf23193557
+  zh: ce2c69aa86875171
+/tool-schema-catalog:
+  en: 8efe7fd9fb5db999
+  zh: 1fb8c8d398e0d282
+/tool-schema-catalog/tool-package-map:
+  en: d41898c46cebe447
+  zh: 8d29c4a9961ec444
+/tool-schema-catalog/cortex-ai-cortex-plugin-manager:
+  en: 9916fd91555f648a
+  zh: 9916fd91555f648a
+/tool-schema-catalog/cortex-ai-cortex-plugin-manager/plugin-manager:
+  en: 4d93f38a1b947588
+  zh: 14a4a77726918c35
+/tool-schema-catalog/cortex-ai-cortex-mcp-resources:
+  en: a1d0f0a171265e4c
+  zh: a1d0f0a171265e4c
+/tool-schema-catalog/cortex-ai-cortex-mcp-resources/list-mcp-resource-templates:
+  en: 96275ece9d040944
+  zh: 1fa9744642601ece
+/tool-schema-catalog/cortex-ai-cortex-mcp-resources/list-mcp-resources:
+  en: bf4236607199d61e
+  zh: 82f4f749dcabc89f
+/tool-schema-catalog/cortex-ai-cortex-mcp-resources/read-mcp-resource:
+  en: ad78b06b3400f596
+  zh: 91adc073d80b8807
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native:
+  en: 62146d4faa3dbaca
+  zh: 62146d4faa3dbaca
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-act:
+  en: c4b27bf62c534dcc
+  zh: 70c53824ed57ac23
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-extract:
+  en: ec7462ab99848155
+  zh: 632fe0249040708e
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-navigate:
+  en: ef97f063a037a006
+  zh: 27727ccc908e007f
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-observe:
+  en: 2068f1baa0a59e1b
+  zh: 5743c7b33e2c5ccb
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-screenshot:
+  en: 4910ab327694ee97
+  zh: 17e79e4366cb636d
+/tool-schema-catalog/cortex-ai-cortex-experimental-browser-use-stagehand-native/stagehand-tabs:
+  en: 61b55006e3cb8522
+  zh: 8efb62016befa5fb
+/tool-schema-catalog/cortex-ai-cortex-tool-ask-user:
+  en: ad5e640fa4ef0dd8
+  zh: ad5e640fa4ef0dd8
+/tool-schema-catalog/cortex-ai-cortex-tool-ask-user/ask-user-question:
+  en: 088eb5dc3b6900c1
+  zh: 474b585f1f33a1e1
+/tool-schema-catalog/cortex-ai-cortex-tools:
+  en: ce1353db82530156
+  zh: ce1353db82530156
+/tool-schema-catalog/cortex-ai-cortex-tools/run-code:
+  en: ccdc4f67f8919866
+  zh: 1189acfbd3c3da36
+/tool-schema-catalog/cortex-ai-cortex-plan-mode:
+  en: 2f0d1b8b9a52398d
+  zh: 2f0d1b8b9a52398d
+/tool-schema-catalog/cortex-ai-cortex-plan-mode/exit-plan-mode:
+  en: 768d9171b04d2757
+  zh: b6593ff5b484091b
+/tool-schema-catalog/cortex-ai-cortex-tool-bash:
+  en: 659c3e38011ce010
+  zh: 659c3e38011ce010
+/tool-schema-catalog/cortex-ai-cortex-tool-bash/bash:
+  en: e1fdaf680f38daa5
+  zh: 76dea42e0d144e86
+/tool-schema-catalog/cortex-ai-cortex-tool-present:
+  en: 9f385dc92a4fe57e
+  zh: 9f385dc92a4fe57e
+/tool-schema-catalog/cortex-ai-cortex-tool-present/present:
+  en: 2cd10110d6906178
+  zh: f4a86fc39c1b4815
+/tool-schema-catalog/cortex-ai-cortex-tool-pwsh:
+  en: f2c11b7fe1ddecc0
+  zh: f2c11b7fe1ddecc0
+/tool-schema-catalog/cortex-ai-cortex-tool-pwsh/pwsh:
+  en: 6695433dcef964a1
+  zh: ba301368ea2c5f65
+/tool-schema-catalog/cortex-ai-cortex-tool-cordis:
+  en: 56336112a5a50eb9
+  zh: 56336112a5a50eb9
+/tool-schema-catalog/cortex-ai-cortex-tool-cordis/cordis-inspect-list:
+  en: 594e5b42047969cc
+  zh: 72189ca21345c210
+/tool-schema-catalog/cortex-ai-cortex-tool-cordis/cordis-inspect-query:
+  en: f7e432fb3e74b559
+  zh: afc5459ab9301246
+/tool-schema-catalog/cortex-ai-cortex-tool-bash-persistent:
+  en: 557ac6a618ffe789
+  zh: 557ac6a618ffe789
+/tool-schema-catalog/cortex-ai-cortex-tool-bash-persistent/bash:
+  en: 8e0cd0091f089785
+  zh: 44760b217033ff71
+/tool-schema-catalog/cortex-ai-cortex-tool-pwsh-persistent:
+  en: 515fd08399797ddb
+  zh: 515fd08399797ddb
+/tool-schema-catalog/cortex-ai-cortex-tool-pwsh-persistent/pwsh:
+  en: 76689f50f4cc0e07
+  zh: 3792c79e8f8af0b8
+/tool-schema-catalog/cortex-ai-cortex-tool-str-replace-editor:
+  en: d7b4426671666bc9
+  zh: d7b4426671666bc9
+/tool-schema-catalog/cortex-ai-cortex-tool-str-replace-editor/str-replace-editor:
+  en: ff8b1bccb53d9761
+  zh: 97c8b6b43500044d
+/tool-schema-catalog/cortex-ai-cortex-tool-fs:
+  en: ea5c26b08135c935
+  zh: ea5c26b08135c935
+/tool-schema-catalog/cortex-ai-cortex-tool-fs/edit:
+  en: 5b6a252adde51af6
+  zh: 7aa172a5d8b9cbd2
+/tool-schema-catalog/cortex-ai-cortex-tool-fs/read:
+  en: 94bfc5b03c63baef
+  zh: 339338a0e74696c3
+/tool-schema-catalog/cortex-ai-cortex-tool-fs/read-image:
+  en: f6f7a1140066ce04
+  zh: d528e01a0939795a
+/tool-schema-catalog/cortex-ai-cortex-tool-fs/write:
+  en: 1d1b08dc281c40c2
+  zh: 960ffca79ac4ba02
+/tool-schema-catalog/cortex-ai-cortex-tool-fs-search:
+  en: bf2423c121f06b3f
+  zh: bf2423c121f06b3f
+/tool-schema-catalog/cortex-ai-cortex-tool-fs-search/glob:
+  en: 3ba734ba7852cdd5
+  zh: c6ce31ff2c195520
+/tool-schema-catalog/cortex-ai-cortex-tool-fs-search/grep:
+  en: db5e0631135a2e04
+  zh: 95bab2c96674faa1
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal:
+  en: 73f7b345311ff37b
+  zh: 73f7b345311ff37b
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-close:
+  en: 6d6e428c866ac6c1
+  zh: 8033539fcdcb6e7b
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-list:
+  en: ae7d5bce32142aa5
+  zh: e956a650a5bf294b
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-open:
+  en: c542bd7f7e872441
+  zh: 14731de81780b518
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-read:
+  en: 6a7491d2436e4404
+  zh: 772ff408ec0a67e3
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-send:
+  en: e24ca8735dd59adb
+  zh: 24f7140a0aed0968
+/tool-schema-catalog/cortex-ai-cortex-tool-terminal/terminal-signal:
+  en: 952081c6f7c92b1e
+  zh: 59d15e3d342b5fa3
+/tool-schema-catalog/cortex-ai-cortex-tool-goal:
+  en: 7837aa83884a57ca
+  zh: 7837aa83884a57ca
+/tool-schema-catalog/cortex-ai-cortex-tool-goal/create-goal:
+  en: 9ae877cdf8a641a3
+  zh: f83c3c09e80e4190
+/tool-schema-catalog/cortex-ai-cortex-tool-goal/get-goal:
+  en: 0b517f13dfde11fe
+  zh: b7ee7482e8ecde56
+/tool-schema-catalog/cortex-ai-cortex-tool-goal/update-goal:
+  en: 84a9c95601eafb0a
+  zh: 306209f680ca5c3f
+/tool-schema-catalog/cortex-ai-cortex-schedule:
+  en: 41aee7b71554cc7d
+  zh: 41aee7b71554cc7d
+/tool-schema-catalog/cortex-ai-cortex-schedule/schedule-create:
+  en: 0a10b5db8919d316
+  zh: 175d680a29f59b63
+/tool-schema-catalog/cortex-ai-cortex-schedule/schedule-delete:
+  en: cff096695f06e298
+  zh: 3d0063a1e529377f
+/tool-schema-catalog/cortex-ai-cortex-schedule/schedule-list:
+  en: d8543c8503d0947e
+  zh: 2d04b7382274a811
+/tool-schema-catalog/cortex-ai-cortex-schedule/schedule-update:
+  en: 87b5fe13b9415102
+  zh: bffc1b7e67c172bc
+/tool-schema-catalog/cortex-ai-cortex-tool-lsp:
+  en: 3fbed6f2641dae2e
+  zh: 3fbed6f2641dae2e
+/tool-schema-catalog/cortex-ai-cortex-tool-lsp/lsp:
+  en: d835455a1b2eec7c
+  zh: 5d6f3d7ea2e89542
+/tool-schema-catalog/cortex-ai-cortex-tool-ralph:
+  en: a2712aa3d1135122
+  zh: a2712aa3d1135122
+/tool-schema-catalog/cortex-ai-cortex-tool-ralph/ralph:
+  en: d61ca68a7ad31d57
+  zh: 7ac85fff94f056fe
+/tool-schema-catalog/cortex-ai-cortex-tool-skill:
+  en: c9ae3ba2d802fec6
+  zh: c9ae3ba2d802fec6
+/tool-schema-catalog/cortex-ai-cortex-tool-skill/skill:
+  en: d6fc3855ceaeb69b
+  zh: f9d91474ac2ad174
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query:
+  en: 0e2acf3027a99052
+  zh: 0e2acf3027a99052
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query/session-event-read:
+  en: 6687105065ac3a5f
+  zh: 48b2f4d38536e4c7
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query/session-event-search:
+  en: 41251b4cbe9af70d
+  zh: 8855a5f32b4720e5
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query/session-event-trace:
+  en: 14b5ec05fa8c0932
+  zh: 3c85d44c13cc42c5
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query/session-search:
+  en: 8263202c97568fc3
+  zh: 92067337294c7a00
+/tool-schema-catalog/cortex-ai-cortex-tool-session-query/session-trace:
+  en: 75b1bab031d5d629
+  zh: a385b4b59affd7e7
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent:
+  en: 47f32c2a1f322e5f
+  zh: 47f32c2a1f322e5f
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent/list-subagent-models:
+  en: c89084b31ffccbce
+  zh: d7b3b7000f2d2be9
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent/subagent:
+  en: c8b1d9d3b41a548c
+  zh: 103397f6c6d14055
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent-control:
+  en: 9de3b31a43c08717
+  zh: 9de3b31a43c08717
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent-control/interrupt-agent:
+  en: 0cec3f2520050839
+  zh: 06735f086cea84f1
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent-control/list-agents:
+  en: ae22e8543d123c39
+  zh: 4943a5c5980fc2d3
+/tool-schema-catalog/cortex-ai-cortex-tool-subagent-control/send-message:
+  en: 5174dc257667be7a
+  zh: c0dba48b7205662a
+/tool-schema-catalog/cortex-ai-cortex-tool-jobs:
+  en: 3c4c39542f83878f
+  zh: 3c4c39542f83878f
+/tool-schema-catalog/cortex-ai-cortex-tool-jobs/job-kill:
+  en: 14294cc1988ae768
+  zh: 80a9152bdc02723f
+/tool-schema-catalog/cortex-ai-cortex-tool-jobs/job-list:
+  en: 0c37fb1fed979d72
+  zh: 5ea9d07f5a4a8a6c
+/tool-schema-catalog/cortex-ai-cortex-tool-jobs/job-output:
+  en: 1a13616109f60c07
+  zh: 4c82a07ca12cc22d
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team:
+  en: 7d029a14a8f087ff
+  zh: 7d029a14a8f087ff
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/interrupt-agent:
+  en: c3c7af05ceb9f8c9
+  zh: ec379e0b42110c6a
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/list-agents:
+  en: f9457f033f75f00a
+  zh: a2d60ec44118c34c
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/send-message:
+  en: e99455aec4656ff2
+  zh: a8f88ec35cfe38b8
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/spawn-teammate:
+  en: 02d6cc746e234b99
+  zh: 49bc60ac098bca48
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/team-task-create:
+  en: 91e84febe063c3bd
+  zh: 550555d0f44f603b
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/team-task-get:
+  en: 1c6ae0aba0b8041d
+  zh: f8d634387b74121d
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/team-task-list:
+  en: 2084d494aae8798a
+  zh: e4c136c91028a7b1
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/team-task-update:
+  en: 2eac7360ba68b1bd
+  zh: b5d676bf288c245e
+/tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/wait-agent:
+  en: cd9aecd69f615f70
+  zh: 738437f362028f50
+/tool-schema-catalog/cortex-ai-cortex-tool-todo:
+  en: d7d7d6360a6cbed6
+  zh: d7d7d6360a6cbed6
+/tool-schema-catalog/cortex-ai-cortex-tool-todo/todo-write:
+  en: 54e143fa75e02305
+  zh: 6cc2166d6ef45be7
+/tool-schema-catalog/cortex-ai-cortex-tool-workflow:
+  en: 43e27987dbda0fe1
+  zh: 43e27987dbda0fe1
+/tool-schema-catalog/cortex-ai-cortex-tool-workflow/workflow:
+  en: 6cbfb5ccffbbc9ad
+  zh: e2bc80fcc1fde958
+/tool-schema-catalog/cortex-ai-cortex-tool-workspace-dependencies:
+  en: d5e56b9435459a7a
+  zh: d5e56b9435459a7a
+/tool-schema-catalog/cortex-ai-cortex-tool-workspace-dependencies/load-workspace-dependencies:
+  en: f7c62ea837c61a35
+  zh: 9a24dc22adbeb02f
+/tool-schema-catalog/cortex-ai-cortex-tool-web:
+  en: 1f51da73342830b7
+  zh: 1f51da73342830b7
+/tool-schema-catalog/cortex-ai-cortex-tool-web/web-fetch:
+  en: 8673f203aea9bdf2
+  zh: 4e17783ffdf34c83
+/tool-schema-catalog/cortex-ai-cortex-tool-web/web-search:
+  en: cc1ad38bf0006710
+  zh: 324eacb827a09e93

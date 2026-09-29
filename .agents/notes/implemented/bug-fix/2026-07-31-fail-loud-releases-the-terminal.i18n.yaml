@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-07-31-fail-loud-releases-the-terminal.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/bug-fix/2026-07-31-fail-loud-releases-the-terminal.md
+/agent-note-fail-loud-releases-the-terminal-before-exiting:
+  en: f043bf8b5fd90866
+  zh: ff6c39f9e1b391d4
+/agent-note-fail-loud-releases-the-terminal-before-exiting/problem:
+  en: 8ba4939bfd730e21
+  zh: bd0778402a84ca0e
+/agent-note-fail-loud-releases-the-terminal-before-exiting/decision:
+  en: 0cd730c8d2e94ad2
+  zh: 5778f27737f95874
+/agent-note-fail-loud-releases-the-terminal-before-exiting/alternatives-considered:
+  en: 5ee239978e8f1ece
+  zh: 55267740c7726c25
+/agent-note-fail-loud-releases-the-terminal-before-exiting/consequences:
+  en: 19241cdfdb6c4e56
+  zh: 24534e8660ae2f96
+/agent-note-fail-loud-releases-the-terminal-before-exiting/testing:
+  en: 8a7b0c74ec32d5a0
+  zh: 5bbb564ecc8a9870

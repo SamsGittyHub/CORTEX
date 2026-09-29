@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/historical-formats/README.md
+/:
+  en: 1257a74512f9daed
+  zh: 74e1378126c7dd99
+/session-persistence-formats:
+  en: 631c50cd334a7f77
+  zh: e69777951529e033
+/session-persistence-formats/summary:
+  en: 748a2e5a45ac2c22
+  zh: 0573d21c8c46f3d2
+/session-persistence-formats/table-of-contents:
+  en: 14c57f30e676f6e3
+  zh: b1a0ccf26fab3727
+/session-persistence-formats/format-references:
+  en: 9952a4d02f0a0a44
+  zh: d60a43d91d47b1ee
+/session-persistence-formats/scope-and-evidence:
+  en: 9f92b11c889dc2ef
+  zh: 369cf4402151c185
+/session-persistence-formats/maintain-coverage:
+  en: 181f4845ada5385b
+  zh: f6d85cd3d48bca4b
+/session-persistence-formats/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

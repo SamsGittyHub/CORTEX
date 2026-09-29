@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-settings-models/README.md
+/:
+  en: 8678c8f44bc109e1
+  zh: 5ecf90c25637238d
+/cortex-ai-cortex-client-ui-settings-models:
+  en: 983784c519844388
+  zh: ddcf752d2a0fbcc4
+/cortex-ai-cortex-client-ui-settings-models/summary:
+  en: 1f72a017ae3f00e3
+  zh: 873f792cb4fd15c7
+/cortex-ai-cortex-client-ui-settings-models/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-client-ui-settings-models/use-this-package:
+  en: b33e177f2f71312e
+  zh: 51069f52db11d9a0
+/cortex-ai-cortex-client-ui-settings-models/use-this-package/api-keys:
+  en: c2f2a5c06ef20d5b
+  zh: 49a7eb0b66b4ed53
+/cortex-ai-cortex-client-ui-settings-models/use-this-package/editing-a-provider:
+  en: ec0ba62a4e7185b4
+  zh: 37d1e1e7a3817d12
+/cortex-ai-cortex-client-ui-settings-models/use-this-package/adding-and-deleting-providers:
+  en: 9d533c65c82cd4a4
+  zh: 0a5da334e127c035
+/cortex-ai-cortex-client-ui-settings-models/use-this-package/first-run-dialogs:
+  en: 589397a35f82244e
+  zh: 342fbceee2c173a2
+/cortex-ai-cortex-client-ui-settings-models/use-this-package/extension-slots:
+  en: 65e9d8822b67b6c2
+  zh: 7e83be9defda28ee
+/cortex-ai-cortex-client-ui-settings-models/understand-the-implementation:
+  en: a87afbec5e339b36
+  zh: 6348c81af7e650e1
+/cortex-ai-cortex-client-ui-settings-models/understand-the-implementation/validation:
+  en: 054ea996927d7f61
+  zh: eb411c9b1edd390b
+/cortex-ai-cortex-client-ui-settings-models/understand-the-implementation/concurrency-and-credentials:
+  en: 670b8c066aed9b7a
+  zh: 2bedba9a2e0e3fee
+/cortex-ai-cortex-client-ui-settings-models/understand-the-implementation/onboarding-coordinator:
+  en: 46dea666dffe8813
+  zh: 6f56fdc365fa3642
+/cortex-ai-cortex-client-ui-settings-models/further-exploration:
+  en: 9665cd1a08592d1d
+  zh: 957d137e26c48c6b
+/cortex-ai-cortex-client-ui-settings-models/model-experience:
+  en: 3120df665299c634
+  zh: 1d9f365d091d0d2a
+/cortex-ai-cortex-client-ui-settings-models/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 9779c98fff4c949a
+/cortex-ai-cortex-client-ui-settings-models/known-limitations-and-deferred-work:
+  en: cc69c9934bf22302
+  zh: 4ea896f4b54aa203
+/cortex-ai-cortex-client-ui-settings-models/known-limitations-and-deferred-work/dev-note:
+  en: 4f6749870e661a48
+  zh: 4953f3ea814546a4

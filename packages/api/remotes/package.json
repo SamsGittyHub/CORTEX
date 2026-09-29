@@ -1,0 +1,100 @@
+{
+  "name": "@cortex-ai/cortex-api-remotes",
+  "description": "Remote BFF assembly for application-selected Host capabilities",
+  "version": "0.2.0-rc.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortex-ai/cortex.git",
+    "directory": "packages/api/remotes"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts",
+      "default": "./lib/types/types.js"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "cortex": {
+    "client": {
+      "inject": [
+        "@cortex-ai/cortex-api-gateway"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "license": "MIT",
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/types/**/*.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "dependencies": {
+    "@cortex-ai/cortex-deque": "workspace:*",
+    "@cortex-ai/cortex-session": "workspace:*",
+    "@cortex-ai/cortex-util-values": "workspace:*"
+  },
+  "peerDependencies": {
+    "@cortex-ai/cordis": "workspace:~",
+    "@cortex-ai/cortex-scope": "workspace:*"
+  },
+  "devDependencies": {
+    "@cortex-ai/cortex-agent": "workspace:*",
+    "@cortex-ai/cortex-agent-preset-registry": "workspace:*",
+    "@cortex-ai/cortex-api-gateway": "workspace:*",
+    "@cortex-ai/cortex-api-job-controller": "workspace:*",
+    "@cortex-ai/cortex-api-session-controller": "workspace:*",
+    "@cortex-ai/cortex-api-settings-controller": "workspace:*",
+    "@cortex-ai/cortex-api-workspace-controller": "workspace:*",
+    "@cortex-ai/cortex-api-workspace-files": "workspace:*",
+    "@cortex-ai/cortex-client-connection": "workspace:*",
+    "@cortex-ai/cortex-client-file-upload": "workspace:*",
+    "@cortex-ai/cortex-commands": "workspace:*",
+    "@cortex-ai/cortex-cordis-host-runner": "workspace:*",
+    "@cortex-ai/cortex-credentials": "workspace:*",
+    "@cortex-ai/cortex-file-reference": "workspace:*",
+    "@cortex-ai/cortex-goal": "workspace:*",
+    "@cortex-ai/cortex-host-plugin-inventory": "workspace:*",
+    "@cortex-ai/cortex-llm": "workspace:*",
+    "@cortex-ai/cortex-message-feedback": "workspace:*",
+    "@cortex-ai/cortex-permission-presets": "workspace:*",
+    "@cortex-ai/cortex-schedule": "workspace:*",
+    "@cortex-ai/cortex-scope": "workspace:*",
+    "@cortex-ai/cortex-session-reference": "workspace:*",
+    "@cortex-ai/cortex-settings": "workspace:*",
+    "@cortex-ai/cortex-subagent": "workspace:*",
+    "@cortex-ai/cortex-typert-protocol": "workspace:*",
+    "@cortex-ai/cortex-user-approval": "workspace:*",
+    "@cortex-ai/cortex-user-questions": "workspace:*",
+    "@cortex-ai/cordis": "workspace:~",
+    "zod": "^4.4.3",
+    "@cortex-ai/cortex-command-feedback": "workspace:*",
+    "@cortex-ai/cortex-api-terminal-controller": "workspace:*",
+    "@cortex-ai/cortex-plugin-manager": "workspace:*",
+    "@cortex-ai/cortex-client-ui-plugin-manager": "workspace:*",
+    "@cortex-ai/cortex-office-to-pdf": "workspace:*",
+    "@cortex-ai/cortex-api-account-controller": "workspace:*",
+    "@cortex-ai/cortex-deepseek-account": "workspace:*",
+    "@cortex-ai/cortex-client-product-analytics": "workspace:*"
+  }
+}
