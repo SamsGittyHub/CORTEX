@@ -17,9 +17,12 @@
 /cortex-ai-cortex-tui/use-this-package:
   en: 490579810eb443f1
   zh: 02b8d4f3a1025122
+/cortex-ai-cortex-tui/use-this-package/using-any-api-key:
+  en: ace35acea0db6ffd
+  zh: def69044f77b9b61
 /cortex-ai-cortex-tui/use-this-package/starting-a-conversation:
-  en: f168d39aba76369b
-  zh: c22ab19fe7834d63
+  en: 70f73e96075c54c0
+  zh: 26e4b6796a55c4cc
 /cortex-ai-cortex-tui/use-this-package/planning-first-with-plan:
   en: eac5561cb42cebee
   zh: 599b598f1eff8a8a
@@ -27,8 +30,11 @@
   en: d23bb7477cd9b44b
   zh: 771c03dc50ef9d2e
 /cortex-ai-cortex-tui/use-this-package/commands-completion-and-themes:
-  en: 794cf6cdf2763419
-  zh: 9c4421d70844e158
+  en: ab383555e6afc089
+  zh: 1808298b48c12bb7
+/cortex-ai-cortex-tui/use-this-package/memory:
+  en: e183cf0a3bad3474
+  zh: fd3052e7dde9f50d
 /cortex-ai-cortex-tui/use-this-package/approvals-and-questions:
   en: 134ac5e20c2c6508
   zh: 20828055eecafb9f
@@ -57,8 +63,8 @@
   en: da79c85b9fc140aa
   zh: a6dc14ad4f17c341
 /cortex-ai-cortex-tui/understand-the-implementation/source-map:
-  en: 8d24ea34230d816b
-  zh: 16865e5dcc4139da
+  en: 3c4328ecaa5004b6
+  zh: 4ffa790273757d39
 /cortex-ai-cortex-tui/understand-the-implementation/invariant-ownership:
   en: b6b98bf0db9abdb8
   zh: fece1d15a1a56df7

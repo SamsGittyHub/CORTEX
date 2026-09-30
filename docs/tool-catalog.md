@@ -41,6 +41,7 @@ This table connects model-visible tool names to the plugin package and service s
 | `@cortex-ai/cortex-tool-subagent-control` | `interrupt_agent`, `list_agents`, `send_message` | `ctx.tools`, `ctx.subagents`, `ctx.agents and ctx.sessionProjections (list_agents only)` | `tool/call`, `tool/result`, `child session events through ctx.subagents` | - | The globally named control tools over continuable background subagents: provider-bound `tool-subagent` instances register distinct delegation tools, while this package registers `send_message` and `interrupt_agent` once, plus `list_agents` from its separately loaded `/list-agents` plugin (whose catalog rows use the sessionProjections and live Agent registries). |
 | `@cortex-ai/cortex-tool-jobs` | `job_kill`, `job_list`, `job_output` | `ctx.tools`, `ctx.jobs`, `ctx.systemPrompt` | `tool/call`, `tool/result`, `user/message via agent.inject() for background completion notices` | - | The kind-agnostic background-job controller: background bash commands, PTY sends, and subagents are read, listed, and killed through the same three tools. Loading the plugin attaches the controller that arms producers' `ctx.jobs.start()`. |
 | `@cortex-ai/cortex-experimental-tool-agent-team` | `interrupt_agent`, `list_agents`, `send_message`, `spawn_teammate`, `team_task_create`, `team_task_get`, `team_task_list`, `team_task_update`, `wait_agent` | `ctx.tools`, `ctx.systemPrompt`, `ctx.agentTeams`, `an exact live Team member Agent` | `tool/call`, `team/member`, `team/message/queued`, `team/message/delivered`, `team/task`, `tool/result` | - | All nine tools are scoped to implicit Team Leads and durable teammates. The shipped cortex-base bundle keeps the package disabled; the documented Agent Teams profile patch enables it while disabling the legacy continuable-child control names. |
+| `@cortex-ai/cortex-memory` | `memory_get`, `memory_save`, `memory_search`, `memory_timeline` | `ctx.tools`, `ctx.commands (optional, for the slash commands)`, `the calling Agent for the project scope` | `tool/call`, `tool/result`, `user/message via agent.inject() for the session-start memory index` | - | Memory reads and writes one local SQLite database. Every config field is required, so the catalog states its choices: capture and the session-start index are on. The catalog uses an in-process database; a deployment supplies a file path. |
 | `@cortex-ai/cortex-tool-todo` | `todo_write` | `ctx.tools`, `owning Agent session` | `tool/call`, `todo/write`, `tool/result` | - | todo_write is session-owned state; UIs render the latest todo/write event as a checklist. `allowParallelInProgress` is required with no default, so the catalog states its choice: `true`, whose description invites several `in_progress` items. A deployment choosing `false` receives the same tool with a description asking for exactly one active task. |
 | `@cortex-ai/cortex-tool-workflow` | `workflow` | `ctx.tools`, `ctx.workflowEngine`, `ctx.systemPrompt`, `a calling Agent (exec.agent parents the script children)` | `tool/call`, `tool/result` | - | - |
 | `@cortex-ai/cortex-tool-workspace-dependencies` | `load_workspace_dependencies` | `ctx.tools` | `tool/call`, `tool/result` | - | - |
@@ -2504,6 +2505,119 @@ Wait for the next teammate status, mailbox, or shared-task change after this cal
 Source: [`packages/experimental/tool-agent-team/src/index.ts`](../packages/experimental/tool-agent-team/src/index.ts)
 
 All nine tools are scoped to implicit Team Leads and durable teammates. The shipped cortex-base bundle keeps the package disabled; the documented Agent Teams profile patch enables it while disabling the legacy continuable-child control names.
+
+<a id="cortex-aicortex-memory"></a>
+
+## `@cortex-ai/cortex-memory`
+
+### `memory_get`
+
+Fetch memory entries in full by #id (at most 10 at a time).
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "ids": {
+      "type": "array",
+      "description": "Entry ids from memory_search or the memory index.",
+      "items": {
+        "type": "integer"
+      }
+    }
+  },
+  "required": [
+    "ids"
+  ]
+}
+```
+
+Source: [`packages/memory/memory/src/tools.ts`](../packages/memory/memory/src/tools.ts)
+
+### `memory_save`
+
+Save a note that should be remembered in future sessions, when the user asks you to remember something or you learn a durable fact about the project.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "What to remember, in one or two sentences."
+    },
+    "title": {
+      "type": "string",
+      "description": "A short title; defaults to the start of the text."
+    }
+  },
+  "required": [
+    "text"
+  ]
+}
+```
+
+Source: [`packages/memory/memory/src/tools.ts`](../packages/memory/memory/src/tools.ts)
+
+### `memory_search`
+
+Search notes from earlier work: what was done, decided, and learned in past sessions. Returns one line per entry with its #id; fetch details with memory_get.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Words to look for."
+    },
+    "scope": {
+      "type": "string",
+      "description": "project (this working directory, default) or all projects.",
+      "enum": [
+        "project",
+        "all"
+      ]
+    }
+  },
+  "required": [
+    "query"
+  ]
+}
+```
+
+Source: [`packages/memory/memory/src/tools.ts`](../packages/memory/memory/src/tools.ts)
+
+### `memory_timeline`
+
+Show what happened just before and after one memory entry in its session, to see its context.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "The entry #id."
+    },
+    "before": {
+      "type": "integer",
+      "description": "Entries to show before it (default 3, at most 10)."
+    },
+    "after": {
+      "type": "integer",
+      "description": "Entries to show after it (default 3, at most 10)."
+    }
+  },
+  "required": [
+    "id"
+  ]
+}
+```
+
+Source: [`packages/memory/memory/src/tools.ts`](../packages/memory/memory/src/tools.ts)
+
+Memory reads and writes one local SQLite database. Every config field is required, so the catalog states its choices: capture and the session-start index are on. The catalog uses an in-process database; a deployment supplies a file path.
 
 <a id="cortex-aicortex-tool-todo"></a>
 

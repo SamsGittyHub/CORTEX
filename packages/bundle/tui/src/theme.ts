@@ -44,8 +44,20 @@ const STATUS = {
   cyan: { rgb: [77, 208, 225], ansi: 36 },
 } as const satisfies Partial<Palette>
 
-/** The selectable palettes. `cortex` is the default. */
+/** The selectable palettes, in the order `/theme` cycles them. */
 export const THEMES = {
+  cyberpunk: {
+    red: { rgb: [255, 0, 60], ansi: 91 },
+    green: { rgb: [57, 255, 20], ansi: 92 },
+    yellow: { rgb: [252, 238, 10], ansi: 93 },
+    cyan: { rgb: [0, 240, 255], ansi: 96 },
+    accent: { rgb: [252, 238, 10], ansi: 93 },
+    sensory: { rgb: [0, 240, 255], ansi: 96 },
+    motor: { rgb: [255, 0, 60], ansi: 91 },
+    memory: { rgb: [199, 0, 255], ansi: 95 },
+    planning: { rgb: [255, 158, 0], ansi: 33 },
+    delegate: { rgb: [57, 255, 20], ansi: 92 },
+  },
   cortex: {
     ...STATUS,
     accent: { rgb: [167, 139, 250], ansi: 95 },
@@ -86,6 +98,31 @@ export const THEMES = {
 
 /** Name of a selectable palette. */
 export type ThemeName = keyof typeof THEMES
+
+/** The palette a new chat starts with: Cyberpunk 2077 neon on black. */
+export const DEFAULT_THEME: ThemeName = 'cyberpunk'
+
+/** Words a palette lends to the chat's own voice. */
+export interface Flavor {
+  /** Verbs the status line rotates through while the model works. */
+  readonly verbs: readonly string[]
+  /** A line after the wordmark in the banner; empty for none. */
+  readonly tagline: string
+}
+
+const PLAIN_FLAVOR: Flavor = { verbs: ['synapsing', 'firing', 'connecting', 'weighing', 'tracing', 'ruminating'], tagline: '' }
+
+/** The flavor of each palette; only `cyberpunk` changes the wording. */
+export const THEME_FLAVOR: Record<ThemeName, Flavor> = {
+  cyberpunk: {
+    verbs: ['jacking in', 'breaching ICE', 'rerouting', 'decrypting', 'handshaking', 'compiling daemon', 'ghosting the net'],
+    tagline: '// NEURAL LINK ESTABLISHED',
+  },
+  cortex: PLAIN_FLAVOR,
+  aurora: PLAIN_FLAVOR,
+  ember: PLAIN_FLAVOR,
+  mono: PLAIN_FLAVOR,
+}
 
 /** The palette names, in the order `/theme` cycles them. */
 export const THEME_NAMES = Object.keys(THEMES) as ThemeName[]

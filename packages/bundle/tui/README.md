@@ -27,6 +27,19 @@ English | [中文](README.zh.md)
 
 Start the chat, type a message, and press Enter. Type `/help` to see every command and `/exit` (or Ctrl-D) to leave.
 
+### Using any API key
+
+The chat works with whichever key you have. With no flags it reads your environment and uses the first key it finds, in this order: `DEEPSEEK_API_KEY`, then Anthropic, OpenAI, Google (`GEMINI_API_KEY` or `GOOGLE_API_KEY`), OpenRouter, xAI, Groq, Mistral, Together, Fireworks, and the other providers [pi-ai](../../llm/llm-pi-ai/README.md) ships, each through its usual variable such as `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`. It starts on that provider's default model, and the banner shows the model. If no key is found, the chat still opens and prints the variable names to set.
+
+```sh
+export ANTHROPIC_API_KEY=...            # or OPENAI_API_KEY, GEMINI_API_KEY, OPENROUTER_API_KEY, ...
+cortex --profile tui
+cortex --profile tui --provider openai --model gpt-5-mini
+cortex --profile tui --base-url http://localhost:11434/v1 --model llama3.3
+```
+
+Use `--provider` when several keys are set, and `--model` to pick another model. `--api-key-env NAME` reads the key from a variable of your choice. `--base-url` points at any OpenAI-compatible server, such as Ollama, LM Studio, vLLM, or a gateway; it needs `--model`, and it reads its key from `CORTEX_API_KEY` when that is set, so a local server needs none. `CORTEX_BASE_URL` and `CORTEX_MODEL` are environment forms of the two flags. A provider that needs more than an API key, such as Amazon Bedrock or Vertex AI, is configured through the Models page or a profile patch instead.
+
 ### Starting a conversation
 
 ```sh
@@ -41,6 +54,11 @@ The first line prints the model and working directory, then the session id. A me
 | `[message...]` | A first message to send; several words are joined by spaces |
 | `--resume <id>` | Continue the persisted Session with this id; an unknown id is an error |
 | `--no-color` | Print without ANSI colors; `NO_COLOR` is also honored, and output that is not a terminal is never colored |
+| `--no-memory` | Neither record nor recall memory in this run |
+| `--provider <name>` | Use this provider with its key from the environment; the DeepSeek key is used when it is set and no flag says otherwise |
+| `--model <id>` | Use this model instead of the provider's default |
+| `--base-url <url>` | Use an OpenAI-compatible endpoint; needs `--model` |
+| `--api-key-env <name>` | Read the API key from this environment variable |
 | `-h`, `--help` | Print the command's help and exit |
 
 The generated [configuration catalog](../../../docs/config-catalog.md#cortex-aicortex-tui) is the exhaustive source for every accepted config field and its JSDoc.
@@ -103,11 +121,15 @@ Press Tab after `/` to complete a command name from the terminal's own commands 
 | `/help` | List every command and the lobe legend |
 | `/session` | Show the session id, model, directory, theme, and the `--resume` command |
 | `/stats` | Show turns, steps, working time, tokens, and lobe activity so far |
-| `/theme [name]` | Switch palette: `cortex`, `aurora`, `ember`, or `mono`; without a name, cycle to the next |
+| `/theme [name]` | Switch palette: `cyberpunk` (the default), `cortex`, `aurora`, `ember`, or `mono`; without a name, cycle to the next |
 | `/clear` | Clear the screen |
 | `/exit`, `/quit` | Leave |
 
-Colors use truecolor when `COLORTERM` says `truecolor` or `24bit` and 16-color ANSI otherwise. The status animation and `/clear` run only on a terminal.
+The default `cyberpunk` palette is Cyberpunk 2077 neon: yellow accents, cyan for reading, hot red for actions, and violet for memory. It also changes the wording: the banner adds `// NEURAL LINK ESTABLISHED` and the status line says things like `breaching ICE` and `jacking in`. Colors use truecolor when `COLORTERM` says `truecolor` or `24bit` and 16-color ANSI otherwise. The status animation and `/clear` run only on a terminal.
+
+### Memory
+
+The terminal chat mounts [`cortex-memory`](../../memory/memory/README.md), so the agent remembers earlier sessions in the same directory. Each finished tool call and completed turn is recorded in a local SQLite database, and a new session starts with an index of recent entries that the agent can search and read with `memory_*` tools. Memory tools show up in the trace with the ◈ memory lobe. You can also run `/memory [words]` to list or search entries, `/remember <text>` to save a note, and `/forget <id>` to delete one. Start with `--no-memory` to neither record nor recall in that run. The database defaults to `$CORTEX_HOME/memory/memory.db` (`~/.cortex/memory/memory.db`), and `CORTEX_MEMORY_DB` overrides it. Text in `<private>` tags and credential-shaped strings are never stored.
 
 ### Approvals and questions
 
@@ -167,7 +189,9 @@ The patch rides over `cortex-base`: it sets a coding persona that mentions the t
 | [`src/interaction.ts`](src/interaction.ts) | Terminal answers to approval and question requests |
 | [`src/terminal.ts`](src/terminal.ts) | The readline terminal over process streams |
 | [`src/runner-internals.ts`](src/runner-internals.ts) | Process facts the runner reads, replaced in tests |
-| [`src/startup.ts`](src/startup.ts) | The `tui-startup` provider: message positional, `--resume`, `--no-color`, `--help` |
+| [`src/startup.ts`](src/startup.ts) | The `tui-startup` provider: message positional, `--resume`, `--no-color`, `--no-memory`, the model flags, `--help` |
+| [`src/llm-select.ts`](src/llm-select.ts) | Choosing the model route from the flags and whichever API key is set |
+| [`src/catalog.ts`](src/catalog.ts) | The pi-ai provider and model catalog |
 | [`cordis.patch.yml`](cordis.patch.yml) | The interactive patch over `cortex-base` |
 | — | No runtime invariant companion is published; the runner registers nothing and holds no mutable relation to audit inside the tree. |
 | [`tests/runner.spec.ts`](tests/runner.spec.ts) | Turns, streaming, `/plan`, approvals, questions, cancellation, and resume over the real registries |
@@ -181,6 +205,7 @@ The patch rides over `cortex-base`: it sets a coding persona that mentions the t
 | [`tests/interaction.spec.ts`](tests/interaction.spec.ts) | Approval and question answers |
 | [`tests/terminal.spec.ts`](tests/terminal.spec.ts) | Reading piped and interactive input |
 | [`tests/startup.spec.ts`](tests/startup.spec.ts) | Command-line parsing over a real Loader tree |
+| [`tests/llm-select.spec.ts`](tests/llm-select.spec.ts) | Route choice from flags and environment keys |
 
 ### Invariant ownership
 

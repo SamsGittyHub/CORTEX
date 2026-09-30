@@ -41,8 +41,10 @@
   "dependencies": {
     "@cortex-ai/cortex-brand": "workspace:*",
     "@cortex-ai/cortex-cmdline": "workspace:*",
+    "@cortex-ai/cortex-memory": "workspace:*",
     "@cortex-ai/cortex-util-values": "workspace:*",
     "@cortex-ai/schemastery": "workspace:~",
+    "@earendil-works/pi-ai": "^0.87.1",
     "commander": "^15.0.0"
   },
   "peerDependencies": {

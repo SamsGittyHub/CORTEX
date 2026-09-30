@@ -8,12 +8,13 @@
 import type { IndexInjection } from '@cortex-ai/cortex-host-webserver'
 import { DEFAULT_FONT_SIZE, DEFAULT_PREFERENCE, type ThemePreference } from './theme-settings.ts'
 
-const LIGHT_BACKGROUND = '#fff'
-const DARK_BACKGROUND = '#151517'
+/** The Cyberpunk 2077 sheet renders both preferences as one dark palette, so the canvas is the same. */
+const LIGHT_BACKGROUND = '#07070d'
+const DARK_BACKGROUND = '#07070d'
 
 /** CSS that colors the document canvas before any script executes. */
 function bootThemeStyle(preference: ThemePreference): string {
-  const light = `:root{color-scheme:light}body{background-color:${LIGHT_BACKGROUND};--cortex-boot-bg:${LIGHT_BACKGROUND}}`
+  const light = `:root{color-scheme:dark}body{background-color:${LIGHT_BACKGROUND};--cortex-boot-bg:${LIGHT_BACKGROUND}}`
   const dark = `:root{color-scheme:dark}body{background-color:${DARK_BACKGROUND};--cortex-boot-bg:${DARK_BACKGROUND}}`
   if (preference === 'light') return light
   if (preference === 'dark') return dark

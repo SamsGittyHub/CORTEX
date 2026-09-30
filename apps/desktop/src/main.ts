@@ -186,7 +186,8 @@ function developmentHostInspectPort(enabled: boolean): number | undefined {
  * @returns the sidebar fill hex for the active system color scheme.
  */
 function chromeFallbackFill(): string {
-  return nativeTheme.shouldUseDarkColors ? '#1b1b1c' : '#f9fafb'
+  // The Cyberpunk 2077 client renders one dark palette for both system schemes.
+  return '#07070d'
 }
 
 /**
@@ -213,7 +214,7 @@ function createWindow(preload: string, show = false, primary = false): BrowserWi
     ...(process.platform === 'win32' && primary ? {
       titleBarStyle: 'hidden' as const,
       titleBarOverlay: { height: WINDOWS_TITLEBAR_HEIGHT, color: chromeFallbackFill(),
-        symbolColor: nativeTheme.shouldUseDarkColors ? '#f9fafb' : '#0f1115' },
+        symbolColor: '#fcee0a' },
     } : {}),
     // hiddenInset places traffic lights inside the sidebar; sidebar vibrancy
     // needs a transparent window background to show through the page.

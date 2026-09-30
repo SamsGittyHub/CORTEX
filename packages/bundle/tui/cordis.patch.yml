@@ -6,6 +6,20 @@
 # exact Session the flag names, and reads lines from the terminal until the user
 # leaves.
 
+# The route follows the API key the user has: the launch options choose a provider
+# and model from the flags and the environment, and pi-ai serves every provider but
+# DeepSeek's own routes.
+- id: agent-default-model
+  inject: [tuiStartup]
+  config:
+    provider: !!js ctx.tuiStartup.llm.provider
+    model: !!js ctx.tuiStartup.llm.model
+
+- id: llm-pi-ai
+  inject: [tuiStartup]
+  config:
+    providers: !!js ctx.tuiStartup.llm.providers
+
 - id: system-prompt
   config:
     personaSuffix: Your working directory is {{cwd}}.
@@ -22,6 +36,22 @@
       name: '@cortex-ai/cortex-tui/startup'
 
     # Reads its launch options from the ordinary tuiStartup provider.
+    # Durable memory: recorded tool activity and turn summaries, a session-start
+    # index, memory_* tools, and /memory, /remember, /forget. `--no-memory` sets `enabled: false`.
+    - id: memory
+      name: '@cortex-ai/cortex-memory'
+      inject: [tuiStartup]
+      config:
+        enabled: !!js ctx.tuiStartup.memory
+        path: !!js process.env.CORTEX_MEMORY_DB || ((process.env.CORTEX_HOME || (process.env.HOME || process.env.USERPROFILE) + '/.cortex') + '/memory/memory.db')
+        capture: true
+        injectContext: true
+        contextMaxEntries: 20
+        contextMaxChars: 4000
+        maxBodyChars: 400
+        searchLimit: 10
+        ignoreTools: []
+
     - id: tui-runner
       name: '@cortex-ai/cortex-tui'
       inject: [tuiStartup]
@@ -29,6 +59,7 @@
         message: !!js ctx.tuiStartup.message
         resume: !!js ctx.tuiStartup.resume
         noColor: !!js ctx.tuiStartup.noColor
+        notice: !!js ctx.tuiStartup.llm.missing ?? ''
 
 - id: hmr
   disabled: true

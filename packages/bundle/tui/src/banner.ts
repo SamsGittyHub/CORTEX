@@ -15,6 +15,8 @@ export interface SessionFacts {
   readonly cwd: string
   readonly sessionId: string
   readonly theme: string
+  /** The palette's tagline shown after the wordmark; empty for none. */
+  readonly tagline: string
   /** The user's home directory, shown as `~` in paths. */
   readonly home: string | undefined
 }
@@ -41,7 +43,7 @@ export function shortenHome(path: string, home: string | undefined): string {
 export function banner(facts: SessionFacts, paint: Painter): string {
   const label = (text: string): string => paint('dim', text)
   return [
-    `${paint('accent', '◈')} ${paint('bold', 'CORTEX')}  ${spectrum(paint)}`,
+    `${paint('accent', '◈')} ${paint('bold', 'CORTEX')}  ${spectrum(paint)}${facts.tagline === '' ? '' : `  ${paint('accent', facts.tagline)}`}`,
     `  ${label('model')} ${facts.model}  ${label('dir')} ${shortenHome(facts.cwd, facts.home)}`,
     `  ${label('session')} ${facts.sessionId}`,
     `  ${paint('dim', '/plan <task> plans first · Tab completes · /help lists commands · Ctrl-D exits')}`,

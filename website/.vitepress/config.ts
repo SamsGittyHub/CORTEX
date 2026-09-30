@@ -381,6 +381,8 @@ export default withMermaid({
       }
     },
   },
+  // The Cyberpunk 2077 palette is dark only.
+  appearance: 'force-dark',
   mermaid: {},
   themeConfig: sharedTheme,
 })

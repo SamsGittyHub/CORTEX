@@ -63,6 +63,7 @@ import BrowserUseRegistry from '@cortex-ai/cortex-browser-use'
 import * as StagehandBrowserTools from '@cortex-ai/cortex-experimental-browser-use-stagehand-native'
 import type TeamService from '@cortex-ai/cortex-experimental-agent-team'
 import * as ToolTeam from '@cortex-ai/cortex-experimental-tool-agent-team'
+import * as Memory from '@cortex-ai/cortex-memory'
 import * as ToolTodo from '@cortex-ai/cortex-tool-todo'
 import type PluginManager from '@cortex-ai/cortex-plugin-manager'
 import * as PluginManagerTools from '@cortex-ai/cortex-plugin-manager/tools'
@@ -617,6 +618,28 @@ const TOOL_PACKAGES: ToolPackage[] = [
     scope: ctx => catalogChildScopes.get(ctx) as Agent,
     note:
       'All nine tools are scoped to implicit Team Leads and durable teammates. The shipped cortex-base bundle keeps the package disabled; the documented Agent Teams profile patch enables it while disabling the legacy continuable-child control names.',
+  },
+  {
+    pkg: '@cortex-ai/cortex-memory',
+    dir: 'memory',
+    source: 'packages/memory/memory/src/tools.ts',
+    requires: ['ctx.tools', 'ctx.commands (optional, for the slash commands)', 'the calling Agent for the project scope'],
+    writes: ['tool/call', 'tool/result', 'user/message via agent.inject() for the session-start memory index'],
+    async mount(ctx) {
+      await ctx.plugin(Memory, {
+        enabled: true,
+        path: ':memory:',
+        capture: true,
+        injectContext: true,
+        contextMaxEntries: 20,
+        contextMaxChars: 4000,
+        maxBodyChars: 400,
+        searchLimit: 10,
+        ignoreTools: [],
+      })
+    },
+    note:
+      'Memory reads and writes one local SQLite database. Every config field is required, so the catalog states its choices: capture and the session-start index are on. The catalog uses an in-process database; a deployment supplies a file path.',
   },
   {
     pkg: '@cortex-ai/cortex-tool-todo',

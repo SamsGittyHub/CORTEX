@@ -14,7 +14,7 @@ import type { Context } from '@cortex-ai/cordis'
 import z from '@cortex-ai/schemastery'
 import { brandString } from '@cortex-ai/cortex-brand'
 import { installModelSelection } from '@cortex-ai/cortex-agent'
-import type { Agent, ModelSelectionRef } from '@cortex-ai/cortex-agent'
+import type { Agent } from '@cortex-ai/cortex-agent'
 import type {} from '@cortex-ai/cortex-agent-default-model'
 import type {} from '@cortex-ai/cortex-fs'
 import { createUserMessage } from '@cortex-ai/cortex-llm'
@@ -40,7 +40,7 @@ import { completeCommand, runRepl } from './repl.ts'
 import type { CommandOutcome, CommandRow, ReplAgent } from './repl.ts'
 import type { LocalCommandName } from './render.ts'
 import { internals } from './runner-internals.ts'
-import { THEMES, THEME_NAMES, createPainter, detectColorMode, isThemeName } from './theme.ts'
+import { DEFAULT_THEME, THEMES, THEME_FLAVOR, THEME_NAMES, createPainter, detectColorMode, isThemeName } from './theme.ts'
 import type { ColorMode, Painter, ThemeName } from './theme.ts'
 
 /** Stable Cordis plugin name. */
@@ -57,12 +57,15 @@ export interface Config {
   resume?: string
   /** Whether `--no-color` was passed. */
   noColor?: boolean
+  /** A warning printed under the banner, such as "no API key found". */
+  notice?: string
 }
 
 export const Config: z<Config> = z.object({
   message: z.string(),
   resume: z.string(),
   noColor: z.boolean(),
+  notice: z.string(),
 })
 
 /** Join the text blocks of a tool result's content. */
@@ -244,8 +247,7 @@ async function run(ctx: Context, config: Config, exit: (code: number) => void): 
   const selection = defaultModel.currentSelection()
   const agentOptions = { provider: selection.provider, model: selection.model }
   const setup = (agentCtx: Context): void => {
-    const selected: ModelSelectionRef = { current: selection, assembled: undefined }
-    installModelSelection(agentCtx, selected)
+    installModelSelection(agentCtx, { current: selection, assembled: undefined })
   }
   const fs = ctx.get('fs')
   const cwd = fs === undefined ? process.cwd() : fs.processPath(await fs.resolve('.'))
@@ -259,14 +261,14 @@ async function run(ctx: Context, config: Config, exit: (code: number) => void): 
   const term = internals.openTerminal(line => completeCommand(line, bound.commands()))
   const env = internals.env()
   const mode: ColorMode = detectColorMode({ isTty: internals.stdoutIsTty(), noColorFlag: config.noColor === true, env })
-  let themeName: ThemeName = 'cortex'
+  let themeName: ThemeName = DEFAULT_THEME
   let painter = createPainter(mode, THEMES[themeName])
   // Every consumer paints through this wrapper, so `/theme` restyles later output at once.
   const paint: Painter = (style, text) => painter(style, text)
   const io = { readLine: (prompt: string) => term.readLine(prompt), out: (text: string) => { term.out(text) } }
   const animate = internals.stdoutIsTty()
-  const view = new ActivityView({ write: io.out, paint, timers: internals.timers, animate })
-  const facts = (): SessionFacts => ({ model: selection.model, cwd, sessionId, theme: themeName, home: env['HOME'] ?? env['USERPROFILE'] })
+  const view = new ActivityView({ write: io.out, paint, verbs: () => THEME_FLAVOR[themeName].verbs, timers: internals.timers, animate })
+  const facts = (): SessionFacts => ({ model: selection.model, cwd, sessionId, theme: themeName, tagline: THEME_FLAVOR[themeName].tagline, home: env['HOME'] ?? env['USERPROFILE'] })
 
   const local = (name: LocalCommandName, args: string): string => {
     switch (name) {
@@ -296,6 +298,7 @@ async function run(ctx: Context, config: Config, exit: (code: number) => void): 
   const stopActivity = streamActivity(ctx, agent, view)
   try {
     io.out(banner(facts(), paint))
+    if (config.notice !== undefined && config.notice !== '') io.out(`${paint('yellow', config.notice)}\n\n`)
     await runRepl(bound, term, paint, { prompt, local, initialLine: config.message })
     io.out(`\n${paint('dim', `resume with: cortex --profile tui --resume ${sessionId}`)}\n`)
     exit(0)

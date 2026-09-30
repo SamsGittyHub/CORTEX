@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 2026-09-29-memory-context-source.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/persistence-changes/2026-09-29-memory-context-source.md
+/:
+  en: 3d5a424ae7d7e46b
+  zh: c22a8e4a62d8cc1a
+/2026-09-29-memory-context-source:
+  en: 6d5e300cf6e8606e
+  zh: eed0db8d8f66af72
+/2026-09-29-memory-context-source/summary:
+  en: 1590cfed3e06b6d0
+  zh: d0627b0d6888c33e
+/2026-09-29-memory-context-source/table-of-contents:
+  en: 6cf314a069ceb451
+  zh: 9adff678e9ecab3b
+/2026-09-29-memory-context-source/declaration:
+  en: 6907136f28e48c90
+  zh: 02f8298485f3d8e7
+/2026-09-29-memory-context-source/compatibility:
+  en: 939b4047906150b4
+  zh: 5b2e0159f91124d5
+/2026-09-29-memory-context-source/verification:
+  en: beb248a27c1bef6e
+  zh: e08c98919266382e
+/2026-09-29-memory-context-source/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

@@ -18,7 +18,9 @@ function bench(animate = false) {
     setInterval(callback) { const handle = nextHandle++; callbacks.set(handle, callback); return handle },
     clearInterval(handle) { callbacks.delete(handle as number) },
   }
-  const view = new ActivityView({ write: text => out.push(text), paint: tag, timers, animate })
+  const view = new ActivityView({
+    write: text => out.push(text), paint: tag, timers, animate, verbs: () => ['synapsing', 'firing', 'connecting'],
+  })
   return {
     view,
     out,
@@ -217,6 +219,19 @@ describe('ActivityView status animation', () => {
     b.view.dispose()
     b.view.dispose()
     expect(b.running()).toBe(0)
+  })
+
+  it('reads the verbs anew on every draw, so a theme change applies at once', () => {
+    let verbs = ['first']
+    const b = bench(true)
+    const timers: Timers = { now: () => 0, setInterval: () => 0, clearInterval: () => {} }
+    const view = new ActivityView({ write: text => b.out.push(text), paint: tag, timers, animate: true, verbs: () => verbs })
+    view.turnStart()
+    expect(b.out.at(-1)).toContain('first…')
+    verbs = ['second']
+    view.dispose()
+    view.turnStart()
+    expect(b.out.at(-1)).toContain('second…')
   })
 
   it('relabels a running spinner instead of starting a second one', () => {

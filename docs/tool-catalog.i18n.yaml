@@ -9,8 +9,8 @@
   en: 8efe7fd9fb5db999
   zh: 1fb8c8d398e0d282
 /tool-schema-catalog/tool-package-map:
-  en: d41898c46cebe447
-  zh: 8d29c4a9961ec444
+  en: e4dc87c59632775a
+  zh: c8c86cf1c158051f
 /tool-schema-catalog/cortex-ai-cortex-plugin-manager:
   en: 9916fd91555f648a
   zh: 9916fd91555f648a
@@ -282,8 +282,23 @@
   en: 2eac7360ba68b1bd
   zh: b5d676bf288c245e
 /tool-schema-catalog/cortex-ai-cortex-experimental-tool-agent-team/wait-agent:
-  en: cd9aecd69f615f70
-  zh: 738437f362028f50
+  en: e90bcfa7116c2093
+  zh: 388c6de657d27bea
+/tool-schema-catalog/cortex-ai-cortex-memory:
+  en: 15fe22c50a078c59
+  zh: 15fe22c50a078c59
+/tool-schema-catalog/cortex-ai-cortex-memory/memory-get:
+  en: 8eafef0b0155f326
+  zh: 8de67c243f450640
+/tool-schema-catalog/cortex-ai-cortex-memory/memory-save:
+  en: 22e1179c92233eb9
+  zh: 647f7a935266402b
+/tool-schema-catalog/cortex-ai-cortex-memory/memory-search:
+  en: 8a2abb19a4995271
+  zh: d760bce7782240cf
+/tool-schema-catalog/cortex-ai-cortex-memory/memory-timeline:
+  en: ad412d63e0cee81a
+  zh: a61e1cdbd675066c
 /tool-schema-catalog/cortex-ai-cortex-tool-todo:
   en: d7d7d6360a6cbed6
   zh: d7d7d6360a6cbed6

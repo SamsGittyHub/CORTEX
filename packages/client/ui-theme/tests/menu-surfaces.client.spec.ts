@@ -106,7 +106,7 @@ describe('shared menu material', () => {
   it('keeps menu fill and blur tokens owned by the theme on every platform', () => {
     const failures = packageStylesheets().flatMap(file => parseRules(readFileSync(file, 'utf8'))
       .flatMap(rule => rule.declarations.filter(([name]) =>
-        (['--dsw-specific-menu', '--dsw-menu-surface-fill'].includes(name) && !file.endsWith('/ui-theme/src/styles/design-platform.css'))
+        (['--dsw-specific-menu', '--dsw-menu-surface-fill'].includes(name) && !/\/ui-theme\/src\/styles\/(design-platform|cyberpunk)\.css$/u.test(file))
         || (name === '--dsw-menu-backdrop-filter' && !file.endsWith('/ui-theme/src/styles/gradient-shadow-text.css'))))
       .map(([name]) => `${file}: ${name}`))
     expect(failures).toEqual([])

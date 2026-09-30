@@ -303,6 +303,12 @@ Every package below exports a Cordis plugin that a bundle patch can name in a Lo
 | `@cortex-ai/cortex-mcp-client` | yes | MCP client bridge: connects to MCP servers and registers their tools on ctx.tools |
 | `@cortex-ai/cortex-mcp-resources` | no | Scoped MCP resource discovery and reading through shared model tools |
 
+## memory
+
+| Package | Config | Description |
+|---|---|---|
+| `@cortex-ai/cortex-memory` | yes | Durable searchable memory across sessions: captured tool activity and turn summaries in SQLite full-text search, a session-start index, memory tools, and /memory commands |
+
 ## plan
 
 | Package | Config | Description |

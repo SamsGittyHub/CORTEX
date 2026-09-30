@@ -235,7 +235,7 @@ describe('tui runner', () => {
       const result = await test.run()
       expect(result.err).toBe('')
       expect(result.code).toBe(0)
-      expect(result.out).toContain('◈ CORTEX  ━━━━━━━━━━━━━━━\n  model test-model')
+      expect(result.out).toContain('◈ CORTEX  ━━━━━━━━━━━━━━━  // NEURAL LINK ESTABLISHED\n  model test-model')
       expect(result.out).toContain('/plan <task> plans first')
       expect(result.out).toContain('Looking at the repo.\n┃ ◉ read path=a.ts\n')
       expect(result.out).toContain('┃   ⎿ line1…\n')
@@ -268,6 +268,15 @@ describe('tui runner', () => {
     }, { lines: ['go', undefined], config: noConfig })
     try { expect((await interrupted.run()).out).toContain('(interrupted)\n') }
     finally { await interrupted.ctx.fiber.dispose() }
+  })
+
+  it('prints the launch warning under the banner, and nothing when it is empty', async () => {
+    const warned = await bench({ afterPrompt() {} }, { lines: [undefined], config: { notice: 'no API key found; set ANTHROPIC_API_KEY' } })
+    try { expect((await warned.run()).out).toContain('no API key found; set ANTHROPIC_API_KEY\n\n') }
+    finally { await warned.ctx.fiber.dispose() }
+    const quiet = await bench({ afterPrompt() {} }, { lines: [undefined], config: { notice: '' } })
+    try { expect((await quiet.run()).out).not.toContain('no API key') }
+    finally { await quiet.ctx.fiber.dispose() }
   })
 
   it('sends a first message from the launch options before the first prompt', async () => {
@@ -364,7 +373,7 @@ describe('tui runner', () => {
     try {
       const result = await test.run()
       expect(result.out).toContain('  model    test-model')
-      expect(result.out).toContain('  theme    cortex')
+      expect(result.out).toContain('  theme    cyberpunk')
       expect(result.out).toMatch(/resume {3}cortex --profile tui --resume session-/u)
       expect(result.out).toContain('turns   1 · 1 steps')
       expect(result.out).toContain('colors are off')
@@ -383,7 +392,7 @@ describe('tui runner', () => {
       expect(result.out).toContain('theme \u001b[1maurora')
       expect(result.out).toContain('theme \u001b[1mmono')
       expect(result.out).toContain('unknown theme "nope"')
-      expect(result.out).toContain('(cortex, aurora, ember, mono)')
+      expect(result.out).toContain('(cyberpunk, cortex, aurora, ember, mono)')
       expect(result.out).toContain('theme   \u001b[22m aurora')
       expect(result.out).toContain('\u001b[2J\u001b[3J\u001b[H')
     } finally { await test.ctx.fiber.dispose() }
@@ -391,13 +400,13 @@ describe('tui runner', () => {
 
   it('wraps a theme name after the last palette', async () => {
     const test = await bench({ afterPrompt() {} }, { lines: ['/theme mono', '/theme', undefined], config: noConfig, color: true })
-    try { expect((await test.run()).out).toContain('theme \u001b[1mcortex') }
+    try { expect((await test.run()).out).toContain('theme \u001b[1mcyberpunk') }
     finally { await test.ctx.fiber.dispose() }
   })
 
   it('uses truecolor when the terminal advertises it', async () => {
     const test = await bench({ afterPrompt() {} }, { lines: [undefined], config: noConfig, color: true, env: { COLORTERM: 'truecolor' } })
-    try { expect((await test.run()).out).toContain('\u001b[38;2;167;139;250m◈') }
+    try { expect((await test.run()).out).toContain('\u001b[38;2;252;238;10m◈') }
     finally { await test.ctx.fiber.dispose() }
   })
 
@@ -466,7 +475,7 @@ describe('tui runner', () => {
     try {
       const result = await test.run()
       expect(result.out).toContain('\r\u001b[2K')
-      expect(result.out).toContain('synapsing… 1.5s')
+      expect(result.out).toContain('jacking in… 1.5s')
       expect(result.out).toContain('1.2k in · 300 out')
     } finally { await test.ctx.fiber.dispose() }
   })

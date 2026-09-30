@@ -1,7 +1,7 @@
 /** Palettes, painter modes, and color detection. */
 
 import { describe, expect, it } from 'vitest'
-import { THEMES, THEME_NAMES, colorEnabled, createPainter, detectColorMode, isThemeName } from '../src/theme.ts'
+import { DEFAULT_THEME, THEMES, THEME_FLAVOR, THEME_NAMES, colorEnabled, createPainter, detectColorMode, isThemeName } from '../src/theme.ts'
 
 describe('createPainter', () => {
   it('emits 16-color codes for true and the ansi mode', () => {
@@ -27,7 +27,8 @@ describe('createPainter', () => {
 
 describe('themes', () => {
   it('lists the palettes in cycling order and recognizes only those names', () => {
-    expect(THEME_NAMES).toEqual(['cortex', 'aurora', 'ember', 'mono'])
+    expect(THEME_NAMES).toEqual(['cyberpunk', 'cortex', 'aurora', 'ember', 'mono'])
+    expect(DEFAULT_THEME).toBe('cyberpunk')
     expect(isThemeName('ember')).toBe(true)
     expect(isThemeName('toString')).toBe(false)
     expect(isThemeName('nope')).toBe(false)
@@ -37,6 +38,23 @@ describe('themes', () => {
     for (const palette of Object.values(THEMES)) {
       expect(Object.keys(palette).sort()).toEqual(['accent', 'cyan', 'delegate', 'green', 'memory', 'motor', 'planning', 'red', 'sensory', 'yellow'])
     }
+  })
+})
+
+describe('Cyberpunk 2077 theme', () => {
+  it('uses neon yellow, cyan, and hot red, in truecolor and in the 16-color fallback', () => {
+    const truecolor = createPainter('truecolor', THEMES.cyberpunk)
+    expect(truecolor('accent', 'x')).toBe('\u001b[38;2;252;238;10mx\u001b[39m')
+    expect(truecolor('sensory', 'x')).toBe('\u001b[38;2;0;240;255mx\u001b[39m')
+    expect(truecolor('motor', 'x')).toBe('\u001b[38;2;255;0;60mx\u001b[39m')
+    expect(createPainter('ansi', THEMES.cyberpunk)('accent', 'x')).toBe('\u001b[93mx\u001b[39m')
+  })
+
+  it('speaks like a netrunner while the other palettes keep the plain wording', () => {
+    expect(THEME_FLAVOR.cyberpunk.tagline).toBe('// NEURAL LINK ESTABLISHED')
+    expect(THEME_FLAVOR.cyberpunk.verbs).toContain('breaching ICE')
+    expect(THEME_FLAVOR.cortex.tagline).toBe('')
+    expect(THEME_FLAVOR.mono.verbs).toContain('synapsing')
   })
 })
 

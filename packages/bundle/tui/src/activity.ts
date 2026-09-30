@@ -27,6 +27,8 @@ export interface ActivityOptions {
   readonly write: (text: string) => void
   /** The color painter; read on every write so a theme change applies at once. */
   readonly paint: Painter
+  /** The verbs the status line rotates through; read on every draw so a theme change applies at once. */
+  readonly verbs: () => readonly string[]
   /** The clock and timers. */
   readonly timers: Timers
   /** Whether to animate the status line; only for an interactive terminal. */
@@ -50,7 +52,6 @@ export type TurnOutcome =
   | { readonly kind: 'error'; readonly code: string; readonly message: string }
 
 const FRAMES = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
-const VERBS = ['synapsing', 'firing', 'connecting', 'weighing', 'tracing', 'ruminating']
 const FRAME_MS = 90
 const VERB_MS = 2400
 const ERASE_LINE = '\r\u001b[2K'
@@ -275,7 +276,8 @@ export class ActivityView {
     const { paint, timers } = this.options
     const elapsed = timers.now() - spinner.startedAt
     const frame = FRAMES[Math.floor(elapsed / FRAME_MS) % FRAMES.length] as string
-    const label = spinner.label ?? VERBS[Math.floor(elapsed / VERB_MS) % VERBS.length]
+    const verbs = this.options.verbs()
+    const label = spinner.label ?? verbs[Math.floor(elapsed / VERB_MS) % verbs.length]
     this.options.write(`${ERASE_LINE}${paint('accent', frame)} ${paint('dim', `${label}… ${formatDuration(elapsed)}`)}`)
   }
 

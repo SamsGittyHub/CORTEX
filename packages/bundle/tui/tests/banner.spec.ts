@@ -7,7 +7,7 @@ import type { Painter } from '../src/theme.ts'
 
 const tag: Painter = (style, text) => `<${style}>${text}</${style}>`
 const plain: Painter = (_style, text) => text
-const facts = { model: 'test-model', cwd: '/home/ada/project', sessionId: 'session-1', theme: 'cortex', home: '/home/ada' }
+const facts = { model: 'test-model', cwd: '/home/ada/project', sessionId: 'session-1', theme: 'cortex', tagline: '', home: '/home/ada' }
 
 describe('shortenHome', () => {
   it('replaces a leading home directory with ~', () => {
@@ -35,6 +35,10 @@ describe('banner', () => {
       '',
     ].join('\n'))
     expect(banner(facts, tag)).toContain('<accent>◈</accent> <bold>CORTEX</bold>')
+  })
+
+  it('adds the palette tagline after the spectrum', () => {
+    expect(banner({ ...facts, tagline: '// NEURAL LINK ESTABLISHED' }, plain).split('\n')[0]).toBe('◈ CORTEX  ━━━━━━━━━━━━━━━  // NEURAL LINK ESTABLISHED')
   })
 })
 

@@ -2,39 +2,24 @@
 
 /* Figma 2121:39336 / 2138:44626, Platform modes. Native material supplies the blur. */
 body {
-  color-scheme: light dark;
-  --dsw-alias-label-primary: #0f1115;
-  --dsw-alias-label-secondary: #61666b;
-  --dsw-alias-label-tertiary: #81858c;
-  --dsw-alias-label-primary-inverted: #fff;
-  --dsw-alias-brand-primary: var(--dsw-alias-label-primary);
-  --dsw-alias-button-primary-hover: #43454a;
-  --dsw-alias-button-elevated-fill: #fff;
-  --dsw-alias-button-floating-hover: #f1f3f5;
-  --dsw-alias-border-l2: #0000001a;
-  --dsw-alias-border-l4: #00000029;
-  --dsw-alias-label-caption: #adb2b8;
+  color-scheme: dark;
+  --dsw-alias-label-primary: #eaf6ff;
+  --dsw-alias-label-secondary: #b6bbdc;
+  --dsw-alias-label-tertiary: #9a9fc9;
+  --dsw-alias-label-primary-inverted: #05050a;
+  --dsw-alias-brand-primary: #fcee0a;
+  --dsw-alias-button-primary-hover: #fff35c;
+  --dsw-alias-button-elevated-fill: #1e1e3d;
+  --dsw-alias-button-floating-hover: #171730;
+  --dsw-alias-border-l2: #00f0ff33;
+  --dsw-alias-border-l4: #00f0ff6b;
+  --dsw-alias-label-caption: #6f73a3;
   --welcome-tint: var(--dsw-desktop-window-tint);
   --ds-transition-duration: 0.2s;
   --ds-transition-duration-slow: 0.3s;
   --ds-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
   --dsw-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --dsw-font-family-brand: 'Montserrat', var(--dsw-font-family);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    --dsw-alias-label-primary: #f9fafb;
-    --dsw-alias-label-secondary: #cfd3d6;
-    --dsw-alias-label-tertiary: #adb2b8;
-    --dsw-alias-label-primary-inverted: #353638;
-    --dsw-alias-button-primary-hover: #ebeef2;
-    --dsw-alias-button-elevated-fill: #43454a;
-    --dsw-alias-button-floating-hover: #353638;
-    --dsw-alias-border-l2: #ffffff1f;
-    --dsw-alias-border-l4: #ffffff33;
-    --dsw-alias-label-caption: #81858c;
-  }
+  --dsw-font-family-brand: 'Rajdhani', 'Chakra Petch', 'Orbitron', 'Share Tech Mono', var(--dsw-font-family);
 }
 
 * {

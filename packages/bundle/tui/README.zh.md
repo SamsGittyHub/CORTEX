@@ -27,6 +27,19 @@ kind: "package-bundle"
 
 启动聊天，输入一条消息并按回车。输入 `/help` 查看所有命令，输入 `/exit`（或按 Ctrl-D）退出。
 
+### 使用任意 API 密钥
+
+聊天可以配合你手头的任何密钥工作。不带标志时，它会读取你的环境，并使用找到的第一个密钥，顺序为：先 `DEEPSEEK_API_KEY`，然后依次是 Anthropic、OpenAI、Google（`GEMINI_API_KEY` 或 `GOOGLE_API_KEY`）、OpenRouter、xAI、Groq、Mistral、Together、Fireworks，以及 [pi-ai](../../llm/llm-pi-ai/README.zh.md) 附带的其他提供方，每个都通过其常用变量，例如 `ANTHROPIC_API_KEY` 或 `OPENAI_API_KEY`。它会从该提供方的默认模型开始，横幅会显示模型。如果没有找到任何密钥，聊天仍会打开，并打印需要设置的变量名。
+
+```sh
+export ANTHROPIC_API_KEY=...            # or OPENAI_API_KEY, GEMINI_API_KEY, OPENROUTER_API_KEY, ...
+cortex --profile tui
+cortex --profile tui --provider openai --model gpt-5-mini
+cortex --profile tui --base-url http://localhost:11434/v1 --model llama3.3
+```
+
+设置了多个密钥时用 `--provider`，用 `--model` 选择其他模型。`--api-key-env NAME` 从你指定的变量读取密钥。`--base-url` 指向任何兼容 OpenAI 的服务器，例如 Ollama、LM Studio、vLLM 或网关；它需要 `--model`，并在设置了 `CORTEX_API_KEY` 时从中读取密钥，所以本地服务器无需密钥。`CORTEX_BASE_URL` 和 `CORTEX_MODEL` 是这两个标志的环境变量形式。需要的不只是 API 密钥的提供方，例如 Amazon Bedrock 或 Vertex AI，请通过模型页面或 profile patch 配置。
+
 ### 开始对话
 
 ```sh
@@ -41,6 +54,11 @@ cortex tui "explain this repo"
 | `[message...]` | 要发送的第一条消息；多个词以空格连接 |
 | `--resume <id>` | 继续此 id 对应的已持久化 Session；未知 id 会报错 |
 | `--no-color` | 不使用 ANSI 颜色；也遵循 `NO_COLOR`，输出不是终端时从不着色 |
+| `--no-memory` | 本次运行既不记录也不回忆记忆 |
+| `--provider <name>` | 使用该提供方及其环境中的密钥；设置了 DeepSeek 密钥且没有标志另作指定时，使用 DeepSeek 密钥 |
+| `--model <id>` | 使用此模型而不是该提供方的默认模型 |
+| `--base-url <url>` | 使用兼容 OpenAI 的端点；需要 `--model` |
+| `--api-key-env <name>` | 从此环境变量读取 API 密钥 |
 | `-h`、`--help` | 打印命令帮助并退出 |
 
 生成的[配置目录](../../../docs/config-catalog.zh.md#cortex-aicortex-tui)是所有可接受配置字段及其 JSDoc 的完整来源。
@@ -103,11 +121,15 @@ Approve this plan?
 | `/help` | 列出所有命令和脑叶图例 |
 | `/session` | 显示会话 id、模型、目录、主题和 `--resume` 命令 |
 | `/stats` | 显示到目前为止的回合数、步数、工作时间、token 和脑叶活动 |
-| `/theme [name]` | 切换配色：`cortex`、`aurora`、`ember` 或 `mono`；不带名称则循环到下一个 |
+| `/theme [name]` | 切换配色：`cyberpunk`（默认）、`cortex`、`aurora`、`ember` 或 `mono`；不带名称则循环到下一个 |
 | `/clear` | 清屏 |
 | `/exit`、`/quit` | 退出 |
 
-当 `COLORTERM` 为 `truecolor` 或 `24bit` 时使用真彩色，否则使用 16 色 ANSI。状态动画和 `/clear` 只在终端上运行。
+默认的 `cyberpunk` 配色是《赛博朋克 2077》风格的霓虹：黄色强调、青色表示读取、亮红色表示动作、紫色表示记忆。它也会改变措辞：横幅会加上 `// NEURAL LINK ESTABLISHED`，状态行会出现 `breaching ICE`、`jacking in` 之类的词。当 `COLORTERM` 为 `truecolor` 或 `24bit` 时使用真彩色，否则使用 16 色 ANSI。状态动画和 `/clear` 只在终端上运行。
+
+### 记忆
+
+终端聊天挂载了 [`cortex-memory`](../../memory/memory/README.zh.md)，因此智能体会记住同一目录下的早期会话。每次完成的工具调用和每个完成的回合都会记录到本地 SQLite 数据库中，新会话开始时会带有近期条目的索引，智能体可以用 `memory_*` 工具搜索和读取。记忆工具会以 ◈ memory 脑叶显示在轨迹中。你也可以运行 `/memory [words]` 列出或搜索条目，用 `/remember <text>` 保存笔记，用 `/forget <id>` 删除条目。用 `--no-memory` 启动时，该次运行既不记录也不回忆。数据库默认位于 `$CORTEX_HOME/memory/memory.db`（`~/.cortex/memory/memory.db`），可用 `CORTEX_MEMORY_DB` 覆盖。`<private>` 标签中的文本和形似凭据的字符串永远不会被存储。
 
 ### 审批与提问
 
@@ -167,7 +189,9 @@ Approve this plan?
 | [`src/interaction.ts`](src/interaction.ts) | 终端对审批和提问请求的应答 |
 | [`src/terminal.ts`](src/terminal.ts) | 基于进程流的 readline 终端 |
 | [`src/runner-internals.ts`](src/runner-internals.ts) | 运行器读取的进程事实，测试中会替换 |
-| [`src/startup.ts`](src/startup.ts) | `tui-startup` 提供方：消息位置参数、`--resume`、`--no-color`、`--help` |
+| [`src/startup.ts`](src/startup.ts) | `tui-startup` 提供方：消息位置参数、`--resume`、`--no-color`、`--no-memory`、模型标志、`--help` |
+| [`src/llm-select.ts`](src/llm-select.ts) | 根据标志和已设置的 API 密钥选择模型路由 |
+| [`src/catalog.ts`](src/catalog.ts) | pi-ai 的提供方和模型目录 |
 | [`cordis.patch.yml`](cordis.patch.yml) | 基于 `cortex-base` 的交互式 patch |
 | — | 未发布运行时 invariant 配套模块；运行器不注册任何内容，树内也没有可审计的可变关系。 |
 | [`tests/runner.spec.ts`](tests/runner.spec.ts) | 在真实注册表上测试回合、流式显示、`/plan`、审批、提问、取消和恢复 |
@@ -181,6 +205,7 @@ Approve this plan?
 | [`tests/interaction.spec.ts`](tests/interaction.spec.ts) | 审批和提问的应答 |
 | [`tests/terminal.spec.ts`](tests/terminal.spec.ts) | 读取管道输入和交互式输入 |
 | [`tests/startup.spec.ts`](tests/startup.spec.ts) | 在真实 Loader 树上解析命令行 |
+| [`tests/llm-select.spec.ts`](tests/llm-select.spec.ts) | 根据标志和环境密钥选择路由 |
 
 ### 不变式归属
 

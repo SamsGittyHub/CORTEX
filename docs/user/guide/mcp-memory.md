@@ -4,6 +4,8 @@ English | [中文](mcp-memory.zh.md)
 
 These four **default-off reference configurations** connect one memory system to CORTEX through [`@cortex-ai/cortex-mcp-client`](../../../packages/mcp/mcp-client/README.md). Pick one, or copy the same generic MCP row for another server.
 
+CORTEX also ships its own memory, [`cortex-memory`](../../../packages/memory/memory/README.md), which the terminal chat enables by default; use the examples below only to connect a memory system you already run.
+
 These third-party configurations are provided as interoperability examples only. Their inclusion does not imply endorsement, recommendation, partnership, or ongoing support by DeepSeek.
 
 ## What CORTEX does

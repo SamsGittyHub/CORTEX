@@ -2088,6 +2088,39 @@ export interface ReconnectConfig {
 ```
 <!-- END GENERATED config-catalog:@cortex-ai/cortex-mcp-client -->
 
+<!-- BEGIN GENERATED config-catalog:@cortex-ai/cortex-memory -->
+<a id="cortex-aicortex-memory"></a>
+
+## `@cortex-ai/cortex-memory`
+
+- `inject`: `tools`
+- `source`: [`packages/memory/memory/src/index.ts:52`](../packages/memory/memory/src/index.ts)
+
+```ts config-catalog
+/** Memory settings. */
+export interface Config {
+  /** Whether memory is on; when false the plugin registers nothing and opens no database. */
+  enabled: boolean
+  /** The SQLite database file, or `:memory:` for one that lasts only this process. */
+  path: string
+  /** Whether to record tool calls and turn summaries automatically. */
+  capture: boolean
+  /** Whether to show the model the project's memory index when a session starts. */
+  injectContext: boolean
+  /** Most entries in the session-start index. */
+  contextMaxEntries: number
+  /** Most characters in the session-start index, header included. */
+  contextMaxChars: number
+  /** Longest stored entry body, in characters. */
+  maxBodyChars: number
+  /** Most results a search, timeline, or `/memory` listing returns. */
+  searchLimit: number
+  /** Tools whose calls are never recorded; the memory tools themselves are always ignored. */
+  ignoreTools: string[]
+}
+```
+<!-- END GENERATED config-catalog:@cortex-ai/cortex-memory -->
+
 <!-- BEGIN GENERATED config-catalog:@cortex-ai/cortex-message-feedback -->
 <a id="cortex-aicortex-message-feedback"></a>
 
@@ -4059,6 +4092,8 @@ export interface Config {
   resume?: string
   /** Whether `--no-color` was passed. */
   noColor?: boolean
+  /** A warning printed under the banner, such as "no API key found". */
+  notice?: string
 }
 ```
 <!-- END GENERATED config-catalog:@cortex-ai/cortex-tui -->

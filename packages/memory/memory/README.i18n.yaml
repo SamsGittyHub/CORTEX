@@ -1,0 +1,85 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/memory/memory/README.md
+/:
+  en: 8e81792f27b5bd98
+  zh: cb3f0194f3550612
+/cortex-ai-cortex-memory:
+  en: 807cbbf9f00be41a
+  zh: fd363dab7bcf4f86
+/cortex-ai-cortex-memory/summary:
+  en: 627bafb262e7c6e3
+  zh: bdcd6cbb9225a69e
+/cortex-ai-cortex-memory/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/cortex-ai-cortex-memory/use-this-package:
+  en: dd6491e3f01ba2f4
+  zh: 63bd6a0baf95f89d
+/cortex-ai-cortex-memory/use-this-package/minimal-configuration:
+  en: a7058bfe130e22ec
+  zh: ad7c66361ebb0670
+/cortex-ai-cortex-memory/use-this-package/what-gets-recorded:
+  en: c6b716a2a1182f8c
+  zh: 2af889448f2c5c40
+/cortex-ai-cortex-memory/use-this-package/privacy:
+  en: 41410b387554c2b4
+  zh: ae30bd202478eef9
+/cortex-ai-cortex-memory/use-this-package/tools-and-commands:
+  en: 3ee5659f0e5bc98d
+  zh: fac00d8e93da0769
+/cortex-ai-cortex-memory/understand-the-implementation:
+  en: 42b15ac6321706aa
+  zh: 6eb78656420aa552
+/cortex-ai-cortex-memory/understand-the-implementation/storage:
+  en: d5bd03ae2983f63e
+  zh: 999985f921450802
+/cortex-ai-cortex-memory/understand-the-implementation/capture:
+  en: e72fc284faaa1367
+  zh: ba1c61f443c4ef8b
+/cortex-ai-cortex-memory/understand-the-implementation/the-session-start-index:
+  en: db687be2ab66a8c4
+  zh: a526faa8ed04019b
+/cortex-ai-cortex-memory/understand-the-implementation/source-map:
+  en: 8ef198335ec951c0
+  zh: 0c13158e4da4c3c6
+/cortex-ai-cortex-memory/further-exploration:
+  en: 697a92a82ac93d09
+  zh: 55e84cd74a2cf1ad
+/cortex-ai-cortex-memory/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/cortex-ai-cortex-memory/model-experience/session-start-index:
+  en: 5e48060af7890b76
+  zh: 81c1619768d627ee
+/cortex-ai-cortex-memory/model-experience/session-start-index/what-the-model-sees:
+  en: 13fcaf187b75dbd5
+  zh: c377cc595d6303cb
+/cortex-ai-cortex-memory/model-experience/session-start-index/what-the-model-sees/verbatim-header:
+  en: e959def269dc3539
+  zh: 59e30c60eed51f75
+/cortex-ai-cortex-memory/model-experience/session-start-index/token-effect:
+  en: fec2baf133a39435
+  zh: 6288691a1e98bb34
+/cortex-ai-cortex-memory/model-experience/session-start-index/kv-cache-effect:
+  en: 0f0293fdd06ac3b0
+  zh: e2d831080ed70efb
+/cortex-ai-cortex-memory/model-experience/memory-tools:
+  en: b160ca92da193ddb
+  zh: 337cb883c2dc3d7d
+/cortex-ai-cortex-memory/model-experience/memory-tools/what-the-model-sees:
+  en: bf7900e155319bec
+  zh: 9e890d43cdcd9db6
+/cortex-ai-cortex-memory/model-experience/memory-tools/token-effect:
+  en: 01e6371d8a954e83
+  zh: 552c427898de6308
+/cortex-ai-cortex-memory/model-experience/memory-tools/kv-cache-effect:
+  en: 637d1cae30effc2d
+  zh: 80260d116f3db7ff
+/cortex-ai-cortex-memory/known-limitations-and-deferred-work:
+  en: b9e2976a78a5130d
+  zh: 28d30d55425ffa6c
+/cortex-ai-cortex-memory/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 1499f90e25f08424

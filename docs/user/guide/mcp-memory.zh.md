@@ -4,6 +4,8 @@
 
 这四份**默认关闭的参考配置**通过 [`@cortex-ai/cortex-mcp-client`](../../../packages/mcp/mcp-client/README.zh.md) 将一个记忆系统连接到 CORTEX。请选择其中一份，或复制相同的通用 MCP 配置项来连接其他服务器。
 
+CORTEX 也自带记忆功能 [`cortex-memory`](../../../packages/memory/memory/README.zh.md)，终端聊天默认启用它；下面的示例仅用于连接你已经在运行的记忆系统。
+
 这些第三方配置仅作为互操作参考；收录不代表 DeepSeek 的认可、推荐、合作关系或持续支持承诺。
 
 ## CORTEX 负责什么

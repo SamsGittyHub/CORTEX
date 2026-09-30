@@ -69,7 +69,7 @@ export const LOCAL_COMMANDS: readonly CommandRow[] = [
   { name: 'help', description: 'show this list' },
   { name: 'session', description: 'show the session id and how to resume it' },
   { name: 'stats', description: 'show turns, tokens, and activity so far' },
-  { name: 'theme', description: 'switch colors: /theme [cortex|aurora|ember|mono]' },
+  { name: 'theme', description: 'switch colors: /theme [cyberpunk|cortex|aurora|ember|mono]' },
   { name: 'clear', description: 'clear the screen' },
   { name: 'exit', description: 'leave (also /quit, Ctrl-D)' },
 ]

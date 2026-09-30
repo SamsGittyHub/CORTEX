@@ -188,6 +188,7 @@
       "@cortex-ai/cortex-client-*/invariant": ["./packages/client/*/src/invariant.ts"],
       "@cortex-ai/cortex-headless/startup": ["./packages/bundle/headless/src/startup.ts"],
       "@cortex-ai/cortex-web-app/startup": ["./packages/bundle/web-app/src/startup.ts"],
+      "@cortex-ai/cortex-tui/startup": ["./packages/bundle/tui/src/startup.ts"],
       "@cortex-ai/cortex-client-*/client": ["./packages/client/*/src/client"],
       // One wildcard maps every @cortex-ai/cortex-<name> to its source. Package
       // dir names are unique across groups, so first-on-disk-wins resolution is
@@ -418,6 +419,7 @@
       "@cortex-ai/cortex-lsp-stdio": ["./packages/lsp/lsp-stdio/src"],
       "@cortex-ai/cortex-mcp-client": ["./packages/mcp/mcp-client/src"],
       "@cortex-ai/cortex-mcp-resources": ["./packages/mcp/mcp-resources/src"],
+      "@cortex-ai/cortex-memory": ["./packages/memory/memory/src"],
       "@cortex-ai/cortex-message-feedback": ["./packages/feedback/message-feedback/src"],
       "@cortex-ai/cortex-native-command": ["./packages/util/native-command/src"],
       "@cortex-ai/cortex-office-to-pdf": ["./packages/document/office-to-pdf/src"],
